@@ -2,3 +2,8 @@ node_modules/
 out/
 .cache/
 *.log
+
+# Credentials: never commit (YouTube OAuth client + tokens)
+.secrets/
+client_secret*.json
+*token*.json
