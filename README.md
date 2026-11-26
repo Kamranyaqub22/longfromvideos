@@ -37,7 +37,7 @@ Output lands in `out/<slug>/`: `video.mp4`, `thumbnail.png`, `description.txt`, 
 Node 22+, ffmpeg/ffprobe on PATH, an ElevenLabs key in `ELEVENLABS_API_KEY` (not needed in the cloud session,
 where it is injected). Remotion downloads its own headless Chrome if none is configured.
 
-Optional: Remotion's official agent skills for Claude Code (`npx skills add remotion-dev/skills`).
+Remotion's official agent skills for Claude Code are installed in `.claude/skills/` (pinned in `skills-lock.json`).
 
 ## Not built yet
 

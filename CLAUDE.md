@@ -72,6 +72,14 @@ rounded the way a person would say them (on screen can be exact).
 4. Add it to `episodes/pipeline-fixture`, run `npm run ep -- stills pipeline-fixture`, look at it.
 5. `npm run verify`.
 
+## Remotion agent skills (`.claude/skills/remotion-*`)
+
+Official skills from remotion-dev/skills, pinned in `skills-lock.json`. Load the relevant one before
+writing Remotion code: `remotion-markup` (animation rules), `remotion-maps` (map scenes),
+`remotion-elements` (ready-made charts/titles), `remotion-captions`, `remotion-docs` (search the docs).
+Our conventions win where they differ: scene content comes from `script.json`, not hard-coded markup,
+and media components come from `@remotion/media`.
+
 ## Verifying changes
 
 - `npm run typecheck` and `npm test`: fast, run after any change.

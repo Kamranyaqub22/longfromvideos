@@ -1,4 +1,5 @@
-import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
+import { Audio } from "@remotion/media";
+import { AbsoluteFill, Sequence, staticFile } from "remotion";
 import type { Timeline } from "./schema";
 import { Background } from "./components/Background";
 import { Captions } from "./components/Captions";
