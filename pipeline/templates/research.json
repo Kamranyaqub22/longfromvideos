@@ -1,0 +1,15 @@
+{
+  "topic": "TODO: one-line description of the story",
+  "researchedAt": "{{today}}",
+  "facts": [
+    {
+      "id": "f1",
+      "claim": "TODO: one checkable claim, with the exact numbers as reported",
+      "status": "verified",
+      "sources": [
+        { "outlet": "TODO outlet A", "url": "https://example.com/a", "date": "{{today}}" },
+        { "outlet": "TODO outlet B", "url": "https://example.com/b", "date": "{{today}}" }
+      ]
+    }
+  ]
+}

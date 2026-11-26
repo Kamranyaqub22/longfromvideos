@@ -1,0 +1,3 @@
+{ "topic": "Voice smoke test: checks real narration, timing and loudness", "researchedAt": "2026-11-26",
+  "facts": [ { "id": "f1", "claim": "No factual claims are made in this smoke test.", "status": "verified",
+    "sources": [ { "outlet": "Fixture Wire", "url": "https://example.com/a" }, { "outlet": "Fixture Times", "url": "https://example.org/b" } ] } ] }

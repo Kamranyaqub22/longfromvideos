@@ -1,0 +1,11 @@
+{
+  "slug": "voice-smoke",
+  "title": "Voice Smoke Test",
+  "summary": "Short test that the real voice-over, captions and loudness pipeline work.",
+  "thumbnail": { "top": "Voice", "big": "TEST", "tone": "accent" },
+  "scenes": [
+    { "type": "hook", "chapter": "Intro", "facts": ["f1"], "narration": "This is a short voice test for the pipeline.", "props": { "lines": ["Voice test"] } },
+    { "type": "chapter", "chapter": "Check", "narration": "Part one. Do the captions match the voice?", "props": { "number": 1, "title": "Captions" } },
+    { "type": "outro", "chapter": "End", "narration": "If you can hear this clearly, the voice works.", "props": { "title": "Test complete" } }
+  ]
+}

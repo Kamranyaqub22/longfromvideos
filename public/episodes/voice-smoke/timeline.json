@@ -1,0 +1,189 @@
+{
+ "slug": "voice-smoke",
+ "title": "Voice Smoke Test",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 384,
+ "mock": false,
+ "scriptHash": "b0a55b12f8e6cb44",
+ "scenes": [
+  {
+   "type": "hook",
+   "narration": "This is a short voice test for the pipeline.",
+   "facts": [
+    "f1"
+   ],
+   "chapter": "Intro",
+   "props": {
+    "lines": [
+     "Voice test"
+    ]
+   },
+   "audio": "episodes/voice-smoke/audio/9cd04d21eab6067a.mp3",
+   "startFrame": 0,
+   "durationInFrames": 110,
+   "words": [
+    {
+     "text": "This",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "is",
+     "start": 0.383,
+     "end": 0.557
+    },
+    {
+     "text": "a",
+     "start": 0.639,
+     "end": 0.673
+    },
+    {
+     "text": "short",
+     "start": 0.789,
+     "end": 1.091
+    },
+    {
+     "text": "voice",
+     "start": 1.161,
+     "end": 1.463
+    },
+    {
+     "text": "test",
+     "start": 1.498,
+     "end": 1.8
+    },
+    {
+     "text": "for",
+     "start": 1.858,
+     "end": 1.985
+    },
+    {
+     "text": "the",
+     "start": 2.032,
+     "end": 2.101
+    },
+    {
+     "text": "pipeline.",
+     "start": 2.159,
+     "end": 3.297
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part one. Do the captions match the voice?",
+   "facts": [],
+   "chapter": "Check",
+   "props": {
+    "number": 1,
+    "title": "Captions"
+   },
+   "audio": "episodes/voice-smoke/audio/3157aafe45615fe7.mp3",
+   "startFrame": 110,
+   "durationInFrames": 130,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0,
+     "end": 0.302
+    },
+    {
+     "text": "one.",
+     "start": 0.418,
+     "end": 0.813
+    },
+    {
+     "text": "Do",
+     "start": 1.057,
+     "end": 1.231
+    },
+    {
+     "text": "the",
+     "start": 1.3,
+     "end": 1.37
+    },
+    {
+     "text": "captions",
+     "start": 1.428,
+     "end": 2.02
+    },
+    {
+     "text": "match",
+     "start": 2.194,
+     "end": 2.485
+    },
+    {
+     "text": "the",
+     "start": 2.554,
+     "end": 2.624
+    },
+    {
+     "text": "voice?",
+     "start": 2.682,
+     "end": 3.483
+    }
+   ]
+  },
+  {
+   "type": "outro",
+   "narration": "If you can hear this clearly, the voice works.",
+   "facts": [],
+   "chapter": "End",
+   "props": {
+    "title": "Test complete"
+   },
+   "audio": "episodes/voice-smoke/audio/b28b65ed8d80c7c4.mp3",
+   "startFrame": 240,
+   "durationInFrames": 144,
+   "words": [
+    {
+     "text": "If",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "you",
+     "start": 0.221,
+     "end": 0.313
+    },
+    {
+     "text": "can",
+     "start": 0.36,
+     "end": 0.488
+    },
+    {
+     "text": "hear",
+     "start": 0.546,
+     "end": 0.731
+    },
+    {
+     "text": "this",
+     "start": 0.801,
+     "end": 0.975
+    },
+    {
+     "text": "clearly,",
+     "start": 1.045,
+     "end": 1.649
+    },
+    {
+     "text": "the",
+     "start": 1.8,
+     "end": 1.916
+    },
+    {
+     "text": "voice",
+     "start": 1.985,
+     "end": 2.368
+    },
+    {
+     "text": "works.",
+     "start": 2.485,
+     "end": 3.251
+    }
+   ]
+  }
+ ]
+}

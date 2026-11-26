@@ -1,0 +1,1022 @@
+{
+ "slug": "pipeline-fixture",
+ "title": "Pipeline Fixture: Every Scene Type (Test Data)",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 2211,
+ "mock": true,
+ "scriptHash": "846864b0a404467b",
+ "scenes": [
+  {
+   "type": "hook",
+   "narration": "This is a test of the whole video pipeline. Every number you see is invented. Nothing here is real news.",
+   "facts": [],
+   "chapter": "Intro",
+   "props": {
+    "lines": [
+     "Pipeline test",
+     "Every scene",
+     "Invented data"
+    ],
+    "accent": "Every scene"
+   },
+   "audio": "",
+   "startFrame": 0,
+   "durationInFrames": 259,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "is",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "a",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "test",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "of",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "the",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "whole",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "video",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "pipeline.",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "Every",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "number",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "you",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "see",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "is",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "invented.",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "Nothing",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "here",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    },
+    {
+     "text": "is",
+     "start": 6.950000000000001,
+     "end": 7.290000000000001
+    },
+    {
+     "text": "real",
+     "start": 7.3500000000000005,
+     "end": 7.69
+    },
+    {
+     "text": "news.",
+     "start": 7.750000000000001,
+     "end": 8.090000000000002
+    }
+   ]
+  },
+  {
+   "type": "headline",
+   "narration": "Here is how a news headline card looks, with the outlet and the date in the corner.",
+   "facts": [
+    "f1"
+   ],
+   "props": {
+    "source": "Fixture Wire",
+    "date": "Test date",
+    "headline": "Example Corp shares slide as investors question its spending plans",
+    "dek": "A fictional headline used to test the layout."
+   },
+   "audio": "",
+   "startFrame": 259,
+   "durationInFrames": 227,
+   "words": [
+    {
+     "text": "Here",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "is",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "how",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "a",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "news",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "headline",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "card",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "looks,",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "with",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "the",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "outlet",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "and",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "the",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "date",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "in",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "the",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "corner.",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    }
+   ]
+  },
+  {
+   "type": "drop",
+   "narration": "A drop scene shows a move between two real data points, here eighteen and a half percent.",
+   "facts": [
+    "f1"
+   ],
+   "props": {
+    "title": "Example Corp share price",
+    "fromLabel": "Peak: $120",
+    "toLabel": "Now: $97.80",
+    "pct": -18.5,
+    "note": "Two points only, no invented path.",
+    "source": "Fixture Wire"
+   },
+   "audio": "",
+   "startFrame": 486,
+   "durationInFrames": 227,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "drop",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "scene",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "shows",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "a",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "move",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "between",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "two",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "real",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "data",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "points,",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "here",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "eighteen",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "and",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "a",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "half",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "percent.",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part two. The spending.",
+   "facts": [],
+   "chapter": "The spending",
+   "props": {
+    "number": 2,
+    "title": "The spending"
+   },
+   "audio": "",
+   "startFrame": 713,
+   "durationInFrames": 81,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "two.",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "The",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "spending.",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "The big number scene counts up to a single figure, like seven hundred and thirty billion.",
+   "facts": [
+    "f2"
+   ],
+   "props": {
+    "value": 730,
+    "prefix": "$",
+    "suffix": "B",
+    "decimals": 0,
+    "label": "Planned spending (test data)",
+    "tone": "accent",
+    "note": "Up from $410B a year earlier"
+   },
+   "audio": "",
+   "startFrame": 794,
+   "durationInFrames": 215,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "big",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "number",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "scene",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "counts",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "up",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "to",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "a",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "single",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "figure,",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "like",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "seven",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "hundred",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "and",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "thirty",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "billion.",
+     "start": 6.15,
+     "end": 6.49
+    }
+   ]
+  },
+  {
+   "type": "barchart",
+   "narration": "The bar chart compares values side by side, and the last bar is highlighted.",
+   "facts": [
+    "f2"
+   ],
+   "props": {
+    "title": "Spending, before and after",
+    "bars": [
+     {
+      "label": "Last year",
+      "value": 410,
+      "display": "$410B"
+     },
+     {
+      "label": "This year",
+      "value": 730,
+      "display": "$730B"
+     }
+    ],
+    "source": "Fixture Ledger"
+   },
+   "audio": "",
+   "startFrame": 1009,
+   "durationInFrames": 191,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "bar",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "chart",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "compares",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "values",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "side",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "by",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "side,",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "and",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "the",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "last",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "bar",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "is",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "highlighted.",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "A quote scene reveals the words as they are read. According to one report, the chief executive said they are building for the next decade.",
+   "facts": [
+    "f3"
+   ],
+   "props": {
+    "text": "We are building for the next decade, not the next quarter.",
+    "author": "Example Corp CEO",
+    "role": "fictional, for testing"
+   },
+   "audio": "",
+   "startFrame": 1200,
+   "durationInFrames": 323,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "quote",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "scene",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "reveals",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "the",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "words",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "as",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "they",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "are",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "read.",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "According",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "to",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "one",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "report,",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "the",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "chief",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "executive",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    },
+    {
+     "text": "said",
+     "start": 6.950000000000001,
+     "end": 7.290000000000001
+    },
+    {
+     "text": "they",
+     "start": 7.3500000000000005,
+     "end": 7.69
+    },
+    {
+     "text": "are",
+     "start": 7.750000000000001,
+     "end": 8.090000000000002
+    },
+    {
+     "text": "building",
+     "start": 8.15,
+     "end": 8.49
+    },
+    {
+     "text": "for",
+     "start": 8.55,
+     "end": 8.89
+    },
+    {
+     "text": "the",
+     "start": 8.950000000000001,
+     "end": 9.290000000000001
+    },
+    {
+     "text": "next",
+     "start": 9.350000000000001,
+     "end": 9.690000000000001
+    },
+    {
+     "text": "decade.",
+     "start": 9.750000000000002,
+     "end": 10.090000000000002
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "narration": "The timeline places events in order, one dot at a time, so viewers never lose the thread.",
+   "facts": [
+    "f1"
+   ],
+   "props": {
+    "title": "How it unfolded",
+    "events": [
+     {
+      "date": "Monday",
+      "text": "Plan announced"
+     },
+     {
+      "date": "Tuesday",
+      "text": "Analysts react"
+     },
+     {
+      "date": "Wednesday",
+      "text": "Shares slide"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 1523,
+   "durationInFrames": 227,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "timeline",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "places",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "events",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "in",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "order,",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "one",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "dot",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "at",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "a",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "time,",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "so",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "viewers",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "never",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "lose",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "the",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "thread.",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Bullet scenes list what to watch next. First, the earnings. Second, the guidance. Third, the reaction.",
+   "facts": [],
+   "chapter": "What to watch",
+   "props": {
+    "title": "What to watch",
+    "items": [
+     "The next earnings report",
+     "Updated spending guidance",
+     "How investors react"
+    ]
+   },
+   "audio": "",
+   "startFrame": 1750,
+   "durationInFrames": 215,
+   "words": [
+    {
+     "text": "Bullet",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "scenes",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "list",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "what",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "to",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "watch",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "next.",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "First,",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "the",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "earnings.",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "Second,",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "the",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "guidance.",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "Third,",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "the",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "reaction.",
+     "start": 6.15,
+     "end": 6.49
+    }
+   ]
+  },
+  {
+   "type": "outro",
+   "narration": "That is the end of the pipeline test. If every scene looked right, the pipeline works.",
+   "facts": [],
+   "props": {
+    "title": "End of test",
+    "cta": "Subscribe for the stories behind the headlines"
+   },
+   "audio": "",
+   "startFrame": 1965,
+   "durationInFrames": 246,
+   "words": [
+    {
+     "text": "That",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "is",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "the",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "end",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "of",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "the",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "pipeline",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "test.",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "If",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "every",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "scene",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "looked",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "right,",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "the",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "pipeline",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "works.",
+     "start": 6.15,
+     "end": 6.49
+    }
+   ]
+  }
+ ]
+}
