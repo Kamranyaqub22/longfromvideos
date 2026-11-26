@@ -1,0 +1,12 @@
+{
+  "slug": "spacex-starmind",
+  "title": "TODO title (max 100 chars)",
+  "summary": "TODO one-paragraph summary for the description",
+  "tags": [],
+  "thumbnail": { "top": "TODO", "big": "TODO", "bottom": "TODO", "tone": "down" },
+  "scenes": [
+    { "type": "hook", "chapter": "Intro", "narration": "TODO hook narration", "facts": [], "props": { "lines": ["TODO"] } },
+    { "type": "chapter", "chapter": "TODO chapter", "narration": "TODO", "facts": [], "props": { "number": 1, "title": "TODO" } },
+    { "type": "outro", "chapter": "What's next", "narration": "TODO outro narration", "facts": [], "props": { "title": "TODO" } }
+  ]
+}
