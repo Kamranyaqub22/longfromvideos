@@ -1,0 +1,7675 @@
+{
+ "slug": "spacex-starmind",
+ "title": "SpaceX Got Approval for 1 Million Satellites. Can Data Centers in Space Actually Work?",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 18710,
+ "mock": false,
+ "scriptHash": "de595509a91206cc",
+ "scenes": [
+  {
+   "type": "hook",
+   "narration": "The day before Thanksgiving, America's telecoms regulator gave one company permission to launch a million satellites. Not for internet. For artificial intelligence. So why would anyone put data centers in space, and does the maths actually work?",
+   "facts": [
+    "f1"
+   ],
+   "chapter": "Intro",
+   "props": {
+    "lines": [
+     "One million satellites",
+     "Approved by the FCC",
+     "For AI data centers",
+     "In orbit"
+    ],
+    "accent": "In orbit"
+   },
+   "audio": "episodes/spacex-starmind/audio/069f61e98ddcc783.mp3",
+   "startFrame": 0,
+   "durationInFrames": 557,
+   "words": [
+    {
+     "text": "The",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "day",
+     "start": 0.209,
+     "end": 0.36
+    },
+    {
+     "text": "before",
+     "start": 0.418,
+     "end": 0.731
+    },
+    {
+     "text": "Thanksgiving,",
+     "start": 0.789,
+     "end": 1.474
+    },
+    {
+     "text": "America's",
+     "start": 1.521,
+     "end": 2.09
+    },
+    {
+     "text": "telecoms",
+     "start": 2.148,
+     "end": 2.74
+    },
+    {
+     "text": "regulator",
+     "start": 2.821,
+     "end": 3.413
+    },
+    {
+     "text": "gave",
+     "start": 3.796,
+     "end": 4.087
+    },
+    {
+     "text": "one",
+     "start": 4.145,
+     "end": 4.389
+    },
+    {
+     "text": "company",
+     "start": 4.458,
+     "end": 4.83
+    },
+    {
+     "text": "permission",
+     "start": 4.911,
+     "end": 5.375
+    },
+    {
+     "text": "to",
+     "start": 5.445,
+     "end": 5.526
+    },
+    {
+     "text": "launch",
+     "start": 5.619,
+     "end": 5.956
+    },
+    {
+     "text": "a",
+     "start": 6.072,
+     "end": 6.165
+    },
+    {
+     "text": "million",
+     "start": 6.316,
+     "end": 6.745
+    },
+    {
+     "text": "satellites.",
+     "start": 6.838,
+     "end": 7.732
+    },
+    {
+     "text": "Not",
+     "start": 8.115,
+     "end": 8.371
+    },
+    {
+     "text": "for",
+     "start": 8.452,
+     "end": 8.754
+    },
+    {
+     "text": "internet.",
+     "start": 8.905,
+     "end": 9.59
+    },
+    {
+     "text": "For",
+     "start": 9.834,
+     "end": 9.996
+    },
+    {
+     "text": "artificial",
+     "start": 10.066,
+     "end": 10.635
+    },
+    {
+     "text": "intelligence.",
+     "start": 10.716,
+     "end": 11.633
+    },
+    {
+     "text": "So",
+     "start": 12.016,
+     "end": 12.225
+    },
+    {
+     "text": "why",
+     "start": 12.295,
+     "end": 12.527
+    },
+    {
+     "text": "would",
+     "start": 12.597,
+     "end": 12.783
+    },
+    {
+     "text": "anyone",
+     "start": 12.817,
+     "end": 13.189
+    },
+    {
+     "text": "put",
+     "start": 13.235,
+     "end": 13.421
+    },
+    {
+     "text": "data",
+     "start": 13.491,
+     "end": 13.793
+    },
+    {
+     "text": "centers",
+     "start": 13.851,
+     "end": 14.211
+    },
+    {
+     "text": "in",
+     "start": 14.269,
+     "end": 14.35
+    },
+    {
+     "text": "space,",
+     "start": 14.42,
+     "end": 15.081
+    },
+    {
+     "text": "and",
+     "start": 15.406,
+     "end": 15.581
+    },
+    {
+     "text": "does",
+     "start": 15.65,
+     "end": 15.871
+    },
+    {
+     "text": "the",
+     "start": 15.94,
+     "end": 16.01
+    },
+    {
+     "text": "maths",
+     "start": 16.08,
+     "end": 16.533
+    },
+    {
+     "text": "actually",
+     "start": 16.66,
+     "end": 17.171
+    },
+    {
+     "text": "work?",
+     "start": 17.241,
+     "end": 18.204
+    }
+   ]
+  },
+  {
+   "type": "headline",
+   "narration": "On November twenty-fifth, the Federal Communications Commission granted SpaceX authority for a constellation it calls Starmind. Up to one million satellites, each one a small data center, running AI in low Earth orbit.",
+   "facts": [
+    "f1"
+   ],
+   "props": {
+    "source": "FCC Space Bureau",
+    "date": "Nov 25, 2026",
+    "headline": "FCC authorizes SpaceX's Starmind: up to 1,000,000 satellites operating as data centers in space",
+    "dek": "Order DA 26-1273, granted in part, with conditions"
+   },
+   "audio": "episodes/spacex-starmind/audio/b3cf120789a5501a.mp3",
+   "startFrame": 557,
+   "durationInFrames": 521,
+   "words": [
+    {
+     "text": "On",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "November",
+     "start": 0.279,
+     "end": 0.685
+    },
+    {
+     "text": "twenty-fifth,",
+     "start": 0.755,
+     "end": 1.521
+    },
+    {
+     "text": "the",
+     "start": 1.637,
+     "end": 1.741
+    },
+    {
+     "text": "Federal",
+     "start": 1.823,
+     "end": 2.183
+    },
+    {
+     "text": "Communications",
+     "start": 2.252,
+     "end": 3.019
+    },
+    {
+     "text": "Commission",
+     "start": 3.077,
+     "end": 3.518
+    },
+    {
+     "text": "granted",
+     "start": 3.587,
+     "end": 3.971
+    },
+    {
+     "text": "SpaceX",
+     "start": 4.04,
+     "end": 4.737
+    },
+    {
+     "text": "authority",
+     "start": 4.853,
+     "end": 5.41
+    },
+    {
+     "text": "for",
+     "start": 5.793,
+     "end": 5.968
+    },
+    {
+     "text": "a",
+     "start": 6.014,
+     "end": 6.037
+    },
+    {
+     "text": "constellation",
+     "start": 6.095,
+     "end": 6.873
+    },
+    {
+     "text": "it",
+     "start": 6.931,
+     "end": 7.012
+    },
+    {
+     "text": "calls",
+     "start": 7.07,
+     "end": 7.488
+    },
+    {
+     "text": "Starmind.",
+     "start": 7.697,
+     "end": 8.777
+    },
+    {
+     "text": "Up",
+     "start": 9.381,
+     "end": 9.555
+    },
+    {
+     "text": "to",
+     "start": 9.625,
+     "end": 9.741
+    },
+    {
+     "text": "one",
+     "start": 9.857,
+     "end": 10.124
+    },
+    {
+     "text": "million",
+     "start": 10.194,
+     "end": 10.612
+    },
+    {
+     "text": "satellites,",
+     "start": 10.704,
+     "end": 11.366
+    },
+    {
+     "text": "each",
+     "start": 11.436,
+     "end": 11.656
+    },
+    {
+     "text": "one",
+     "start": 11.738,
+     "end": 11.912
+    },
+    {
+     "text": "a",
+     "start": 11.947,
+     "end": 11.97
+    },
+    {
+     "text": "small",
+     "start": 12.04,
+     "end": 12.388
+    },
+    {
+     "text": "data",
+     "start": 12.469,
+     "end": 12.76
+    },
+    {
+     "text": "center,",
+     "start": 12.818,
+     "end": 13.294
+    },
+    {
+     "text": "running",
+     "start": 13.619,
+     "end": 13.944
+    },
+    {
+     "text": "AI",
+     "start": 14.06,
+     "end": 14.722
+    },
+    {
+     "text": "in",
+     "start": 14.838,
+     "end": 15.012
+    },
+    {
+     "text": "low",
+     "start": 15.128,
+     "end": 15.372
+    },
+    {
+     "text": "Earth",
+     "start": 15.488,
+     "end": 15.755
+    },
+    {
+     "text": "orbit.",
+     "start": 15.871,
+     "end": 16.858
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "For scale: there are roughly sixteen to seventeen thousand working satellites in orbit today, depending on who's counting. The tracker Orbital Radar puts it at about sixteen thousand seven hundred, according to CNN. Starmind alone would be about sixty times that.",
+   "facts": [
+    "f14"
+   ],
+   "props": {
+    "value": 16700,
+    "decimals": 0,
+    "label": "Working satellites in orbit today",
+    "tone": "neutral",
+    "note": "Orbital Radar, via CNN. ESA counts 15,800."
+   },
+   "audio": "episodes/spacex-starmind/audio/2bbd11c2f5a016c2.mp3",
+   "startFrame": 1078,
+   "durationInFrames": 563,
+   "words": [
+    {
+     "text": "For",
+     "start": 0,
+     "end": 0.221
+    },
+    {
+     "text": "scale:",
+     "start": 0.29,
+     "end": 0.894
+    },
+    {
+     "text": "there",
+     "start": 1.01,
+     "end": 1.219
+    },
+    {
+     "text": "are",
+     "start": 1.265,
+     "end": 1.416
+    },
+    {
+     "text": "roughly",
+     "start": 1.498,
+     "end": 1.892
+    },
+    {
+     "text": "sixteen",
+     "start": 1.985,
+     "end": 2.589
+    },
+    {
+     "text": "to",
+     "start": 2.67,
+     "end": 2.752
+    },
+    {
+     "text": "seventeen",
+     "start": 2.844,
+     "end": 3.39
+    },
+    {
+     "text": "thousand",
+     "start": 3.46,
+     "end": 3.901
+    },
+    {
+     "text": "working",
+     "start": 3.971,
+     "end": 4.307
+    },
+    {
+     "text": "satellites",
+     "start": 4.389,
+     "end": 4.957
+    },
+    {
+     "text": "in",
+     "start": 5.004,
+     "end": 5.074
+    },
+    {
+     "text": "orbit",
+     "start": 5.143,
+     "end": 5.422
+    },
+    {
+     "text": "today,",
+     "start": 5.457,
+     "end": 6.014
+    },
+    {
+     "text": "depending",
+     "start": 6.13,
+     "end": 6.606
+    },
+    {
+     "text": "on",
+     "start": 6.676,
+     "end": 6.757
+    },
+    {
+     "text": "who's",
+     "start": 6.803,
+     "end": 6.989
+    },
+    {
+     "text": "counting.",
+     "start": 7.059,
+     "end": 7.639
+    },
+    {
+     "text": "The",
+     "start": 8.336,
+     "end": 8.464
+    },
+    {
+     "text": "tracker",
+     "start": 8.522,
+     "end": 8.998
+    },
+    {
+     "text": "Orbital",
+     "start": 9.114,
+     "end": 9.474
+    },
+    {
+     "text": "Radar",
+     "start": 9.543,
+     "end": 9.915
+    },
+    {
+     "text": "puts",
+     "start": 9.996,
+     "end": 10.228
+    },
+    {
+     "text": "it",
+     "start": 10.275,
+     "end": 10.356
+    },
+    {
+     "text": "at",
+     "start": 10.403,
+     "end": 10.495
+    },
+    {
+     "text": "about",
+     "start": 10.542,
+     "end": 10.786
+    },
+    {
+     "text": "sixteen",
+     "start": 10.867,
+     "end": 11.355
+    },
+    {
+     "text": "thousand",
+     "start": 11.413,
+     "end": 11.83
+    },
+    {
+     "text": "seven",
+     "start": 11.912,
+     "end": 12.19
+    },
+    {
+     "text": "hundred,",
+     "start": 12.248,
+     "end": 12.597
+    },
+    {
+     "text": "according",
+     "start": 12.62,
+     "end": 12.98
+    },
+    {
+     "text": "to",
+     "start": 13.026,
+     "end": 13.084
+    },
+    {
+     "text": "CNN.",
+     "start": 13.154,
+     "end": 13.99
+    },
+    {
+     "text": "Starmind",
+     "start": 14.373,
+     "end": 15.081
+    },
+    {
+     "text": "alone",
+     "start": 15.139,
+     "end": 15.534
+    },
+    {
+     "text": "would",
+     "start": 15.58,
+     "end": 15.778
+    },
+    {
+     "text": "be",
+     "start": 15.813,
+     "end": 15.917
+    },
+    {
+     "text": "about",
+     "start": 15.964,
+     "end": 16.242
+    },
+    {
+     "text": "sixty",
+     "start": 16.358,
+     "end": 16.846
+    },
+    {
+     "text": "times",
+     "start": 16.904,
+     "end": 17.287
+    },
+    {
+     "text": "that.",
+     "start": 17.345,
+     "end": 18.251
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "FCC chairman Brendan Carr, as quoted by CNN, called it a bold new frontier. Elon Musk replied on X: much appreciated, this will be a great asset to America and the world.",
+   "facts": [
+    "f12",
+    "f13"
+   ],
+   "props": {
+    "text": "This action opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth.",
+    "author": "Brendan Carr",
+    "role": "FCC Chairman, via CNN"
+   },
+   "audio": "episodes/spacex-starmind/audio/61309d95a3f6820b.mp3",
+   "startFrame": 1641,
+   "durationInFrames": 444,
+   "words": [
+    {
+     "text": "FCC",
+     "start": 0,
+     "end": 0.685
+    },
+    {
+     "text": "chairman",
+     "start": 0.859,
+     "end": 1.265
+    },
+    {
+     "text": "Brendan",
+     "start": 1.335,
+     "end": 1.718
+    },
+    {
+     "text": "Carr,",
+     "start": 1.811,
+     "end": 2.31
+    },
+    {
+     "text": "as",
+     "start": 2.38,
+     "end": 2.566
+    },
+    {
+     "text": "quoted",
+     "start": 2.659,
+     "end": 3.019
+    },
+    {
+     "text": "by",
+     "start": 3.077,
+     "end": 3.204
+    },
+    {
+     "text": "CNN,",
+     "start": 3.274,
+     "end": 4.052
+    },
+    {
+     "text": "called",
+     "start": 4.168,
+     "end": 4.458
+    },
+    {
+     "text": "it",
+     "start": 4.505,
+     "end": 4.609
+    },
+    {
+     "text": "a",
+     "start": 4.679,
+     "end": 4.772
+    },
+    {
+     "text": "bold",
+     "start": 4.923,
+     "end": 5.375
+    },
+    {
+     "text": "new",
+     "start": 5.492,
+     "end": 5.677
+    },
+    {
+     "text": "frontier.",
+     "start": 5.759,
+     "end": 6.56
+    },
+    {
+     "text": "Elon",
+     "start": 6.838,
+     "end": 7.245
+    },
+    {
+     "text": "Musk",
+     "start": 7.303,
+     "end": 7.605
+    },
+    {
+     "text": "replied",
+     "start": 7.674,
+     "end": 8.115
+    },
+    {
+     "text": "on",
+     "start": 8.173,
+     "end": 8.278
+    },
+    {
+     "text": "X:",
+     "start": 8.359,
+     "end": 8.893
+    },
+    {
+     "text": "much",
+     "start": 9.172,
+     "end": 9.451
+    },
+    {
+     "text": "appreciated,",
+     "start": 9.509,
+     "end": 10.379
+    },
+    {
+     "text": "this",
+     "start": 10.553,
+     "end": 10.774
+    },
+    {
+     "text": "will",
+     "start": 10.844,
+     "end": 11.018
+    },
+    {
+     "text": "be",
+     "start": 11.076,
+     "end": 11.157
+    },
+    {
+     "text": "a",
+     "start": 11.204,
+     "end": 11.227
+    },
+    {
+     "text": "great",
+     "start": 11.32,
+     "end": 11.61
+    },
+    {
+     "text": "asset",
+     "start": 11.726,
+     "end": 12.214
+    },
+    {
+     "text": "to",
+     "start": 12.272,
+     "end": 12.353
+    },
+    {
+     "text": "America",
+     "start": 12.434,
+     "end": 12.934
+    },
+    {
+     "text": "and",
+     "start": 13.026,
+     "end": 13.259
+    },
+    {
+     "text": "the",
+     "start": 13.328,
+     "end": 13.41
+    },
+    {
+     "text": "world.",
+     "start": 13.468,
+     "end": 14.303
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "But what did the FCC actually sign off on? The fine print is more interesting than the headline.",
+   "facts": [],
+   "chapter": "What was approved",
+   "props": {
+    "number": 1,
+    "title": "What was approved"
+   },
+   "audio": "episodes/spacex-starmind/audio/e0e73e8541727765.mp3",
+   "startFrame": 2085,
+   "durationInFrames": 225,
+   "words": [
+    {
+     "text": "But",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "what",
+     "start": 0.232,
+     "end": 0.348
+    },
+    {
+     "text": "did",
+     "start": 0.383,
+     "end": 0.499
+    },
+    {
+     "text": "the",
+     "start": 0.522,
+     "end": 0.604
+    },
+    {
+     "text": "FCC",
+     "start": 0.65,
+     "end": 1.358
+    },
+    {
+     "text": "actually",
+     "start": 1.509,
+     "end": 2.02
+    },
+    {
+     "text": "sign",
+     "start": 2.09,
+     "end": 2.38
+    },
+    {
+     "text": "off",
+     "start": 2.438,
+     "end": 2.612
+    },
+    {
+     "text": "on?",
+     "start": 2.728,
+     "end": 3.146
+    },
+    {
+     "text": "The",
+     "start": 3.587,
+     "end": 3.704
+    },
+    {
+     "text": "fine",
+     "start": 3.773,
+     "end": 4.098
+    },
+    {
+     "text": "print",
+     "start": 4.145,
+     "end": 4.423
+    },
+    {
+     "text": "is",
+     "start": 4.481,
+     "end": 4.586
+    },
+    {
+     "text": "more",
+     "start": 4.656,
+     "end": 4.841
+    },
+    {
+     "text": "interesting",
+     "start": 4.888,
+     "end": 5.341
+    },
+    {
+     "text": "than",
+     "start": 5.399,
+     "end": 5.526
+    },
+    {
+     "text": "the",
+     "start": 5.573,
+     "end": 5.642
+    },
+    {
+     "text": "headline.",
+     "start": 5.7,
+     "end": 6.641
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Strictly speaking, the FCC licenses radio, not computers. According to the order itself, the grant covers the backup and emergency radio links used to track and command the satellites. They'll fly in thin orbital shells between five hundred and about a thousand kilometres up, on a fifteen-year licence.",
+   "facts": [
+    "f5",
+    "f2",
+    "f7"
+   ],
+   "props": {
+    "title": "What the order covers",
+    "items": [
+     "Up to 1,000,000 satellites",
+     "Orbits from 500 to 1,002 km up",
+     "Licence for backup and emergency radio links",
+     "15-year licence term"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/19f0e2ecaf3b9fa5.mp3",
+   "startFrame": 2310,
+   "durationInFrames": 677,
+   "words": [
+    {
+     "text": "Strictly",
+     "start": 0,
+     "end": 0.499
+    },
+    {
+     "text": "speaking,",
+     "start": 0.557,
+     "end": 1.057
+    },
+    {
+     "text": "the",
+     "start": 1.08,
+     "end": 1.196
+    },
+    {
+     "text": "FCC",
+     "start": 1.312,
+     "end": 2.067
+    },
+    {
+     "text": "licenses",
+     "start": 2.241,
+     "end": 2.926
+    },
+    {
+     "text": "radio,",
+     "start": 3.019,
+     "end": 3.634
+    },
+    {
+     "text": "not",
+     "start": 3.715,
+     "end": 4.005
+    },
+    {
+     "text": "computers.",
+     "start": 4.087,
+     "end": 4.946
+    },
+    {
+     "text": "According",
+     "start": 5.155,
+     "end": 5.584
+    },
+    {
+     "text": "to",
+     "start": 5.642,
+     "end": 5.689
+    },
+    {
+     "text": "the",
+     "start": 5.759,
+     "end": 5.84
+    },
+    {
+     "text": "order",
+     "start": 5.909,
+     "end": 6.165
+    },
+    {
+     "text": "itself,",
+     "start": 6.235,
+     "end": 6.769
+    },
+    {
+     "text": "the",
+     "start": 6.803,
+     "end": 6.908
+    },
+    {
+     "text": "grant",
+     "start": 6.978,
+     "end": 7.279
+    },
+    {
+     "text": "covers",
+     "start": 7.349,
+     "end": 7.674
+    },
+    {
+     "text": "the",
+     "start": 7.732,
+     "end": 7.802
+    },
+    {
+     "text": "backup",
+     "start": 7.872,
+     "end": 8.29
+    },
+    {
+     "text": "and",
+     "start": 8.382,
+     "end": 8.568
+    },
+    {
+     "text": "emergency",
+     "start": 8.638,
+     "end": 9.218
+    },
+    {
+     "text": "radio",
+     "start": 9.311,
+     "end": 9.683
+    },
+    {
+     "text": "links",
+     "start": 9.752,
+     "end": 10.077
+    },
+    {
+     "text": "used",
+     "start": 10.519,
+     "end": 10.89
+    },
+    {
+     "text": "to",
+     "start": 10.925,
+     "end": 11.006
+    },
+    {
+     "text": "track",
+     "start": 11.076,
+     "end": 11.401
+    },
+    {
+     "text": "and",
+     "start": 11.494,
+     "end": 11.633
+    },
+    {
+     "text": "command",
+     "start": 11.714,
+     "end": 12.19
+    },
+    {
+     "text": "the",
+     "start": 12.272,
+     "end": 12.353
+    },
+    {
+     "text": "satellites.",
+     "start": 12.411,
+     "end": 13.201
+    },
+    {
+     "text": "They'll",
+     "start": 13.642,
+     "end": 13.967
+    },
+    {
+     "text": "fly",
+     "start": 14.025,
+     "end": 14.362
+    },
+    {
+     "text": "in",
+     "start": 14.478,
+     "end": 14.594
+    },
+    {
+     "text": "thin",
+     "start": 14.687,
+     "end": 15.012
+    },
+    {
+     "text": "orbital",
+     "start": 15.163,
+     "end": 15.569
+    },
+    {
+     "text": "shells",
+     "start": 15.65,
+     "end": 16.219
+    },
+    {
+     "text": "between",
+     "start": 16.544,
+     "end": 16.927
+    },
+    {
+     "text": "five",
+     "start": 17.009,
+     "end": 17.369
+    },
+    {
+     "text": "hundred",
+     "start": 17.415,
+     "end": 17.775
+    },
+    {
+     "text": "and",
+     "start": 17.81,
+     "end": 17.879
+    },
+    {
+     "text": "about",
+     "start": 17.926,
+     "end": 18.216
+    },
+    {
+     "text": "a",
+     "start": 18.297,
+     "end": 18.39
+    },
+    {
+     "text": "thousand",
+     "start": 18.506,
+     "end": 18.982
+    },
+    {
+     "text": "kilometres",
+     "start": 19.052,
+     "end": 19.632
+    },
+    {
+     "text": "up,",
+     "start": 19.691,
+     "end": 20.097
+    },
+    {
+     "text": "on",
+     "start": 20.422,
+     "end": 20.584
+    },
+    {
+     "text": "a",
+     "start": 20.643,
+     "end": 20.666
+    },
+    {
+     "text": "fifteen-year",
+     "start": 20.724,
+     "end": 21.432
+    },
+    {
+     "text": "licence.",
+     "start": 21.513,
+     "end": 22.059
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "narration": "And it comes with deadlines. SpaceX's prospectus says it hopes to start launching as early as twenty twenty-eight. The FCC says the licence is void unless one satellite is working by November twenty thirty-three, a hundred thousand by twenty thirty-five, half the fleet by twenty thirty-eight, and all of it by twenty forty.",
+   "facts": [
+    "f4",
+    "f18"
+   ],
+   "props": {
+    "title": "The Starmind clock",
+    "events": [
+     {
+      "date": "2028",
+      "text": "SpaceX's target for first compute satellites"
+     },
+     {
+      "date": "Nov 2033",
+      "text": "First satellite must be operating"
+     },
+     {
+      "date": "Nov 2035",
+      "text": "10% of the fleet in orbit"
+     },
+     {
+      "date": "Nov 2038",
+      "text": "50% of the fleet in orbit"
+     },
+     {
+      "date": "Nov 2040",
+      "text": "Full constellation, or the licence is void"
+     }
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/ff06159d791c397f.mp3",
+   "startFrame": 2987,
+   "durationInFrames": 682,
+   "words": [
+    {
+     "text": "And",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "it",
+     "start": 0.244,
+     "end": 0.337
+    },
+    {
+     "text": "comes",
+     "start": 0.406,
+     "end": 0.708
+    },
+    {
+     "text": "with",
+     "start": 0.778,
+     "end": 0.952
+    },
+    {
+     "text": "deadlines.",
+     "start": 1.01,
+     "end": 1.846
+    },
+    {
+     "text": "SpaceX's",
+     "start": 2.229,
+     "end": 3.146
+    },
+    {
+     "text": "prospectus",
+     "start": 3.239,
+     "end": 3.901
+    },
+    {
+     "text": "says",
+     "start": 3.959,
+     "end": 4.214
+    },
+    {
+     "text": "it",
+     "start": 4.284,
+     "end": 4.377
+    },
+    {
+     "text": "hopes",
+     "start": 4.412,
+     "end": 4.656
+    },
+    {
+     "text": "to",
+     "start": 4.714,
+     "end": 4.807
+    },
+    {
+     "text": "start",
+     "start": 4.876,
+     "end": 5.143
+    },
+    {
+     "text": "launching",
+     "start": 5.213,
+     "end": 5.666
+    },
+    {
+     "text": "as",
+     "start": 5.84,
+     "end": 6.049
+    },
+    {
+     "text": "early",
+     "start": 6.107,
+     "end": 6.409
+    },
+    {
+     "text": "as",
+     "start": 6.49,
+     "end": 6.653
+    },
+    {
+     "text": "twenty",
+     "start": 6.722,
+     "end": 7.082
+    },
+    {
+     "text": "twenty-eight.",
+     "start": 7.14,
+     "end": 7.837
+    },
+    {
+     "text": "The",
+     "start": 8.22,
+     "end": 8.371
+    },
+    {
+     "text": "FCC",
+     "start": 8.452,
+     "end": 9.149
+    },
+    {
+     "text": "says",
+     "start": 9.358,
+     "end": 9.601
+    },
+    {
+     "text": "the",
+     "start": 9.671,
+     "end": 9.741
+    },
+    {
+     "text": "licence",
+     "start": 9.81,
+     "end": 10.275
+    },
+    {
+     "text": "is",
+     "start": 10.31,
+     "end": 10.414
+    },
+    {
+     "text": "void",
+     "start": 10.507,
+     "end": 10.971
+    },
+    {
+     "text": "unless",
+     "start": 11.146,
+     "end": 11.482
+    },
+    {
+     "text": "one",
+     "start": 11.54,
+     "end": 11.773
+    },
+    {
+     "text": "satellite",
+     "start": 11.842,
+     "end": 12.376
+    },
+    {
+     "text": "is",
+     "start": 12.411,
+     "end": 12.492
+    },
+    {
+     "text": "working",
+     "start": 12.55,
+     "end": 12.875
+    },
+    {
+     "text": "by",
+     "start": 12.945,
+     "end": 13.073
+    },
+    {
+     "text": "November",
+     "start": 13.166,
+     "end": 13.758
+    },
+    {
+     "text": "twenty",
+     "start": 13.828,
+     "end": 14.095
+    },
+    {
+     "text": "thirty-three,",
+     "start": 14.153,
+     "end": 14.977
+    },
+    {
+     "text": "a",
+     "start": 15.07,
+     "end": 15.151
+    },
+    {
+     "text": "hundred",
+     "start": 15.268,
+     "end": 15.616
+    },
+    {
+     "text": "thousand",
+     "start": 15.662,
+     "end": 16.115
+    },
+    {
+     "text": "by",
+     "start": 16.185,
+     "end": 16.324
+    },
+    {
+     "text": "twenty",
+     "start": 16.394,
+     "end": 16.638
+    },
+    {
+     "text": "thirty-five,",
+     "start": 16.696,
+     "end": 17.566
+    },
+    {
+     "text": "half",
+     "start": 17.74,
+     "end": 18.019
+    },
+    {
+     "text": "the",
+     "start": 18.112,
+     "end": 18.193
+    },
+    {
+     "text": "fleet",
+     "start": 18.251,
+     "end": 18.53
+    },
+    {
+     "text": "by",
+     "start": 18.6,
+     "end": 18.751
+    },
+    {
+     "text": "twenty",
+     "start": 18.809,
+     "end": 19.052
+    },
+    {
+     "text": "thirty-eight,",
+     "start": 19.099,
+     "end": 19.784
+    },
+    {
+     "text": "and",
+     "start": 20.062,
+     "end": 20.248
+    },
+    {
+     "text": "all",
+     "start": 20.306,
+     "end": 20.492
+    },
+    {
+     "text": "of",
+     "start": 20.55,
+     "end": 20.608
+    },
+    {
+     "text": "it",
+     "start": 20.666,
+     "end": 20.771
+    },
+    {
+     "text": "by",
+     "start": 20.829,
+     "end": 20.98
+    },
+    {
+     "text": "twenty",
+     "start": 21.061,
+     "end": 21.34
+    },
+    {
+     "text": "forty.",
+     "start": 21.421,
+     "end": 22.245
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "The order also sets conditions. SpaceX wanted to send dead satellites above six hundred kilometres into disposal orbits, or off around the sun, instead of burning them up in the atmosphere. The FCC put that on hold until SpaceX gives more detail. It did waive the surety bond, the deposit operators normally post to show they're serious.",
+   "facts": [
+    "f6",
+    "f7"
+   ],
+   "props": {
+    "title": "The fine print",
+    "items": [
+     "Disposal plan above 600 km: on hold",
+     "Surety bond: waived",
+     "Processing-round rules: waived",
+     "Safety reports twice a year"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/36de25f07391e60c.mp3",
+   "startFrame": 3669,
+   "durationInFrames": 755,
+   "words": [
+    {
+     "text": "The",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "order",
+     "start": 0.232,
+     "end": 0.511
+    },
+    {
+     "text": "also",
+     "start": 0.604,
+     "end": 1.045
+    },
+    {
+     "text": "sets",
+     "start": 1.138,
+     "end": 1.44
+    },
+    {
+     "text": "conditions.",
+     "start": 1.509,
+     "end": 2.357
+    },
+    {
+     "text": "SpaceX",
+     "start": 2.635,
+     "end": 3.379
+    },
+    {
+     "text": "wanted",
+     "start": 3.495,
+     "end": 3.773
+    },
+    {
+     "text": "to",
+     "start": 3.808,
+     "end": 3.866
+    },
+    {
+     "text": "send",
+     "start": 3.936,
+     "end": 4.18
+    },
+    {
+     "text": "dead",
+     "start": 4.272,
+     "end": 4.505
+    },
+    {
+     "text": "satellites",
+     "start": 4.598,
+     "end": 5.248
+    },
+    {
+     "text": "above",
+     "start": 5.631,
+     "end": 6.002
+    },
+    {
+     "text": "six",
+     "start": 6.06,
+     "end": 6.339
+    },
+    {
+     "text": "hundred",
+     "start": 6.409,
+     "end": 6.745
+    },
+    {
+     "text": "kilometres",
+     "start": 6.792,
+     "end": 7.361
+    },
+    {
+     "text": "into",
+     "start": 7.419,
+     "end": 7.605
+    },
+    {
+     "text": "disposal",
+     "start": 7.686,
+     "end": 8.29
+    },
+    {
+     "text": "orbits,",
+     "start": 8.359,
+     "end": 8.916
+    },
+    {
+     "text": "or",
+     "start": 9.242,
+     "end": 9.404
+    },
+    {
+     "text": "off",
+     "start": 9.485,
+     "end": 9.671
+    },
+    {
+     "text": "around",
+     "start": 9.741,
+     "end": 10.019
+    },
+    {
+     "text": "the",
+     "start": 10.066,
+     "end": 10.136
+    },
+    {
+     "text": "sun,",
+     "start": 10.194,
+     "end": 10.623
+    },
+    {
+     "text": "instead",
+     "start": 10.646,
+     "end": 11.006
+    },
+    {
+     "text": "of",
+     "start": 11.041,
+     "end": 11.099
+    },
+    {
+     "text": "burning",
+     "start": 11.18,
+     "end": 11.529
+    },
+    {
+     "text": "them",
+     "start": 11.587,
+     "end": 11.714
+    },
+    {
+     "text": "up",
+     "start": 11.773,
+     "end": 11.9
+    },
+    {
+     "text": "in",
+     "start": 12.016,
+     "end": 12.156
+    },
+    {
+     "text": "the",
+     "start": 12.202,
+     "end": 12.272
+    },
+    {
+     "text": "atmosphere.",
+     "start": 12.342,
+     "end": 13.085
+    },
+    {
+     "text": "The",
+     "start": 13.468,
+     "end": 13.619
+    },
+    {
+     "text": "FCC",
+     "start": 13.7,
+     "end": 14.455
+    },
+    {
+     "text": "put",
+     "start": 14.664,
+     "end": 14.861
+    },
+    {
+     "text": "that",
+     "start": 14.896,
+     "end": 15.059
+    },
+    {
+     "text": "on",
+     "start": 15.128,
+     "end": 15.244
+    },
+    {
+     "text": "hold",
+     "start": 15.314,
+     "end": 15.686
+    },
+    {
+     "text": "until",
+     "start": 15.836,
+     "end": 16.185
+    },
+    {
+     "text": "SpaceX",
+     "start": 16.254,
+     "end": 16.87
+    },
+    {
+     "text": "gives",
+     "start": 16.986,
+     "end": 17.241
+    },
+    {
+     "text": "more",
+     "start": 17.311,
+     "end": 17.508
+    },
+    {
+     "text": "detail.",
+     "start": 17.566,
+     "end": 18.182
+    },
+    {
+     "text": "It",
+     "start": 18.507,
+     "end": 18.669
+    },
+    {
+     "text": "did",
+     "start": 18.739,
+     "end": 18.948
+    },
+    {
+     "text": "waive",
+     "start": 19.006,
+     "end": 19.378
+    },
+    {
+     "text": "the",
+     "start": 19.424,
+     "end": 19.505
+    },
+    {
+     "text": "surety",
+     "start": 19.552,
+     "end": 19.9
+    },
+    {
+     "text": "bond,",
+     "start": 19.958,
+     "end": 20.434
+    },
+    {
+     "text": "the",
+     "start": 20.55,
+     "end": 20.655
+    },
+    {
+     "text": "deposit",
+     "start": 20.713,
+     "end": 21.177
+    },
+    {
+     "text": "operators",
+     "start": 21.235,
+     "end": 21.758
+    },
+    {
+     "text": "normally",
+     "start": 21.827,
+     "end": 22.234
+    },
+    {
+     "text": "post",
+     "start": 22.292,
+     "end": 22.733
+    },
+    {
+     "text": "to",
+     "start": 23.174,
+     "end": 23.302
+    },
+    {
+     "text": "show",
+     "start": 23.371,
+     "end": 23.592
+    },
+    {
+     "text": "they're",
+     "start": 23.673,
+     "end": 23.905
+    },
+    {
+     "text": "serious.",
+     "start": 23.929,
+     "end": 24.66
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "And the FCC set aside objections about the environment and about astronomy, saying they're outside its authority. We'll come back to who raised them.",
+   "facts": [
+    "f9"
+   ],
+   "props": {
+    "text": "We dismiss comments and concerns raised regarding topics over which the Commission has no authority, including environmental concerns.",
+    "author": "FCC Space Bureau",
+    "role": "Order DA 26-1273"
+   },
+   "audio": "episodes/spacex-starmind/audio/275dacea6c870fae.mp3",
+   "startFrame": 4424,
+   "durationInFrames": 331,
+   "words": [
+    {
+     "text": "And",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "the",
+     "start": 0.209,
+     "end": 0.29
+    },
+    {
+     "text": "FCC",
+     "start": 0.36,
+     "end": 1.173
+    },
+    {
+     "text": "set",
+     "start": 1.498,
+     "end": 1.741
+    },
+    {
+     "text": "aside",
+     "start": 1.8,
+     "end": 2.241
+    },
+    {
+     "text": "objections",
+     "start": 2.276,
+     "end": 3.019
+    },
+    {
+     "text": "about",
+     "start": 3.17,
+     "end": 3.483
+    },
+    {
+     "text": "the",
+     "start": 3.529,
+     "end": 3.599
+    },
+    {
+     "text": "environment",
+     "start": 3.669,
+     "end": 4.319
+    },
+    {
+     "text": "and",
+     "start": 4.435,
+     "end": 4.609
+    },
+    {
+     "text": "about",
+     "start": 4.679,
+     "end": 4.981
+    },
+    {
+     "text": "astronomy,",
+     "start": 5.108,
+     "end": 5.933
+    },
+    {
+     "text": "saying",
+     "start": 6.107,
+     "end": 6.397
+    },
+    {
+     "text": "they're",
+     "start": 6.444,
+     "end": 6.664
+    },
+    {
+     "text": "outside",
+     "start": 6.722,
+     "end": 7.384
+    },
+    {
+     "text": "its",
+     "start": 7.43,
+     "end": 7.581
+    },
+    {
+     "text": "authority.",
+     "start": 7.616,
+     "end": 8.29
+    },
+    {
+     "text": "We'll",
+     "start": 8.44,
+     "end": 8.696
+    },
+    {
+     "text": "come",
+     "start": 8.754,
+     "end": 8.928
+    },
+    {
+     "text": "back",
+     "start": 8.975,
+     "end": 9.16
+    },
+    {
+     "text": "to",
+     "start": 9.218,
+     "end": 9.3
+    },
+    {
+     "text": "who",
+     "start": 9.369,
+     "end": 9.485
+    },
+    {
+     "text": "raised",
+     "start": 9.578,
+     "end": 9.903
+    },
+    {
+     "text": "them.",
+     "start": 9.95,
+     "end": 10.542
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "To understand why anyone wants this, look down at the ground, and at what AI is doing to the electricity grid.",
+   "facts": [],
+   "chapter": "AI's power problem",
+   "props": {
+    "number": 2,
+    "title": "AI's power problem"
+   },
+   "audio": "episodes/spacex-starmind/audio/8572d57f8663ec56.mp3",
+   "startFrame": 4755,
+   "durationInFrames": 278,
+   "words": [
+    {
+     "text": "To",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "understand",
+     "start": 0.244,
+     "end": 0.801
+    },
+    {
+     "text": "why",
+     "start": 0.859,
+     "end": 1.022
+    },
+    {
+     "text": "anyone",
+     "start": 1.103,
+     "end": 1.509
+    },
+    {
+     "text": "wants",
+     "start": 1.556,
+     "end": 1.823
+    },
+    {
+     "text": "this,",
+     "start": 1.881,
+     "end": 2.206
+    },
+    {
+     "text": "look",
+     "start": 2.322,
+     "end": 2.543
+    },
+    {
+     "text": "down",
+     "start": 2.624,
+     "end": 2.844
+    },
+    {
+     "text": "at",
+     "start": 2.879,
+     "end": 2.961
+    },
+    {
+     "text": "the",
+     "start": 3.007,
+     "end": 3.077
+    },
+    {
+     "text": "ground,",
+     "start": 3.135,
+     "end": 3.82
+    },
+    {
+     "text": "and",
+     "start": 4.145,
+     "end": 4.296
+    },
+    {
+     "text": "at",
+     "start": 4.354,
+     "end": 4.435
+    },
+    {
+     "text": "what",
+     "start": 4.505,
+     "end": 4.702
+    },
+    {
+     "text": "AI",
+     "start": 4.783,
+     "end": 5.283
+    },
+    {
+     "text": "is",
+     "start": 5.399,
+     "end": 5.573
+    },
+    {
+     "text": "doing",
+     "start": 5.642,
+     "end": 5.944
+    },
+    {
+     "text": "to",
+     "start": 6.014,
+     "end": 6.095
+    },
+    {
+     "text": "the",
+     "start": 6.165,
+     "end": 6.235
+    },
+    {
+     "text": "electricity",
+     "start": 6.293,
+     "end": 6.908
+    },
+    {
+     "text": "grid.",
+     "start": 6.966,
+     "end": 8.406
+    }
+   ]
+  },
+  {
+   "type": "barchart",
+   "narration": "According to the International Energy Agency, data centres used about four hundred and fifteen terawatt hours of electricity in twenty twenty-four. That's around one and a half percent of all the world's electricity. By twenty thirty, the agency expects that to more than double, to around nine hundred and forty-five.",
+   "facts": [
+    "f22"
+   ],
+   "props": {
+    "title": "Data centre electricity use (TWh)",
+    "bars": [
+     {
+      "label": "2024",
+      "value": 415,
+      "display": "415 TWh",
+      "tone": "neutral"
+     },
+     {
+      "label": "2030 (projected)",
+      "value": 945,
+      "display": "945 TWh",
+      "tone": "accent"
+     }
+    ],
+    "source": "IEA, Energy and AI (2025), base case"
+   },
+   "audio": "episodes/spacex-starmind/audio/9b69583ebf3a46d2.mp3",
+   "startFrame": 5033,
+   "durationInFrames": 670,
+   "words": [
+    {
+     "text": "According",
+     "start": 0,
+     "end": 0.476
+    },
+    {
+     "text": "to",
+     "start": 0.534,
+     "end": 0.592
+    },
+    {
+     "text": "the",
+     "start": 0.662,
+     "end": 0.743
+    },
+    {
+     "text": "International",
+     "start": 0.813,
+     "end": 1.498
+    },
+    {
+     "text": "Energy",
+     "start": 1.567,
+     "end": 1.904
+    },
+    {
+     "text": "Agency,",
+     "start": 1.974,
+     "end": 2.635
+    },
+    {
+     "text": "data",
+     "start": 2.844,
+     "end": 3.228
+    },
+    {
+     "text": "centres",
+     "start": 3.286,
+     "end": 3.738
+    },
+    {
+     "text": "used",
+     "start": 3.82,
+     "end": 4.087
+    },
+    {
+     "text": "about",
+     "start": 4.122,
+     "end": 4.389
+    },
+    {
+     "text": "four",
+     "start": 4.563,
+     "end": 4.876
+    },
+    {
+     "text": "hundred",
+     "start": 4.946,
+     "end": 5.271
+    },
+    {
+     "text": "and",
+     "start": 5.306,
+     "end": 5.387
+    },
+    {
+     "text": "fifteen",
+     "start": 5.468,
+     "end": 5.991
+    },
+    {
+     "text": "terawatt",
+     "start": 6.072,
+     "end": 6.618
+    },
+    {
+     "text": "hours",
+     "start": 6.687,
+     "end": 7.07
+    },
+    {
+     "text": "of",
+     "start": 7.129,
+     "end": 7.187
+    },
+    {
+     "text": "electricity",
+     "start": 7.245,
+     "end": 7.953
+    },
+    {
+     "text": "in",
+     "start": 8.278,
+     "end": 8.51
+    },
+    {
+     "text": "twenty",
+     "start": 8.591,
+     "end": 8.986
+    },
+    {
+     "text": "twenty-four.",
+     "start": 9.044,
+     "end": 9.938
+    },
+    {
+     "text": "That's",
+     "start": 10.147,
+     "end": 10.461
+    },
+    {
+     "text": "around",
+     "start": 10.495,
+     "end": 10.786
+    },
+    {
+     "text": "one",
+     "start": 10.879,
+     "end": 11.041
+    },
+    {
+     "text": "and",
+     "start": 11.064,
+     "end": 11.146
+    },
+    {
+     "text": "a",
+     "start": 11.18,
+     "end": 11.215
+    },
+    {
+     "text": "half",
+     "start": 11.273,
+     "end": 11.435
+    },
+    {
+     "text": "percent",
+     "start": 11.493,
+     "end": 11.993
+    },
+    {
+     "text": "of",
+     "start": 12.376,
+     "end": 12.515
+    },
+    {
+     "text": "all",
+     "start": 12.585,
+     "end": 12.817
+    },
+    {
+     "text": "the",
+     "start": 12.898,
+     "end": 12.968
+    },
+    {
+     "text": "world's",
+     "start": 13.026,
+     "end": 13.398
+    },
+    {
+     "text": "electricity.",
+     "start": 13.444,
+     "end": 14.268
+    },
+    {
+     "text": "By",
+     "start": 14.651,
+     "end": 14.802
+    },
+    {
+     "text": "twenty",
+     "start": 14.86,
+     "end": 15.139
+    },
+    {
+     "text": "thirty,",
+     "start": 15.209,
+     "end": 15.569
+    },
+    {
+     "text": "the",
+     "start": 15.603,
+     "end": 15.72
+    },
+    {
+     "text": "agency",
+     "start": 15.812,
+     "end": 16.393
+    },
+    {
+     "text": "expects",
+     "start": 16.463,
+     "end": 16.904
+    },
+    {
+     "text": "that",
+     "start": 16.95,
+     "end": 17.101
+    },
+    {
+     "text": "to",
+     "start": 17.148,
+     "end": 17.24
+    },
+    {
+     "text": "more",
+     "start": 17.357,
+     "end": 17.647
+    },
+    {
+     "text": "than",
+     "start": 17.693,
+     "end": 17.856
+    },
+    {
+     "text": "double,",
+     "start": 17.937,
+     "end": 18.413
+    },
+    {
+     "text": "to",
+     "start": 18.738,
+     "end": 18.866
+    },
+    {
+     "text": "around",
+     "start": 18.947,
+     "end": 19.295
+    },
+    {
+     "text": "nine",
+     "start": 19.47,
+     "end": 19.713
+    },
+    {
+     "text": "hundred",
+     "start": 19.748,
+     "end": 20.004
+    },
+    {
+     "text": "and",
+     "start": 20.027,
+     "end": 20.096
+    },
+    {
+     "text": "forty-five.",
+     "start": 20.155,
+     "end": 21.826
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "The fastest-growing part is AI itself. The IEA expects electricity demand from data centres built for AI to more than quadruple by twenty thirty.",
+   "facts": [
+    "f23"
+   ],
+   "props": {
+    "value": 4,
+    "suffix": "×",
+    "decimals": 0,
+    "label": "Growth in AI data-centre power demand by 2030",
+    "tone": "up",
+    "note": "IEA projection: 'more than quadruple'"
+   },
+   "audio": "episodes/spacex-starmind/audio/9ab8fc894a0600ba.mp3",
+   "startFrame": 5703,
+   "durationInFrames": 376,
+   "words": [
+    {
+     "text": "The",
+     "start": 0,
+     "end": 0.128
+    },
+    {
+     "text": "fastest-growing",
+     "start": 0.197,
+     "end": 1.115
+    },
+    {
+     "text": "part",
+     "start": 1.196,
+     "end": 1.509
+    },
+    {
+     "text": "is",
+     "start": 1.625,
+     "end": 1.846
+    },
+    {
+     "text": "AI",
+     "start": 1.962,
+     "end": 2.485
+    },
+    {
+     "text": "itself.",
+     "start": 2.612,
+     "end": 3.413
+    },
+    {
+     "text": "The",
+     "start": 3.796,
+     "end": 3.936
+    },
+    {
+     "text": "IEA",
+     "start": 4.052,
+     "end": 4.783
+    },
+    {
+     "text": "expects",
+     "start": 4.899,
+     "end": 5.375
+    },
+    {
+     "text": "electricity",
+     "start": 5.422,
+     "end": 6.06
+    },
+    {
+     "text": "demand",
+     "start": 6.13,
+     "end": 6.513
+    },
+    {
+     "text": "from",
+     "start": 6.583,
+     "end": 6.734
+    },
+    {
+     "text": "data",
+     "start": 6.803,
+     "end": 7.059
+    },
+    {
+     "text": "centres",
+     "start": 7.117,
+     "end": 7.57
+    },
+    {
+     "text": "built",
+     "start": 7.848,
+     "end": 8.127
+    },
+    {
+     "text": "for",
+     "start": 8.185,
+     "end": 8.336
+    },
+    {
+     "text": "AI",
+     "start": 8.417,
+     "end": 8.94
+    },
+    {
+     "text": "to",
+     "start": 9.067,
+     "end": 9.183
+    },
+    {
+     "text": "more",
+     "start": 9.265,
+     "end": 9.451
+    },
+    {
+     "text": "than",
+     "start": 9.485,
+     "end": 9.625
+    },
+    {
+     "text": "quadruple",
+     "start": 9.706,
+     "end": 10.379
+    },
+    {
+     "text": "by",
+     "start": 10.426,
+     "end": 10.612
+    },
+    {
+     "text": "twenty",
+     "start": 10.728,
+     "end": 11.064
+    },
+    {
+     "text": "thirty.",
+     "start": 11.122,
+     "end": 12.028
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "narration": "Most of that growth is in two countries. The IEA says the United States and China account for nearly eighty percent of it.",
+   "facts": [
+    "f23"
+   ],
+   "props": {
+    "title": "Nearly 80% of data-centre demand growth",
+    "view": "world",
+    "highlights": [
+     {
+      "country": "United States",
+      "tone": "accent",
+      "label": "United States"
+     },
+     {
+      "country": "China",
+      "tone": "accent",
+      "label": "China"
+     }
+    ],
+    "routes": [],
+    "source": "IEA, Energy and AI (2025), growth to 2030"
+   },
+   "audio": "episodes/spacex-starmind/audio/3ba18b9335ab0ec4.mp3",
+   "startFrame": 6079,
+   "durationInFrames": 259,
+   "words": [
+    {
+     "text": "Most",
+     "start": 0,
+     "end": 0.313
+    },
+    {
+     "text": "of",
+     "start": 0.372,
+     "end": 0.43
+    },
+    {
+     "text": "that",
+     "start": 0.499,
+     "end": 0.662
+    },
+    {
+     "text": "growth",
+     "start": 0.731,
+     "end": 1.091
+    },
+    {
+     "text": "is",
+     "start": 1.207,
+     "end": 1.405
+    },
+    {
+     "text": "in",
+     "start": 1.486,
+     "end": 1.579
+    },
+    {
+     "text": "two",
+     "start": 1.637,
+     "end": 1.823
+    },
+    {
+     "text": "countries.",
+     "start": 1.904,
+     "end": 2.426
+    },
+    {
+     "text": "The",
+     "start": 2.45,
+     "end": 2.589
+    },
+    {
+     "text": "IEA",
+     "start": 2.705,
+     "end": 3.471
+    },
+    {
+     "text": "says",
+     "start": 3.646,
+     "end": 3.889
+    },
+    {
+     "text": "the",
+     "start": 3.936,
+     "end": 4.005
+    },
+    {
+     "text": "United",
+     "start": 4.087,
+     "end": 4.412
+    },
+    {
+     "text": "States",
+     "start": 4.458,
+     "end": 4.783
+    },
+    {
+     "text": "and",
+     "start": 4.841,
+     "end": 4.946
+    },
+    {
+     "text": "China",
+     "start": 5.016,
+     "end": 5.515
+    },
+    {
+     "text": "account",
+     "start": 5.898,
+     "end": 6.293
+    },
+    {
+     "text": "for",
+     "start": 6.339,
+     "end": 6.444
+    },
+    {
+     "text": "nearly",
+     "start": 6.49,
+     "end": 6.792
+    },
+    {
+     "text": "eighty",
+     "start": 6.885,
+     "end": 7.175
+    },
+    {
+     "text": "percent",
+     "start": 7.245,
+     "end": 7.616
+    },
+    {
+     "text": "of",
+     "start": 7.651,
+     "end": 7.709
+    },
+    {
+     "text": "it.",
+     "start": 7.755,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "And building on the ground is getting harder politically. According to CBS News, in this month's midterm elections American voters approved dozens of proposals aimed at restricting data centers.",
+   "facts": [
+    "f24",
+    "f22"
+   ],
+   "props": {
+    "title": "Why the ground is getting harder",
+    "items": [
+     "Electricity demand set to double by 2030",
+     "Voters approve dozens of restrictions",
+     "Growth concentrated in the US and China"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/949605e59eb794e5.mp3",
+   "startFrame": 6338,
+   "durationInFrames": 433,
+   "words": [
+    {
+     "text": "And",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "building",
+     "start": 0.244,
+     "end": 0.627
+    },
+    {
+     "text": "on",
+     "start": 0.685,
+     "end": 0.778
+    },
+    {
+     "text": "the",
+     "start": 0.813,
+     "end": 0.882
+    },
+    {
+     "text": "ground",
+     "start": 0.929,
+     "end": 1.347
+    },
+    {
+     "text": "is",
+     "start": 1.463,
+     "end": 1.695
+    },
+    {
+     "text": "getting",
+     "start": 1.776,
+     "end": 2.055
+    },
+    {
+     "text": "harder",
+     "start": 2.125,
+     "end": 2.461
+    },
+    {
+     "text": "politically.",
+     "start": 2.531,
+     "end": 3.332
+    },
+    {
+     "text": "According",
+     "start": 3.715,
+     "end": 4.203
+    },
+    {
+     "text": "to",
+     "start": 4.261,
+     "end": 4.319
+    },
+    {
+     "text": "CBS",
+     "start": 4.389,
+     "end": 4.934
+    },
+    {
+     "text": "News,",
+     "start": 5.05,
+     "end": 5.55
+    },
+    {
+     "text": "in",
+     "start": 5.596,
+     "end": 5.735
+    },
+    {
+     "text": "this",
+     "start": 5.793,
+     "end": 5.956
+    },
+    {
+     "text": "month's",
+     "start": 6.049,
+     "end": 6.374
+    },
+    {
+     "text": "midterm",
+     "start": 6.467,
+     "end": 6.954
+    },
+    {
+     "text": "elections",
+     "start": 7.012,
+     "end": 7.605
+    },
+    {
+     "text": "American",
+     "start": 7.988,
+     "end": 8.522
+    },
+    {
+     "text": "voters",
+     "start": 8.58,
+     "end": 8.928
+    },
+    {
+     "text": "approved",
+     "start": 8.975,
+     "end": 9.439
+    },
+    {
+     "text": "dozens",
+     "start": 9.52,
+     "end": 10.054
+    },
+    {
+     "text": "of",
+     "start": 10.112,
+     "end": 10.182
+    },
+    {
+     "text": "proposals",
+     "start": 10.263,
+     "end": 10.971
+    },
+    {
+     "text": "aimed",
+     "start": 11.146,
+     "end": 11.68
+    },
+    {
+     "text": "at",
+     "start": 11.738,
+     "end": 11.819
+    },
+    {
+     "text": "restricting",
+     "start": 11.9,
+     "end": 12.527
+    },
+    {
+     "text": "data",
+     "start": 12.608,
+     "end": 12.887
+    },
+    {
+     "text": "centers.",
+     "start": 12.945,
+     "end": 13.932
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "SpaceX's pitch is simple. Go somewhere the sun almost never sets, and nobody lives next door.",
+   "facts": [],
+   "chapter": "The case for space",
+   "props": {
+    "number": 3,
+    "title": "The case for space"
+   },
+   "audio": "episodes/spacex-starmind/audio/6d0a65583f4f6db0.mp3",
+   "startFrame": 6771,
+   "durationInFrames": 293,
+   "words": [
+    {
+     "text": "SpaceX's",
+     "start": 0,
+     "end": 0.882
+    },
+    {
+     "text": "pitch",
+     "start": 0.964,
+     "end": 1.416
+    },
+    {
+     "text": "is",
+     "start": 1.591,
+     "end": 1.892
+    },
+    {
+     "text": "simple.",
+     "start": 2.043,
+     "end": 2.659
+    },
+    {
+     "text": "Go",
+     "start": 3.042,
+     "end": 3.251
+    },
+    {
+     "text": "somewhere",
+     "start": 3.332,
+     "end": 3.773
+    },
+    {
+     "text": "the",
+     "start": 3.843,
+     "end": 3.924
+    },
+    {
+     "text": "sun",
+     "start": 4.005,
+     "end": 4.342
+    },
+    {
+     "text": "almost",
+     "start": 4.458,
+     "end": 4.946
+    },
+    {
+     "text": "never",
+     "start": 5.016,
+     "end": 5.259
+    },
+    {
+     "text": "sets,",
+     "start": 5.341,
+     "end": 5.921
+    },
+    {
+     "text": "and",
+     "start": 6.246,
+     "end": 6.397
+    },
+    {
+     "text": "nobody",
+     "start": 6.467,
+     "end": 6.803
+    },
+    {
+     "text": "lives",
+     "start": 6.885,
+     "end": 7.152
+    },
+    {
+     "text": "next",
+     "start": 7.233,
+     "end": 7.477
+    },
+    {
+     "text": "door.",
+     "start": 7.523,
+     "end": 8.916
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "Above the atmosphere there are no clouds, and in the right orbit, almost no night. Google's researchers, who are working on their own version of this idea, say a solar panel in the right orbit can be up to eight times more productive than on Earth.",
+   "facts": [
+    "f25"
+   ],
+   "props": {
+    "value": 8,
+    "suffix": "×",
+    "decimals": 0,
+    "label": "Solar output in the right orbit vs. on Earth",
+    "tone": "up",
+    "note": "'Up to', according to Google's Project Suncatcher team"
+   },
+   "audio": "episodes/spacex-starmind/audio/7c1ee676719da4d3.mp3",
+   "startFrame": 7064,
+   "durationInFrames": 508,
+   "words": [
+    {
+     "text": "Above",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "the",
+     "start": 0.464,
+     "end": 0.557
+    },
+    {
+     "text": "atmosphere",
+     "start": 0.639,
+     "end": 1.277
+    },
+    {
+     "text": "there",
+     "start": 1.335,
+     "end": 1.533
+    },
+    {
+     "text": "are",
+     "start": 1.579,
+     "end": 1.858
+    },
+    {
+     "text": "no",
+     "start": 1.927,
+     "end": 2.113
+    },
+    {
+     "text": "clouds,",
+     "start": 2.183,
+     "end": 2.949
+    },
+    {
+     "text": "and",
+     "start": 3.077,
+     "end": 3.216
+    },
+    {
+     "text": "in",
+     "start": 3.286,
+     "end": 3.367
+    },
+    {
+     "text": "the",
+     "start": 3.413,
+     "end": 3.483
+    },
+    {
+     "text": "right",
+     "start": 3.553,
+     "end": 3.762
+    },
+    {
+     "text": "orbit,",
+     "start": 3.808,
+     "end": 4.249
+    },
+    {
+     "text": "almost",
+     "start": 4.296,
+     "end": 4.841
+    },
+    {
+     "text": "no",
+     "start": 4.923,
+     "end": 5.097
+    },
+    {
+     "text": "night.",
+     "start": 5.213,
+     "end": 5.77
+    },
+    {
+     "text": "Google's",
+     "start": 6.211,
+     "end": 6.653
+    },
+    {
+     "text": "researchers,",
+     "start": 6.722,
+     "end": 7.407
+    },
+    {
+     "text": "who",
+     "start": 7.43,
+     "end": 7.581
+    },
+    {
+     "text": "are",
+     "start": 7.651,
+     "end": 7.825
+    },
+    {
+     "text": "working",
+     "start": 7.906,
+     "end": 8.266
+    },
+    {
+     "text": "on",
+     "start": 8.336,
+     "end": 8.417
+    },
+    {
+     "text": "their",
+     "start": 8.452,
+     "end": 8.603
+    },
+    {
+     "text": "own",
+     "start": 8.661,
+     "end": 8.882
+    },
+    {
+     "text": "version",
+     "start": 8.975,
+     "end": 9.369
+    },
+    {
+     "text": "of",
+     "start": 9.427,
+     "end": 9.485
+    },
+    {
+     "text": "this",
+     "start": 9.543,
+     "end": 9.718
+    },
+    {
+     "text": "idea,",
+     "start": 9.799,
+     "end": 10.414
+    },
+    {
+     "text": "say",
+     "start": 10.658,
+     "end": 10.879
+    },
+    {
+     "text": "a",
+     "start": 10.925,
+     "end": 10.948
+    },
+    {
+     "text": "solar",
+     "start": 11.064,
+     "end": 11.436
+    },
+    {
+     "text": "panel",
+     "start": 11.505,
+     "end": 11.831
+    },
+    {
+     "text": "in",
+     "start": 11.889,
+     "end": 11.947
+    },
+    {
+     "text": "the",
+     "start": 11.993,
+     "end": 12.063
+    },
+    {
+     "text": "right",
+     "start": 12.109,
+     "end": 12.295
+    },
+    {
+     "text": "orbit",
+     "start": 12.341,
+     "end": 12.655
+    },
+    {
+     "text": "can",
+     "start": 12.713,
+     "end": 12.852
+    },
+    {
+     "text": "be",
+     "start": 12.91,
+     "end": 13.015
+    },
+    {
+     "text": "up",
+     "start": 13.073,
+     "end": 13.177
+    },
+    {
+     "text": "to",
+     "start": 13.235,
+     "end": 13.305
+    },
+    {
+     "text": "eight",
+     "start": 13.421,
+     "end": 13.665
+    },
+    {
+     "text": "times",
+     "start": 13.723,
+     "end": 14.094
+    },
+    {
+     "text": "more",
+     "start": 14.176,
+     "end": 14.373
+    },
+    {
+     "text": "productive",
+     "start": 14.419,
+     "end": 14.965
+    },
+    {
+     "text": "than",
+     "start": 15.012,
+     "end": 15.151
+    },
+    {
+     "text": "on",
+     "start": 15.221,
+     "end": 15.325
+    },
+    {
+     "text": "Earth.",
+     "start": 15.383,
+     "end": 16.44
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "SpaceX says it will fly a dawn-dusk orbit, riding the line between day and night so the panels stay in near-constant sunlight. In its application, as quoted by CNN, the company said that would bring transformative cost and energy efficiency.",
+   "facts": [
+    "f37",
+    "f17"
+   ],
+   "props": {
+    "text": "By directly harnessing near-constant solar power with little operating or maintenance costs, these satellites will achieve transformative cost and energy efficiency.",
+    "author": "SpaceX",
+    "role": "FCC application, via CNN"
+   },
+   "audio": "episodes/spacex-starmind/audio/71c846b4a6c4d150.mp3",
+   "startFrame": 7572,
+   "durationInFrames": 573,
+   "words": [
+    {
+     "text": "SpaceX",
+     "start": 0,
+     "end": 0.731
+    },
+    {
+     "text": "says",
+     "start": 0.94,
+     "end": 1.231
+    },
+    {
+     "text": "it",
+     "start": 1.3,
+     "end": 1.37
+    },
+    {
+     "text": "will",
+     "start": 1.405,
+     "end": 1.567
+    },
+    {
+     "text": "fly",
+     "start": 1.614,
+     "end": 1.927
+    },
+    {
+     "text": "a",
+     "start": 2.043,
+     "end": 2.101
+    },
+    {
+     "text": "dawn-dusk",
+     "start": 2.194,
+     "end": 2.868
+    },
+    {
+     "text": "orbit,",
+     "start": 2.961,
+     "end": 3.448
+    },
+    {
+     "text": "riding",
+     "start": 3.727,
+     "end": 4.168
+    },
+    {
+     "text": "the",
+     "start": 4.238,
+     "end": 4.319
+    },
+    {
+     "text": "line",
+     "start": 4.389,
+     "end": 4.679
+    },
+    {
+     "text": "between",
+     "start": 4.725,
+     "end": 5.074
+    },
+    {
+     "text": "day",
+     "start": 5.155,
+     "end": 5.492
+    },
+    {
+     "text": "and",
+     "start": 5.573,
+     "end": 5.724
+    },
+    {
+     "text": "night",
+     "start": 5.805,
+     "end": 6.084
+    },
+    {
+     "text": "so",
+     "start": 6.235,
+     "end": 6.432
+    },
+    {
+     "text": "the",
+     "start": 6.502,
+     "end": 6.571
+    },
+    {
+     "text": "panels",
+     "start": 6.641,
+     "end": 7.047
+    },
+    {
+     "text": "stay",
+     "start": 7.094,
+     "end": 7.396
+    },
+    {
+     "text": "in",
+     "start": 7.454,
+     "end": 7.523
+    },
+    {
+     "text": "near-constant",
+     "start": 7.616,
+     "end": 8.545
+    },
+    {
+     "text": "sunlight.",
+     "start": 8.615,
+     "end": 9.265
+    },
+    {
+     "text": "In",
+     "start": 9.776,
+     "end": 9.915
+    },
+    {
+     "text": "its",
+     "start": 9.973,
+     "end": 10.136
+    },
+    {
+     "text": "application,",
+     "start": 10.182,
+     "end": 11.041
+    },
+    {
+     "text": "as",
+     "start": 11.134,
+     "end": 11.32
+    },
+    {
+     "text": "quoted",
+     "start": 11.401,
+     "end": 11.749
+    },
+    {
+     "text": "by",
+     "start": 11.807,
+     "end": 11.935
+    },
+    {
+     "text": "CNN,",
+     "start": 12.016,
+     "end": 12.783
+    },
+    {
+     "text": "the",
+     "start": 12.992,
+     "end": 13.096
+    },
+    {
+     "text": "company",
+     "start": 13.166,
+     "end": 13.514
+    },
+    {
+     "text": "said",
+     "start": 13.572,
+     "end": 13.804
+    },
+    {
+     "text": "that",
+     "start": 13.862,
+     "end": 14.013
+    },
+    {
+     "text": "would",
+     "start": 14.095,
+     "end": 14.304
+    },
+    {
+     "text": "bring",
+     "start": 14.338,
+     "end": 14.582
+    },
+    {
+     "text": "transformative",
+     "start": 14.652,
+     "end": 15.511
+    },
+    {
+     "text": "cost",
+     "start": 15.558,
+     "end": 15.976
+    },
+    {
+     "text": "and",
+     "start": 16.057,
+     "end": 16.335
+    },
+    {
+     "text": "energy",
+     "start": 16.486,
+     "end": 17.078
+    },
+    {
+     "text": "efficiency.",
+     "start": 17.16,
+     "end": 18.576
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Each satellite, as described by New Atlas, would span about seventy metres, with a rack of radiation-hardened computers in the middle, flanked by a solar array and a radiator. SpaceX's prospectus says early satellites will carry around a hundred kilowatts of computing power each.",
+   "facts": [
+    "f21",
+    "f37"
+   ],
+   "props": {
+    "title": "One Starmind satellite",
+    "items": [
+     "Spans 70 to 75 metres",
+     "Radiation-hardened compute rack",
+     "Solar array: up to 250 kW peak",
+     "Radiator: 110 square metres"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/ec945f16c827172d.mp3",
+   "startFrame": 8145,
+   "durationInFrames": 645,
+   "words": [
+    {
+     "text": "Each",
+     "start": 0,
+     "end": 0.29
+    },
+    {
+     "text": "satellite,",
+     "start": 0.441,
+     "end": 1.115
+    },
+    {
+     "text": "as",
+     "start": 1.138,
+     "end": 1.37
+    },
+    {
+     "text": "described",
+     "start": 1.463,
+     "end": 2.09
+    },
+    {
+     "text": "by",
+     "start": 2.148,
+     "end": 2.287
+    },
+    {
+     "text": "New",
+     "start": 2.38,
+     "end": 2.543
+    },
+    {
+     "text": "Atlas,",
+     "start": 2.624,
+     "end": 3.228
+    },
+    {
+     "text": "would",
+     "start": 3.437,
+     "end": 3.669
+    },
+    {
+     "text": "span",
+     "start": 3.704,
+     "end": 4.191
+    },
+    {
+     "text": "about",
+     "start": 4.261,
+     "end": 4.574
+    },
+    {
+     "text": "seventy",
+     "start": 4.748,
+     "end": 5.166
+    },
+    {
+     "text": "metres,",
+     "start": 5.236,
+     "end": 5.654
+    },
+    {
+     "text": "with",
+     "start": 5.689,
+     "end": 5.875
+    },
+    {
+     "text": "a",
+     "start": 5.921,
+     "end": 5.956
+    },
+    {
+     "text": "rack",
+     "start": 6.072,
+     "end": 6.362
+    },
+    {
+     "text": "of",
+     "start": 6.444,
+     "end": 6.525
+    },
+    {
+     "text": "radiation-hardened",
+     "start": 6.641,
+     "end": 7.732
+    },
+    {
+     "text": "computers",
+     "start": 7.767,
+     "end": 8.475
+    },
+    {
+     "text": "in",
+     "start": 8.858,
+     "end": 9.091
+    },
+    {
+     "text": "the",
+     "start": 9.172,
+     "end": 9.253
+    },
+    {
+     "text": "middle,",
+     "start": 9.311,
+     "end": 9.81
+    },
+    {
+     "text": "flanked",
+     "start": 10.194,
+     "end": 10.565
+    },
+    {
+     "text": "by",
+     "start": 10.623,
+     "end": 10.774
+    },
+    {
+     "text": "a",
+     "start": 10.832,
+     "end": 10.855
+    },
+    {
+     "text": "solar",
+     "start": 10.937,
+     "end": 11.366
+    },
+    {
+     "text": "array",
+     "start": 11.447,
+     "end": 11.935
+    },
+    {
+     "text": "and",
+     "start": 12.086,
+     "end": 12.272
+    },
+    {
+     "text": "a",
+     "start": 12.341,
+     "end": 12.376
+    },
+    {
+     "text": "radiator.",
+     "start": 12.446,
+     "end": 13.189
+    },
+    {
+     "text": "SpaceX's",
+     "start": 13.63,
+     "end": 14.455
+    },
+    {
+     "text": "prospectus",
+     "start": 14.524,
+     "end": 15.128
+    },
+    {
+     "text": "says",
+     "start": 15.175,
+     "end": 15.511
+    },
+    {
+     "text": "early",
+     "start": 15.79,
+     "end": 16.103
+    },
+    {
+     "text": "satellites",
+     "start": 16.173,
+     "end": 16.777
+    },
+    {
+     "text": "will",
+     "start": 16.835,
+     "end": 16.997
+    },
+    {
+     "text": "carry",
+     "start": 17.044,
+     "end": 17.299
+    },
+    {
+     "text": "around",
+     "start": 17.346,
+     "end": 17.624
+    },
+    {
+     "text": "a",
+     "start": 17.682,
+     "end": 17.717
+    },
+    {
+     "text": "hundred",
+     "start": 17.787,
+     "end": 18.147
+    },
+    {
+     "text": "kilowatts",
+     "start": 18.205,
+     "end": 18.727
+    },
+    {
+     "text": "of",
+     "start": 18.785,
+     "end": 18.878
+    },
+    {
+     "text": "computing",
+     "start": 18.948,
+     "end": 19.377
+    },
+    {
+     "text": "power",
+     "start": 19.447,
+     "end": 19.737
+    },
+    {
+     "text": "each.",
+     "start": 19.888,
+     "end": 20.991
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "And the ambition is enormous. SpaceX says its goal is to put one hundred gigawatts of computing power into orbit every year. By its own estimate, that would take thousands of launches a year, and around a million metric tons of cargo.",
+   "facts": [
+    "f35"
+   ],
+   "props": {
+    "value": 100,
+    "suffix": " GW",
+    "decimals": 0,
+    "label": "SpaceX's goal: AI compute launched to orbit, per year",
+    "tone": "accent",
+    "note": "From SpaceX's IPO prospectus"
+   },
+   "audio": "episodes/spacex-starmind/audio/5c2f91e7f5ef6370.mp3",
+   "startFrame": 8790,
+   "durationInFrames": 550,
+   "words": [
+    {
+     "text": "And",
+     "start": 0,
+     "end": 0.163
+    },
+    {
+     "text": "the",
+     "start": 0.221,
+     "end": 0.302
+    },
+    {
+     "text": "ambition",
+     "start": 0.372,
+     "end": 0.964
+    },
+    {
+     "text": "is",
+     "start": 1.08,
+     "end": 1.498
+    },
+    {
+     "text": "enormous.",
+     "start": 1.741,
+     "end": 2.624
+    },
+    {
+     "text": "SpaceX",
+     "start": 3.065,
+     "end": 3.727
+    },
+    {
+     "text": "says",
+     "start": 3.936,
+     "end": 4.203
+    },
+    {
+     "text": "its",
+     "start": 4.319,
+     "end": 4.505
+    },
+    {
+     "text": "goal",
+     "start": 4.574,
+     "end": 4.946
+    },
+    {
+     "text": "is",
+     "start": 5.062,
+     "end": 5.213
+    },
+    {
+     "text": "to",
+     "start": 5.283,
+     "end": 5.341
+    },
+    {
+     "text": "put",
+     "start": 5.422,
+     "end": 5.631
+    },
+    {
+     "text": "one",
+     "start": 5.747,
+     "end": 6.002
+    },
+    {
+     "text": "hundred",
+     "start": 6.049,
+     "end": 6.432
+    },
+    {
+     "text": "gigawatts",
+     "start": 6.513,
+     "end": 7.14
+    },
+    {
+     "text": "of",
+     "start": 7.198,
+     "end": 7.291
+    },
+    {
+     "text": "computing",
+     "start": 7.372,
+     "end": 7.848
+    },
+    {
+     "text": "power",
+     "start": 7.918,
+     "end": 8.243
+    },
+    {
+     "text": "into",
+     "start": 8.626,
+     "end": 8.998
+    },
+    {
+     "text": "orbit",
+     "start": 9.114,
+     "end": 9.497
+    },
+    {
+     "text": "every",
+     "start": 9.613,
+     "end": 9.985
+    },
+    {
+     "text": "year.",
+     "start": 10.066,
+     "end": 10.565
+    },
+    {
+     "text": "By",
+     "start": 10.774,
+     "end": 10.937
+    },
+    {
+     "text": "its",
+     "start": 10.995,
+     "end": 11.134
+    },
+    {
+     "text": "own",
+     "start": 11.169,
+     "end": 11.308
+    },
+    {
+     "text": "estimate,",
+     "start": 11.366,
+     "end": 11.796
+    },
+    {
+     "text": "that",
+     "start": 11.819,
+     "end": 11.993
+    },
+    {
+     "text": "would",
+     "start": 12.063,
+     "end": 12.26
+    },
+    {
+     "text": "take",
+     "start": 12.295,
+     "end": 12.504
+    },
+    {
+     "text": "thousands",
+     "start": 12.562,
+     "end": 13.166
+    },
+    {
+     "text": "of",
+     "start": 13.224,
+     "end": 13.305
+    },
+    {
+     "text": "launches",
+     "start": 13.375,
+     "end": 13.769
+    },
+    {
+     "text": "a",
+     "start": 13.827,
+     "end": 13.862
+    },
+    {
+     "text": "year,",
+     "start": 13.944,
+     "end": 14.431
+    },
+    {
+     "text": "and",
+     "start": 14.605,
+     "end": 14.768
+    },
+    {
+     "text": "around",
+     "start": 14.838,
+     "end": 15.221
+    },
+    {
+     "text": "a",
+     "start": 15.337,
+     "end": 15.43
+    },
+    {
+     "text": "million",
+     "start": 15.546,
+     "end": 15.929
+    },
+    {
+     "text": "metric",
+     "start": 15.999,
+     "end": 16.358
+    },
+    {
+     "text": "tons",
+     "start": 16.417,
+     "end": 16.8
+    },
+    {
+     "text": "of",
+     "start": 16.869,
+     "end": 16.939
+    },
+    {
+     "text": "cargo.",
+     "start": 17.02,
+     "end": 17.833
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "All of that hinges on one number: what it costs to lift a kilogram into orbit.",
+   "facts": [],
+   "chapter": "The launch-cost bet",
+   "props": {
+    "number": 4,
+    "title": "The launch-cost bet"
+   },
+   "audio": "episodes/spacex-starmind/audio/6d1a9423cb1cdb69.mp3",
+   "startFrame": 9340,
+   "durationInFrames": 209,
+   "words": [
+    {
+     "text": "All",
+     "start": 0,
+     "end": 0.267
+    },
+    {
+     "text": "of",
+     "start": 0.348,
+     "end": 0.406
+    },
+    {
+     "text": "that",
+     "start": 0.476,
+     "end": 0.743
+    },
+    {
+     "text": "hinges",
+     "start": 0.859,
+     "end": 1.277
+    },
+    {
+     "text": "on",
+     "start": 1.358,
+     "end": 1.474
+    },
+    {
+     "text": "one",
+     "start": 1.567,
+     "end": 1.73
+    },
+    {
+     "text": "number:",
+     "start": 1.788,
+     "end": 2.264
+    },
+    {
+     "text": "what",
+     "start": 2.508,
+     "end": 2.682
+    },
+    {
+     "text": "it",
+     "start": 2.728,
+     "end": 2.798
+    },
+    {
+     "text": "costs",
+     "start": 2.856,
+     "end": 3.367
+    },
+    {
+     "text": "to",
+     "start": 3.518,
+     "end": 3.622
+    },
+    {
+     "text": "lift",
+     "start": 3.715,
+     "end": 3.924
+    },
+    {
+     "text": "a",
+     "start": 3.971,
+     "end": 3.994
+    },
+    {
+     "text": "kilogram",
+     "start": 4.063,
+     "end": 4.656
+    },
+    {
+     "text": "into",
+     "start": 4.748,
+     "end": 4.969
+    },
+    {
+     "text": "orbit.",
+     "start": 5.062,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "type": "barchart",
+   "narration": "By NASA's figures, the Space Shuttle cost about fifty-four thousand dollars for every kilogram it carried to low Earth orbit. SpaceX's Falcon 9 brought the advertised price down to about two thousand seven hundred. Falcon Heavy, about fourteen hundred.",
+   "facts": [
+    "f33"
+   ],
+   "props": {
+    "title": "Cost to low Earth orbit ($ per kg)",
+    "bars": [
+     {
+      "label": "Space Shuttle",
+      "value": 54500,
+      "display": "$54,500",
+      "tone": "down"
+     },
+     {
+      "label": "Falcon 9 (2010)",
+      "value": 2700,
+      "display": "$2,700",
+      "tone": "neutral"
+     },
+     {
+      "label": "Falcon Heavy",
+      "value": 1400,
+      "display": "$1,400",
+      "tone": "up"
+     }
+    ],
+    "source": "NASA (Jones, 2018 and 2019); advertised prices"
+   },
+   "audio": "episodes/spacex-starmind/audio/f70816cd6d4c8d38.mp3",
+   "startFrame": 9549,
+   "durationInFrames": 577,
+   "words": [
+    {
+     "text": "By",
+     "start": 0,
+     "end": 0.197
+    },
+    {
+     "text": "NASA's",
+     "start": 0.29,
+     "end": 0.743
+    },
+    {
+     "text": "figures,",
+     "start": 0.824,
+     "end": 1.289
+    },
+    {
+     "text": "the",
+     "start": 1.324,
+     "end": 1.416
+    },
+    {
+     "text": "Space",
+     "start": 1.474,
+     "end": 1.881
+    },
+    {
+     "text": "Shuttle",
+     "start": 1.904,
+     "end": 2.403
+    },
+    {
+     "text": "cost",
+     "start": 2.519,
+     "end": 2.856
+    },
+    {
+     "text": "about",
+     "start": 2.902,
+     "end": 3.158
+    },
+    {
+     "text": "fifty-four",
+     "start": 3.274,
+     "end": 4.087
+    },
+    {
+     "text": "thousand",
+     "start": 4.168,
+     "end": 4.644
+    },
+    {
+     "text": "dollars",
+     "start": 4.714,
+     "end": 5.248
+    },
+    {
+     "text": "for",
+     "start": 5.689,
+     "end": 5.851
+    },
+    {
+     "text": "every",
+     "start": 5.921,
+     "end": 6.153
+    },
+    {
+     "text": "kilogram",
+     "start": 6.211,
+     "end": 6.757
+    },
+    {
+     "text": "it",
+     "start": 6.803,
+     "end": 6.885
+    },
+    {
+     "text": "carried",
+     "start": 6.943,
+     "end": 7.349
+    },
+    {
+     "text": "to",
+     "start": 7.396,
+     "end": 7.477
+    },
+    {
+     "text": "low",
+     "start": 7.593,
+     "end": 7.872
+    },
+    {
+     "text": "Earth",
+     "start": 8.022,
+     "end": 8.301
+    },
+    {
+     "text": "orbit.",
+     "start": 8.417,
+     "end": 8.975
+    },
+    {
+     "text": "SpaceX's",
+     "start": 9.671,
+     "end": 10.542
+    },
+    {
+     "text": "Falcon",
+     "start": 10.623,
+     "end": 11.041
+    },
+    {
+     "text": "9",
+     "start": 11.157,
+     "end": 11.482
+    },
+    {
+     "text": "brought",
+     "start": 11.575,
+     "end": 11.819
+    },
+    {
+     "text": "the",
+     "start": 11.854,
+     "end": 11.935
+    },
+    {
+     "text": "advertised",
+     "start": 12.016,
+     "end": 12.759
+    },
+    {
+     "text": "price",
+     "start": 12.829,
+     "end": 13.224
+    },
+    {
+     "text": "down",
+     "start": 13.27,
+     "end": 13.502
+    },
+    {
+     "text": "to",
+     "start": 13.549,
+     "end": 13.607
+    },
+    {
+     "text": "about",
+     "start": 13.677,
+     "end": 13.909
+    },
+    {
+     "text": "two",
+     "start": 13.955,
+     "end": 14.187
+    },
+    {
+     "text": "thousand",
+     "start": 14.28,
+     "end": 14.768
+    },
+    {
+     "text": "seven",
+     "start": 14.861,
+     "end": 15.163
+    },
+    {
+     "text": "hundred.",
+     "start": 15.221,
+     "end": 15.743
+    },
+    {
+     "text": "Falcon",
+     "start": 15.952,
+     "end": 16.451
+    },
+    {
+     "text": "Heavy,",
+     "start": 16.533,
+     "end": 16.974
+    },
+    {
+     "text": "about",
+     "start": 16.997,
+     "end": 17.311
+    },
+    {
+     "text": "fourteen",
+     "start": 17.369,
+     "end": 17.868
+    },
+    {
+     "text": "hundred.",
+     "start": 17.938,
+     "end": 18.715
+    }
+   ]
+  },
+  {
+   "type": "drop",
+   "narration": "SpaceX says Starship, its fully reusable rocket, is meant to cut the cost of reaching orbit by ninety-nine percent or more, compared with the historical average. If it gets there, that's under two hundred dollars a kilo.",
+   "facts": [
+    "f34"
+   ],
+   "props": {
+    "title": "Starship's cost target",
+    "fromLabel": "Historical average: $18,500/kg",
+    "toLabel": "Starship target",
+    "pct": -99,
+    "note": "'99% or more' lower, according to SpaceX",
+    "source": "SpaceX prospectus, citing NASA"
+   },
+   "audio": "episodes/spacex-starmind/audio/153c80e4412a5017.mp3",
+   "startFrame": 10126,
+   "durationInFrames": 443,
+   "words": [
+    {
+     "text": "SpaceX",
+     "start": 0,
+     "end": 0.673
+    },
+    {
+     "text": "says",
+     "start": 0.882,
+     "end": 1.173
+    },
+    {
+     "text": "Starship,",
+     "start": 1.242,
+     "end": 2.02
+    },
+    {
+     "text": "its",
+     "start": 2.078,
+     "end": 2.287
+    },
+    {
+     "text": "fully",
+     "start": 2.38,
+     "end": 2.705
+    },
+    {
+     "text": "reusable",
+     "start": 2.786,
+     "end": 3.437
+    },
+    {
+     "text": "rocket,",
+     "start": 3.495,
+     "end": 4.005
+    },
+    {
+     "text": "is",
+     "start": 4.214,
+     "end": 4.377
+    },
+    {
+     "text": "meant",
+     "start": 4.435,
+     "end": 4.621
+    },
+    {
+     "text": "to",
+     "start": 4.656,
+     "end": 4.725
+    },
+    {
+     "text": "cut",
+     "start": 4.807,
+     "end": 5.016
+    },
+    {
+     "text": "the",
+     "start": 5.074,
+     "end": 5.155
+    },
+    {
+     "text": "cost",
+     "start": 5.213,
+     "end": 5.503
+    },
+    {
+     "text": "of",
+     "start": 5.561,
+     "end": 5.631
+    },
+    {
+     "text": "reaching",
+     "start": 5.724,
+     "end": 6.049
+    },
+    {
+     "text": "orbit",
+     "start": 6.107,
+     "end": 6.385
+    },
+    {
+     "text": "by",
+     "start": 6.455,
+     "end": 6.618
+    },
+    {
+     "text": "ninety-nine",
+     "start": 6.734,
+     "end": 7.454
+    },
+    {
+     "text": "percent",
+     "start": 7.5,
+     "end": 7.848
+    },
+    {
+     "text": "or",
+     "start": 7.895,
+     "end": 7.964
+    },
+    {
+     "text": "more,",
+     "start": 8.011,
+     "end": 8.371
+    },
+    {
+     "text": "compared",
+     "start": 8.499,
+     "end": 8.975
+    },
+    {
+     "text": "with",
+     "start": 9.009,
+     "end": 9.149
+    },
+    {
+     "text": "the",
+     "start": 9.183,
+     "end": 9.253
+    },
+    {
+     "text": "historical",
+     "start": 9.3,
+     "end": 9.857
+    },
+    {
+     "text": "average.",
+     "start": 9.927,
+     "end": 10.461
+    },
+    {
+     "text": "If",
+     "start": 10.588,
+     "end": 10.716
+    },
+    {
+     "text": "it",
+     "start": 10.774,
+     "end": 10.844
+    },
+    {
+     "text": "gets",
+     "start": 10.89,
+     "end": 11.099
+    },
+    {
+     "text": "there,",
+     "start": 11.157,
+     "end": 11.529
+    },
+    {
+     "text": "that's",
+     "start": 11.68,
+     "end": 11.924
+    },
+    {
+     "text": "under",
+     "start": 11.97,
+     "end": 12.168
+    },
+    {
+     "text": "two",
+     "start": 12.249,
+     "end": 12.516
+    },
+    {
+     "text": "hundred",
+     "start": 12.632,
+     "end": 12.969
+    },
+    {
+     "text": "dollars",
+     "start": 13.015,
+     "end": 13.41
+    },
+    {
+     "text": "a",
+     "start": 13.468,
+     "end": 13.491
+    },
+    {
+     "text": "kilo.",
+     "start": 13.561,
+     "end": 14.257
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "That's the number that matters. Google's analysis says launch prices could fall below two hundred dollars a kilogram by the mid twenty-thirties. At that price, it says, launching and running a space data center could cost roughly the same as just the energy bill of a similar one on Earth.",
+   "facts": [
+    "f26"
+   ],
+   "props": {
+    "value": 200,
+    "prefix": "$",
+    "suffix": "/kg",
+    "decimals": 0,
+    "label": "Google's launch-price threshold, mid-2030s",
+    "tone": "accent",
+    "note": "Compared with a ground data centre's energy costs only"
+   },
+   "audio": "episodes/spacex-starmind/audio/5d3975ee4e6ba30f.mp3",
+   "startFrame": 10569,
+   "durationInFrames": 617,
+   "words": [
+    {
+     "text": "That's",
+     "start": 0,
+     "end": 0.36
+    },
+    {
+     "text": "the",
+     "start": 0.43,
+     "end": 0.511
+    },
+    {
+     "text": "number",
+     "start": 0.592,
+     "end": 0.882
+    },
+    {
+     "text": "that",
+     "start": 0.952,
+     "end": 1.091
+    },
+    {
+     "text": "matters.",
+     "start": 1.161,
+     "end": 1.858
+    },
+    {
+     "text": "Google's",
+     "start": 2.183,
+     "end": 2.659
+    },
+    {
+     "text": "analysis",
+     "start": 2.705,
+     "end": 3.344
+    },
+    {
+     "text": "says",
+     "start": 3.402,
+     "end": 3.669
+    },
+    {
+     "text": "launch",
+     "start": 3.762,
+     "end": 4.04
+    },
+    {
+     "text": "prices",
+     "start": 4.087,
+     "end": 4.644
+    },
+    {
+     "text": "could",
+     "start": 4.853,
+     "end": 5.05
+    },
+    {
+     "text": "fall",
+     "start": 5.12,
+     "end": 5.364
+    },
+    {
+     "text": "below",
+     "start": 5.433,
+     "end": 5.735
+    },
+    {
+     "text": "two",
+     "start": 5.817,
+     "end": 6.002
+    },
+    {
+     "text": "hundred",
+     "start": 6.084,
+     "end": 6.397
+    },
+    {
+     "text": "dollars",
+     "start": 6.432,
+     "end": 6.78
+    },
+    {
+     "text": "a",
+     "start": 6.827,
+     "end": 6.861
+    },
+    {
+     "text": "kilogram",
+     "start": 6.92,
+     "end": 7.523
+    },
+    {
+     "text": "by",
+     "start": 7.697,
+     "end": 7.86
+    },
+    {
+     "text": "the",
+     "start": 7.918,
+     "end": 7.999
+    },
+    {
+     "text": "mid",
+     "start": 8.081,
+     "end": 8.313
+    },
+    {
+     "text": "twenty-thirties.",
+     "start": 8.394,
+     "end": 9.555
+    },
+    {
+     "text": "At",
+     "start": 9.88,
+     "end": 10.054
+    },
+    {
+     "text": "that",
+     "start": 10.112,
+     "end": 10.286
+    },
+    {
+     "text": "price,",
+     "start": 10.356,
+     "end": 10.762
+    },
+    {
+     "text": "it",
+     "start": 10.797,
+     "end": 10.902
+    },
+    {
+     "text": "says,",
+     "start": 10.948,
+     "end": 11.494
+    },
+    {
+     "text": "launching",
+     "start": 11.738,
+     "end": 12.179
+    },
+    {
+     "text": "and",
+     "start": 12.237,
+     "end": 12.33
+    },
+    {
+     "text": "running",
+     "start": 12.399,
+     "end": 12.678
+    },
+    {
+     "text": "a",
+     "start": 12.736,
+     "end": 12.771
+    },
+    {
+     "text": "space",
+     "start": 12.817,
+     "end": 13.189
+    },
+    {
+     "text": "data",
+     "start": 13.247,
+     "end": 13.514
+    },
+    {
+     "text": "center",
+     "start": 13.56,
+     "end": 13.874
+    },
+    {
+     "text": "could",
+     "start": 14.257,
+     "end": 14.478
+    },
+    {
+     "text": "cost",
+     "start": 14.536,
+     "end": 14.826
+    },
+    {
+     "text": "roughly",
+     "start": 14.896,
+     "end": 15.29
+    },
+    {
+     "text": "the",
+     "start": 15.36,
+     "end": 15.441
+    },
+    {
+     "text": "same",
+     "start": 15.511,
+     "end": 15.882
+    },
+    {
+     "text": "as",
+     "start": 15.929,
+     "end": 16.033
+    },
+    {
+     "text": "just",
+     "start": 16.103,
+     "end": 16.324
+    },
+    {
+     "text": "the",
+     "start": 16.358,
+     "end": 16.44
+    },
+    {
+     "text": "energy",
+     "start": 16.521,
+     "end": 16.846
+    },
+    {
+     "text": "bill",
+     "start": 16.904,
+     "end": 17.171
+    },
+    {
+     "text": "of",
+     "start": 17.554,
+     "end": 17.705
+    },
+    {
+     "text": "a",
+     "start": 17.775,
+     "end": 17.798
+    },
+    {
+     "text": "similar",
+     "start": 17.914,
+     "end": 18.332
+    },
+    {
+     "text": "one",
+     "start": 18.402,
+     "end": 18.576
+    },
+    {
+     "text": "on",
+     "start": 18.622,
+     "end": 18.704
+    },
+    {
+     "text": "Earth.",
+     "start": 18.762,
+     "end": 20.062
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "SpaceX itself admits the whole idea depends on Starship. Its prospectus puts it plainly.",
+   "facts": [
+    "f36"
+   ],
+   "props": {
+    "text": "AI compute satellites at scale need full Starship reusability to be economically compelling.",
+    "author": "SpaceX",
+    "role": "IPO prospectus, 2026"
+   },
+   "audio": "episodes/spacex-starmind/audio/fe75cf45d34a043b.mp3",
+   "startFrame": 11186,
+   "durationInFrames": 206,
+   "words": [
+    {
+     "text": "SpaceX",
+     "start": 0,
+     "end": 0.639
+    },
+    {
+     "text": "itself",
+     "start": 0.731,
+     "end": 1.173
+    },
+    {
+     "text": "admits",
+     "start": 1.231,
+     "end": 1.579
+    },
+    {
+     "text": "the",
+     "start": 1.649,
+     "end": 1.73
+    },
+    {
+     "text": "whole",
+     "start": 1.788,
+     "end": 2.067
+    },
+    {
+     "text": "idea",
+     "start": 2.113,
+     "end": 2.496
+    },
+    {
+     "text": "depends",
+     "start": 2.612,
+     "end": 3.053
+    },
+    {
+     "text": "on",
+     "start": 3.1,
+     "end": 3.228
+    },
+    {
+     "text": "Starship.",
+     "start": 3.309,
+     "end": 4.052
+    },
+    {
+     "text": "Its",
+     "start": 4.261,
+     "end": 4.435
+    },
+    {
+     "text": "prospectus",
+     "start": 4.481,
+     "end": 5.085
+    },
+    {
+     "text": "puts",
+     "start": 5.143,
+     "end": 5.375
+    },
+    {
+     "text": "it",
+     "start": 5.433,
+     "end": 5.515
+    },
+    {
+     "text": "plainly.",
+     "start": 5.573,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "But even if launches get cheap, there's a problem money can't wish away. Heat.",
+   "facts": [],
+   "chapter": "The heat problem",
+   "props": {
+    "number": 5,
+    "title": "The heat problem"
+   },
+   "audio": "episodes/spacex-starmind/audio/07231ef8f31803aa.mp3",
+   "startFrame": 11392,
+   "durationInFrames": 188,
+   "words": [
+    {
+     "text": "But",
+     "start": 0,
+     "end": 0.186
+    },
+    {
+     "text": "even",
+     "start": 0.232,
+     "end": 0.43
+    },
+    {
+     "text": "if",
+     "start": 0.476,
+     "end": 0.557
+    },
+    {
+     "text": "launches",
+     "start": 0.639,
+     "end": 1.057
+    },
+    {
+     "text": "get",
+     "start": 1.126,
+     "end": 1.3
+    },
+    {
+     "text": "cheap,",
+     "start": 1.37,
+     "end": 1.8
+    },
+    {
+     "text": "there's",
+     "start": 1.881,
+     "end": 2.229
+    },
+    {
+     "text": "a",
+     "start": 2.287,
+     "end": 2.322
+    },
+    {
+     "text": "problem",
+     "start": 2.38,
+     "end": 2.798
+    },
+    {
+     "text": "money",
+     "start": 2.856,
+     "end": 3.088
+    },
+    {
+     "text": "can't",
+     "start": 3.158,
+     "end": 3.425
+    },
+    {
+     "text": "wish",
+     "start": 3.495,
+     "end": 3.692
+    },
+    {
+     "text": "away.",
+     "start": 3.75,
+     "end": 4.331
+    },
+    {
+     "text": "Heat.",
+     "start": 4.656,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "On Earth, data centres carry heat away with air and water. In a vacuum there's no air. The only way to get rid of heat is to radiate it away, and that takes surface area. A lot of it.",
+   "facts": [],
+   "props": {
+    "title": "Cooling in a vacuum",
+    "items": [
+     "No air or water to carry heat away",
+     "Heat must be radiated into space",
+     "More heat means more radiator area"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/82c522f1d9b028b8.mp3",
+   "startFrame": 11580,
+   "durationInFrames": 430,
+   "words": [
+    {
+     "text": "On",
+     "start": 0,
+     "end": 0.255
+    },
+    {
+     "text": "Earth,",
+     "start": 0.313,
+     "end": 0.743
+    },
+    {
+     "text": "data",
+     "start": 0.836,
+     "end": 1.173
+    },
+    {
+     "text": "centres",
+     "start": 1.231,
+     "end": 1.591
+    },
+    {
+     "text": "carry",
+     "start": 1.66,
+     "end": 1.939
+    },
+    {
+     "text": "heat",
+     "start": 2.009,
+     "end": 2.206
+    },
+    {
+     "text": "away",
+     "start": 2.276,
+     "end": 2.635
+    },
+    {
+     "text": "with",
+     "start": 2.717,
+     "end": 2.902
+    },
+    {
+     "text": "air",
+     "start": 2.961,
+     "end": 3.379
+    },
+    {
+     "text": "and",
+     "start": 3.495,
+     "end": 3.669
+    },
+    {
+     "text": "water.",
+     "start": 3.75,
+     "end": 4.261
+    },
+    {
+     "text": "In",
+     "start": 4.47,
+     "end": 4.621
+    },
+    {
+     "text": "a",
+     "start": 4.679,
+     "end": 4.702
+    },
+    {
+     "text": "vacuum",
+     "start": 4.772,
+     "end": 5.306
+    },
+    {
+     "text": "there's",
+     "start": 5.48,
+     "end": 5.817
+    },
+    {
+     "text": "no",
+     "start": 5.886,
+     "end": 6.014
+    },
+    {
+     "text": "air.",
+     "start": 6.107,
+     "end": 6.56
+    },
+    {
+     "text": "The",
+     "start": 6.885,
+     "end": 7.012
+    },
+    {
+     "text": "only",
+     "start": 7.082,
+     "end": 7.256
+    },
+    {
+     "text": "way",
+     "start": 7.314,
+     "end": 7.488
+    },
+    {
+     "text": "to",
+     "start": 7.546,
+     "end": 7.616
+    },
+    {
+     "text": "get",
+     "start": 7.674,
+     "end": 7.802
+    },
+    {
+     "text": "rid",
+     "start": 7.86,
+     "end": 7.999
+    },
+    {
+     "text": "of",
+     "start": 8.034,
+     "end": 8.092
+    },
+    {
+     "text": "heat",
+     "start": 8.15,
+     "end": 8.359
+    },
+    {
+     "text": "is",
+     "start": 8.452,
+     "end": 8.626
+    },
+    {
+     "text": "to",
+     "start": 8.684,
+     "end": 8.766
+    },
+    {
+     "text": "radiate",
+     "start": 8.858,
+     "end": 9.346
+    },
+    {
+     "text": "it",
+     "start": 9.381,
+     "end": 9.451
+    },
+    {
+     "text": "away,",
+     "start": 9.485,
+     "end": 10.008
+    },
+    {
+     "text": "and",
+     "start": 10.077,
+     "end": 10.24
+    },
+    {
+     "text": "that",
+     "start": 10.286,
+     "end": 10.426
+    },
+    {
+     "text": "takes",
+     "start": 10.472,
+     "end": 10.786
+    },
+    {
+     "text": "surface",
+     "start": 10.995,
+     "end": 11.459
+    },
+    {
+     "text": "area.",
+     "start": 11.494,
+     "end": 12.074
+    },
+    {
+     "text": "A",
+     "start": 12.771,
+     "end": 12.864
+    },
+    {
+     "text": "lot",
+     "start": 12.98,
+     "end": 13.189
+    },
+    {
+     "text": "of",
+     "start": 13.235,
+     "end": 13.293
+    },
+    {
+     "text": "it.",
+     "start": 13.351,
+     "end": 13.839
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "An analysis in IEEE Spectrum, by Andrew Cavalier of ABI Research, found that one high-end AI chip, kept at sixty degrees, needs about one point four square metres of radiator. After five years of wear, nearly two.",
+   "facts": [
+    "f30"
+   ],
+   "props": {
+    "value": 1.4,
+    "suffix": " m²",
+    "decimals": 1,
+    "label": "Radiator area for one 700-watt AI chip",
+    "tone": "down",
+    "note": "At 60 °C; nearly 2.0 m² after five years (ABI Research)"
+   },
+   "audio": "episodes/spacex-starmind/audio/6c0e27ad73b78268.mp3",
+   "startFrame": 12010,
+   "durationInFrames": 529,
+   "words": [
+    {
+     "text": "An",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "text": "analysis",
+     "start": 0.209,
+     "end": 0.871
+    },
+    {
+     "text": "in",
+     "start": 0.94,
+     "end": 1.045
+    },
+    {
+     "text": "IEEE",
+     "start": 1.161,
+     "end": 2.113
+    },
+    {
+     "text": "Spectrum,",
+     "start": 2.194,
+     "end": 2.914
+    },
+    {
+     "text": "by",
+     "start": 3.088,
+     "end": 3.286
+    },
+    {
+     "text": "Andrew",
+     "start": 3.379,
+     "end": 3.762
+    },
+    {
+     "text": "Cavalier",
+     "start": 3.82,
+     "end": 4.447
+    },
+    {
+     "text": "of",
+     "start": 4.563,
+     "end": 4.644
+    },
+    {
+     "text": "ABI",
+     "start": 4.76,
+     "end": 5.387
+    },
+    {
+     "text": "Research,",
+     "start": 5.538,
+     "end": 6.165
+    },
+    {
+     "text": "found",
+     "start": 6.339,
+     "end": 6.606
+    },
+    {
+     "text": "that",
+     "start": 6.653,
+     "end": 6.792
+    },
+    {
+     "text": "one",
+     "start": 6.908,
+     "end": 7.21
+    },
+    {
+     "text": "high-end",
+     "start": 7.279,
+     "end": 7.802
+    },
+    {
+     "text": "AI",
+     "start": 7.918,
+     "end": 8.359
+    },
+    {
+     "text": "chip,",
+     "start": 8.417,
+     "end": 8.835
+    },
+    {
+     "text": "kept",
+     "start": 9.009,
+     "end": 9.253
+    },
+    {
+     "text": "at",
+     "start": 9.3,
+     "end": 9.381
+    },
+    {
+     "text": "sixty",
+     "start": 9.462,
+     "end": 9.845
+    },
+    {
+     "text": "degrees,",
+     "start": 9.903,
+     "end": 10.519
+    },
+    {
+     "text": "needs",
+     "start": 10.728,
+     "end": 10.983
+    },
+    {
+     "text": "about",
+     "start": 11.018,
+     "end": 11.238
+    },
+    {
+     "text": "one",
+     "start": 11.331,
+     "end": 11.575
+    },
+    {
+     "text": "point",
+     "start": 11.633,
+     "end": 11.877
+    },
+    {
+     "text": "four",
+     "start": 11.947,
+     "end": 12.249
+    },
+    {
+     "text": "square",
+     "start": 12.365,
+     "end": 12.713
+    },
+    {
+     "text": "metres",
+     "start": 12.771,
+     "end": 13.131
+    },
+    {
+     "text": "of",
+     "start": 13.189,
+     "end": 13.259
+    },
+    {
+     "text": "radiator.",
+     "start": 13.34,
+     "end": 13.932
+    },
+    {
+     "text": "After",
+     "start": 14.083,
+     "end": 14.373
+    },
+    {
+     "text": "five",
+     "start": 14.489,
+     "end": 14.884
+    },
+    {
+     "text": "years",
+     "start": 14.93,
+     "end": 15.232
+    },
+    {
+     "text": "of",
+     "start": 15.29,
+     "end": 15.348
+    },
+    {
+     "text": "wear,",
+     "start": 15.43,
+     "end": 15.906
+    },
+    {
+     "text": "nearly",
+     "start": 15.987,
+     "end": 16.358
+    },
+    {
+     "text": "two.",
+     "start": 16.416,
+     "end": 17.136
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "Scale that up, and by the same analysis a single server rack needs a radiator of about eighty square metres. Roughly the size of a badminton court.",
+   "facts": [
+    "f30"
+   ],
+   "props": {
+    "value": 80,
+    "suffix": " m²",
+    "decimals": 0,
+    "label": "Radiator needed for one server rack",
+    "tone": "down",
+    "note": "ABI Research, in IEEE Spectrum"
+   },
+   "audio": "episodes/spacex-starmind/audio/949eaa11657ca36e.mp3",
+   "startFrame": 12539,
+   "durationInFrames": 345,
+   "words": [
+    {
+     "text": "Scale",
+     "start": 0,
+     "end": 0.569
+    },
+    {
+     "text": "that",
+     "start": 0.615,
+     "end": 0.813
+    },
+    {
+     "text": "up,",
+     "start": 0.882,
+     "end": 1.115
+    },
+    {
+     "text": "and",
+     "start": 1.265,
+     "end": 1.416
+    },
+    {
+     "text": "by",
+     "start": 1.474,
+     "end": 1.614
+    },
+    {
+     "text": "the",
+     "start": 1.683,
+     "end": 1.765
+    },
+    {
+     "text": "same",
+     "start": 1.834,
+     "end": 2.159
+    },
+    {
+     "text": "analysis",
+     "start": 2.206,
+     "end": 2.902
+    },
+    {
+     "text": "a",
+     "start": 2.972,
+     "end": 3.042
+    },
+    {
+     "text": "single",
+     "start": 3.158,
+     "end": 3.553
+    },
+    {
+     "text": "server",
+     "start": 3.611,
+     "end": 3.947
+    },
+    {
+     "text": "rack",
+     "start": 4.005,
+     "end": 4.261
+    },
+    {
+     "text": "needs",
+     "start": 4.54,
+     "end": 4.888
+    },
+    {
+     "text": "a",
+     "start": 4.957,
+     "end": 4.992
+    },
+    {
+     "text": "radiator",
+     "start": 5.085,
+     "end": 5.666
+    },
+    {
+     "text": "of",
+     "start": 5.747,
+     "end": 5.84
+    },
+    {
+     "text": "about",
+     "start": 5.898,
+     "end": 6.177
+    },
+    {
+     "text": "eighty",
+     "start": 6.327,
+     "end": 6.676
+    },
+    {
+     "text": "square",
+     "start": 6.757,
+     "end": 7.105
+    },
+    {
+     "text": "metres.",
+     "start": 7.175,
+     "end": 7.779
+    },
+    {
+     "text": "Roughly",
+     "start": 8.104,
+     "end": 8.44
+    },
+    {
+     "text": "the",
+     "start": 8.51,
+     "end": 8.58
+    },
+    {
+     "text": "size",
+     "start": 8.649,
+     "end": 9.114
+    },
+    {
+     "text": "of",
+     "start": 9.16,
+     "end": 9.23
+    },
+    {
+     "text": "a",
+     "start": 9.288,
+     "end": 9.323
+    },
+    {
+     "text": "badminton",
+     "start": 9.392,
+     "end": 9.973
+    },
+    {
+     "text": "court.",
+     "start": 10.054,
+     "end": 11.006
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "Add the cost of launch and radiation-proofing, and that model found running a chip in space for a year cost at least ten times more than on the ground. And that was assuming launches at just forty-four dollars a kilo. Its conclusion:",
+   "facts": [
+    "f31"
+   ],
+   "props": {
+    "text": "The cost of delivery and space hardening of the payload makes general-purpose space-based data centers difficult to justify economically today.",
+    "author": "Andrew Cavalier",
+    "role": "ABI Research, in IEEE Spectrum"
+   },
+   "audio": "episodes/spacex-starmind/audio/4e3a2fa039b477d1.mp3",
+   "startFrame": 12884,
+   "durationInFrames": 505,
+   "words": [
+    {
+     "text": "Add",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "the",
+     "start": 0.383,
+     "end": 0.464
+    },
+    {
+     "text": "cost",
+     "start": 0.522,
+     "end": 0.801
+    },
+    {
+     "text": "of",
+     "start": 0.859,
+     "end": 0.929
+    },
+    {
+     "text": "launch",
+     "start": 1.01,
+     "end": 1.347
+    },
+    {
+     "text": "and",
+     "start": 1.393,
+     "end": 1.486
+    },
+    {
+     "text": "radiation-proofing,",
+     "start": 1.556,
+     "end": 2.74
+    },
+    {
+     "text": "and",
+     "start": 2.949,
+     "end": 3.1
+    },
+    {
+     "text": "that",
+     "start": 3.158,
+     "end": 3.332
+    },
+    {
+     "text": "model",
+     "start": 3.448,
+     "end": 3.773
+    },
+    {
+     "text": "found",
+     "start": 3.866,
+     "end": 4.133
+    },
+    {
+     "text": "running",
+     "start": 4.203,
+     "end": 4.481
+    },
+    {
+     "text": "a",
+     "start": 4.54,
+     "end": 4.574
+    },
+    {
+     "text": "chip",
+     "start": 4.667,
+     "end": 4.946
+    },
+    {
+     "text": "in",
+     "start": 5.016,
+     "end": 5.085
+    },
+    {
+     "text": "space",
+     "start": 5.166,
+     "end": 5.608
+    },
+    {
+     "text": "for",
+     "start": 5.654,
+     "end": 5.805
+    },
+    {
+     "text": "a",
+     "start": 5.863,
+     "end": 5.886
+    },
+    {
+     "text": "year",
+     "start": 5.956,
+     "end": 6.281
+    },
+    {
+     "text": "cost",
+     "start": 6.722,
+     "end": 7.047
+    },
+    {
+     "text": "at",
+     "start": 7.105,
+     "end": 7.175
+    },
+    {
+     "text": "least",
+     "start": 7.233,
+     "end": 7.454
+    },
+    {
+     "text": "ten",
+     "start": 7.5,
+     "end": 7.744
+    },
+    {
+     "text": "times",
+     "start": 7.837,
+     "end": 8.197
+    },
+    {
+     "text": "more",
+     "start": 8.278,
+     "end": 8.591
+    },
+    {
+     "text": "than",
+     "start": 8.661,
+     "end": 8.812
+    },
+    {
+     "text": "on",
+     "start": 8.87,
+     "end": 8.963
+    },
+    {
+     "text": "the",
+     "start": 9.009,
+     "end": 9.079
+    },
+    {
+     "text": "ground.",
+     "start": 9.137,
+     "end": 9.81
+    },
+    {
+     "text": "And",
+     "start": 10.252,
+     "end": 10.403
+    },
+    {
+     "text": "that",
+     "start": 10.461,
+     "end": 10.6
+    },
+    {
+     "text": "was",
+     "start": 10.658,
+     "end": 10.797
+    },
+    {
+     "text": "assuming",
+     "start": 10.867,
+     "end": 11.296
+    },
+    {
+     "text": "launches",
+     "start": 11.366,
+     "end": 11.784
+    },
+    {
+     "text": "at",
+     "start": 11.865,
+     "end": 12.039
+    },
+    {
+     "text": "just",
+     "start": 12.12,
+     "end": 12.387
+    },
+    {
+     "text": "forty-four",
+     "start": 12.469,
+     "end": 13.061
+    },
+    {
+     "text": "dollars",
+     "start": 13.13,
+     "end": 13.514
+    },
+    {
+     "text": "a",
+     "start": 13.572,
+     "end": 13.595
+    },
+    {
+     "text": "kilo.",
+     "start": 13.641,
+     "end": 14.291
+    },
+    {
+     "text": "Its",
+     "start": 14.988,
+     "end": 15.232
+    },
+    {
+     "text": "conclusion:",
+     "start": 15.301,
+     "end": 16.346
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "And then there are the people who tried to stop it.",
+   "facts": [],
+   "chapter": "Who objects",
+   "props": {
+    "number": 6,
+    "title": "Who objects"
+   },
+   "audio": "episodes/spacex-starmind/audio/70d5d34df0e9cfe7.mp3",
+   "startFrame": 13389,
+   "durationInFrames": 120,
+   "words": [
+    {
+     "text": "And",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "then",
+     "start": 0.279,
+     "end": 0.522
+    },
+    {
+     "text": "there",
+     "start": 0.58,
+     "end": 0.766
+    },
+    {
+     "text": "are",
+     "start": 0.813,
+     "end": 0.94
+    },
+    {
+     "text": "the",
+     "start": 0.975,
+     "end": 1.057
+    },
+    {
+     "text": "people",
+     "start": 1.115,
+     "end": 1.44
+    },
+    {
+     "text": "who",
+     "start": 1.474,
+     "end": 1.602
+    },
+    {
+     "text": "tried",
+     "start": 1.649,
+     "end": 1.939
+    },
+    {
+     "text": "to",
+     "start": 1.974,
+     "end": 2.043
+    },
+    {
+     "text": "stop",
+     "start": 2.101,
+     "end": 2.403
+    },
+    {
+     "text": "it.",
+     "start": 2.473,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Three groups formally asked the FCC to deny the application. Amazon, through its own satellite internet business, Amazon Leo. The satellite operator Viasat. And the American Astronomical Society.",
+   "facts": [
+    "f8"
+   ],
+   "props": {
+    "title": "Petitions to deny, March 2026",
+    "items": [
+     "Amazon (Kuiper Systems, Amazon Leo)",
+     "Viasat",
+     "American Astronomical Society"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/c67bd3d3503abbc5.mp3",
+   "startFrame": 13509,
+   "durationInFrames": 473,
+   "words": [
+    {
+     "text": "Three",
+     "start": 0,
+     "end": 0.325
+    },
+    {
+     "text": "groups",
+     "start": 0.383,
+     "end": 0.72
+    },
+    {
+     "text": "formally",
+     "start": 0.789,
+     "end": 1.265
+    },
+    {
+     "text": "asked",
+     "start": 1.335,
+     "end": 1.707
+    },
+    {
+     "text": "the",
+     "start": 1.753,
+     "end": 1.881
+    },
+    {
+     "text": "FCC",
+     "start": 1.997,
+     "end": 2.833
+    },
+    {
+     "text": "to",
+     "start": 2.984,
+     "end": 3.1
+    },
+    {
+     "text": "deny",
+     "start": 3.181,
+     "end": 3.553
+    },
+    {
+     "text": "the",
+     "start": 3.669,
+     "end": 3.75
+    },
+    {
+     "text": "application.",
+     "start": 3.82,
+     "end": 4.702
+    },
+    {
+     "text": "Amazon,",
+     "start": 5.027,
+     "end": 5.747
+    },
+    {
+     "text": "through",
+     "start": 5.793,
+     "end": 6.06
+    },
+    {
+     "text": "its",
+     "start": 6.095,
+     "end": 6.211
+    },
+    {
+     "text": "own",
+     "start": 6.258,
+     "end": 6.444
+    },
+    {
+     "text": "satellite",
+     "start": 6.594,
+     "end": 7.152
+    },
+    {
+     "text": "internet",
+     "start": 7.187,
+     "end": 7.512
+    },
+    {
+     "text": "business,",
+     "start": 7.57,
+     "end": 8.162
+    },
+    {
+     "text": "Amazon",
+     "start": 8.406,
+     "end": 8.951
+    },
+    {
+     "text": "Leo.",
+     "start": 9.021,
+     "end": 9.532
+    },
+    {
+     "text": "The",
+     "start": 9.81,
+     "end": 9.927
+    },
+    {
+     "text": "satellite",
+     "start": 9.985,
+     "end": 10.507
+    },
+    {
+     "text": "operator",
+     "start": 10.542,
+     "end": 11.041
+    },
+    {
+     "text": "Viasat.",
+     "start": 11.157,
+     "end": 11.912
+    },
+    {
+     "text": "And",
+     "start": 12.237,
+     "end": 12.469
+    },
+    {
+     "text": "the",
+     "start": 12.55,
+     "end": 12.62
+    },
+    {
+     "text": "American",
+     "start": 12.69,
+     "end": 13.166
+    },
+    {
+     "text": "Astronomical",
+     "start": 13.282,
+     "end": 14.106
+    },
+    {
+     "text": "Society.",
+     "start": 14.199,
+     "end": 15.279
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "Amazon, a direct competitor, called Starmind a lofty ambition rather than a real plan, according to CNBC's account of its filing, and said it would take SpaceX centuries to build. Amazon declined to comment on the approval.",
+   "facts": [
+    "f10"
+   ],
+   "props": {
+    "text": "A lofty ambition rather than a real plan.",
+    "author": "Amazon (Kuiper Systems)",
+    "role": "Petition to deny, via CNBC"
+   },
+   "audio": "episodes/spacex-starmind/audio/a53e8fb34fde40e4.mp3",
+   "startFrame": 13982,
+   "durationInFrames": 514,
+   "words": [
+    {
+     "text": "Amazon,",
+     "start": 0,
+     "end": 0.766
+    },
+    {
+     "text": "a",
+     "start": 0.801,
+     "end": 0.871
+    },
+    {
+     "text": "direct",
+     "start": 0.94,
+     "end": 1.277
+    },
+    {
+     "text": "competitor,",
+     "start": 1.358,
+     "end": 2.171
+    },
+    {
+     "text": "called",
+     "start": 2.345,
+     "end": 2.659
+    },
+    {
+     "text": "Starmind",
+     "start": 2.717,
+     "end": 3.471
+    },
+    {
+     "text": "a",
+     "start": 3.599,
+     "end": 3.68
+    },
+    {
+     "text": "lofty",
+     "start": 3.796,
+     "end": 4.203
+    },
+    {
+     "text": "ambition",
+     "start": 4.284,
+     "end": 4.853
+    },
+    {
+     "text": "rather",
+     "start": 4.934,
+     "end": 5.213
+    },
+    {
+     "text": "than",
+     "start": 5.271,
+     "end": 5.41
+    },
+    {
+     "text": "a",
+     "start": 5.457,
+     "end": 5.48
+    },
+    {
+     "text": "real",
+     "start": 5.573,
+     "end": 5.851
+    },
+    {
+     "text": "plan,",
+     "start": 5.968,
+     "end": 6.618
+    },
+    {
+     "text": "according",
+     "start": 6.687,
+     "end": 7.152
+    },
+    {
+     "text": "to",
+     "start": 7.21,
+     "end": 7.279
+    },
+    {
+     "text": "CNBC's",
+     "start": 7.349,
+     "end": 8.185
+    },
+    {
+     "text": "account",
+     "start": 8.231,
+     "end": 8.591
+    },
+    {
+     "text": "of",
+     "start": 8.649,
+     "end": 8.707
+    },
+    {
+     "text": "its",
+     "start": 8.766,
+     "end": 8.882
+    },
+    {
+     "text": "filing,",
+     "start": 8.94,
+     "end": 9.578
+    },
+    {
+     "text": "and",
+     "start": 9.729,
+     "end": 9.88
+    },
+    {
+     "text": "said",
+     "start": 9.938,
+     "end": 10.124
+    },
+    {
+     "text": "it",
+     "start": 10.159,
+     "end": 10.217
+    },
+    {
+     "text": "would",
+     "start": 10.263,
+     "end": 10.426
+    },
+    {
+     "text": "take",
+     "start": 10.449,
+     "end": 10.658
+    },
+    {
+     "text": "SpaceX",
+     "start": 10.704,
+     "end": 11.401
+    },
+    {
+     "text": "centuries",
+     "start": 11.61,
+     "end": 12.26
+    },
+    {
+     "text": "to",
+     "start": 12.33,
+     "end": 12.411
+    },
+    {
+     "text": "build.",
+     "start": 12.492,
+     "end": 13.038
+    },
+    {
+     "text": "Amazon",
+     "start": 13.421,
+     "end": 13.967
+    },
+    {
+     "text": "declined",
+     "start": 14.025,
+     "end": 14.489
+    },
+    {
+     "text": "to",
+     "start": 14.524,
+     "end": 14.582
+    },
+    {
+     "text": "comment",
+     "start": 14.652,
+     "end": 15.035
+    },
+    {
+     "text": "on",
+     "start": 15.105,
+     "end": 15.186
+    },
+    {
+     "text": "the",
+     "start": 15.233,
+     "end": 15.302
+    },
+    {
+     "text": "approval.",
+     "start": 15.349,
+     "end": 16.626
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "Astronomers are worried about the night sky. According to CNN, the American Astronomical Society said it was dismayed, warning the satellites would be visible as extremely bright objects, and would threaten sensitive research instruments.",
+   "facts": [
+    "f11"
+   ],
+   "props": {
+    "text": "Extremely bright objects for longer periods in the night sky.",
+    "author": "American Astronomical Society",
+    "role": "via CNN"
+   },
+   "audio": "episodes/spacex-starmind/audio/2ebbdbd4cf53b0f0.mp3",
+   "startFrame": 14496,
+   "durationInFrames": 489,
+   "words": [
+    {
+     "text": "Astronomers",
+     "start": 0,
+     "end": 0.743
+    },
+    {
+     "text": "are",
+     "start": 0.789,
+     "end": 0.917
+    },
+    {
+     "text": "worried",
+     "start": 0.952,
+     "end": 1.335
+    },
+    {
+     "text": "about",
+     "start": 1.37,
+     "end": 1.602
+    },
+    {
+     "text": "the",
+     "start": 1.637,
+     "end": 1.707
+    },
+    {
+     "text": "night",
+     "start": 1.776,
+     "end": 1.985
+    },
+    {
+     "text": "sky.",
+     "start": 2.043,
+     "end": 2.728
+    },
+    {
+     "text": "According",
+     "start": 2.937,
+     "end": 3.367
+    },
+    {
+     "text": "to",
+     "start": 3.425,
+     "end": 3.495
+    },
+    {
+     "text": "CNN,",
+     "start": 3.564,
+     "end": 4.296
+    },
+    {
+     "text": "the",
+     "start": 4.342,
+     "end": 4.458
+    },
+    {
+     "text": "American",
+     "start": 4.54,
+     "end": 5.039
+    },
+    {
+     "text": "Astronomical",
+     "start": 5.108,
+     "end": 5.863
+    },
+    {
+     "text": "Society",
+     "start": 5.979,
+     "end": 6.583
+    },
+    {
+     "text": "said",
+     "start": 6.664,
+     "end": 6.85
+    },
+    {
+     "text": "it",
+     "start": 6.885,
+     "end": 6.943
+    },
+    {
+     "text": "was",
+     "start": 6.989,
+     "end": 7.117
+    },
+    {
+     "text": "dismayed,",
+     "start": 7.21,
+     "end": 8.208
+    },
+    {
+     "text": "warning",
+     "start": 8.452,
+     "end": 8.835
+    },
+    {
+     "text": "the",
+     "start": 8.905,
+     "end": 8.986
+    },
+    {
+     "text": "satellites",
+     "start": 9.044,
+     "end": 9.613
+    },
+    {
+     "text": "would",
+     "start": 9.659,
+     "end": 9.845
+    },
+    {
+     "text": "be",
+     "start": 9.88,
+     "end": 9.985
+    },
+    {
+     "text": "visible",
+     "start": 10.043,
+     "end": 10.519
+    },
+    {
+     "text": "as",
+     "start": 10.577,
+     "end": 10.786
+    },
+    {
+     "text": "extremely",
+     "start": 10.855,
+     "end": 11.61
+    },
+    {
+     "text": "bright",
+     "start": 11.668,
+     "end": 11.935
+    },
+    {
+     "text": "objects,",
+     "start": 11.981,
+     "end": 12.655
+    },
+    {
+     "text": "and",
+     "start": 12.771,
+     "end": 12.922
+    },
+    {
+     "text": "would",
+     "start": 12.98,
+     "end": 13.166
+    },
+    {
+     "text": "threaten",
+     "start": 13.212,
+     "end": 13.595
+    },
+    {
+     "text": "sensitive",
+     "start": 13.711,
+     "end": 14.222
+    },
+    {
+     "text": "research",
+     "start": 14.257,
+     "end": 14.663
+    },
+    {
+     "text": "instruments.",
+     "start": 14.721,
+     "end": 15.79
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Environmental lawyers object too. CNBC reports that Earthjustice criticised the FCC for deciding during a holiday week, and without the environmental review it says federal law requires. The FCC's position is that those questions are outside its authority.",
+   "facts": [
+    "f32",
+    "f9"
+   ],
+   "props": {
+    "title": "The environmental objection",
+    "items": [
+     "Earthjustice: no federal environmental review",
+     "Decision issued in Thanksgiving week",
+     "FCC: outside its authority"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/14bc34540bbc5309.mp3",
+   "startFrame": 14985,
+   "durationInFrames": 591,
+   "words": [
+    {
+     "text": "Environmental",
+     "start": 0,
+     "end": 0.801
+    },
+    {
+     "text": "lawyers",
+     "start": 0.859,
+     "end": 1.393
+    },
+    {
+     "text": "object",
+     "start": 1.486,
+     "end": 1.997
+    },
+    {
+     "text": "too.",
+     "start": 2.043,
+     "end": 2.531
+    },
+    {
+     "text": "CNBC",
+     "start": 2.972,
+     "end": 3.727
+    },
+    {
+     "text": "reports",
+     "start": 3.936,
+     "end": 4.365
+    },
+    {
+     "text": "that",
+     "start": 4.412,
+     "end": 4.551
+    },
+    {
+     "text": "Earthjustice",
+     "start": 4.598,
+     "end": 5.294
+    },
+    {
+     "text": "criticised",
+     "start": 5.352,
+     "end": 6.095
+    },
+    {
+     "text": "the",
+     "start": 6.142,
+     "end": 6.246
+    },
+    {
+     "text": "FCC",
+     "start": 6.316,
+     "end": 7.129
+    },
+    {
+     "text": "for",
+     "start": 7.338,
+     "end": 7.488
+    },
+    {
+     "text": "deciding",
+     "start": 7.546,
+     "end": 8.081
+    },
+    {
+     "text": "during",
+     "start": 8.139,
+     "end": 8.406
+    },
+    {
+     "text": "a",
+     "start": 8.452,
+     "end": 8.487
+    },
+    {
+     "text": "holiday",
+     "start": 8.533,
+     "end": 8.94
+    },
+    {
+     "text": "week,",
+     "start": 9.009,
+     "end": 9.427
+    },
+    {
+     "text": "and",
+     "start": 9.601,
+     "end": 9.752
+    },
+    {
+     "text": "without",
+     "start": 9.81,
+     "end": 10.136
+    },
+    {
+     "text": "the",
+     "start": 10.182,
+     "end": 10.275
+    },
+    {
+     "text": "environmental",
+     "start": 10.333,
+     "end": 10.913
+    },
+    {
+     "text": "review",
+     "start": 10.971,
+     "end": 11.366
+    },
+    {
+     "text": "it",
+     "start": 11.54,
+     "end": 11.714
+    },
+    {
+     "text": "says",
+     "start": 11.761,
+     "end": 12.005
+    },
+    {
+     "text": "federal",
+     "start": 12.086,
+     "end": 12.457
+    },
+    {
+     "text": "law",
+     "start": 12.516,
+     "end": 12.736
+    },
+    {
+     "text": "requires.",
+     "start": 12.806,
+     "end": 13.642
+    },
+    {
+     "text": "The",
+     "start": 14.083,
+     "end": 14.234
+    },
+    {
+     "text": "FCC's",
+     "start": 14.316,
+     "end": 15.175
+    },
+    {
+     "text": "position",
+     "start": 15.244,
+     "end": 15.79
+    },
+    {
+     "text": "is",
+     "start": 15.883,
+     "end": 16.057
+    },
+    {
+     "text": "that",
+     "start": 16.115,
+     "end": 16.254
+    },
+    {
+     "text": "those",
+     "start": 16.301,
+     "end": 16.556
+    },
+    {
+     "text": "questions",
+     "start": 16.603,
+     "end": 17.125
+    },
+    {
+     "text": "are",
+     "start": 17.195,
+     "end": 17.404
+    },
+    {
+     "text": "outside",
+     "start": 17.45,
+     "end": 17.996
+    },
+    {
+     "text": "its",
+     "start": 18.066,
+     "end": 18.216
+    },
+    {
+     "text": "authority.",
+     "start": 18.251,
+     "end": 19.18
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Whatever the objections, SpaceX isn't the only one making this bet.",
+   "facts": [],
+   "chapter": "The race to orbit",
+   "props": {
+    "number": 7,
+    "title": "The race to orbit"
+   },
+   "audio": "episodes/spacex-starmind/audio/0d6cd0435cc0defc.mp3",
+   "startFrame": 15576,
+   "durationInFrames": 184,
+   "words": [
+    {
+     "text": "Whatever",
+     "start": 0,
+     "end": 0.418
+    },
+    {
+     "text": "the",
+     "start": 0.488,
+     "end": 0.569
+    },
+    {
+     "text": "objections,",
+     "start": 0.639,
+     "end": 1.347
+    },
+    {
+     "text": "SpaceX",
+     "start": 1.474,
+     "end": 2.159
+    },
+    {
+     "text": "isn't",
+     "start": 2.368,
+     "end": 2.682
+    },
+    {
+     "text": "the",
+     "start": 2.728,
+     "end": 2.821
+    },
+    {
+     "text": "only",
+     "start": 2.937,
+     "end": 3.297
+    },
+    {
+     "text": "one",
+     "start": 3.379,
+     "end": 3.576
+    },
+    {
+     "text": "making",
+     "start": 3.622,
+     "end": 3.924
+    },
+    {
+     "text": "this",
+     "start": 3.982,
+     "end": 4.133
+    },
+    {
+     "text": "bet.",
+     "start": 4.226,
+     "end": 5.294
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "narration": "Last November, a startup called Starcloud flew an Nvidia H100, a data-centre AI chip, on a SpaceX rocket, and later said it had trained a small language model in orbit. In March, according to CNBC, Blue Origin asked for up to fifty-one thousand six hundred satellites. Google put its first AI chips in space in October, and plans two prototypes with Planet by early twenty twenty-seven.",
+   "facts": [
+    "f29",
+    "f15",
+    "f28",
+    "f27"
+   ],
+   "props": {
+    "title": "Who else is going",
+    "events": [
+     {
+      "date": "Nov 2025",
+      "text": "Starcloud flies an Nvidia H100 in orbit"
+     },
+     {
+      "date": "Jan 2026",
+      "text": "SpaceX files the Starmind application"
+     },
+     {
+      "date": "Mar 2026",
+      "text": "Blue Origin seeks up to 51,600 satellites"
+     },
+     {
+      "date": "Oct 2026",
+      "text": "Google's first AI chips reach orbit"
+     },
+     {
+      "date": "Early 2027",
+      "text": "Google and Planet prototypes due"
+     }
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/edf7b09b7aef454a.mp3",
+   "startFrame": 15760,
+   "durationInFrames": 853,
+   "words": [
+    {
+     "text": "Last",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "text": "November,",
+     "start": 0.406,
+     "end": 0.917
+    },
+    {
+     "text": "a",
+     "start": 0.94,
+     "end": 0.998
+    },
+    {
+     "text": "startup",
+     "start": 1.068,
+     "end": 1.44
+    },
+    {
+     "text": "called",
+     "start": 1.498,
+     "end": 1.753
+    },
+    {
+     "text": "Starcloud",
+     "start": 1.811,
+     "end": 2.543
+    },
+    {
+     "text": "flew",
+     "start": 2.601,
+     "end": 2.868
+    },
+    {
+     "text": "an",
+     "start": 2.914,
+     "end": 2.972
+    },
+    {
+     "text": "Nvidia",
+     "start": 3.019,
+     "end": 3.576
+    },
+    {
+     "text": "H100,",
+     "start": 3.669,
+     "end": 4.69
+    },
+    {
+     "text": "a",
+     "start": 4.818,
+     "end": 4.888
+    },
+    {
+     "text": "data-centre",
+     "start": 5.004,
+     "end": 5.759
+    },
+    {
+     "text": "AI",
+     "start": 5.817,
+     "end": 6.258
+    },
+    {
+     "text": "chip,",
+     "start": 6.327,
+     "end": 6.803
+    },
+    {
+     "text": "on",
+     "start": 7.129,
+     "end": 7.279
+    },
+    {
+     "text": "a",
+     "start": 7.338,
+     "end": 7.361
+    },
+    {
+     "text": "SpaceX",
+     "start": 7.407,
+     "end": 7.941
+    },
+    {
+     "text": "rocket,",
+     "start": 8.057,
+     "end": 8.522
+    },
+    {
+     "text": "and",
+     "start": 8.545,
+     "end": 8.707
+    },
+    {
+     "text": "later",
+     "start": 8.777,
+     "end": 9.033
+    },
+    {
+     "text": "said",
+     "start": 9.091,
+     "end": 9.265
+    },
+    {
+     "text": "it",
+     "start": 9.311,
+     "end": 9.381
+    },
+    {
+     "text": "had",
+     "start": 9.427,
+     "end": 9.532
+    },
+    {
+     "text": "trained",
+     "start": 9.555,
+     "end": 9.915
+    },
+    {
+     "text": "a",
+     "start": 9.961,
+     "end": 9.985
+    },
+    {
+     "text": "small",
+     "start": 10.043,
+     "end": 10.356
+    },
+    {
+     "text": "language",
+     "start": 10.414,
+     "end": 10.809
+    },
+    {
+     "text": "model",
+     "start": 10.844,
+     "end": 11.146
+    },
+    {
+     "text": "in",
+     "start": 11.215,
+     "end": 11.273
+    },
+    {
+     "text": "orbit.",
+     "start": 11.331,
+     "end": 11.773
+    },
+    {
+     "text": "In",
+     "start": 12.156,
+     "end": 12.307
+    },
+    {
+     "text": "March,",
+     "start": 12.376,
+     "end": 12.852
+    },
+    {
+     "text": "according",
+     "start": 12.899,
+     "end": 13.305
+    },
+    {
+     "text": "to",
+     "start": 13.351,
+     "end": 13.409
+    },
+    {
+     "text": "CNBC,",
+     "start": 13.479,
+     "end": 14.489
+    },
+    {
+     "text": "Blue",
+     "start": 14.64,
+     "end": 14.965
+    },
+    {
+     "text": "Origin",
+     "start": 15.023,
+     "end": 15.453
+    },
+    {
+     "text": "asked",
+     "start": 15.534,
+     "end": 15.824
+    },
+    {
+     "text": "for",
+     "start": 15.859,
+     "end": 15.987
+    },
+    {
+     "text": "up",
+     "start": 16.045,
+     "end": 16.138
+    },
+    {
+     "text": "to",
+     "start": 16.207,
+     "end": 16.312
+    },
+    {
+     "text": "fifty-one",
+     "start": 16.428,
+     "end": 17.171
+    },
+    {
+     "text": "thousand",
+     "start": 17.229,
+     "end": 17.693
+    },
+    {
+     "text": "six",
+     "start": 17.775,
+     "end": 18.042
+    },
+    {
+     "text": "hundred",
+     "start": 18.1,
+     "end": 18.46
+    },
+    {
+     "text": "satellites.",
+     "start": 18.518,
+     "end": 19.354
+    },
+    {
+     "text": "Google",
+     "start": 19.737,
+     "end": 20.178
+    },
+    {
+     "text": "put",
+     "start": 20.213,
+     "end": 20.364
+    },
+    {
+     "text": "its",
+     "start": 20.399,
+     "end": 20.515
+    },
+    {
+     "text": "first",
+     "start": 20.573,
+     "end": 20.886
+    },
+    {
+     "text": "AI",
+     "start": 20.956,
+     "end": 21.316
+    },
+    {
+     "text": "chips",
+     "start": 21.385,
+     "end": 21.722
+    },
+    {
+     "text": "in",
+     "start": 21.78,
+     "end": 21.861
+    },
+    {
+     "text": "space",
+     "start": 21.931,
+     "end": 22.337
+    },
+    {
+     "text": "in",
+     "start": 22.384,
+     "end": 22.454
+    },
+    {
+     "text": "October,",
+     "start": 22.512,
+     "end": 23.115
+    },
+    {
+     "text": "and",
+     "start": 23.324,
+     "end": 23.498
+    },
+    {
+     "text": "plans",
+     "start": 23.568,
+     "end": 24.009
+    },
+    {
+     "text": "two",
+     "start": 24.079,
+     "end": 24.334
+    },
+    {
+     "text": "prototypes",
+     "start": 24.45,
+     "end": 25.112
+    },
+    {
+     "text": "with",
+     "start": 25.159,
+     "end": 25.321
+    },
+    {
+     "text": "Planet",
+     "start": 25.368,
+     "end": 25.762
+    },
+    {
+     "text": "by",
+     "start": 25.844,
+     "end": 26.053
+    },
+    {
+     "text": "early",
+     "start": 26.134,
+     "end": 26.436
+    },
+    {
+     "text": "twenty",
+     "start": 26.505,
+     "end": 26.796
+    },
+    {
+     "text": "twenty-seven.",
+     "start": 26.842,
+     "end": 27.91
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "And SpaceX has public money behind it now. Its June IPO raised a record seventy-five billion dollars, valuing the company at about one point eight trillion.",
+   "facts": [
+    "f20"
+   ],
+   "props": {
+    "value": 75,
+    "prefix": "$",
+    "suffix": "B",
+    "decimals": 0,
+    "label": "Raised in SpaceX's June IPO, a record",
+    "tone": "up",
+    "note": "Valued at about $1.77 trillion at pricing"
+   },
+   "audio": "episodes/spacex-starmind/audio/b9ec8de530ebf928.mp3",
+   "startFrame": 16613,
+   "durationInFrames": 385,
+   "words": [
+    {
+     "text": "And",
+     "start": 0,
+     "end": 0.209
+    },
+    {
+     "text": "SpaceX",
+     "start": 0.29,
+     "end": 1.01
+    },
+    {
+     "text": "has",
+     "start": 1.126,
+     "end": 1.358
+    },
+    {
+     "text": "public",
+     "start": 1.451,
+     "end": 1.834
+    },
+    {
+     "text": "money",
+     "start": 1.916,
+     "end": 2.183
+    },
+    {
+     "text": "behind",
+     "start": 2.264,
+     "end": 2.589
+    },
+    {
+     "text": "it",
+     "start": 2.67,
+     "end": 2.752
+    },
+    {
+     "text": "now.",
+     "start": 2.81,
+     "end": 3.228
+    },
+    {
+     "text": "Its",
+     "start": 3.553,
+     "end": 3.796
+    },
+    {
+     "text": "June",
+     "start": 3.947,
+     "end": 4.354
+    },
+    {
+     "text": "IPO",
+     "start": 4.4,
+     "end": 5.027
+    },
+    {
+     "text": "raised",
+     "start": 5.178,
+     "end": 5.526
+    },
+    {
+     "text": "a",
+     "start": 5.584,
+     "end": 5.608
+    },
+    {
+     "text": "record",
+     "start": 5.7,
+     "end": 6.06
+    },
+    {
+     "text": "seventy-five",
+     "start": 6.304,
+     "end": 7.129
+    },
+    {
+     "text": "billion",
+     "start": 7.187,
+     "end": 7.605
+    },
+    {
+     "text": "dollars,",
+     "start": 7.674,
+     "end": 8.348
+    },
+    {
+     "text": "valuing",
+     "start": 8.626,
+     "end": 9.242
+    },
+    {
+     "text": "the",
+     "start": 9.3,
+     "end": 9.381
+    },
+    {
+     "text": "company",
+     "start": 9.427,
+     "end": 9.799
+    },
+    {
+     "text": "at",
+     "start": 9.857,
+     "end": 9.927
+    },
+    {
+     "text": "about",
+     "start": 9.973,
+     "end": 10.228
+    },
+    {
+     "text": "one",
+     "start": 10.344,
+     "end": 10.623
+    },
+    {
+     "text": "point",
+     "start": 10.693,
+     "end": 10.96
+    },
+    {
+     "text": "eight",
+     "start": 11.041,
+     "end": 11.285
+    },
+    {
+     "text": "trillion.",
+     "start": 11.32,
+     "end": 12.353
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "But the same prospectus is candid about the risk. It warns that orbital AI compute involves",
+   "facts": [
+    "f19"
+   ],
+   "props": {
+    "text": "Unproven technologies or technologies that do not exist, and such initiatives may not achieve commercial viability.",
+    "author": "SpaceX",
+    "role": "IPO prospectus, risk factors"
+   },
+   "audio": "episodes/spacex-starmind/audio/6d57d12450e05d79.mp3",
+   "startFrame": 16998,
+   "durationInFrames": 208,
+   "words": [
+    {
+     "text": "But",
+     "start": 0,
+     "end": 0.174
+    },
+    {
+     "text": "the",
+     "start": 0.209,
+     "end": 0.279
+    },
+    {
+     "text": "same",
+     "start": 0.337,
+     "end": 0.615
+    },
+    {
+     "text": "prospectus",
+     "start": 0.65,
+     "end": 1.265
+    },
+    {
+     "text": "is",
+     "start": 1.335,
+     "end": 1.44
+    },
+    {
+     "text": "candid",
+     "start": 1.533,
+     "end": 1.997
+    },
+    {
+     "text": "about",
+     "start": 2.032,
+     "end": 2.252
+    },
+    {
+     "text": "the",
+     "start": 2.287,
+     "end": 2.357
+    },
+    {
+     "text": "risk.",
+     "start": 2.426,
+     "end": 2.937
+    },
+    {
+     "text": "It",
+     "start": 3.146,
+     "end": 3.297
+    },
+    {
+     "text": "warns",
+     "start": 3.355,
+     "end": 3.727
+    },
+    {
+     "text": "that",
+     "start": 3.785,
+     "end": 3.913
+    },
+    {
+     "text": "orbital",
+     "start": 3.971,
+     "end": 4.354
+    },
+    {
+     "text": "AI",
+     "start": 4.423,
+     "end": 4.748
+    },
+    {
+     "text": "compute",
+     "start": 4.818,
+     "end": 5.283
+    },
+    {
+     "text": "involves",
+     "start": 5.341,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "So what should you watch for next?",
+   "facts": [],
+   "chapter": "What to watch",
+   "props": {
+    "number": 8,
+    "title": "What to watch"
+   },
+   "audio": "episodes/spacex-starmind/audio/b47445033a3227f0.mp3",
+   "startFrame": 17206,
+   "durationInFrames": 113,
+   "words": [
+    {
+     "text": "So",
+     "start": 0,
+     "end": 0.279
+    },
+    {
+     "text": "what",
+     "start": 0.337,
+     "end": 0.511
+    },
+    {
+     "text": "should",
+     "start": 0.557,
+     "end": 0.778
+    },
+    {
+     "text": "you",
+     "start": 0.824,
+     "end": 0.929
+    },
+    {
+     "text": "watch",
+     "start": 1.01,
+     "end": 1.277
+    },
+    {
+     "text": "for",
+     "start": 1.335,
+     "end": 1.544
+    },
+    {
+     "text": "next?",
+     "start": 1.637,
+     "end": 2.926
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Four things. First, whether Starship becomes fully reusable, because SpaceX itself says the economics depend on it. Second, the twenty twenty-eight target for the first compute satellites. Third, the disposal plan for satellites above six hundred kilometres, which still needs FCC approval. And fourth, the hard deadline: a hundred thousand satellites by twenty thirty-five, or the licence is void.",
+   "facts": [
+    "f36",
+    "f18",
+    "f6",
+    "f4"
+   ],
+   "props": {
+    "title": "What to watch",
+    "items": [
+     "Starship reaching full reusability",
+     "First compute satellites: 2028 target",
+     "Disposal plan above 600 km",
+     "10% of the fleet by November 2035"
+    ]
+   },
+   "audio": "episodes/spacex-starmind/audio/b0986e8a04b55aa2.mp3",
+   "startFrame": 17319,
+   "durationInFrames": 915,
+   "words": [
+    {
+     "text": "Four",
+     "start": 0,
+     "end": 0.453
+    },
+    {
+     "text": "things.",
+     "start": 0.627,
+     "end": 1.254
+    },
+    {
+     "text": "First,",
+     "start": 1.498,
+     "end": 2.009
+    },
+    {
+     "text": "whether",
+     "start": 2.125,
+     "end": 2.438
+    },
+    {
+     "text": "Starship",
+     "start": 2.519,
+     "end": 3.077
+    },
+    {
+     "text": "becomes",
+     "start": 3.146,
+     "end": 3.657
+    },
+    {
+     "text": "fully",
+     "start": 3.831,
+     "end": 4.203
+    },
+    {
+     "text": "reusable,",
+     "start": 4.296,
+     "end": 5.166
+    },
+    {
+     "text": "because",
+     "start": 5.317,
+     "end": 5.642
+    },
+    {
+     "text": "SpaceX",
+     "start": 5.677,
+     "end": 6.304
+    },
+    {
+     "text": "itself",
+     "start": 6.513,
+     "end": 7.117
+    },
+    {
+     "text": "says",
+     "start": 7.361,
+     "end": 7.686
+    },
+    {
+     "text": "the",
+     "start": 7.755,
+     "end": 7.837
+    },
+    {
+     "text": "economics",
+     "start": 7.918,
+     "end": 8.615
+    },
+    {
+     "text": "depend",
+     "start": 8.731,
+     "end": 9.137
+    },
+    {
+     "text": "on",
+     "start": 9.207,
+     "end": 9.311
+    },
+    {
+     "text": "it.",
+     "start": 9.358,
+     "end": 9.648
+    },
+    {
+     "text": "Second,",
+     "start": 9.973,
+     "end": 10.53
+    },
+    {
+     "text": "the",
+     "start": 10.739,
+     "end": 10.855
+    },
+    {
+     "text": "twenty",
+     "start": 10.913,
+     "end": 11.215
+    },
+    {
+     "text": "twenty-eight",
+     "start": 11.273,
+     "end": 11.773
+    },
+    {
+     "text": "target",
+     "start": 11.807,
+     "end": 12.19
+    },
+    {
+     "text": "for",
+     "start": 12.249,
+     "end": 12.376
+    },
+    {
+     "text": "the",
+     "start": 12.423,
+     "end": 12.492
+    },
+    {
+     "text": "first",
+     "start": 12.574,
+     "end": 12.91
+    },
+    {
+     "text": "compute",
+     "start": 12.992,
+     "end": 13.421
+    },
+    {
+     "text": "satellites.",
+     "start": 13.468,
+     "end": 14.315
+    },
+    {
+     "text": "Third,",
+     "start": 14.594,
+     "end": 15.174
+    },
+    {
+     "text": "the",
+     "start": 15.418,
+     "end": 15.534
+    },
+    {
+     "text": "disposal",
+     "start": 15.604,
+     "end": 16.207
+    },
+    {
+     "text": "plan",
+     "start": 16.265,
+     "end": 16.567
+    },
+    {
+     "text": "for",
+     "start": 16.637,
+     "end": 16.753
+    },
+    {
+     "text": "satellites",
+     "start": 16.8,
+     "end": 17.334
+    },
+    {
+     "text": "above",
+     "start": 17.392,
+     "end": 17.67
+    },
+    {
+     "text": "six",
+     "start": 17.728,
+     "end": 17.984
+    },
+    {
+     "text": "hundred",
+     "start": 18.042,
+     "end": 18.355
+    },
+    {
+     "text": "kilometres,",
+     "start": 18.402,
+     "end": 18.994
+    },
+    {
+     "text": "which",
+     "start": 19.017,
+     "end": 19.214
+    },
+    {
+     "text": "still",
+     "start": 19.272,
+     "end": 19.551
+    },
+    {
+     "text": "needs",
+     "start": 19.621,
+     "end": 19.992
+    },
+    {
+     "text": "FCC",
+     "start": 20.375,
+     "end": 21.084
+    },
+    {
+     "text": "approval.",
+     "start": 21.235,
+     "end": 21.85
+    },
+    {
+     "text": "And",
+     "start": 22.024,
+     "end": 22.187
+    },
+    {
+     "text": "fourth,",
+     "start": 22.268,
+     "end": 22.767
+    },
+    {
+     "text": "the",
+     "start": 22.976,
+     "end": 23.081
+    },
+    {
+     "text": "hard",
+     "start": 23.15,
+     "end": 23.406
+    },
+    {
+     "text": "deadline:",
+     "start": 23.475,
+     "end": 24.125
+    },
+    {
+     "text": "a",
+     "start": 24.404,
+     "end": 24.474
+    },
+    {
+     "text": "hundred",
+     "start": 24.59,
+     "end": 24.95
+    },
+    {
+     "text": "thousand",
+     "start": 24.996,
+     "end": 25.426
+    },
+    {
+     "text": "satellites",
+     "start": 25.495,
+     "end": 26.053
+    },
+    {
+     "text": "by",
+     "start": 26.111,
+     "end": 26.262
+    },
+    {
+     "text": "twenty",
+     "start": 26.331,
+     "end": 26.598
+    },
+    {
+     "text": "thirty-five,",
+     "start": 26.656,
+     "end": 27.516
+    },
+    {
+     "text": "or",
+     "start": 27.841,
+     "end": 28.108
+    },
+    {
+     "text": "the",
+     "start": 28.224,
+     "end": 28.317
+    },
+    {
+     "text": "licence",
+     "start": 28.386,
+     "end": 28.839
+    },
+    {
+     "text": "is",
+     "start": 28.874,
+     "end": 28.967
+    },
+    {
+     "text": "void.",
+     "start": 29.048,
+     "end": 30
+    }
+   ]
+  },
+  {
+   "type": "outro",
+   "narration": "A million data centers in the sky is either the next great infrastructure build, or the most expensive way ever devised to cool a computer. The deadlines will tell us which. Subscribe so you don't miss the next one.",
+   "facts": [],
+   "props": {
+    "title": "Watch the deadlines",
+    "cta": "Subscribe for business and tech explainers"
+   },
+   "audio": "episodes/spacex-starmind/audio/1b3b7cfa073a927a.mp3",
+   "startFrame": 18234,
+   "durationInFrames": 476,
+   "words": [
+    {
+     "text": "A",
+     "start": 0,
+     "end": 0.128
+    },
+    {
+     "text": "million",
+     "start": 0.244,
+     "end": 0.65
+    },
+    {
+     "text": "data",
+     "start": 0.731,
+     "end": 0.987
+    },
+    {
+     "text": "centers",
+     "start": 1.045,
+     "end": 1.37
+    },
+    {
+     "text": "in",
+     "start": 1.428,
+     "end": 1.498
+    },
+    {
+     "text": "the",
+     "start": 1.544,
+     "end": 1.614
+    },
+    {
+     "text": "sky",
+     "start": 1.649,
+     "end": 2.113
+    },
+    {
+     "text": "is",
+     "start": 2.229,
+     "end": 2.403
+    },
+    {
+     "text": "either",
+     "start": 2.473,
+     "end": 2.705
+    },
+    {
+     "text": "the",
+     "start": 2.775,
+     "end": 2.856
+    },
+    {
+     "text": "next",
+     "start": 2.926,
+     "end": 3.193
+    },
+    {
+     "text": "great",
+     "start": 3.309,
+     "end": 3.564
+    },
+    {
+     "text": "infrastructure",
+     "start": 3.634,
+     "end": 4.354
+    },
+    {
+     "text": "build,",
+     "start": 4.389,
+     "end": 4.818
+    },
+    {
+     "text": "or",
+     "start": 5.027,
+     "end": 5.155
+    },
+    {
+     "text": "the",
+     "start": 5.213,
+     "end": 5.283
+    },
+    {
+     "text": "most",
+     "start": 5.352,
+     "end": 5.584
+    },
+    {
+     "text": "expensive",
+     "start": 5.654,
+     "end": 6.339
+    },
+    {
+     "text": "way",
+     "start": 6.385,
+     "end": 6.641
+    },
+    {
+     "text": "ever",
+     "start": 6.757,
+     "end": 6.966
+    },
+    {
+     "text": "devised",
+     "start": 7.036,
+     "end": 7.558
+    },
+    {
+     "text": "to",
+     "start": 7.605,
+     "end": 7.674
+    },
+    {
+     "text": "cool",
+     "start": 7.755,
+     "end": 8.115
+    },
+    {
+     "text": "a",
+     "start": 8.231,
+     "end": 8.278
+    },
+    {
+     "text": "computer.",
+     "start": 8.359,
+     "end": 8.986
+    },
+    {
+     "text": "The",
+     "start": 9.497,
+     "end": 9.613
+    },
+    {
+     "text": "deadlines",
+     "start": 9.683,
+     "end": 10.24
+    },
+    {
+     "text": "will",
+     "start": 10.298,
+     "end": 10.472
+    },
+    {
+     "text": "tell",
+     "start": 10.519,
+     "end": 10.681
+    },
+    {
+     "text": "us",
+     "start": 10.751,
+     "end": 10.855
+    },
+    {
+     "text": "which.",
+     "start": 10.913,
+     "end": 11.424
+    },
+    {
+     "text": "Subscribe",
+     "start": 11.668,
+     "end": 12.434
+    },
+    {
+     "text": "so",
+     "start": 12.469,
+     "end": 12.574
+    },
+    {
+     "text": "you",
+     "start": 12.655,
+     "end": 12.736
+    },
+    {
+     "text": "don't",
+     "start": 12.806,
+     "end": 13.003
+    },
+    {
+     "text": "miss",
+     "start": 13.061,
+     "end": 13.305
+    },
+    {
+     "text": "the",
+     "start": 13.363,
+     "end": 13.444
+    },
+    {
+     "text": "next",
+     "start": 13.514,
+     "end": 13.735
+    },
+    {
+     "text": "one.",
+     "start": 13.816,
+     "end": 14.303
+    }
+   ]
+  }
+ ]
+}
