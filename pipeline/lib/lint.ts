@@ -60,7 +60,7 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
   // Thumbnails make the strongest claim in the video: their numbers must exist in the research.
   const allClaims = research.facts.map((f) => f.claim).join(" ");
   script.thumbnail.forEach((t, i) => {
-    for (const num of [t.top, t.big, t.bottom ?? ""].join(" ").match(/\d+(?:[.,]\d+)?/g) ?? [])
+    for (const num of [t.top, t.big, t.bottom ?? ""].join(" ").match(/\d[\d,]*(?:\.\d+)?/g) ?? [])
       if (!containsNumber(allClaims, num)) issues.warn(`thumbnail ${i + 1}`, `number "${num}" does not appear in any fact; is the thumbnail accurate?`);
   });
   for (const [k, v] of texts)

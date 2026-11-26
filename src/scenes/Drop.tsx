@@ -12,6 +12,9 @@ export const Drop: React.FC<{ scene: SceneOf<"drop"> }> = ({ scene }) => {
   const draw = useProgress(10, 50);
   const e = useEnter(45);
   const W = 1100, H = 400;
+  // Whole numbers read cleaner without ".0"; long values shrink so they never run off the frame.
+  const label = formatPct(pct, Number.isInteger(pct) ? 0 : 1);
+  const fontSize = Math.min(190, Math.floor((190 * 5) / label.length));
   const y0 = down ? 40 : H - 40, y1 = down ? H - 40 : 40;
   const x = 40 + (W - 80) * draw, y = y0 + (y1 - y0) * draw;
   return (
@@ -25,7 +28,7 @@ export const Drop: React.FC<{ scene: SceneOf<"drop"> }> = ({ scene }) => {
           <text x={40} y={down ? y0 - 30 : y0 + 50} fill={C.dim} fontFamily={body} fontSize={30} fontWeight={600}>{fromLabel}</text>
           <text x={W - 40} y={down ? y1 + 55 : y1 - 30} fill={C.dim} fontFamily={body} fontSize={30} fontWeight={600} textAnchor="end" opacity={e}>{toLabel}</text>
         </svg>
-        <div style={{ fontFamily: display, fontSize: 190, color, opacity: e, transform: `scale(${0.8 + e * 0.2})` }}>{formatPct(pct)}</div>
+        <div style={{ fontFamily: display, fontSize, whiteSpace: "nowrap", color, opacity: e, transform: `scale(${0.8 + e * 0.2})` }}>{label}</div>
       </div>
       {note ? <div style={{ fontFamily: body, fontSize: 34, color: C.text, marginTop: 30, opacity: e }}>{note}</div> : null}
       <SourceNote>{source}</SourceNote>

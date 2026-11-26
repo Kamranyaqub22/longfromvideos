@@ -119,6 +119,13 @@ test("thumbnail numbers not in the research warn", () => {
   assert.match(msgs(lint(script, research), "warn"), /thumbnail 1.*number "12"|number "12" does not appear/);
 });
 
+test("thumbnail numbers with several thousands separators are read whole", () => {
+  const { script, research } = fixture();
+  research.facts[0].claim += " It sold 1,000,000 units.";
+  script.thumbnail = [{ layout: "number", top: "Units", big: "1,000,000", tone: "up" }];
+  assert.doesNotMatch(msgs(lint(script, research), "warn"), /thumbnail 1/);
+});
+
 test("unknown map countries are errors, with suggestions", () => {
   const { script, research } = fixture();
   const m = sceneOf(script, "map");

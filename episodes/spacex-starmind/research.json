@@ -7,10 +7,26 @@
       "claim": "On November 25, 2026 the FCC granted SpaceX authority for 'Starmind', a constellation of up to 1,000,000 satellites operating as data centers in space; the FCC chairman Brendan Carr called it a historic first.",
       "status": "verified",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" },
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" },
-        { "outlet": "CBS News", "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/", "date": "2026-11-25" },
-        { "outlet": "New Atlas", "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "CBS News",
+          "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "New Atlas",
+          "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "The order was issued by the Chief of the Space Bureau (delegated authority), adopted and released Nov 25, 2026, the day before Thanksgiving."
     },
@@ -19,8 +35,16 @@
       "claim": "The grant puts Starmind in orbital shells 50 km thick at altitudes from 500 to 1,002 km, in 30-degree and sun-synchronous (near-polar) inclinations.",
       "status": "verified",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" },
-        { "outlet": "New Atlas", "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "New Atlas",
+          "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -28,7 +52,11 @@
       "claim": "SpaceX's January application proposed shells about 50 km thick at altitudes between 500 km and 2,000 km.",
       "status": "single-source",
       "sources": [
-        { "outlet": "SatNews", "url": "https://satnews.com/2026/01/31/spacex-files-fcc-application-for-million-satellite-orbital-data-center/", "date": "2026-01-31" }
+        {
+          "outlet": "SatNews",
+          "url": "https://satnews.com/2026/01/31/spacex-files-fcc-application-for-million-satellite-orbital-data-center/",
+          "date": "2026-01-31"
+        }
       ],
       "notes": "Trade press only. Safer phrasing: 'SpaceX had asked to go as high as 2,000 km, according to SatNews'. Or leave out."
     },
@@ -37,9 +65,21 @@
       "claim": "Under the FCC order the authorization becomes null and void unless SpaceX deploys and operates one satellite by Nov 25, 2033; 10% of the maximum authorized number by Nov 25, 2035; 50% by Nov 25, 2038; and the rest by Nov 25, 2040.",
       "status": "verified",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" },
-        { "outlet": "CNN via KSL", "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space", "date": "2026-11-26" },
-        { "outlet": "New Atlas", "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "CNN via KSL",
+          "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space",
+          "date": "2026-11-26"
+        },
+        {
+          "outlet": "New Atlas",
+          "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "10% of 1,000,000 = 100,000 by 2035 (CNN states the 100,000 figure). Some early reports said full deployment was not specified; the order says 2040."
     },
@@ -48,7 +88,11 @@
       "claim": "Formally, the FCC grant covers radio frequencies for backup and emergency telemetry, tracking and command (18.8-19.3 GHz down, 28.6-29.1 GHz up) for the 1,000,000-satellite constellation; the FCC licenses radio use, not the computing itself.",
       "status": "single-source",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "Primary document. Attribute: 'the FCC's order itself says...'. CBS also reports the satellites will do telemetry, tracking and command and connect with Starlink."
     },
@@ -57,15 +101,23 @@
       "claim": "The FCC deferred SpaceX's request to dispose of satellites operating above 600 km into Earth disposal or heliocentric orbits instead of atmospheric re-entry; SpaceX must file a modification before flying any satellite that will not re-enter.",
       "status": "single-source",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
       "id": "f7",
-      "claim": "The FCC also waived its surety bond rules and its processing-round rules for Starmind; the licence term is 15 years from the first satellite in operation.",
+      "claim": "The FCC waived its surety bond rules and its processing-round rules for Starmind, requires twice-yearly reports on collision-avoidance events, re-entries and deployed satellites, and set a 15-year licence term from the first satellite in operation.",
       "status": "single-source",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -73,8 +125,16 @@
       "claim": "Petitions to deny the application were filed on March 6, 2026 by Amazon's Kuiper Systems (Amazon Leo), Viasat and the American Astronomical Society.",
       "status": "verified",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" },
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -82,8 +142,16 @@
       "claim": "The FCC dismissed concerns over which it said it has no authority, including environmental concerns and potential impacts on optical astronomy.",
       "status": "verified",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" },
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -91,7 +159,11 @@
       "claim": "In its March petition Amazon called Starmind a 'lofty ambition rather than a real plan' and said it would take SpaceX 'centuries' to build it. Amazon declined to comment on the approval.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" }
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "Attribute to Amazon's filing as reported by CNBC. Note Amazon is a competitor (Amazon Leo); say so."
     },
@@ -100,7 +172,11 @@
       "claim": "The American Astronomical Society said it was 'dismayed' by the decision, warning the satellites would appear as 'extremely bright objects for longer periods in the night sky' and threaten sensitive research instruments.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNN via KSL", "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space", "date": "2026-11-26" }
+        {
+          "outlet": "CNN via KSL",
+          "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space",
+          "date": "2026-11-26"
+        }
       ]
     },
     {
@@ -108,7 +184,11 @@
       "claim": "FCC Chairman Brendan Carr said: 'This action opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth.'",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNN via KSL", "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space", "date": "2026-11-26" }
+        {
+          "outlet": "CNN via KSL",
+          "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space",
+          "date": "2026-11-26"
+        }
       ]
     },
     {
@@ -116,8 +196,16 @@
       "claim": "Elon Musk replied on X: 'Much appreciated. This will be a great asset to America and the world.'",
       "status": "verified",
       "sources": [
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" },
-        { "outlet": "CBS News", "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/", "date": "2026-11-25" }
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "CBS News",
+          "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -125,7 +213,11 @@
       "claim": "There are around 16,700 operational satellites in space according to the tracker Orbital Radar; the European Space Agency puts the figure at 15,800.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNN via KSL", "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space", "date": "2026-11-26" }
+        {
+          "outlet": "CNN via KSL",
+          "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space",
+          "date": "2026-11-26"
+        }
       ],
       "notes": "Counts differ by tracker. Narration: 'roughly 16,000 to 17,000 working satellites, depending on who's counting'. On screen use 16,700 with 'Orbital Radar, via CNN'. 1,000,000 is ~60x that."
     },
@@ -134,16 +226,33 @@
       "claim": "SpaceX filed the Starmind application on January 30, 2026; the FCC accepted it for filing and put it on public notice on February 4, 2026.",
       "status": "verified",
       "sources": [
-        { "outlet": "FCC Space Bureau order DA 26-1273", "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf", "date": "2026-11-25" },
-        { "outlet": "SatNews", "url": "https://satnews.com/2026/01/31/spacex-files-fcc-application-for-million-satellite-orbital-data-center/", "date": "2026-01-31" }
+        {
+          "outlet": "FCC Space Bureau order DA 26-1273",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "date": "2026-11-25"
+        },
+        {
+          "outlet": "SatNews",
+          "url": "https://satnews.com/2026/01/31/spacex-files-fcc-application-for-million-satellite-orbital-data-center/",
+          "date": "2026-01-31"
+        }
       ]
     },
     {
       "id": "f16",
-      "claim": "SpaceX's application said orbital data centers would be a 'first step towards becoming a Kardashev II-level civilization'.",
-      "status": "single-source",
+      "claim": "SpaceX says its long-term goal is to help propel humanity to 'Kardashev Type II' status, a civilisation that harnesses the full energy output of its star; its Starmind application called orbital data centers a first step.",
+      "status": "verified",
       "sources": [
-        { "outlet": "CBS News", "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/", "date": "2026-11-25" }
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        },
+        {
+          "outlet": "CBS News",
+          "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "Kardashev II = a civilisation that harnesses the full energy output of its star. Explain in one line if used."
     },
@@ -152,34 +261,68 @@
       "claim": "SpaceX's application said that by 'directly harnessing near-constant solar power with little operating or maintenance costs' the satellites would achieve 'transformative cost and energy efficiency'.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNN via KSL", "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space", "date": "2026-11-26" }
+        {
+          "outlet": "CNN via KSL",
+          "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space",
+          "date": "2026-11-26"
+        }
       ]
     },
     {
       "id": "f18",
-      "claim": "In its IPO filing SpaceX said it expects to begin deploying orbital AI compute satellites as early as 2028.",
-      "status": "single-source",
+      "claim": "In its IPO prospectus SpaceX said: 'We expect to begin deploying our orbital AI compute satellites as early as 2028.'",
+      "status": "verified",
       "sources": [
-        { "outlet": "CBS News", "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/", "date": "2026-11-25" }
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        },
+        {
+          "outlet": "CBS News",
+          "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
       "id": "f19",
-      "claim": "In a regulatory filing ahead of its IPO, SpaceX cautioned that data centers in space rely on 'unproven' technologies and 'may not achieve commercial viability'.",
-      "status": "single-source",
+      "claim": "SpaceX's prospectus warns that initiatives including orbital AI compute at scale involve 'unproven technologies or technologies that do not exist' and 'may not achieve commercial viability'.",
+      "status": "verified",
       "sources": [
-        { "outlet": "CNN via KSL", "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space", "date": "2026-11-26" }
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        },
+        {
+          "outlet": "CNN via KSL",
+          "url": "https://www.ksl.com/article/51648261/us-authorizes-spacex-to-deploy-1-million-satellites-for-ai-data-centers-in-space",
+          "date": "2026-11-26"
+        }
       ],
-      "notes": "Could be upgraded to verified by quoting the S-1 risk factor directly from SEC EDGAR (sec.gov, CIK 1181412)."
+      "notes": "Verbatim from the S-1/A risk factors summary; CNN reported the same language."
     },
     {
       "id": "f20",
       "claim": "SpaceX's June 2026 IPO raised a record $75 billion at $135 a share, valuing the company at about $1.77 trillion; shares began trading on Nasdaq under the ticker SPCX on June 12, 2026.",
       "status": "verified",
       "sources": [
-        { "outlet": "Renaissance Capital", "url": "https://www.renaissancecapital.com/IPO-Center/News/119775/SpaceX-prices-record-setting-$75-billion-IPO-at-$135-as-expected", "date": "2026-06-11" },
-        { "outlet": "NPR", "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-is-poised-for-blastoff-with-an-ipo-likely-to-break-records", "date": "2026-06-11" },
-        { "outlet": "DealStreetAsia", "url": "https://dealstreetasia.com/stories/musk-spacex-ipo-485300", "date": "2026-06-12" }
+        {
+          "outlet": "Renaissance Capital",
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/119775/SpaceX-prices-record-setting-$75-billion-IPO-at-$135-as-expected",
+          "date": "2026-06-11"
+        },
+        {
+          "outlet": "NPR",
+          "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-is-poised-for-blastoff-with-an-ipo-likely-to-break-records",
+          "date": "2026-06-11"
+        },
+        {
+          "outlet": "DealStreetAsia",
+          "url": "https://dealstreetasia.com/stories/musk-spacex-ipo-485300",
+          "date": "2026-06-12"
+        }
       ],
       "notes": "Read from search summaries; NPR page returned 403 to the fetcher. DealStreetAsia rounds valuation to $1.7t. Say 'about 1.8 trillion dollars' in narration; on screen $75B."
     },
@@ -188,27 +331,50 @@
       "claim": "Each Starmind satellite spans 70 to 75 m when deployed, with a central rack of radiation-hardened compute, a solar array generating up to 250 kW peak and a 110 square-metre double-sided radiator.",
       "status": "single-source",
       "sources": [
-        { "outlet": "New Atlas", "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/", "date": "2026-11-25" }
+        {
+          "outlet": "New Atlas",
+          "url": "https://newatlas.com/space-systems/fcc-greenlight-spacex-million-orbital-data-center-constellation/",
+          "date": "2026-11-25"
+        }
       ],
-      "notes": "Attribute: 'according to New Atlas, citing SpaceX's design'. Don't multiply 250 kW x 1M as a headline number without saying it's peak and theoretical."
+      "notes": "Attribute: 'according to New Atlas, citing SpaceX's design'. Don't multiply 250 kW x 1M as a headline number without saying it's peak and theoretical. The prospectus itself says only that early satellites will generate '100 kilowatts of compute power' in a dawn-dusk sun-synchronous orbit (f37); prefer that."
     },
     {
       "id": "f22",
       "claim": "The IEA estimates data centres used about 415 TWh of electricity in 2024, around 1.5% of global consumption, and projects about 945 TWh by 2030 in its base case, just under 3% of global use.",
       "status": "verified",
       "sources": [
-        { "outlet": "IEA, Energy and AI", "url": "https://www.iea.org/reports/energy-and-ai/executive-summary", "date": "2025-04-10" },
-        { "outlet": "S&P Global", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/041025-global-data-center-power-demand-to-double-by-2030-on-ai-surge-iea", "date": "2025-04-10" },
-        { "outlet": "Scientific American", "url": "https://scientificamerican.com/article/ai-will-drive-doubling-of-data-center-energy-demand-by-2030" }
+        {
+          "outlet": "IEA, Energy and AI",
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "date": "2025-04-10"
+        },
+        {
+          "outlet": "S&P Global",
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/041025-global-data-center-power-demand-to-double-by-2030-on-ai-surge-iea",
+          "date": "2025-04-10"
+        },
+        {
+          "outlet": "Scientific American",
+          "url": "https://scientificamerican.com/article/ai-will-drive-doubling-of-data-center-energy-demand-by-2030"
+        }
       ]
     },
     {
       "id": "f23",
-      "claim": "The IEA projects electricity demand from AI-optimised data centres will more than quadruple by 2030, and that the US and China account for nearly 80% of global growth in data-centre demand to 2030.",
+      "claim": "The IEA projects electricity demand from AI-optimised data centres will more than quadruple (over 4x) by 2030, and that the US and China account for nearly 80% of global growth in data-centre demand to 2030.",
       "status": "verified",
       "sources": [
-        { "outlet": "IEA", "url": "https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works", "date": "2025-04-10" },
-        { "outlet": "S&P Global", "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/041025-global-data-center-power-demand-to-double-by-2030-on-ai-surge-iea", "date": "2025-04-10" }
+        {
+          "outlet": "IEA",
+          "url": "https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works",
+          "date": "2025-04-10"
+        },
+        {
+          "outlet": "S&P Global",
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/041025-global-data-center-power-demand-to-double-by-2030-on-ai-surge-iea",
+          "date": "2025-04-10"
+        }
       ]
     },
     {
@@ -216,7 +382,11 @@
       "claim": "In the 2026 US midterms, voters approved dozens of proposals aimed at restricting data centers.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CBS News", "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/", "date": "2026-11-25" }
+        {
+          "outlet": "CBS News",
+          "url": "https://www.cbsnews.com/news/spacex-fcc-approval-data-centers-space/",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -224,7 +394,11 @@
       "claim": "Google's Project Suncatcher research says that in the right orbit a solar panel can be up to 8 times more productive than on Earth and produce power nearly continuously.",
       "status": "single-source",
       "sources": [
-        { "outlet": "Google Research blog", "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/", "date": "2025-11-04" }
+        {
+          "outlet": "Google Research blog",
+          "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
+          "date": "2025-11-04"
+        }
       ],
       "notes": "Attribute to Google's researchers."
     },
@@ -233,7 +407,11 @@
       "claim": "Google's analysis says launch prices may fall below $200 per kilogram by the mid-2030s, at which point launching and operating a space data center could be roughly comparable to the energy costs of an equivalent data center on Earth.",
       "status": "single-source",
       "sources": [
-        { "outlet": "Google Research blog", "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/", "date": "2025-11-04" }
+        {
+          "outlet": "Google Research blog",
+          "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
+          "date": "2025-11-04"
+        }
       ],
       "notes": "Note the comparison is to ENERGY costs of a ground data centre, per kW-year, not total cost. Say so."
     },
@@ -242,8 +420,16 @@
       "claim": "Google and Planet plan to launch two prototype satellites by early 2027; Google launched its first chips into space in October 2026 on a SpaceX rocket aboard a Planet Labs satellite.",
       "status": "single-source",
       "sources": [
-        { "outlet": "Google Research blog", "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/", "date": "2025-11-04" },
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" }
+        {
+          "outlet": "Google Research blog",
+          "url": "https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/",
+          "date": "2025-11-04"
+        },
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "Each half has one source: plan from Google's blog, October 2026 launch from CNBC."
     },
@@ -252,7 +438,11 @@
       "claim": "Blue Origin petitioned the FCC in March 2026 to launch up to 51,600 satellites in a low-Earth-orbit constellation called Project Sunrise.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" }
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        }
       ]
     },
     {
@@ -260,9 +450,18 @@
       "claim": "Startup Starcloud launched an Nvidia H100 GPU on its Starcloud-1 satellite aboard a SpaceX Falcon 9 in November 2025, and in December 2025 said it had trained a small language model (NanoGPT, on Shakespeare) in orbit.",
       "status": "verified",
       "sources": [
-        { "outlet": "Data Center Frontier", "url": "https://www.datacenterfrontier.com/site-selection/article/55337494/starcloud-launches-orbital-ai-data-center-with-nvidia-h100-gpu" },
-        { "outlet": "IEEE Spectrum", "url": "https://spectrum.ieee.org/nvidia-h100-space" },
-        { "outlet": "GeekWire", "url": "https://www.geekwire.com/2025/starcloud-power-training-ai-space/" }
+        {
+          "outlet": "Data Center Frontier",
+          "url": "https://www.datacenterfrontier.com/site-selection/article/55337494/starcloud-launches-orbital-ai-data-center-with-nvidia-h100-gpu"
+        },
+        {
+          "outlet": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/nvidia-h100-space"
+        },
+        {
+          "outlet": "GeekWire",
+          "url": "https://www.geekwire.com/2025/starcloud-power-training-ai-space/"
+        }
       ],
       "notes": "The training claim is Starcloud's own; say 'Starcloud says'. The real milestone is running a data-centre-class GPU in orbit."
     },
@@ -271,15 +470,23 @@
       "claim": "An IEEE Spectrum analysis by ABI Research's Andrew Cavalier found a 700-watt AI chip held at 60 °C needs about 1.4 square metres of radiator, nearly 2.0 m² after five years of degradation, and that a single rack would need an 80 m² radiator.",
       "status": "single-source",
       "sources": [
-        { "outlet": "IEEE Spectrum", "url": "https://spectrum.ieee.org/orbital-data-centers-heat", "date": "2026-06-11" }
+        {
+          "outlet": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/orbital-data-centers-heat",
+          "date": "2026-06-11"
+        }
       ]
     },
     {
       "id": "f31",
-      "claim": "The same ABI Research model found GPU-year costs in space 'at least an order of magnitude higher' than on the ground, concluding general-purpose space data centers are 'difficult to justify economically today'.",
+      "claim": "The same ABI Research model, which assumed launch at $44 per kg and ground power at $0.20 per kWh, found GPU-year costs in space 'at least an order of magnitude higher' (10x or more) than on the ground, concluding general-purpose space data centers are 'difficult to justify economically today'.",
       "status": "single-source",
       "sources": [
-        { "outlet": "IEEE Spectrum", "url": "https://spectrum.ieee.org/orbital-data-centers-heat", "date": "2026-06-11" }
+        {
+          "outlet": "IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/orbital-data-centers-heat",
+          "date": "2026-06-11"
+        }
       ],
       "notes": "The model assumed launch at $44/kg and terrestrial power at $0.20/kWh, i.e. already generous to space."
     },
@@ -288,9 +495,96 @@
       "claim": "Earthjustice senior attorney Jan Hasselman criticised the FCC for issuing the decision during a holiday week and without the environmental review he said NEPA requires.",
       "status": "single-source",
       "sources": [
-        { "outlet": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html", "date": "2026-11-25" }
+        {
+          "outlet": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "date": "2026-11-25"
+        }
       ],
       "notes": "CNBC paraphrase, not a quote. Don't put words in quotation marks."
+    },
+    {
+      "id": "f33",
+      "claim": "Per NASA figures, Falcon 9's advertised price in 2010 came to about $2,700 per kilogram to low Earth orbit and Falcon Heavy's in 2018 to about $1,400 per kilogram; the Space Shuttle cost about $54,500 per kilogram.",
+      "status": "verified",
+      "sources": [
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        },
+        {
+          "outlet": "NASA (Jones, ICES 2018)",
+          "url": "https://ntrs.nasa.gov/citations/20200001093"
+        },
+        {
+          "outlet": "NASA (Jones, ICES 2019)",
+          "url": "https://ntrs.nasa.gov/citations/20200001091"
+        }
+      ],
+      "notes": "NASA: Falcon 9 $62M / 22,800 kg = $2,720/kg; Falcon Heavy $1.41k/kg; Shuttle $54,500/kg (Jones 2018). These are list prices, not SpaceX's internal cost."
+    },
+    {
+      "id": "f34",
+      "claim": "SpaceX's prospectus puts the historical average launch cost at $18,500 per kilogram (citing NASA) and says Starship aims to cut the cost of reaching orbit by 99% or more relative to that average.",
+      "status": "single-source",
+      "sources": [
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        }
+      ],
+      "notes": "99% off $18,500 is about $185/kg, i.e. in the range Google says makes space compute competitive (f26). Say 'SpaceX says'."
+    },
+    {
+      "id": "f35",
+      "claim": "SpaceX's prospectus states a goal of deploying 100 gigawatts of compute per year to orbit, via satellites carrying over 100 kilowatts of compute per metric ton, which it says needs thousands of launches a year and about one million metric tons to orbit annually.",
+      "status": "single-source",
+      "sources": [
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": "f36",
+      "claim": "SpaceX's prospectus says: 'AI compute satellites at scale need full Starship reusability to be economically compelling.'",
+      "status": "single-source",
+      "sources": [
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": "f37",
+      "claim": "SpaceX plans a constellation in dawn-dusk sun-synchronous orbit for near-constant sunlight, with early satellites generating 100 kilowatts of compute power, cooled by radiating heat into space.",
+      "status": "single-source",
+      "sources": [
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        }
+      ]
+    },
+    {
+      "id": "f38",
+      "claim": "As of March 31, 2026 SpaceX had about 9,600 Starlink satellites in low Earth orbit serving about 10.3 million subscribers in 164 countries, territories and other markets.",
+      "status": "single-source",
+      "sources": [
+        {
+          "outlet": "SpaceX S-1/A prospectus (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "date": "2026-06-03"
+        }
+      ],
+      "notes": "Company's own figures. Attribute: 'SpaceX says'."
     }
   ]
 }
