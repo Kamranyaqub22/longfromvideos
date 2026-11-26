@@ -6,6 +6,8 @@ import { Chapter } from "./Chapter";
 import { Drop } from "./Drop";
 import { Headline } from "./Headline";
 import { Hook } from "./Hook";
+import { LineChart } from "./LineChart";
+import { MapScene } from "./MapScene";
 import { Outro } from "./Outro";
 import { Quote } from "./Quote";
 import { TimelineScene } from "./TimelineScene";
@@ -23,6 +25,8 @@ export const SceneView: React.FC<{ scene: Scene }> = ({ scene }) => {
     case "bullets": return <Bullets scene={scene} />;
     case "chapter": return <Chapter scene={scene} />;
     case "outro": return <Outro scene={scene} />;
+    case "map": return <MapScene scene={scene} />;
+    case "linechart": return <LineChart scene={scene} />;
     default: {
       const never: never = scene;
       throw new Error(`Unknown scene type: ${JSON.stringify(never)}`);

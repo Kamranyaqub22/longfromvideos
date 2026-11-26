@@ -16,7 +16,7 @@ const calculateMetadata: CalculateMetadataFunction<EpisodeProps> = async ({ prop
   };
 };
 
-const thumbDefaults: ThumbnailProps = { top: "Thumbnail", big: "PREVIEW", bottom: "edit in script.json", tone: "accent" };
+const thumbDefaults: ThumbnailProps = { layout: "number", top: "Thumbnail", big: "PREVIEW", bottom: "edit in script.json", tone: "accent" };
 
 export const Root: React.FC = () => (
   <>

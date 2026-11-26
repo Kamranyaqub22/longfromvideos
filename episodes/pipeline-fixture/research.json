@@ -2,11 +2,76 @@
   "topic": "Pipeline test fixture: invented company data used only to test rendering",
   "researchedAt": "2026-11-26",
   "facts": [
-    { "id": "f1", "claim": "Example Corp shares fell 18.5% from a peak of 120 dollars to 97.80 dollars.", "status": "verified",
-      "sources": [ { "outlet": "Fixture Wire", "url": "https://example.com/wire" }, { "outlet": "Fixture Times", "url": "https://example.org/times" } ] },
-    { "id": "f2", "claim": "Example Corp plans 730 billion in spending, up from 410 billion the year before.", "status": "verified",
-      "sources": [ { "outlet": "Fixture Wire", "url": "https://example.com/wire2" }, { "outlet": "Fixture Ledger", "url": "https://example.net/ledger" } ] },
-    { "id": "f3", "claim": "The Example Corp chief executive said the company is building for the next decade.", "status": "single-source",
-      "sources": [ { "outlet": "Fixture Times", "url": "https://example.org/times2" } ] }
+    {
+      "id": "f1",
+      "claim": "Example Corp shares fell 18.5% from a peak of 120 dollars to 97.80 dollars.",
+      "status": "verified",
+      "sources": [
+        {
+          "outlet": "Fixture Wire",
+          "url": "https://example.com/wire"
+        },
+        {
+          "outlet": "Fixture Times",
+          "url": "https://example.org/times"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "claim": "Example Corp plans 730 billion in spending, up from 410 billion the year before.",
+      "status": "verified",
+      "sources": [
+        {
+          "outlet": "Fixture Wire",
+          "url": "https://example.com/wire2"
+        },
+        {
+          "outlet": "Fixture Ledger",
+          "url": "https://example.net/ledger"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "claim": "The Example Corp chief executive said the company is building for the next decade.",
+      "status": "single-source",
+      "sources": [
+        {
+          "outlet": "Fixture Times",
+          "url": "https://example.org/times2"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "claim": "Example Corp shares went from 100 dollars to 97.80 dollars over twelve test months, peaking at 120.",
+      "status": "verified",
+      "sources": [
+        {
+          "outlet": "Fixture Wire",
+          "url": "https://example.com/wire3"
+        },
+        {
+          "outlet": "Fixture Ledger",
+          "url": "https://example.net/ledger2"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "claim": "Example Corp ships parts from Taiwan and South Korea to the United States, and from Singapore to France.",
+      "status": "verified",
+      "sources": [
+        {
+          "outlet": "Fixture Wire",
+          "url": "https://example.com/wire4"
+        },
+        {
+          "outlet": "Fixture Times",
+          "url": "https://example.org/times3"
+        }
+      ]
+    }
   ]
 }

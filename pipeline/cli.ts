@@ -18,7 +18,7 @@ import { lintEpisode } from "./lib/lint";
 import { loadEpisode } from "./lib/load";
 import { paths } from "./lib/paths";
 import { qcEpisode } from "./lib/qc";
-import { master, renderEpisode, renderSceneStills, renderThumbnail } from "./lib/render";
+import { master, renderEpisode, renderSceneStills, renderThumbnails } from "./lib/render";
 import { buildTimeline, checkTimeline } from "./lib/timeline";
 import { planVoice, voiceEpisode } from "./lib/voice";
 
@@ -84,8 +84,8 @@ async function render(slug: string) {
   await renderEpisode(slug, t);
   console.log("render: mastering audio to -14 LUFS…");
   await master(slug);
-  console.log("render: thumbnail…");
-  await renderThumbnail(slug, script.thumbnail);
+  console.log(`render: ${script.thumbnail.length} thumbnail variant(s)…`);
+  await renderThumbnails(slug, script.thumbnail);
   const description = buildDescription(script, research, t);
   writeFileSync(p.description, description);
   writeFileSync(p.upload, JSON.stringify(buildUploadMeta(script, description), null, 2));
@@ -95,7 +95,7 @@ async function render(slug: string) {
 async function qc(slug: string, allowMock: boolean) {
   const { script } = check(slug);
   const t = loadTimeline(slug, script);
-  const { issues, report } = await qcEpisode(slug, t, allowMock);
+  const { issues, report } = await qcEpisode(slug, t, allowMock, script.thumbnail.length);
   writeFileSync(paths(slug).qcReport, JSON.stringify(report, null, 2));
   fail(issues, "qc");
   console.log("qc: PASS");

@@ -4,6 +4,8 @@ Faceless long-form YouTube explainers on business, economy and tech, made with C
 
 ![Scene templates](docs/scene-templates.jpg)
 
+![Thumbnail variants](docs/thumbnail-variants.jpg)
+
 Claude researches a story and writes two files: a **fact ledger** (`research.json`) and a **script**
 (`script.json`). The pipeline turns them into a finished video, thumbnail and description, and checks everything
 along the way.
@@ -30,7 +32,7 @@ npm run studio                          # Remotion Studio to preview scenes
 npm run verify                          # typecheck + tests + mock build of the test fixture
 ```
 
-Output lands in `out/<slug>/`: `video.mp4`, `thumbnail.png`, `description.txt`, `upload.json`, `qc-report.json`, `stills/`.
+Output lands in `out/<slug>/`: `video.mp4`, `thumbnail.png` (+ `thumbnail-2/3.png` variants), `description.txt`, `upload.json`, `qc-report.json`, `stills/`.
 
 ## Requirements
 

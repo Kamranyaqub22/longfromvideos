@@ -62,9 +62,23 @@ test("description has chapters from 00:00, only cited sources, disclaimer, no an
   const t = buildTimeline(script, script.scenes.map((s) => mockWords(s.narration)), true, "h");
   const d = buildDescription(script, research, t);
   assert.match(d, /Chapters:\n00:00 Intro/);
-  assert.equal(chaptersFromTimeline(t).length, 3); // Intro, The spending, What to watch
+  assert.deepEqual(chaptersFromTimeline(t).map((c) => c.title), ["Intro", "The spending", "Supply chain", "What to watch"]);
   assert.match(d, /example\.org\/times2/);
   assert.match(d, /not financial or investment advice/);
   assert.doesNotMatch(d, /[<>]/);
   assert.ok(d.length <= 5000);
+});
+
+test("map geography: mainland framing, centring and anchors", async () => {
+  const { anchor, centreLongitude, getCountry, mainland } = await import("../src/lib/geo");
+  const { geoBounds } = await import("d3-geo");
+  // France's mainland excludes French Guiana (lon ≈ -53).
+  const [[west]] = geoBounds(mainland(getCountry("France")));
+  assert.ok(west > -10, `France mainland west edge ${west}`);
+  // US anchor sits in the contiguous states, not pulled toward Alaska/Hawaii.
+  const [lon, lat] = anchor(getCountry("USA"));
+  assert.ok(lon > -110 && lon < -85 && lat > 30 && lat < 45, `US anchor ${lon},${lat}`);
+  // US + East Asia centres on the Pacific; Europe stays near 0.
+  assert.ok(Math.abs(centreLongitude([[-98, 39], [121, 24], [128, 36]])) > 120);
+  assert.ok(Math.abs(centreLongitude([[2, 46], [10, 51]])) < 15);
 });

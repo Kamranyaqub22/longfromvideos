@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { Script } from "../src/schema";
 import { lintEpisode } from "../pipeline/lib/lint";
-import { clone, fixture, msgs } from "./helpers";
+import { clone, fixture, msgs, sceneOf } from "./helpers";
 
 const today = new Date();
 const lint = (s: ReturnType<typeof fixture>["script"], r: ReturnType<typeof fixture>["research"]) => lintEpisode(s.slug, s, r, today).list;
@@ -27,19 +27,19 @@ test("schema rejects titles over YouTube's 100 characters", () => {
 
 test("a number in narration without a cited fact is an error", () => {
   const { script, research } = fixture();
-  script.scenes[3].narration = "Part two. Spending rose 40 percent.";
+  sceneOf(script, "chapter").narration = "Part two. Spending rose 40 percent.";
   assert.match(msgs(lint(script, research), "error"), /number but cites no facts/);
 });
 
 test("data scenes must cite facts", () => {
   const { script, research } = fixture();
-  script.scenes[4].facts = [];
+  sceneOf(script, "bignumber").facts = [];
   assert.match(msgs(lint(script, research), "error"), /must cite facts/);
 });
 
 test("unknown fact ids are errors", () => {
   const { script, research } = fixture();
-  script.scenes[1].facts = ["f99"];
+  sceneOf(script, "headline").facts = ["f99"];
   assert.match(msgs(lint(script, research), "error"), /unknown fact "f99"/);
 });
 
@@ -57,15 +57,13 @@ test("disputed facts need attribution in narration", () => {
 
 test("single-source facts without attribution warn", () => {
   const { script, research } = fixture();
-  script.scenes[6].narration = "The chief executive is building for the next decade.";
+  sceneOf(script, "quote").narration = "The chief executive is building for the next decade.";
   assert.match(msgs(lint(script, research), "warn"), /single-source fact f3/);
 });
 
 test("on-screen numbers missing from cited claims warn", () => {
   const { script, research } = fixture();
-  const s = script.scenes[4];
-  if (s.type !== "bignumber") throw new Error("fixture order changed");
-  s.props.value = 999;
+  sceneOf(script, "bignumber").props.value = 999;
   assert.match(msgs(lint(script, research), "warn"), /on-screen number 999/);
 });
 
@@ -100,4 +98,31 @@ test("voice defaults are filled in when script omits them", () => {
   assert.equal(script.voice.voiceId, "dPah2VEoifKnZT37774q");
   assert.equal(script.voice.modelId, "eleven_multilingual_v2");
   assert.equal(script.voice.speed, 1);
+});
+
+test("containsNumber matches whole numbers only", async () => {
+  const { containsNumber } = await import("../pipeline/lib/lint");
+  assert.ok(containsNumber("fell 12% today", "12"));
+  assert.ok(containsNumber("costs $12.", "12"));
+  assert.ok(containsNumber("down 18.5 percent", "18.5"));
+  assert.ok(containsNumber("about 1,200 jobs", "1,200"));
+  assert.ok(!containsNumber("peaked at 120", "12"));
+  assert.ok(!containsNumber("rose 1.12 points", "12"));
+  assert.ok(!containsNumber("rose 12.5 points", "12"));
+  assert.ok(containsNumber("closed at 97.80 dollars", 97.8));
+  assert.ok(containsNumber("fell 4.7%", -4.7), "sign is ignored: claims say 'fell 4.7%'");
+});
+
+test("thumbnail numbers not in the research warn", () => {
+  const { script, research } = fixture();
+  script.thumbnail = [{ layout: "number", top: "Shares", big: "+12%", tone: "up" }];
+  assert.match(msgs(lint(script, research), "warn"), /thumbnail 1.*number "12"|number "12" does not appear/);
+});
+
+test("unknown map countries are errors, with suggestions", () => {
+  const { script, research } = fixture();
+  const m = sceneOf(script, "map");
+  m.props.highlights = [{ country: "Germny", tone: "accent" }];
+  m.props.routes = [];
+  assert.match(msgs(lint(script, research), "error"), /unknown country "Germny"; did you mean "Germany"/);
 });

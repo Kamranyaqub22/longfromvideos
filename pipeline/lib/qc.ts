@@ -24,7 +24,7 @@ const ranges = (stderr: string, startKey: string, endKey: string) => {
   return out;
 };
 
-export async function qcEpisode(slug: string, timeline: Timeline, allowMock = false): Promise<{ issues: Issues; report: Record<string, unknown> }> {
+export async function qcEpisode(slug: string, timeline: Timeline, allowMock = false, thumbnails = 1): Promise<{ issues: Issues; report: Record<string, unknown> }> {
   const p = paths(slug);
   const issues = new Issues();
   const report: Record<string, unknown> = { slug, mock: timeline.mock, checkedAt: new Date().toISOString() };
@@ -83,14 +83,18 @@ export async function qcEpisode(slug: string, timeline: Timeline, allowMock = fa
   for (const msg of checkChapters(chapters, expected)) issues.warn("chapters", msg);
 
   // ---- thumbnail
-  if (!existsSync(p.thumbnail)) issues.error("thumbnail", "missing thumbnail.png");
-  else {
-    const t = (await probe(p.thumbnail)).streams[0];
-    const bytes = statSync(p.thumbnail).size;
-    report.thumbnail = { size: `${t.width}x${t.height}`, bytes };
-    if (t.width !== 1280 || t.height !== 720) issues.error("thumbnail", `size ${t.width}x${t.height}, expected 1280x720`);
-    if (bytes > 2 * 1024 * 1024) issues.error("thumbnail", `${(bytes / 1048576).toFixed(2)} MB, YouTube limit is 2 MB`);
+  const thumbs: Record<string, unknown>[] = [];
+  for (let i = 0; i < thumbnails; i++) {
+    const file = p.thumbnail(i);
+    const name = `thumbnail ${i + 1}`;
+    if (!existsSync(file)) { issues.error(name, `missing ${file}`); continue; }
+    const t = (await probe(file)).streams[0];
+    const bytes = statSync(file).size;
+    thumbs.push({ file, size: `${t.width}x${t.height}`, bytes });
+    if (t.width !== 1280 || t.height !== 720) issues.error(name, `size ${t.width}x${t.height}, expected 1280x720`);
+    if (bytes > 2 * 1024 * 1024) issues.error(name, `${(bytes / 1048576).toFixed(2)} MB, YouTube limit is 2 MB`);
   }
+  report.thumbnails = thumbs;
 
   // ---- description
   if (!existsSync(p.description)) issues.error("description", "missing description.txt");

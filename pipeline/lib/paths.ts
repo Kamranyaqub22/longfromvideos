@@ -18,7 +18,8 @@ export const paths = (slug: string) => {
     rawVideo: path.join(ROOT, "out", slug, "render-raw.mp4"),
     video: path.join(ROOT, "out", slug, "video.mp4"),
     stillsDir: path.join(ROOT, "out", slug, "stills"),
-    thumbnail: path.join(ROOT, "out", slug, "thumbnail.png"),
+    /** Variant 0 is thumbnail.png (the default); others are thumbnail-2.png, thumbnail-3.png. */
+    thumbnail: (i = 0) => path.join(ROOT, "out", slug, i === 0 ? "thumbnail.png" : `thumbnail-${i + 1}.png`),
     description: path.join(ROOT, "out", slug, "description.txt"),
     upload: path.join(ROOT, "out", slug, "upload.json"),
     qcReport: path.join(ROOT, "out", slug, "qc-report.json"),

@@ -119,6 +119,35 @@ export const OutroScene = z.object({
   props: z.object({ title: str(50), cta: str(60).optional() }),
 });
 
+export const MapScene = z.object({
+  type: z.literal("map"),
+  ...sceneBase,
+  props: z
+    .object({
+      title: str(50).optional(),
+      /** "fit" zooms to the highlighted countries and route ends; "world" shows the whole map. */
+      view: z.enum(["fit", "world"]).default("fit"),
+      highlights: z.array(z.object({ country: str(40), tone: Tone.default("accent"), label: str(24).optional() })).max(8).default([]),
+      routes: z.array(z.object({ from: str(40), to: str(40), label: str(24).optional(), tone: Tone.default("accent") })).max(5).default([]),
+      source: str(80).optional(),
+    })
+    .refine((p) => p.highlights.length + p.routes.length > 0, "a map needs at least one highlight or route"),
+});
+export const LineChartScene = z.object({
+  type: z.literal("linechart"),
+  ...sceneBase,
+  props: z.object({
+    title: str(60),
+    prefix: z.string().max(3).optional(),
+    suffix: z.string().max(4).optional(),
+    decimals: z.number().int().min(0).max(2).default(0),
+    /** Real data points in time order. Every point must come from a cited source. */
+    points: z.array(z.object({ label: str(12), value: z.number().finite() })).min(3).max(120),
+    annotations: z.array(z.object({ index: z.number().int().min(0), text: str(40) })).max(2).default([]),
+    source: str(80).optional(),
+  }).refine((p) => p.annotations.every((a) => a.index < p.points.length), "annotation index is past the last point"),
+});
+
 export const Scene = z.discriminatedUnion("type", [
   HookScene,
   HeadlineScene,
@@ -130,12 +159,16 @@ export const Scene = z.discriminatedUnion("type", [
   BulletsScene,
   ChapterScene,
   OutroScene,
+  MapScene,
+  LineChartScene,
 ]);
 export type Scene = z.infer<typeof Scene>;
 export type SceneType = Scene["type"];
 export type SceneOf<T extends SceneType> = Extract<Scene, { type: T }>;
 
 export const ThumbnailProps = z.object({
+  /** "number": huge figure in the middle. "statement": huge headline text with a badge and arrow. */
+  layout: z.enum(["number", "statement"]).default("number"),
   top: str(30),
   big: str(12),
   bottom: str(36).optional(),
@@ -161,7 +194,8 @@ export const Script = z.object({
   summary: str(1000),
   tags: z.array(str(30)).max(30).default([]),
   voice: Voice.prefault({}),
-  thumbnail: ThumbnailProps,
+  /** One thumbnail, or up to 3 variants for YouTube's "Test & compare". The first is the default. */
+  thumbnail: z.union([ThumbnailProps, z.array(ThumbnailProps).min(1).max(3)]).transform((t) => (Array.isArray(t) ? t : [t])),
   scenes: z.array(Scene).min(3),
 });
 export type Script = z.infer<typeof Script>;

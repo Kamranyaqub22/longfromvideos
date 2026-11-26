@@ -56,6 +56,20 @@ Structure that holds attention:
 | `bullets` | lists (2–5) | `title`, `items` |
 | `chapter` | section break | `number`, `title` |
 | `outro` | ending + CTA | `title`, `cta` |
+| `map` | where things happen: countries, trade routes | `title`, `view` (`fit`/`world`), `highlights[{country,tone,label}]` (≤8), `routes[{from,to,label,tone}]` (≤5), `source` |
+| `linechart` | a real series over time (prices, rates) | `title`, `points[{label,value}]` (3–120), `prefix`, `suffix`, `decimals`, `annotations[{index,text}]` (≤2), `source` |
+
+Map notes: country names are checked by `check` (aliases like "USA", "UK", "UAE" work; typos get
+suggestions). The map centres itself on the story (US–Asia → Pacific), frames mainlands (France without
+French Guiana), and rings tiny countries (Singapore). Geometry is Natural Earth, bundled; no tiles, no API keys.
+Line charts: every point must come from a cited source; never interpolate or smooth missing data.
+
+### Thumbnails
+
+`thumbnail` is one object or up to 3 variants (`layout`: `number` = huge figure, `statement` = headline +
+badge + arrow). Variants render to `thumbnail.png`, `thumbnail-2.png`, `thumbnail-3.png` for YouTube's
+"Test & compare". Make variants genuinely different angles (number vs. question vs. consequence).
+Every number on a thumbnail must exist in research.json (lint warns).
 
 Every scene: `narration`, `facts` (fact ids), optional `chapter` (starts a YouTube chapter; first scene
 should be "Intro"; YouTube needs 3+ chapters, each ≥10 s).

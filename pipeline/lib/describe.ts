@@ -30,5 +30,6 @@ export function buildDescription(script: Script, research: Research, timeline: T
 
 /** Metadata for the upload step (title, description, tags). */
 export function buildUploadMeta(script: Script, description: string) {
-  return { title: script.title, description, tags: script.tags, categoryId: "25" /* News & Politics */, madeForKids: false, privacyStatus: "private" };
+  const thumbnails = script.thumbnail.map((_, i) => (i === 0 ? "thumbnail.png" : `thumbnail-${i + 1}.png`));
+  return { title: script.title, description, tags: script.tags, thumbnails, categoryId: "25" /* News & Politics */, madeForKids: false, privacyStatus: "private" };
 }

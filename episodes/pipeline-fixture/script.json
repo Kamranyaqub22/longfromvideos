@@ -2,38 +2,320 @@
   "slug": "pipeline-fixture",
   "title": "Pipeline Fixture: Every Scene Type (Test Data)",
   "summary": "Automated test episode for the video pipeline. Every number here is invented test data about a fictional company.",
-  "tags": ["pipeline test"],
-  "thumbnail": { "top": "Example Corp", "big": "−18.5%", "bottom": "test fixture", "tone": "down" },
+  "tags": [
+    "pipeline test"
+  ],
+  "thumbnail": [
+    {
+      "layout": "number",
+      "top": "Example Corp",
+      "big": "\u221218.5%",
+      "bottom": "test fixture",
+      "tone": "down"
+    },
+    {
+      "layout": "statement",
+      "top": "Is the spending too much?",
+      "big": "$730B",
+      "bottom": "test fixture",
+      "tone": "down"
+    },
+    {
+      "layout": "statement",
+      "top": "Shares give back gains",
+      "big": "$97.80",
+      "bottom": "test fixture",
+      "tone": "down"
+    }
+  ],
   "scenes": [
-    { "type": "hook", "chapter": "Intro", "facts": [],
+    {
+      "type": "hook",
+      "chapter": "Intro",
+      "facts": [],
       "narration": "This is a test of the whole video pipeline. Every number you see is invented. Nothing here is real news.",
-      "props": { "lines": ["Pipeline test", "Every scene", "Invented data"], "accent": "Every scene" } },
-    { "type": "headline", "facts": ["f1"],
+      "props": {
+        "lines": [
+          "Pipeline test",
+          "Every scene",
+          "Invented data"
+        ],
+        "accent": "Every scene"
+      }
+    },
+    {
+      "type": "headline",
+      "facts": [
+        "f1"
+      ],
       "narration": "Here is how a news headline card looks, with the outlet and the date in the corner.",
-      "props": { "source": "Fixture Wire", "date": "Test date", "headline": "Example Corp shares slide as investors question its spending plans", "dek": "A fictional headline used to test the layout." } },
-    { "type": "drop", "facts": ["f1"],
+      "props": {
+        "source": "Fixture Wire",
+        "date": "Test date",
+        "headline": "Example Corp shares slide as investors question its spending plans",
+        "dek": "A fictional headline used to test the layout."
+      }
+    },
+    {
+      "type": "drop",
+      "facts": [
+        "f1"
+      ],
       "narration": "A drop scene shows a move between two real data points, here eighteen and a half percent.",
-      "props": { "title": "Example Corp share price", "fromLabel": "Peak: $120", "toLabel": "Now: $97.80", "pct": -18.5, "note": "Two points only, no invented path.", "source": "Fixture Wire" } },
-    { "type": "chapter", "chapter": "The spending", "facts": [],
+      "props": {
+        "title": "Example Corp share price",
+        "fromLabel": "Peak: $120",
+        "toLabel": "Now: $97.80",
+        "pct": -18.5,
+        "note": "Two points only, no invented path.",
+        "source": "Fixture Wire"
+      }
+    },
+    {
+      "type": "linechart",
+      "facts": [
+        "f4"
+      ],
+      "narration": "The line chart draws a real series from left to right. The shares climbed to a peak, then slid back below where they started.",
+      "props": {
+        "title": "Example Corp share price (test data)",
+        "prefix": "$",
+        "decimals": 2,
+        "points": [
+          {
+            "label": "Jan",
+            "value": 100
+          },
+          {
+            "label": "Feb",
+            "value": 104
+          },
+          {
+            "label": "Mar",
+            "value": 109
+          },
+          {
+            "label": "Apr",
+            "value": 112
+          },
+          {
+            "label": "May",
+            "value": 118
+          },
+          {
+            "label": "Jun",
+            "value": 120
+          },
+          {
+            "label": "Jul",
+            "value": 116
+          },
+          {
+            "label": "Aug",
+            "value": 111
+          },
+          {
+            "label": "Sep",
+            "value": 108
+          },
+          {
+            "label": "Oct",
+            "value": 103
+          },
+          {
+            "label": "Nov",
+            "value": 99
+          },
+          {
+            "label": "Dec",
+            "value": 97.8
+          }
+        ],
+        "annotations": [
+          {
+            "index": 5,
+            "text": "Peak $120"
+          }
+        ],
+        "source": "Fixture Wire"
+      }
+    },
+    {
+      "type": "chapter",
+      "chapter": "The spending",
+      "facts": [],
       "narration": "Part two. The spending.",
-      "props": { "number": 2, "title": "The spending" } },
-    { "type": "bignumber", "facts": ["f2"],
+      "props": {
+        "number": 2,
+        "title": "The spending"
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f2"
+      ],
       "narration": "The big number scene counts up to a single figure, like seven hundred and thirty billion.",
-      "props": { "value": 730, "prefix": "$", "suffix": "B", "label": "Planned spending (test data)", "tone": "accent", "note": "Up from $410B a year earlier" } },
-    { "type": "barchart", "facts": ["f2"],
+      "props": {
+        "value": 730,
+        "prefix": "$",
+        "suffix": "B",
+        "label": "Planned spending (test data)",
+        "tone": "accent",
+        "note": "Up from $410B a year earlier"
+      }
+    },
+    {
+      "type": "barchart",
+      "facts": [
+        "f2"
+      ],
       "narration": "The bar chart compares values side by side, and the last bar is highlighted.",
-      "props": { "title": "Spending, before and after", "bars": [ { "label": "Last year", "value": 410, "display": "$410B" }, { "label": "This year", "value": 730, "display": "$730B" } ], "source": "Fixture Ledger" } },
-    { "type": "quote", "facts": ["f3"],
+      "props": {
+        "title": "Spending, before and after",
+        "bars": [
+          {
+            "label": "Last year",
+            "value": 410,
+            "display": "$410B"
+          },
+          {
+            "label": "This year",
+            "value": 730,
+            "display": "$730B"
+          }
+        ],
+        "source": "Fixture Ledger"
+      }
+    },
+    {
+      "type": "quote",
+      "facts": [
+        "f3"
+      ],
       "narration": "A quote scene reveals the words as they are read. According to one report, the chief executive said they are building for the next decade.",
-      "props": { "text": "We are building for the next decade, not the next quarter.", "author": "Example Corp CEO", "role": "fictional, for testing" } },
-    { "type": "timeline", "facts": ["f1"],
+      "props": {
+        "text": "We are building for the next decade, not the next quarter.",
+        "author": "Example Corp CEO",
+        "role": "fictional, for testing"
+      }
+    },
+    {
+      "type": "map",
+      "chapter": "Supply chain",
+      "facts": [
+        "f5"
+      ],
+      "narration": "Part three uses maps. Routes are drawn as great circles, even across the Pacific, so viewers can follow the goods.",
+      "props": {
+        "title": "Where the parts come from (test)",
+        "view": "world",
+        "highlights": [
+          {
+            "country": "Taiwan",
+            "tone": "accent"
+          },
+          {
+            "country": "South Korea",
+            "tone": "accent"
+          },
+          {
+            "country": "USA",
+            "tone": "neutral",
+            "label": "United States"
+          }
+        ],
+        "routes": [
+          {
+            "from": "Taiwan",
+            "to": "USA",
+            "label": "Chips",
+            "tone": "accent"
+          },
+          {
+            "from": "South Korea",
+            "to": "USA",
+            "tone": "accent"
+          }
+        ],
+        "source": "Fixture Wire"
+      }
+    },
+    {
+      "type": "map",
+      "facts": [
+        "f5"
+      ],
+      "narration": "A fitted map zooms to the countries that matter, here a route from Singapore to France.",
+      "props": {
+        "highlights": [
+          {
+            "country": "Singapore",
+            "tone": "up",
+            "label": "Singapore"
+          },
+          {
+            "country": "France",
+            "tone": "neutral",
+            "label": "France"
+          }
+        ],
+        "routes": [
+          {
+            "from": "Singapore",
+            "to": "France",
+            "tone": "up"
+          }
+        ],
+        "source": "Fixture Times"
+      }
+    },
+    {
+      "type": "timeline",
+      "facts": [
+        "f1"
+      ],
       "narration": "The timeline places events in order, one dot at a time, so viewers never lose the thread.",
-      "props": { "title": "How it unfolded", "events": [ { "date": "Monday", "text": "Plan announced" }, { "date": "Tuesday", "text": "Analysts react" }, { "date": "Wednesday", "text": "Shares slide" } ] } },
-    { "type": "bullets", "chapter": "What to watch", "facts": [],
+      "props": {
+        "title": "How it unfolded",
+        "events": [
+          {
+            "date": "Monday",
+            "text": "Plan announced"
+          },
+          {
+            "date": "Tuesday",
+            "text": "Analysts react"
+          },
+          {
+            "date": "Wednesday",
+            "text": "Shares slide"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bullets",
+      "chapter": "What to watch",
+      "facts": [],
       "narration": "Bullet scenes list what to watch next. First, the earnings. Second, the guidance. Third, the reaction.",
-      "props": { "title": "What to watch", "items": ["The next earnings report", "Updated spending guidance", "How investors react"] } },
-    { "type": "outro", "facts": [],
+      "props": {
+        "title": "What to watch",
+        "items": [
+          "The next earnings report",
+          "Updated spending guidance",
+          "How investors react"
+        ]
+      }
+    },
+    {
+      "type": "outro",
+      "facts": [],
       "narration": "That is the end of the pipeline test. If every scene looked right, the pipeline works.",
-      "props": { "title": "End of test", "cta": "Subscribe for the stories behind the headlines" } }
+      "props": {
+        "title": "End of test",
+        "cta": "Subscribe for the stories behind the headlines"
+      }
+    }
   ]
 }

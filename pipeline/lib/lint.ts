@@ -4,6 +4,7 @@
  */
 import type { Research, Scene, Script } from "../../src/schema";
 import { Issues } from "./issues";
+import { resolveCountry, suggestCountries } from "../../src/lib/geo";
 
 export const WORDS_PER_SECOND = 2.5; // ~150 wpm documentary narration
 
@@ -16,15 +17,19 @@ const SENSATIONAL = /\b(shocking|insane|destroyed|you won'?t believe|gone wrong|
 const ANGLE = /[<>]/; // YouTube rejects < and > in titles and descriptions
 
 /** Scenes that put numbers on screen must be backed by facts. */
-const DATA_SCENES: Scene["type"][] = ["bignumber", "barchart", "drop", "timeline", "headline", "quote"];
+const DATA_SCENES: Scene["type"][] = ["bignumber", "barchart", "drop", "timeline", "headline", "quote", "map", "linechart"];
+
+/** Every number written in a text, as values ("1,200" → 1200, "97.80" → 97.8). */
+export const numbersIn = (text: string) => (text.match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((n) => parseFloat(n.replace(/,/g, "")));
+
+/** True if `num` appears in `text` as a value: "12" matches "12%" and "$12.00" but not "120" or "1.12". */
+export const containsNumber = (text: string, num: string | number) => {
+  const v = Math.abs(typeof num === "number" ? num : parseFloat(num.replace(/,/g, "")));
+  return numbersIn(text).some((x) => Math.abs(x - v) < 1e-9);
+};
 
 const where = (i: number, s: Scene) => `scene ${i + 1} (${s.type})`;
 
-/** Digits of a number as they would appear in a claim, e.g. 730 → "730", 4.7 → "4.7". */
-const numberForms = (n: number) => {
-  const abs = Math.abs(n);
-  return [String(abs), abs.toLocaleString("en-US"), abs.toFixed(1), abs.toFixed(0)];
-};
 
 export function lintEpisode(slug: string, script: Script, research: Research, today = new Date()): Issues {
   const issues = new Issues();
@@ -51,7 +56,14 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
   if (PLACEHOLDER.test(allText)) issues.error("script.json", `placeholder text found: "${allText.match(PLACEHOLDER)![0]}"`);
   if (ANGLE.test(script.title)) issues.error("title", "YouTube titles cannot contain < or >");
   if (ANGLE.test(script.summary)) issues.error("summary", "YouTube descriptions cannot contain < or >");
-  for (const [k, v] of [["title", script.title], ["thumbnail", Object.values(script.thumbnail).join(" ")]] as const)
+  const texts: [string, string][] = [["title", script.title], ...script.thumbnail.map((t, i): [string, string] => [`thumbnail ${i + 1}`, [t.top, t.big, t.bottom ?? ""].join(" ")])];
+  // Thumbnails make the strongest claim in the video: their numbers must exist in the research.
+  const allClaims = research.facts.map((f) => f.claim).join(" ");
+  script.thumbnail.forEach((t, i) => {
+    for (const num of [t.top, t.big, t.bottom ?? ""].join(" ").match(/\d+(?:[.,]\d+)?/g) ?? [])
+      if (!containsNumber(allClaims, num)) issues.warn(`thumbnail ${i + 1}`, `number "${num}" does not appear in any fact; is the thumbnail accurate?`);
+  });
+  for (const [k, v] of texts)
     if (SENSATIONAL.test(v)) issues.warn(k, `sensational wording ("${v.match(SENSATIONAL)![0]}") can limit ads on news content`);
 
   // ---- structure
@@ -83,10 +95,23 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
     // On-screen numbers should appear in a cited claim.
     const claims = valid.map((f) => f.claim).join(" ");
     const onScreen: number[] =
-      s.type === "bignumber" ? [s.props.value] : s.type === "drop" ? [s.props.pct] : s.type === "barchart" ? s.props.bars.map((b) => b.value) : [];
+      s.type === "bignumber" ? [s.props.value]
+      : s.type === "drop" ? [s.props.pct]
+      : s.type === "barchart" ? s.props.bars.map((b) => b.value)
+      : s.type === "linechart" ? [s.props.points[0].value, s.props.points[s.props.points.length - 1].value]
+      : [];
     for (const n of onScreen)
-      if (!numberForms(n).some((form) => claims.includes(form)))
+      if (!containsNumber(claims, n))
         issues.warn(w, `on-screen number ${n} does not appear in any cited fact's claim; double-check it`);
+
+    if (s.type === "map") {
+      const names = [...s.props.highlights.map((h) => h.country), ...s.props.routes.flatMap((r) => [r.from, r.to])];
+      for (const n of names)
+        if (!resolveCountry(n)) {
+          const hint = suggestCountries(n);
+          issues.error(w, `unknown country "${n}"${hint.length ? `; did you mean ${hint.map((h) => `"${h}"`).join(", ")}?` : ""}`);
+        }
+    }
 
     const secs = estimateSeconds(s.narration);
     if (s.type === "hook" && secs > 18) issues.warn(w, `hook runs ~${secs.toFixed(0)}s; keep it under ~15s`);

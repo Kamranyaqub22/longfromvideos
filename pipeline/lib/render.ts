@@ -1,4 +1,4 @@
-import { mkdirSync } from "node:fs";
+import { mkdirSync, rmSync } from "node:fs";
 import path from "node:path";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
@@ -16,6 +16,7 @@ const common = () => ({ browserExecutable: browserExecutable(), chromiumOptions:
 /** One still per scene at 85% of its length (all elements on screen): a visual review sheet. */
 export async function renderSceneStills(slug: string, timeline: Timeline): Promise<string[]> {
   const p = paths(slug);
+  rmSync(p.stillsDir, { recursive: true, force: true }); // never mix in stills of scenes that no longer exist
   mkdirSync(p.stillsDir, { recursive: true });
   const serveUrl = await getBundle();
   const inputProps = { slug, timeline };
@@ -69,10 +70,12 @@ export async function master(slug: string) {
   ]);
 }
 
-export async function renderThumbnail(slug: string, props: ThumbnailProps) {
+export async function renderThumbnails(slug: string, variants: ThumbnailProps[]) {
   const p = paths(slug);
   mkdirSync(p.outDir, { recursive: true });
   const serveUrl = await getBundle();
-  const composition = await selectComposition({ serveUrl, id: "Thumbnail", inputProps: props, ...common() });
-  await renderStill({ serveUrl, composition, inputProps: props, output: p.thumbnail, imageFormat: "png", ...common() });
+  for (const [i, props] of variants.entries()) {
+    const composition = await selectComposition({ serveUrl, id: "Thumbnail", inputProps: props, ...common() });
+    await renderStill({ serveUrl, composition, inputProps: props, output: p.thumbnail(i), imageFormat: "png", ...common() });
+  }
 }
