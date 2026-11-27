@@ -1,14 +1,16 @@
 import { AbsoluteFill, interpolate, useCurrentFrame } from "remotion";
-import { SceneDurationProvider } from "./SceneContext";
+import { FirstSceneProvider, SceneDurationProvider } from "./SceneContext";
 import { useEnter } from "./anim";
 
 /**
  * Wraps every scene: fade/slide in, fade out, and a slow push-in so the frame keeps moving.
  * Content area leaves the bottom 220px free for captions.
  */
-export const SceneShell: React.FC<{ durationInFrames: number; children: React.ReactNode }> = ({ durationInFrames, children }) => {
+export const SceneShell: React.FC<{ durationInFrames: number; first?: boolean; children: React.ReactNode }> = ({ durationInFrames, first = false, children }) => {
   const frame = useCurrentFrame();
-  const enter = useEnter(0);
+  // The video's first frame is its preview and first impression: never start on an empty screen.
+  const springIn = useEnter(0);
+  const enter = first ? 1 : springIn;
   const out = interpolate(frame, [durationInFrames - 8, durationInFrames], [1, 0], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
@@ -23,7 +25,9 @@ export const SceneShell: React.FC<{ durationInFrames: number; children: React.Re
         justifyContent: "center",
       }}
     >
-      <SceneDurationProvider value={durationInFrames}>{children}</SceneDurationProvider>
+      <SceneDurationProvider value={durationInFrames}>
+        <FirstSceneProvider value={first}>{children}</FirstSceneProvider>
+      </SceneDurationProvider>
     </AbsoluteFill>
   );
 };

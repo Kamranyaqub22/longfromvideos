@@ -22,6 +22,8 @@ export const paths = (slug: string) => {
     thumbnail: (i = 0) => path.join(ROOT, "out", slug, i === 0 ? "thumbnail.png" : `thumbnail-${i + 1}.png`),
     description: path.join(ROOT, "out", slug, "description.txt"),
     upload: path.join(ROOT, "out", slug, "upload.json"),
+    /** Full source list to pin as a comment when the description had to be compacted. */
+    sourcesComment: path.join(ROOT, "out", slug, "sources-comment.txt"),
     qcReport: path.join(ROOT, "out", slug, "qc-report.json"),
   };
 };

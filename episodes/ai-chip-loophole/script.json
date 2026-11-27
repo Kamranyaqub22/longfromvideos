@@ -32,10 +32,10 @@
     },
     {
       "layout": "statement",
-      "top": "The AI chip back door",
+      "top": "AI chip back door",
       "big": "CLOSING",
       "bottom": "Singapore · Malaysia · Brazil",
-      "tone": "down"
+      "tone": "accent"
     },
     {
       "layout": "number",

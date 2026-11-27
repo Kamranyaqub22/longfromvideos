@@ -2,7 +2,8 @@
  * Editorial checks that run before any credits are spent or frames rendered.
  * Errors block the pipeline. Warnings are printed and must be read by a human.
  */
-import type { Research, Scene, Script } from "../../src/schema";
+import type { Research, Scene, Script, Timeline } from "../../src/schema";
+import { DESCRIPTION_LIMIT, MORE_SOURCES, buildDescription } from "./describe";
 import { Issues } from "./issues";
 import { TAIL } from "./timeline";
 import { resolveCountry, suggestCountries } from "../../src/lib/geo";
@@ -172,6 +173,14 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
   const total = script.scenes.reduce((n, s) => n + estimateSeconds(s.narration, speed) + (TAIL[s.type as keyof typeof TAIL] ?? TAIL.default), 0);
   if (total < 8 * 60) issues.warn("length", `estimated ${(total / 60).toFixed(1)} min; 8+ min enables mid-roll ads`);
   if (total > 25 * 60) issues.warn("length", `estimated ${(total / 60).toFixed(1)} min; consider tightening`);
+
+  // ---- description: catch overflow before a 20-minute render, not after
+  const fakeTimeline = { scenes: script.scenes.map((s, i) => ({ ...s, startFrame: i * 600, durationInFrames: 600, audio: "", words: [] })), durationInFrames: script.scenes.length * 600, fps: 30 } as unknown as Timeline;
+  const description = buildDescription(script, research, fakeTimeline);
+  if (description.length > DESCRIPTION_LIMIT)
+    issues.error("description", `${description.length} chars even with one source per fact; YouTube's limit is ${DESCRIPTION_LIMIT}. Shorten the summary or merge facts`);
+  else if (description.includes(MORE_SOURCES))
+    issues.warn("description", "too many sources to list in full: the description lists one per fact and render writes sources-comment.txt to pin");
 
   return issues;
 }

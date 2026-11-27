@@ -13,7 +13,7 @@ export const getBundle = () =>
 
 const common = () => ({ browserExecutable: browserExecutable(), chromiumOptions: { gl: "swangle" as const } });
 
-/** One still per scene at 85% of its length (all elements on screen): a visual review sheet. */
+/** Frame 0, then one still per scene at 85% of its length (all elements on screen): a visual review sheet. */
 export async function renderSceneStills(slug: string, timeline: Timeline): Promise<string[]> {
   const p = paths(slug);
   rmSync(p.stillsDir, { recursive: true, force: true }); // never mix in stills of scenes that no longer exist
@@ -21,7 +21,10 @@ export async function renderSceneStills(slug: string, timeline: Timeline): Promi
   const serveUrl = await getBundle();
   const inputProps = { slug, timeline };
   const composition = await selectComposition({ serveUrl, id: "Episode", inputProps, ...common() });
-  const files: string[] = [];
+  // The very first frame is the video's preview and first impression: review it too.
+  const firstFrame = path.join(p.stillsDir, "00-first-frame.jpg");
+  await renderStill({ serveUrl, composition, inputProps, frame: 0, output: firstFrame, imageFormat: "jpeg", jpegQuality: 80, ...common() });
+  const files: string[] = [firstFrame];
   for (const [i, s] of timeline.scenes.entries()) {
     const file = path.join(p.stillsDir, `${String(i + 1).padStart(2, "0")}-${s.type}.jpg`);
     await renderStill({ serveUrl, composition, inputProps, frame: s.startFrame + Math.floor(s.durationInFrames * 0.85), output: file, imageFormat: "jpeg", jpegQuality: 80, ...common() });

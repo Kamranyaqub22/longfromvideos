@@ -1,5 +1,5 @@
 import type { SceneOf } from "../schema";
-import { useSceneDuration } from "../components/SceneContext";
+import { useIsFirstScene, useSceneDuration } from "../components/SceneContext";
 import { useEnter, staggerFrame } from "../components/anim";
 import { C, display } from "../theme";
 
@@ -26,6 +26,7 @@ const Line: React.FC<{ text: string; accent?: string; delay: number; size: numbe
 
 export const Hook: React.FC<{ scene: SceneOf<"hook"> }> = ({ scene }) => {
   const durationInFrames = useSceneDuration();
+  const first = useIsFirstScene();
   const { lines, accent } = scene.props;
   const longest = Math.max(...lines.map((l) => l.length));
   // Anton uppercase ≈ 0.5em per char; fit 1640px, cap at 170px.
@@ -33,7 +34,7 @@ export const Hook: React.FC<{ scene: SceneOf<"hook"> }> = ({ scene }) => {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
       {lines.map((l, i) => (
-        <Line key={i} text={l} accent={accent} size={size} delay={staggerFrame(i, lines.length, durationInFrames, 0.6)} />
+        <Line key={i} text={l} accent={accent} size={size} delay={first && i === 0 ? -20 : staggerFrame(i, lines.length, durationInFrames, 0.6)} />
       ))}
     </div>
   );

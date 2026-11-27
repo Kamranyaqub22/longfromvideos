@@ -57,6 +57,8 @@ Check the topic doesn't need a template we lack. Avoid stories about Anthropic (
 
 ### Structure that holds attention (lint checks most of this; read every warning)
 
+- **Frame 0 is the preview.** The opening scene renders its first line from frame 0 (no fade from
+  black); check `out/<slug>/stills/00-first-frame.jpg`.
 - **Cold open, no preamble.** Scene 1 lands the surprising fact in its first sentence (≤20 words).
   No "welcome back", "in this video", "let's dive in" (lint warns).
 - **Ask the question inside the intro.** The intro (everything before the first chapter card) must
@@ -133,6 +135,10 @@ rounded the way a person would say them (on screen can be exact).
 ### Map tips (learned on ai-chip-loophole)
 
 - At `view: "world"`, label at most one country per region; neighbouring labels collide.
+- Statement thumbnails: keep `top` ≤17 chars so it doesn't orphan a word; tone `up`/`down` draws an
+  arrow, so use `accent` when the story isn't a rise or fall.
+- Well-sourced episodes overflow YouTube's 5,000-char description: the description then lists one
+  source per fact, and `render` writes `sources-comment.txt` to pin under the video (also in upload.json).
 - Multi-part countries anchor oddly (Malaysia's anchor sits in Borneo): start routes from a compact
   country (Singapore) or name the countries in the `title` instead of labelling each one.
 
@@ -140,7 +146,7 @@ rounded the way a person would say them (on screen can be exact).
 
 | slug | topic | status |
 |---|---|---|
-| `ai-chip-loophole` | US licence rule for AI chips to SE Asia + Brazil (Nov 2026) | script + mock build done; awaiting voice go-ahead (~7,800 chars) |
+| `ai-chip-loophole` | US licence rule for AI chips to SE Asia + Brazil (Nov 2026) | script + mock build + QC pass; awaiting voice go-ahead (~7,800 chars) |
 
 ## Adding a new scene template
 

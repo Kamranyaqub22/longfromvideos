@@ -82,3 +82,18 @@ test("map geography: mainland framing, centring and anchors", async () => {
   assert.ok(Math.abs(centreLongitude([[-98, 39], [121, 24], [128, 36]])) > 120);
   assert.ok(Math.abs(centreLongitude([[2, 46], [10, 51]])) < 15);
 });
+
+test("description compacts sources to fit YouTube's limit and overflows to a pinned comment", async () => {
+  const { buildSourcesComment, DESCRIPTION_LIMIT, MORE_SOURCES } = await import("../pipeline/lib/describe");
+  const { script, research } = fixture();
+  const t = buildTimeline(script, script.scenes.map((s) => mockWords(s.narration)), true, "h");
+  assert.equal(buildSourcesComment(script, research, buildDescription(script, research, t)), null, "small episodes list everything");
+  const f = research.facts.find((x) => script.scenes.some((s) => s.facts.includes(x.id)))!;
+  f.sources = Array.from({ length: 60 }, (_, i) => ({ outlet: `Outlet ${i}`, url: `https://example.com/${"x".repeat(60)}/${i}`, date: "2026-01-01" }));
+  const d = buildDescription(script, research, t);
+  assert.ok(d.length <= DESCRIPTION_LIMIT, `description is ${d.length} chars`);
+  assert.match(d, new RegExp(MORE_SOURCES.replace(/[.]/g, "\\.")));
+  assert.match(d, /Outlet 0:/, "each fact keeps its first source");
+  const comment = buildSourcesComment(script, research, d)!;
+  assert.match(comment, /Outlet 59 \(2026-01-01\)/, "pinned comment has the full list");
+});

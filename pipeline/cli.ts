@@ -10,9 +10,9 @@
  *   npm run ep -- build <slug> [--mock] [--spend]   all of the above, stopping at the first error
  */
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import type { Script, Timeline } from "../src/schema";
-import { buildDescription, buildUploadMeta } from "./lib/describe";
+import { buildDescription, buildSourcesComment, buildUploadMeta } from "./lib/describe";
 import { Issues, PipelineError } from "./lib/issues";
 import { lintEpisode } from "./lib/lint";
 import { loadEpisode } from "./lib/load";
@@ -88,7 +88,12 @@ async function render(slug: string) {
   await renderThumbnails(slug, script.thumbnail);
   const description = buildDescription(script, research, t);
   writeFileSync(p.description, description);
-  writeFileSync(p.upload, JSON.stringify(buildUploadMeta(script, description), null, 2));
+  const comment = buildSourcesComment(script, research, description);
+  if (comment) {
+    writeFileSync(p.sourcesComment, comment);
+    console.log(`render: description lists one source per fact; full list → ${p.sourcesComment} (pin it as a comment)`);
+  } else rmSync(p.sourcesComment, { force: true });
+  writeFileSync(p.upload, JSON.stringify(buildUploadMeta(script, description, comment), null, 2));
   console.log(`render: done → ${p.outDir}`);
 }
 

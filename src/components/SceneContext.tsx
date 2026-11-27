@@ -12,3 +12,8 @@ export function useSceneDuration(): number {
   if (d === null) throw new Error("useSceneDuration() used outside a scene");
   return d;
 }
+
+/** True inside the video's opening scene, which must show content from frame 0. */
+const FirstScene = createContext(false);
+export const FirstSceneProvider = FirstScene.Provider;
+export const useIsFirstScene = () => useContext(FirstScene);
