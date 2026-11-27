@@ -6,7 +6,7 @@
  "height": 1080,
  "durationInFrames": 18710,
  "mock": false,
- "scriptHash": "4dff3def363aeea2",
+ "scriptHash": "3d0849b2500cbe1b",
  "scenes": [
   {
    "type": "hook",
@@ -22,7 +22,8 @@
      "For AI data centers",
      "In orbit"
     ],
-    "accent": "In orbit"
+    "accent": "In orbit",
+    "visual": "globe"
    },
    "audio": "episodes/spacex-starmind/audio/069f61e98ddcc783.mp3",
    "startFrame": 0,
@@ -399,17 +400,23 @@
    ]
   },
   {
-   "type": "bignumber",
+   "type": "globe",
    "narration": "For scale: there are roughly sixteen to seventeen thousand working satellites in orbit today, depending on who's counting. The tracker Orbital Radar puts it at about sixteen thousand seven hundred, according to CNN. Starmind alone would be about sixty times that.",
    "facts": [
-    "f14"
+    "f14",
+    "f1"
    ],
    "props": {
-    "value": 16700,
-    "decimals": 0,
-    "label": "Working satellites in orbit today",
-    "tone": "neutral",
-    "note": "Orbital Radar, via CNN. ESA counts 15,800."
+    "title": "Working satellites in orbit today",
+    "satellites": {
+     "from": 0,
+     "to": 16700,
+     "label": "Satellites in orbit, per Orbital Radar (via CNN)",
+     "counter": true
+    },
+    "rings": [],
+    "highlights": [],
+    "note": "ESA counts 15,800. Starmind would add up to 1,000,000."
    },
    "audio": "episodes/spacex-starmind/audio/2bbd11c2f5a016c2.mp3",
    "startFrame": 1078,
@@ -807,7 +814,8 @@
    "chapter": "What was approved",
    "props": {
     "number": 1,
-    "title": "What was approved"
+    "title": "What was approved",
+    "visual": "satellite"
    },
    "audio": "episodes/spacex-starmind/audio/e0e73e8541727765.mp3",
    "startFrame": 2085,
@@ -906,7 +914,7 @@
    ]
   },
   {
-   "type": "bullets",
+   "type": "globe",
    "narration": "Strictly speaking, the FCC licenses radio, not computers. According to the order itself, the grant covers the backup and emergency radio links used to track and command the satellites. They'll fly in thin orbital shells between five hundred and about a thousand kilometres up, on a fifteen-year licence.",
    "facts": [
     "f5",
@@ -915,12 +923,22 @@
    ],
    "props": {
     "title": "What the order covers",
-    "items": [
-     "Up to 1,000,000 satellites",
-     "Orbits from 500 to 1,002 km up",
-     "Licence for backup and emergency radio links",
-     "15-year licence term"
-    ]
+    "satellites": {
+     "from": 2000,
+     "to": 1000000,
+     "label": "Up to 1,000,000 satellites",
+     "counter": false
+    },
+    "rings": [
+     {
+      "label": "500 km"
+     },
+     {
+      "label": "1,002 km"
+     }
+    ],
+    "highlights": [],
+    "note": "Licence for backup and emergency radio links · 15-year term"
    },
    "audio": "episodes/spacex-starmind/audio/19f0e2ecaf3b9fa5.mp3",
    "startFrame": 2310,
@@ -1922,7 +1940,8 @@
    "chapter": "AI's power problem",
    "props": {
     "number": 2,
-    "title": "AI's power problem"
+    "title": "AI's power problem",
+    "visual": "datacenter"
    },
    "audio": "episodes/spacex-starmind/audio/8572d57f8663ec56.mp3",
    "startFrame": 4755,
@@ -2601,7 +2620,7 @@
    ]
   },
   {
-   "type": "bullets",
+   "type": "diagram",
    "narration": "And building on the ground is getting harder politically. According to CBS News, in this month's midterm elections American voters approved dozens of proposals aimed at restricting data centers.",
    "facts": [
     "f24",
@@ -2609,10 +2628,20 @@
    ],
    "props": {
     "title": "Why the ground is getting harder",
-    "items": [
-     "Electricity demand set to double by 2030",
-     "Voters approve dozens of restrictions",
-     "Growth concentrated in the US and China"
+    "illustration": "datacenter",
+    "callouts": [
+     {
+      "part": "power",
+      "text": "Electricity demand set to double by 2030"
+     },
+     {
+      "part": "building",
+      "text": "Voters approve dozens of restrictions"
+     },
+     {
+      "part": "cooling",
+      "text": "Growth concentrated in the US and China"
+     }
     ]
    },
    "audio": "episodes/spacex-starmind/audio/949605e59eb794e5.mp3",
@@ -2773,7 +2802,8 @@
    "chapter": "The case for space",
    "props": {
     "number": 3,
-    "title": "The case for space"
+    "title": "The case for space",
+    "visual": "sunlight"
    },
    "audio": "episodes/spacex-starmind/audio/6d0a65583f4f6db0.mp3",
    "startFrame": 6771,
@@ -3112,16 +3142,29 @@
    ]
   },
   {
-   "type": "quote",
+   "type": "diagram",
    "narration": "SpaceX says it will fly a dawn-dusk orbit, riding the line between day and night so the panels stay in near-constant sunlight. In its application, as quoted by CNN, the company said that would bring transformative cost and energy efficiency.",
    "facts": [
     "f37",
     "f17"
    ],
    "props": {
-    "text": "By directly harnessing near-constant solar power with little operating or maintenance costs, these satellites will achieve transformative cost and energy efficiency.",
-    "author": "SpaceX",
-    "role": "FCC application, via CNN"
+    "title": "A dawn-dusk orbit",
+    "illustration": "sunlight",
+    "callouts": [
+     {
+      "part": "sun",
+      "text": "Sunlight with no clouds and almost no night"
+     },
+     {
+      "part": "orbit",
+      "text": "Rides the line between day and night"
+     },
+     {
+      "part": "earth",
+      "text": "Panels stay in near-constant sunlight"
+     }
+    ]
    },
    "audio": "episodes/spacex-starmind/audio/71c846b4a6c4d150.mp3",
    "startFrame": 7572,
@@ -3330,7 +3373,7 @@
    ]
   },
   {
-   "type": "bullets",
+   "type": "diagram",
    "narration": "Each satellite, as described by New Atlas, would span about seventy metres, with a rack of radiation-hardened computers in the middle, flanked by a solar array and a radiator. SpaceX's prospectus says early satellites will carry around a hundred kilowatts of computing power each.",
    "facts": [
     "f21",
@@ -3338,11 +3381,20 @@
    ],
    "props": {
     "title": "One Starmind satellite",
-    "items": [
-     "Spans 70 to 75 metres",
-     "Radiation-hardened compute rack",
-     "Solar array: up to 250 kW peak",
-     "Radiator: 110 square metres"
+    "illustration": "satellite",
+    "callouts": [
+     {
+      "part": "solar",
+      "text": "Solar array: up to 250 kW peak"
+     },
+     {
+      "part": "compute",
+      "text": "Radiation-hardened compute rack"
+     },
+     {
+      "part": "radiator",
+      "text": "Radiator: 110 square metres"
+     }
     ]
    },
    "audio": "episodes/spacex-starmind/audio/ec945f16c827172d.mp3",
@@ -3572,17 +3624,18 @@
    ]
   },
   {
-   "type": "bignumber",
+   "type": "launch",
    "narration": "And the ambition is enormous. SpaceX says its goal is to put one hundred gigawatts of computing power into orbit every year. By its own estimate, that would take thousands of launches a year, and around a million metric tons of cargo.",
    "facts": [
     "f35"
    ],
    "props": {
-    "value": 100,
-    "suffix": " GW",
-    "decimals": 0,
-    "label": "SpaceX's goal: AI compute launched to orbit, per year",
-    "tone": "accent",
+    "stat": {
+     "value": 100,
+     "suffix": " GW",
+     "decimals": 0,
+     "label": "SpaceX's goal: AI compute launched to orbit, per year"
+    },
     "note": "From SpaceX's IPO prospectus"
    },
    "audio": "episodes/spacex-starmind/audio/5c2f91e7f5ef6370.mp3",
@@ -3808,7 +3861,8 @@
    "chapter": "The launch-cost bet",
    "props": {
     "number": 4,
-    "title": "The launch-cost bet"
+    "title": "The launch-cost bet",
+    "visual": "rocket"
    },
    "audio": "episodes/spacex-starmind/audio/6d1a9423cb1cdb69.mp3",
    "startFrame": 9340,
@@ -4333,18 +4387,19 @@
    ]
   },
   {
-   "type": "bignumber",
+   "type": "launch",
    "narration": "That's the number that matters. Google's analysis says launch prices could fall below two hundred dollars a kilogram by the mid twenty-thirties. At that price, it says, launching and running a space data center could cost roughly the same as just the energy bill of a similar one on Earth.",
    "facts": [
     "f26"
    ],
    "props": {
-    "value": 200,
-    "prefix": "$",
-    "suffix": "/kg",
-    "decimals": 0,
-    "label": "Google's launch-price threshold, mid-2030s",
-    "tone": "accent",
+    "stat": {
+     "value": 200,
+     "prefix": "$",
+     "suffix": "/kg",
+     "decimals": 0,
+     "label": "Google's launch-price threshold, mid-2030s"
+    },
     "note": "Compared with a ground data centre's energy costs only"
    },
    "audio": "episodes/spacex-starmind/audio/5d3975ee4e6ba30f.mp3",
@@ -4697,7 +4752,8 @@
    "chapter": "The heat problem",
    "props": {
     "number": 5,
-    "title": "The heat problem"
+    "title": "The heat problem",
+    "visual": "heat"
    },
    "audio": "episodes/spacex-starmind/audio/07231ef8f31803aa.mp3",
    "startFrame": 11392,
@@ -4776,15 +4832,27 @@
    ]
   },
   {
-   "type": "bullets",
+   "type": "diagram",
    "narration": "On Earth, data centres carry heat away with air and water. In a vacuum there's no air. The only way to get rid of heat is to radiate it away, and that takes surface area. A lot of it.",
-   "facts": [],
+   "facts": [
+    "f37"
+   ],
    "props": {
     "title": "Cooling in a vacuum",
-    "items": [
-     "No air or water to carry heat away",
-     "Heat must be radiated into space",
-     "More heat means more radiator area"
+    "illustration": "heat",
+    "callouts": [
+     {
+      "part": "chip",
+      "text": "Chips turn power into heat"
+     },
+     {
+      "part": "space",
+      "text": "No air or water to carry heat away"
+     },
+     {
+      "part": "radiator",
+      "text": "Heat must be radiated: more area"
+     }
     ]
    },
    "audio": "episodes/spacex-starmind/audio/82c522f1d9b028b8.mp3",
@@ -5582,7 +5650,8 @@
    "chapter": "Who objects",
    "props": {
     "number": 6,
-    "title": "Who objects"
+    "title": "Who objects",
+    "visual": "globe"
    },
    "audio": "episodes/spacex-starmind/audio/70d5d34df0e9cfe7.mp3",
    "startFrame": 13389,
@@ -6008,15 +6077,21 @@
    ]
   },
   {
-   "type": "quote",
+   "type": "globe",
    "narration": "Astronomers are worried about the night sky. According to CNN, the American Astronomical Society said it was dismayed, warning the satellites would be visible as extremely bright objects, and would threaten sensitive research instruments.",
    "facts": [
     "f11"
    ],
    "props": {
-    "text": "Extremely bright objects for longer periods in the night sky.",
-    "author": "American Astronomical Society",
-    "role": "via CNN"
+    "title": "'Extremely bright objects'",
+    "satellites": {
+     "from": 16700,
+     "to": 1000000,
+     "label": "American Astronomical Society, via CNN",
+     "counter": false
+    },
+    "rings": [],
+    "highlights": []
    },
    "audio": "episodes/spacex-starmind/audio/2ebbdbd4cf53b0f0.mp3",
    "startFrame": 14496,
@@ -6412,7 +6487,8 @@
    "chapter": "The race to orbit",
    "props": {
     "number": 7,
-    "title": "The race to orbit"
+    "title": "The race to orbit",
+    "visual": "rocket"
    },
    "audio": "episodes/spacex-starmind/audio/0d6cd0435cc0defc.mp3",
    "startFrame": 15576,
@@ -7100,7 +7176,8 @@
    "chapter": "What to watch",
    "props": {
     "number": 8,
-    "title": "What to watch"
+    "title": "What to watch",
+    "visual": "globe"
    },
    "audio": "episodes/spacex-starmind/audio/b47445033a3227f0.mp3",
    "startFrame": 17206,
@@ -7468,7 +7545,8 @@
    "facts": [],
    "props": {
     "title": "Watch the deadlines",
-    "cta": "Subscribe for business and tech explainers"
+    "cta": "Subscribe for business and tech explainers",
+    "visual": "globe"
    },
    "audio": "episodes/spacex-starmind/audio/1b3b7cfa073a927a.mp3",
    "startFrame": 18234,

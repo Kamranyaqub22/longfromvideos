@@ -2,6 +2,7 @@ import type { SceneOf } from "../schema";
 import { useSceneDuration } from "../components/SceneContext";
 import { useEnter, staggerFrame } from "../components/anim";
 import { C, display } from "../theme";
+import { Backdrop } from "../illustrations/Backdrop";
 
 const Line: React.FC<{ text: string; accent?: string; delay: number; size: number }> = ({ text, accent, delay, size }) => {
   const e = useEnter(delay, 14);
@@ -17,6 +18,7 @@ const Line: React.FC<{ text: string; accent?: string; delay: number; size: numbe
         opacity: Math.min(1, e * 1.5),
         transform: `translateY(${(1 - e) * 60}px) scale(${0.9 + e * 0.1})`,
         textAlign: "center",
+        position: "relative",
       }}
     >
       {text}
@@ -26,12 +28,13 @@ const Line: React.FC<{ text: string; accent?: string; delay: number; size: numbe
 
 export const Hook: React.FC<{ scene: SceneOf<"hook"> }> = ({ scene }) => {
   const durationInFrames = useSceneDuration();
-  const { lines, accent } = scene.props;
+  const { lines, accent, visual } = scene.props;
   const longest = Math.max(...lines.map((l) => l.length));
   // Anton uppercase ≈ 0.5em per char; fit 1640px, cap at 170px.
   const size = Math.min(170, Math.floor(1640 / (longest * 0.5)), lines.length > 3 ? 130 : 170);
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+      {visual ? <Backdrop visual={visual} /> : null}
       {lines.map((l, i) => (
         <Line key={i} text={l} accent={accent} size={size} delay={staggerFrame(i, lines.length, durationInFrames, 0.6)} />
       ))}

@@ -21,6 +21,7 @@ import { qcEpisode } from "./lib/qc";
 import { master, renderEpisode, renderSceneStills, renderThumbnails } from "./lib/render";
 import { buildTimeline, checkTimeline } from "./lib/timeline";
 import { planVoice, voiceEpisode } from "./lib/voice";
+import { auditVisuals, formatVisualReport } from "./lib/visuals";
 
 const hashScript = (s: Script) => createHash("sha256").update(JSON.stringify(s)).digest("hex").slice(0, 16);
 
@@ -124,6 +125,7 @@ async function main() {
       const { script } = check(slug, flag("strict"));
       const plan = planVoice(slug, script);
       console.log(`voice plan: ${plan.toGenerate} scene(s) / ${plan.characters} characters to generate, ${plan.cached} cached`);
+      console.log(formatVisualReport(auditVisuals(script)));
       return;
     }
     case "voice": return void (await voice(slug, flag("mock"), flag("spend")));

@@ -37,6 +37,18 @@ export type Research = z.infer<typeof Research>;
 
 // ---------------------------------------------------------------- scenes
 
+/** Code-drawn illustrations (generic objects, never real people, logos or real-event footage). */
+export const Illustration = z.enum(["globe", "rocket", "satellite", "datacenter", "heat", "sunlight"]);
+export type Illustration = z.infer<typeof Illustration>;
+/** Parts each diagram illustration can label (callout anchors). */
+export const DIAGRAM_PARTS = {
+  satellite: ["solar", "compute", "radiator", "antenna"],
+  datacenter: ["building", "power", "cooling"],
+  heat: ["chip", "radiator", "space"],
+  sunlight: ["sun", "earth", "orbit"],
+} as const;
+export type DiagramKind = keyof typeof DIAGRAM_PARTS;
+
 const sceneBase = {
   /** Text the narrator reads while this scene is on screen. */
   narration: str(1200),
@@ -49,7 +61,7 @@ const sceneBase = {
 export const HookScene = z.object({
   type: z.literal("hook"),
   ...sceneBase,
-  props: z.object({ lines: z.array(str(28)).min(1).max(4), accent: str(28).optional() }),
+  props: z.object({ lines: z.array(str(28)).min(1).max(4), accent: str(28).optional(), visual: Illustration.optional() }),
 });
 export const HeadlineScene = z.object({
   type: z.literal("headline"),
@@ -111,12 +123,12 @@ export const BulletsScene = z.object({
 export const ChapterScene = z.object({
   type: z.literal("chapter"),
   ...sceneBase,
-  props: z.object({ number: z.number().int().min(1).max(20), title: str(40) }),
+  props: z.object({ number: z.number().int().min(1).max(20), title: str(40), visual: Illustration.optional() }),
 });
 export const OutroScene = z.object({
   type: z.literal("outro"),
   ...sceneBase,
-  props: z.object({ title: str(50), cta: str(60).optional() }),
+  props: z.object({ title: str(50), cta: str(60).optional(), visual: Illustration.optional() }),
 });
 
 export const MapScene = z.object({
@@ -148,6 +160,63 @@ export const LineChartScene = z.object({
   }).refine((p) => p.annotations.every((a) => a.index < p.points.length), "annotation index is past the last point"),
 });
 
+
+export const GlobeScene = z.object({
+  type: z.literal("globe"),
+  ...sceneBase,
+  props: z.object({
+    title: str(50).optional(),
+    /** Satellites orbiting the globe; the swarm grows with the counter. */
+    satellites: z
+      .object({
+        from: z.number().int().nonnegative().default(0),
+        to: z.number().int().positive(),
+        label: str(50).optional(),
+        /** Show the animated counter (on-screen number, checked against cited facts). */
+        counter: z.boolean().default(true),
+      })
+      .optional(),
+    /** Labelled orbit shells drawn around the globe (e.g. "500 km"). */
+    rings: z.array(z.object({ label: str(20) })).max(3).default([]),
+    highlights: z.array(z.object({ country: str(40), tone: Tone.default("accent") })).max(8).default([]),
+    note: str(90).optional(),
+    source: str(80).optional(),
+  }),
+});
+export const LaunchScene = z.object({
+  type: z.literal("launch"),
+  ...sceneBase,
+  props: z.object({
+    title: str(50).optional(),
+    stat: z
+      .object({
+        value: z.number().finite(),
+        prefix: z.string().max(3).optional(),
+        suffix: z.string().max(4).optional(),
+        decimals: z.number().int().min(0).max(2).default(0),
+        label: str(60),
+      })
+      .optional(),
+    note: str(90).optional(),
+    source: str(80).optional(),
+  }),
+});
+export const DiagramScene = z.object({
+  type: z.literal("diagram"),
+  ...sceneBase,
+  props: z
+    .object({
+      title: str(50).optional(),
+      illustration: z.enum(["satellite", "datacenter", "heat", "sunlight"]),
+      callouts: z.array(z.object({ part: str(20), text: str(44) })).max(4).default([]),
+      source: str(80).optional(),
+    })
+    .refine(
+      (p) => p.callouts.every((c) => (DIAGRAM_PARTS[p.illustration] as readonly string[]).includes(c.part)),
+      `callout part must belong to the illustration (${Object.entries(DIAGRAM_PARTS).map(([k, v]) => `${k}: ${v.join("/")}`).join("; ")})`,
+    ),
+});
+
 export const Scene = z.discriminatedUnion("type", [
   HookScene,
   HeadlineScene,
@@ -161,6 +230,9 @@ export const Scene = z.discriminatedUnion("type", [
   OutroScene,
   MapScene,
   LineChartScene,
+  GlobeScene,
+  LaunchScene,
+  DiagramScene,
 ]);
 export type Scene = z.infer<typeof Scene>;
 export type SceneType = Scene["type"];

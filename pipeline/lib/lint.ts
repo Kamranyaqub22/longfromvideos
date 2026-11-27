@@ -5,6 +5,7 @@
 import type { Research, Scene, Script } from "../../src/schema";
 import { Issues } from "./issues";
 import { resolveCountry, suggestCountries } from "../../src/lib/geo";
+import { lintVisuals } from "./visuals";
 
 export const WORDS_PER_SECOND = 2.5; // ~150 wpm documentary narration
 
@@ -18,6 +19,8 @@ const ANGLE = /[<>]/; // YouTube rejects < and > in titles and descriptions
 
 /** Scenes that put numbers on screen must be backed by facts. */
 const DATA_SCENES: Scene["type"][] = ["bignumber", "barchart", "drop", "timeline", "headline", "quote", "map", "linechart"];
+/** Illustrated scenes that put a figure on screen (counter, stat) must cite facts too; diagrams with callouts as well. */
+const FIGURE_SCENES: Scene["type"][] = ["globe", "launch", "diagram"];
 
 /** Every number written in a text, as values ("1,200" → 1200, "97.80" → 97.8). */
 export const numbersIn = (text: string) => (text.match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((n) => parseFloat(n.replace(/,/g, "")));
@@ -84,6 +87,12 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
 
     if (/\d/.test(s.narration) && s.facts.length === 0) issues.error(w, "narration contains a number but cites no facts");
     if (DATA_SCENES.includes(s.type) && s.facts.length === 0) issues.error(w, `${s.type} scenes show factual content and must cite facts`);
+    const showsFigure =
+      (s.type === "globe" && (s.props.satellites?.counter || s.props.satellites?.label || s.props.note)) ||
+      (s.type === "launch" && (s.props.stat || s.props.note)) ||
+      (s.type === "diagram" && s.props.callouts.length > 0);
+    if (FIGURE_SCENES.includes(s.type) && showsFigure && s.facts.length === 0)
+      issues.error(w, `${s.type} scene shows figures or labels and must cite facts`);
 
     for (const f of valid) {
       if (f.status === "disputed" && !ATTRIBUTION.test(s.narration))
@@ -99,13 +108,15 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
       : s.type === "drop" ? [s.props.pct]
       : s.type === "barchart" ? s.props.bars.map((b) => b.value)
       : s.type === "linechart" ? [s.props.points[0].value, s.props.points[s.props.points.length - 1].value]
+      : s.type === "globe" && s.props.satellites?.counter ? [s.props.satellites.to]
+      : s.type === "launch" && s.props.stat ? [s.props.stat.value]
       : [];
     for (const n of onScreen)
       if (!containsNumber(claims, n))
         issues.warn(w, `on-screen number ${n} does not appear in any cited fact's claim; double-check it`);
 
-    if (s.type === "map") {
-      const names = [...s.props.highlights.map((h) => h.country), ...s.props.routes.flatMap((r) => [r.from, r.to])];
+    if (s.type === "map" || s.type === "globe") {
+      const names = s.type === "map" ? [...s.props.highlights.map((h) => h.country), ...s.props.routes.flatMap((r) => [r.from, r.to])] : s.props.highlights.map((h) => h.country);
       for (const n of names)
         if (!resolveCountry(n)) {
           const hint = suggestCountries(n);
@@ -126,6 +137,9 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
   const total = script.scenes.reduce((n, s) => n + estimateSeconds(s.narration), 0);
   if (total < 8 * 60) issues.warn("length", `estimated ${(total / 60).toFixed(1)} min; 8+ min enables mid-roll ads`);
   if (total > 25 * 60) issues.warn("length", `estimated ${(total / 60).toFixed(1)} min; consider tightening`);
+
+  // ---- what the viewer sees
+  lintVisuals(script, issues);
 
   return issues;
 }

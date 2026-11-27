@@ -9,7 +9,7 @@
     {
       "layout": "number",
       "top": "Example Corp",
-      "big": "\u221218.5%",
+      "big": "−18.5%",
       "bottom": "test fixture",
       "tone": "down"
     },
@@ -40,7 +40,8 @@
           "Every scene",
           "Invented data"
         ],
-        "accent": "Every scene"
+        "accent": "Every scene",
+        "visual": "globe"
       }
     },
     {
@@ -147,7 +148,8 @@
       "narration": "Part two. The spending.",
       "props": {
         "number": 2,
-        "title": "The spending"
+        "title": "The spending",
+        "visual": "rocket"
       }
     },
     {
@@ -295,6 +297,154 @@
       }
     },
     {
+      "type": "globe",
+      "facts": [
+        "f6"
+      ],
+      "narration": "Here is the globe scene, with an invented satellite count climbing as the swarm grows around the turning Earth.",
+      "props": {
+        "title": "Example Corp test fleet",
+        "satellites": {
+          "from": 0,
+          "to": 2400,
+          "label": "Test satellites in orbit"
+        },
+        "rings": [
+          {
+            "label": "Shell A"
+          },
+          {
+            "label": "Shell B"
+          }
+        ],
+        "highlights": [
+          {
+            "country": "France",
+            "tone": "accent"
+          }
+        ],
+        "source": "Fixture Wire"
+      }
+    },
+    {
+      "type": "launch",
+      "facts": [
+        "f2"
+      ],
+      "narration": "This is the launch scene. A generic rocket lifts off while an invented figure counts up on the left.",
+      "props": {
+        "stat": {
+          "value": 730,
+          "prefix": "$",
+          "suffix": "B",
+          "label": "Invented spending figure"
+        },
+        "note": "Test data only",
+        "source": "Fixture Wire"
+      }
+    },
+    {
+      "type": "diagram",
+      "facts": [
+        "f6"
+      ],
+      "narration": "The satellite diagram unfolds its solar wings, and each labelled part lights up in turn.",
+      "props": {
+        "title": "Test satellite",
+        "illustration": "satellite",
+        "callouts": [
+          {
+            "part": "solar",
+            "text": "Solar array"
+          },
+          {
+            "part": "compute",
+            "text": "Compute rack"
+          },
+          {
+            "part": "radiator",
+            "text": "Radiator"
+          },
+          {
+            "part": "antenna",
+            "text": "Antenna"
+          }
+        ]
+      }
+    },
+    {
+      "type": "diagram",
+      "facts": [
+        "f6"
+      ],
+      "narration": "The data center diagram shows power flowing in, racks blinking, and fans pushing heat out of the roof.",
+      "props": {
+        "illustration": "datacenter",
+        "callouts": [
+          {
+            "part": "power",
+            "text": "Power lines"
+          },
+          {
+            "part": "building",
+            "text": "Server halls"
+          },
+          {
+            "part": "cooling",
+            "text": "Cooling fans"
+          }
+        ]
+      }
+    },
+    {
+      "type": "diagram",
+      "facts": [
+        "f6"
+      ],
+      "narration": "The heat diagram shows a hot chip radiating into space through growing radiator panels.",
+      "props": {
+        "illustration": "heat",
+        "callouts": [
+          {
+            "part": "chip",
+            "text": "Hot chip"
+          },
+          {
+            "part": "radiator",
+            "text": "Radiators"
+          },
+          {
+            "part": "space",
+            "text": "Cold space"
+          }
+        ]
+      }
+    },
+    {
+      "type": "diagram",
+      "facts": [
+        "f6"
+      ],
+      "narration": "And the sunlight diagram shows a satellite circling along the line between day and night.",
+      "props": {
+        "illustration": "sunlight",
+        "callouts": [
+          {
+            "part": "sun",
+            "text": "The sun"
+          },
+          {
+            "part": "earth",
+            "text": "Earth, half in night"
+          },
+          {
+            "part": "orbit",
+            "text": "Dawn-dusk orbit"
+          }
+        ]
+      }
+    },
+    {
       "type": "bullets",
       "chapter": "What to watch",
       "facts": [],
@@ -314,7 +464,8 @@
       "narration": "That is the end of the pipeline test. If every scene looked right, the pipeline works.",
       "props": {
         "title": "End of test",
-        "cta": "Subscribe for the stories behind the headlines"
+        "cta": "Subscribe for the stories behind the headlines",
+        "visual": "satellite"
       }
     }
   ]

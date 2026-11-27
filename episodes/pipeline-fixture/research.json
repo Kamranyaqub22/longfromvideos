@@ -72,6 +72,21 @@
           "url": "https://example.org/times3"
         }
       ]
+    },
+    {
+      "id": "f6",
+      "claim": "Example Corp operates 2,400 test satellites, each with a solar array, a compute rack and a radiator, from a test data center.",
+      "status": "verified",
+      "sources": [
+        {
+          "outlet": "Fixture Wire",
+          "url": "https://example.com/wire5"
+        },
+        {
+          "outlet": "Fixture Times",
+          "url": "https://example.org/times4"
+        }
+      ]
     }
   ]
 }

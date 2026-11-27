@@ -133,3 +133,44 @@ test("unknown map countries are errors, with suggestions", () => {
   m.props.routes = [];
   assert.match(msgs(lint(script, research), "error"), /unknown country "Germny"; did you mean "Germany"/);
 });
+
+// ---- visual audit
+test("a script that is mostly text cards fails the visual audit", () => {
+  const { script, research } = fixture();
+  script.scenes = script.scenes.map((s) =>
+    s.type === "hook" || s.type === "outro" || s.type === "chapter" ? { ...s, props: { ...s.props, visual: undefined } } as typeof s
+    : ({ type: "quote", narration: s.narration, facts: ["f3"], props: { text: "A quote.", author: "Someone" } } as typeof s));
+  script.scenes[0] = { ...fixture().script.scenes[0], props: { lines: ["Pipeline test"] } } as (typeof script.scenes)[number];
+  const errs = msgs(lint(script, research), "error");
+  assert.match(errs, /of screen time is text cards/);
+  assert.match(errs, /text cards in a row/);
+});
+
+test("drawable nouns on a text card get a template suggestion", () => {
+  const { script, research } = fixture();
+  sceneOf(script, "quote").narration = "The rocket lifted off with a satellite on board.";
+  assert.match(msgs(lint(script, research), "warn"), /mentions "(rocket|satellite)".*consider/);
+});
+
+test("illustrated scenes with figures must cite facts, and their counters are checked", () => {
+  const { script, research } = fixture();
+  const g = sceneOf(script, "globe");
+  g.props.satellites!.to = 9999;
+  assert.match(msgs(lint(script, research), "warn"), /on-screen number 9999/);
+  g.facts = [];
+  assert.match(msgs(lint(script, research), "error"), /globe scene shows figures/);
+});
+
+test("diagram callouts must name a part of their illustration", () => {
+  const bad = clone(fixture().script) as any;
+  bad.scenes.find((s: any) => s.type === "diagram").props.callouts[0].part = "wing";
+  assert.equal(Script.safeParse(bad).success, false);
+});
+
+test("hook, chapter and outro with a backdrop count as illustrated", async () => {
+  const { auditVisuals } = await import("../pipeline/lib/visuals");
+  const { script } = fixture();
+  const withVisual = auditVisuals(script).share.illustration;
+  script.scenes.forEach((s) => { if (s.type === "hook" || s.type === "chapter" || s.type === "outro") delete (s.props as any).visual; });
+  assert.ok(auditVisuals(script).share.illustration < withVisual);
+});

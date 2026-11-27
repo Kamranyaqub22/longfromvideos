@@ -49,16 +49,26 @@
     {
       "type": "hook",
       "chapter": "Intro",
-      "facts": ["f1"],
+      "facts": [
+        "f1"
+      ],
       "narration": "The day before Thanksgiving, America's telecoms regulator gave one company permission to launch a million satellites. Not for internet. For artificial intelligence. So why would anyone put data centers in space, and does the maths actually work?",
       "props": {
-        "lines": ["One million satellites", "Approved by the FCC", "For AI data centers", "In orbit"],
-        "accent": "In orbit"
+        "lines": [
+          "One million satellites",
+          "Approved by the FCC",
+          "For AI data centers",
+          "In orbit"
+        ],
+        "accent": "In orbit",
+        "visual": "globe"
       }
     },
     {
       "type": "headline",
-      "facts": ["f1"],
+      "facts": [
+        "f1"
+      ],
       "narration": "On November twenty-fifth, the Federal Communications Commission granted SpaceX authority for a constellation it calls Starmind. Up to one million satellites, each one a small data center, running AI in low Earth orbit.",
       "props": {
         "source": "FCC Space Bureau",
@@ -68,19 +78,28 @@
       }
     },
     {
-      "type": "bignumber",
-      "facts": ["f14"],
+      "type": "globe",
+      "facts": [
+        "f14",
+        "f1"
+      ],
       "narration": "For scale: there are roughly sixteen to seventeen thousand working satellites in orbit today, depending on who's counting. The tracker Orbital Radar puts it at about sixteen thousand seven hundred, according to CNN. Starmind alone would be about sixty times that.",
       "props": {
-        "value": 16700,
-        "label": "Working satellites in orbit today",
-        "note": "Orbital Radar, via CNN. ESA counts 15,800.",
-        "tone": "neutral"
+        "title": "Working satellites in orbit today",
+        "satellites": {
+          "from": 0,
+          "to": 16700,
+          "label": "Satellites in orbit, per Orbital Radar (via CNN)"
+        },
+        "note": "ESA counts 15,800. Starmind would add up to 1,000,000."
       }
     },
     {
       "type": "quote",
-      "facts": ["f12", "f13"],
+      "facts": [
+        "f12",
+        "f13"
+      ],
       "narration": "FCC chairman Brendan Carr, as quoted by CNN, called it a bold new frontier. Elon Musk replied on X: much appreciated, this will be a great asset to America and the world.",
       "props": {
         "text": "This action opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth.",
@@ -93,40 +112,78 @@
       "chapter": "What was approved",
       "facts": [],
       "narration": "But what did the FCC actually sign off on? The fine print is more interesting than the headline.",
-      "props": { "number": 1, "title": "What was approved" }
+      "props": {
+        "number": 1,
+        "title": "What was approved",
+        "visual": "satellite"
+      }
     },
     {
-      "type": "bullets",
-      "facts": ["f5", "f2", "f7"],
+      "type": "globe",
+      "facts": [
+        "f5",
+        "f2",
+        "f7"
+      ],
       "narration": "Strictly speaking, the FCC licenses radio, not computers. According to the order itself, the grant covers the backup and emergency radio links used to track and command the satellites. They'll fly in thin orbital shells between five hundred and about a thousand kilometres up, on a fifteen-year licence.",
       "props": {
         "title": "What the order covers",
-        "items": [
-          "Up to 1,000,000 satellites",
-          "Orbits from 500 to 1,002 km up",
-          "Licence for backup and emergency radio links",
-          "15-year licence term"
-        ]
+        "satellites": {
+          "from": 2000,
+          "to": 1000000,
+          "counter": false,
+          "label": "Up to 1,000,000 satellites"
+        },
+        "rings": [
+          {
+            "label": "500 km"
+          },
+          {
+            "label": "1,002 km"
+          }
+        ],
+        "note": "Licence for backup and emergency radio links · 15-year term"
       }
     },
     {
       "type": "timeline",
-      "facts": ["f4", "f18"],
+      "facts": [
+        "f4",
+        "f18"
+      ],
       "narration": "And it comes with deadlines. SpaceX's prospectus says it hopes to start launching as early as twenty twenty-eight. The FCC says the licence is void unless one satellite is working by November twenty thirty-three, a hundred thousand by twenty thirty-five, half the fleet by twenty thirty-eight, and all of it by twenty forty.",
       "props": {
         "title": "The Starmind clock",
         "events": [
-          { "date": "2028", "text": "SpaceX's target for first compute satellites" },
-          { "date": "Nov 2033", "text": "First satellite must be operating" },
-          { "date": "Nov 2035", "text": "10% of the fleet in orbit" },
-          { "date": "Nov 2038", "text": "50% of the fleet in orbit" },
-          { "date": "Nov 2040", "text": "Full constellation, or the licence is void" }
+          {
+            "date": "2028",
+            "text": "SpaceX's target for first compute satellites"
+          },
+          {
+            "date": "Nov 2033",
+            "text": "First satellite must be operating"
+          },
+          {
+            "date": "Nov 2035",
+            "text": "10% of the fleet in orbit"
+          },
+          {
+            "date": "Nov 2038",
+            "text": "50% of the fleet in orbit"
+          },
+          {
+            "date": "Nov 2040",
+            "text": "Full constellation, or the licence is void"
+          }
         ]
       }
     },
     {
       "type": "bullets",
-      "facts": ["f6", "f7"],
+      "facts": [
+        "f6",
+        "f7"
+      ],
       "narration": "The order also sets conditions. SpaceX wanted to send dead satellites above six hundred kilometres into disposal orbits, or off around the sun, instead of burning them up in the atmosphere. The FCC put that on hold until SpaceX gives more detail. It did waive the surety bond, the deposit operators normally post to show they're serious.",
       "props": {
         "title": "The fine print",
@@ -140,7 +197,9 @@
     },
     {
       "type": "quote",
-      "facts": ["f9"],
+      "facts": [
+        "f9"
+      ],
       "narration": "And the FCC set aside objections about the environment and about astronomy, saying they're outside its authority. We'll come back to who raised them.",
       "props": {
         "text": "We dismiss comments and concerns raised regarding topics over which the Commission has no authority, including environmental concerns.",
@@ -153,24 +212,42 @@
       "chapter": "AI's power problem",
       "facts": [],
       "narration": "To understand why anyone wants this, look down at the ground, and at what AI is doing to the electricity grid.",
-      "props": { "number": 2, "title": "AI's power problem" }
+      "props": {
+        "number": 2,
+        "title": "AI's power problem",
+        "visual": "datacenter"
+      }
     },
     {
       "type": "barchart",
-      "facts": ["f22"],
+      "facts": [
+        "f22"
+      ],
       "narration": "According to the International Energy Agency, data centres used about four hundred and fifteen terawatt hours of electricity in twenty twenty-four. That's around one and a half percent of all the world's electricity. By twenty thirty, the agency expects that to more than double, to around nine hundred and forty-five.",
       "props": {
         "title": "Data centre electricity use (TWh)",
         "bars": [
-          { "label": "2024", "value": 415, "display": "415 TWh", "tone": "neutral" },
-          { "label": "2030 (projected)", "value": 945, "display": "945 TWh", "tone": "accent" }
+          {
+            "label": "2024",
+            "value": 415,
+            "display": "415 TWh",
+            "tone": "neutral"
+          },
+          {
+            "label": "2030 (projected)",
+            "value": 945,
+            "display": "945 TWh",
+            "tone": "accent"
+          }
         ],
         "source": "IEA, Energy and AI (2025), base case"
       }
     },
     {
       "type": "bignumber",
-      "facts": ["f23"],
+      "facts": [
+        "f23"
+      ],
       "narration": "The fastest-growing part is AI itself. The IEA expects electricity demand from data centres built for AI to more than quadruple by twenty thirty.",
       "props": {
         "value": 4,
@@ -182,28 +259,51 @@
     },
     {
       "type": "map",
-      "facts": ["f23"],
+      "facts": [
+        "f23"
+      ],
       "narration": "Most of that growth is in two countries. The IEA says the United States and China account for nearly eighty percent of it.",
       "props": {
         "title": "Nearly 80% of data-centre demand growth",
         "view": "world",
         "highlights": [
-          { "country": "United States", "tone": "accent", "label": "United States" },
-          { "country": "China", "tone": "accent", "label": "China" }
+          {
+            "country": "United States",
+            "tone": "accent",
+            "label": "United States"
+          },
+          {
+            "country": "China",
+            "tone": "accent",
+            "label": "China"
+          }
         ],
         "source": "IEA, Energy and AI (2025), growth to 2030"
       }
     },
     {
-      "type": "bullets",
-      "facts": ["f24", "f22"],
+      "type": "diagram",
+      "facts": [
+        "f24",
+        "f22"
+      ],
       "narration": "And building on the ground is getting harder politically. According to CBS News, in this month's midterm elections American voters approved dozens of proposals aimed at restricting data centers.",
       "props": {
         "title": "Why the ground is getting harder",
-        "items": [
-          "Electricity demand set to double by 2030",
-          "Voters approve dozens of restrictions",
-          "Growth concentrated in the US and China"
+        "illustration": "datacenter",
+        "callouts": [
+          {
+            "part": "power",
+            "text": "Electricity demand set to double by 2030"
+          },
+          {
+            "part": "building",
+            "text": "Voters approve dozens of restrictions"
+          },
+          {
+            "part": "cooling",
+            "text": "Growth concentrated in the US and China"
+          }
         ]
       }
     },
@@ -212,11 +312,17 @@
       "chapter": "The case for space",
       "facts": [],
       "narration": "SpaceX's pitch is simple. Go somewhere the sun almost never sets, and nobody lives next door.",
-      "props": { "number": 3, "title": "The case for space" }
+      "props": {
+        "number": 3,
+        "title": "The case for space",
+        "visual": "sunlight"
+      }
     },
     {
       "type": "bignumber",
-      "facts": ["f25"],
+      "facts": [
+        "f25"
+      ],
       "narration": "Above the atmosphere there are no clouds, and in the right orbit, almost no night. Google's researchers, who are working on their own version of this idea, say a solar panel in the right orbit can be up to eight times more productive than on Earth.",
       "props": {
         "value": 8,
@@ -227,39 +333,70 @@
       }
     },
     {
-      "type": "quote",
-      "facts": ["f37", "f17"],
+      "type": "diagram",
+      "facts": [
+        "f37",
+        "f17"
+      ],
       "narration": "SpaceX says it will fly a dawn-dusk orbit, riding the line between day and night so the panels stay in near-constant sunlight. In its application, as quoted by CNN, the company said that would bring transformative cost and energy efficiency.",
       "props": {
-        "text": "By directly harnessing near-constant solar power with little operating or maintenance costs, these satellites will achieve transformative cost and energy efficiency.",
-        "author": "SpaceX",
-        "role": "FCC application, via CNN"
-      }
-    },
-    {
-      "type": "bullets",
-      "facts": ["f21", "f37"],
-      "narration": "Each satellite, as described by New Atlas, would span about seventy metres, with a rack of radiation-hardened computers in the middle, flanked by a solar array and a radiator. SpaceX's prospectus says early satellites will carry around a hundred kilowatts of computing power each.",
-      "props": {
-        "title": "One Starmind satellite",
-        "items": [
-          "Spans 70 to 75 metres",
-          "Radiation-hardened compute rack",
-          "Solar array: up to 250 kW peak",
-          "Radiator: 110 square metres"
+        "title": "A dawn-dusk orbit",
+        "illustration": "sunlight",
+        "callouts": [
+          {
+            "part": "sun",
+            "text": "Sunlight with no clouds and almost no night"
+          },
+          {
+            "part": "orbit",
+            "text": "Rides the line between day and night"
+          },
+          {
+            "part": "earth",
+            "text": "Panels stay in near-constant sunlight"
+          }
         ]
       }
     },
     {
-      "type": "bignumber",
-      "facts": ["f35"],
+      "type": "diagram",
+      "facts": [
+        "f21",
+        "f37"
+      ],
+      "narration": "Each satellite, as described by New Atlas, would span about seventy metres, with a rack of radiation-hardened computers in the middle, flanked by a solar array and a radiator. SpaceX's prospectus says early satellites will carry around a hundred kilowatts of computing power each.",
+      "props": {
+        "title": "One Starmind satellite",
+        "illustration": "satellite",
+        "callouts": [
+          {
+            "part": "solar",
+            "text": "Solar array: up to 250 kW peak"
+          },
+          {
+            "part": "compute",
+            "text": "Radiation-hardened compute rack"
+          },
+          {
+            "part": "radiator",
+            "text": "Radiator: 110 square metres"
+          }
+        ]
+      }
+    },
+    {
+      "type": "launch",
+      "facts": [
+        "f35"
+      ],
       "narration": "And the ambition is enormous. SpaceX says its goal is to put one hundred gigawatts of computing power into orbit every year. By its own estimate, that would take thousands of launches a year, and around a million metric tons of cargo.",
       "props": {
-        "value": 100,
-        "suffix": " GW",
-        "label": "SpaceX's goal: AI compute launched to orbit, per year",
-        "note": "From SpaceX's IPO prospectus",
-        "tone": "accent"
+        "stat": {
+          "value": 100,
+          "suffix": " GW",
+          "label": "SpaceX's goal: AI compute launched to orbit, per year"
+        },
+        "note": "From SpaceX's IPO prospectus"
       }
     },
     {
@@ -267,25 +404,48 @@
       "chapter": "The launch-cost bet",
       "facts": [],
       "narration": "All of that hinges on one number: what it costs to lift a kilogram into orbit.",
-      "props": { "number": 4, "title": "The launch-cost bet" }
+      "props": {
+        "number": 4,
+        "title": "The launch-cost bet",
+        "visual": "rocket"
+      }
     },
     {
       "type": "barchart",
-      "facts": ["f33"],
+      "facts": [
+        "f33"
+      ],
       "narration": "By NASA's figures, the Space Shuttle cost about fifty-four thousand dollars for every kilogram it carried to low Earth orbit. SpaceX's Falcon 9 brought the advertised price down to about two thousand seven hundred. Falcon Heavy, about fourteen hundred.",
       "props": {
         "title": "Cost to low Earth orbit ($ per kg)",
         "bars": [
-          { "label": "Space Shuttle", "value": 54500, "display": "$54,500", "tone": "down" },
-          { "label": "Falcon 9 (2010)", "value": 2700, "display": "$2,700", "tone": "neutral" },
-          { "label": "Falcon Heavy", "value": 1400, "display": "$1,400", "tone": "up" }
+          {
+            "label": "Space Shuttle",
+            "value": 54500,
+            "display": "$54,500",
+            "tone": "down"
+          },
+          {
+            "label": "Falcon 9 (2010)",
+            "value": 2700,
+            "display": "$2,700",
+            "tone": "neutral"
+          },
+          {
+            "label": "Falcon Heavy",
+            "value": 1400,
+            "display": "$1,400",
+            "tone": "up"
+          }
         ],
         "source": "NASA (Jones, 2018 and 2019); advertised prices"
       }
     },
     {
       "type": "drop",
-      "facts": ["f34"],
+      "facts": [
+        "f34"
+      ],
       "narration": "SpaceX says Starship, its fully reusable rocket, is meant to cut the cost of reaching orbit by ninety-nine percent or more, compared with the historical average. If it gets there, that's under two hundred dollars a kilo.",
       "props": {
         "title": "Starship's cost target",
@@ -297,21 +457,26 @@
       }
     },
     {
-      "type": "bignumber",
-      "facts": ["f26"],
+      "type": "launch",
+      "facts": [
+        "f26"
+      ],
       "narration": "That's the number that matters. Google's analysis says launch prices could fall below two hundred dollars a kilogram by the mid twenty-thirties. At that price, it says, launching and running a space data center could cost roughly the same as just the energy bill of a similar one on Earth.",
       "props": {
-        "value": 200,
-        "prefix": "$",
-        "suffix": "/kg",
-        "label": "Google's launch-price threshold, mid-2030s",
-        "note": "Compared with a ground data centre's energy costs only",
-        "tone": "accent"
+        "stat": {
+          "value": 200,
+          "prefix": "$",
+          "suffix": "/kg",
+          "label": "Google's launch-price threshold, mid-2030s"
+        },
+        "note": "Compared with a ground data centre's energy costs only"
       }
     },
     {
       "type": "quote",
-      "facts": ["f36"],
+      "facts": [
+        "f36"
+      ],
       "narration": "SpaceX itself admits the whole idea depends on Starship. Its prospectus puts it plainly.",
       "props": {
         "text": "AI compute satellites at scale need full Starship reusability to be economically compelling.",
@@ -324,24 +489,42 @@
       "chapter": "The heat problem",
       "facts": [],
       "narration": "But even if launches get cheap, there's a problem money can't wish away. Heat.",
-      "props": { "number": 5, "title": "The heat problem" }
+      "props": {
+        "number": 5,
+        "title": "The heat problem",
+        "visual": "heat"
+      }
     },
     {
-      "type": "bullets",
-      "facts": [],
+      "type": "diagram",
+      "facts": [
+        "f37"
+      ],
       "narration": "On Earth, data centres carry heat away with air and water. In a vacuum there's no air. The only way to get rid of heat is to radiate it away, and that takes surface area. A lot of it.",
       "props": {
         "title": "Cooling in a vacuum",
-        "items": [
-          "No air or water to carry heat away",
-          "Heat must be radiated into space",
-          "More heat means more radiator area"
+        "illustration": "heat",
+        "callouts": [
+          {
+            "part": "chip",
+            "text": "Chips turn power into heat"
+          },
+          {
+            "part": "space",
+            "text": "No air or water to carry heat away"
+          },
+          {
+            "part": "radiator",
+            "text": "Heat must be radiated: more area"
+          }
         ]
       }
     },
     {
       "type": "bignumber",
-      "facts": ["f30"],
+      "facts": [
+        "f30"
+      ],
       "narration": "An analysis in IEEE Spectrum, by Andrew Cavalier of ABI Research, found that one high-end AI chip, kept at sixty degrees, needs about one point four square metres of radiator. After five years of wear, nearly two.",
       "props": {
         "value": 1.4,
@@ -354,7 +537,9 @@
     },
     {
       "type": "bignumber",
-      "facts": ["f30"],
+      "facts": [
+        "f30"
+      ],
       "narration": "Scale that up, and by the same analysis a single server rack needs a radiator of about eighty square metres. Roughly the size of a badminton court.",
       "props": {
         "value": 80,
@@ -366,7 +551,9 @@
     },
     {
       "type": "quote",
-      "facts": ["f31"],
+      "facts": [
+        "f31"
+      ],
       "narration": "Add the cost of launch and radiation-proofing, and that model found running a chip in space for a year cost at least ten times more than on the ground. And that was assuming launches at just forty-four dollars a kilo. Its conclusion:",
       "props": {
         "text": "The cost of delivery and space hardening of the payload makes general-purpose space-based data centers difficult to justify economically today.",
@@ -379,11 +566,17 @@
       "chapter": "Who objects",
       "facts": [],
       "narration": "And then there are the people who tried to stop it.",
-      "props": { "number": 6, "title": "Who objects" }
+      "props": {
+        "number": 6,
+        "title": "Who objects",
+        "visual": "globe"
+      }
     },
     {
       "type": "bullets",
-      "facts": ["f8"],
+      "facts": [
+        "f8"
+      ],
       "narration": "Three groups formally asked the FCC to deny the application. Amazon, through its own satellite internet business, Amazon Leo. The satellite operator Viasat. And the American Astronomical Society.",
       "props": {
         "title": "Petitions to deny, March 2026",
@@ -396,7 +589,9 @@
     },
     {
       "type": "quote",
-      "facts": ["f10"],
+      "facts": [
+        "f10"
+      ],
       "narration": "Amazon, a direct competitor, called Starmind a lofty ambition rather than a real plan, according to CNBC's account of its filing, and said it would take SpaceX centuries to build. Amazon declined to comment on the approval.",
       "props": {
         "text": "A lofty ambition rather than a real plan.",
@@ -405,18 +600,27 @@
       }
     },
     {
-      "type": "quote",
-      "facts": ["f11"],
+      "type": "globe",
+      "facts": [
+        "f11"
+      ],
       "narration": "Astronomers are worried about the night sky. According to CNN, the American Astronomical Society said it was dismayed, warning the satellites would be visible as extremely bright objects, and would threaten sensitive research instruments.",
       "props": {
-        "text": "Extremely bright objects for longer periods in the night sky.",
-        "author": "American Astronomical Society",
-        "role": "via CNN"
+        "title": "'Extremely bright objects'",
+        "satellites": {
+          "from": 16700,
+          "to": 1000000,
+          "counter": false,
+          "label": "American Astronomical Society, via CNN"
+        }
       }
     },
     {
       "type": "bullets",
-      "facts": ["f32", "f9"],
+      "facts": [
+        "f32",
+        "f9"
+      ],
       "narration": "Environmental lawyers object too. CNBC reports that Earthjustice criticised the FCC for deciding during a holiday week, and without the environmental review it says federal law requires. The FCC's position is that those questions are outside its authority.",
       "props": {
         "title": "The environmental objection",
@@ -432,26 +636,52 @@
       "chapter": "The race to orbit",
       "facts": [],
       "narration": "Whatever the objections, SpaceX isn't the only one making this bet.",
-      "props": { "number": 7, "title": "The race to orbit" }
+      "props": {
+        "number": 7,
+        "title": "The race to orbit",
+        "visual": "rocket"
+      }
     },
     {
       "type": "timeline",
-      "facts": ["f29", "f15", "f28", "f27"],
+      "facts": [
+        "f29",
+        "f15",
+        "f28",
+        "f27"
+      ],
       "narration": "Last November, a startup called Starcloud flew an Nvidia H100, a data-centre AI chip, on a SpaceX rocket, and later said it had trained a small language model in orbit. In March, according to CNBC, Blue Origin asked for up to fifty-one thousand six hundred satellites. Google put its first AI chips in space in October, and plans two prototypes with Planet by early twenty twenty-seven.",
       "props": {
         "title": "Who else is going",
         "events": [
-          { "date": "Nov 2025", "text": "Starcloud flies an Nvidia H100 in orbit" },
-          { "date": "Jan 2026", "text": "SpaceX files the Starmind application" },
-          { "date": "Mar 2026", "text": "Blue Origin seeks up to 51,600 satellites" },
-          { "date": "Oct 2026", "text": "Google's first AI chips reach orbit" },
-          { "date": "Early 2027", "text": "Google and Planet prototypes due" }
+          {
+            "date": "Nov 2025",
+            "text": "Starcloud flies an Nvidia H100 in orbit"
+          },
+          {
+            "date": "Jan 2026",
+            "text": "SpaceX files the Starmind application"
+          },
+          {
+            "date": "Mar 2026",
+            "text": "Blue Origin seeks up to 51,600 satellites"
+          },
+          {
+            "date": "Oct 2026",
+            "text": "Google's first AI chips reach orbit"
+          },
+          {
+            "date": "Early 2027",
+            "text": "Google and Planet prototypes due"
+          }
         ]
       }
     },
     {
       "type": "bignumber",
-      "facts": ["f20"],
+      "facts": [
+        "f20"
+      ],
       "narration": "And SpaceX has public money behind it now. Its June IPO raised a record seventy-five billion dollars, valuing the company at about one point eight trillion.",
       "props": {
         "value": 75,
@@ -464,7 +694,9 @@
     },
     {
       "type": "quote",
-      "facts": ["f19"],
+      "facts": [
+        "f19"
+      ],
       "narration": "But the same prospectus is candid about the risk. It warns that orbital AI compute involves",
       "props": {
         "text": "Unproven technologies or technologies that do not exist, and such initiatives may not achieve commercial viability.",
@@ -477,11 +709,20 @@
       "chapter": "What to watch",
       "facts": [],
       "narration": "So what should you watch for next?",
-      "props": { "number": 8, "title": "What to watch" }
+      "props": {
+        "number": 8,
+        "title": "What to watch",
+        "visual": "globe"
+      }
     },
     {
       "type": "bullets",
-      "facts": ["f36", "f18", "f6", "f4"],
+      "facts": [
+        "f36",
+        "f18",
+        "f6",
+        "f4"
+      ],
       "narration": "Four things. First, whether Starship becomes fully reusable, because SpaceX itself says the economics depend on it. Second, the twenty twenty-eight target for the first compute satellites. Third, the disposal plan for satellites above six hundred kilometres, which still needs FCC approval. And fourth, the hard deadline: a hundred thousand satellites by twenty thirty-five, or the licence is void.",
       "props": {
         "title": "What to watch",
@@ -499,7 +740,8 @@
       "narration": "A million data centers in the sky is either the next great infrastructure build, or the most expensive way ever devised to cool a computer. The deadlines will tell us which. Subscribe so you don't miss the next one.",
       "props": {
         "title": "Watch the deadlines",
-        "cta": "Subscribe for business and tech explainers"
+        "cta": "Subscribe for business and tech explainers",
+        "visual": "globe"
       }
     }
   ]

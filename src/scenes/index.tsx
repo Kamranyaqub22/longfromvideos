@@ -11,6 +11,9 @@ import { MapScene } from "./MapScene";
 import { Outro } from "./Outro";
 import { Quote } from "./Quote";
 import { TimelineScene } from "./TimelineScene";
+import { GlobeScene } from "./GlobeScene";
+import { LaunchScene } from "./LaunchScene";
+import { DiagramScene } from "./DiagramScene";
 
 /** Exhaustive switch: adding a scene type to the schema without a renderer is a type error. */
 export const SceneView: React.FC<{ scene: Scene }> = ({ scene }) => {
@@ -27,6 +30,9 @@ export const SceneView: React.FC<{ scene: Scene }> = ({ scene }) => {
     case "outro": return <Outro scene={scene} />;
     case "map": return <MapScene scene={scene} />;
     case "linechart": return <LineChart scene={scene} />;
+    case "globe": return <GlobeScene scene={scene} />;
+    case "launch": return <LaunchScene scene={scene} />;
+    case "diagram": return <DiagramScene scene={scene} />;
     default: {
       const never: never = scene;
       throw new Error(`Unknown scene type: ${JSON.stringify(never)}`);

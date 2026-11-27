@@ -42,6 +42,22 @@ Structure that holds attention:
 - Data on screen (bignumber, barchart, drop) must use the exact figures from cited facts.
 - End with "what happens next / what to watch" and a one-line outro. No financial advice.
 
+### Plan what the viewer SEES (visual audit, part of `check`)
+
+A script that is mostly text cards looks like a news bulletin. For every scene ask: *what does the viewer see?*
+If the narration names something drawable (a rocket, satellites, the Earth, a data centre, heat, a trade route),
+show it with an illustrated template, not a quote or bullet card. `check` measures screen time by kind and enforces it:
+
+| rule | warning | error |
+|---|---|---|
+| text cards (headline, quote, bullets, and hook/chapter/outro without `visual`) | > 35% | > 50% |
+| illustrated (globe, launch, diagram, map, hook/chapter/outro with `visual`) | < 25% | – |
+| longest stretch of text cards in a row | > 35 s | > 60 s |
+
+It also warns, scene by scene, when narration mentions a drawable noun on a text card and names the template to use,
+and prints `visuals: N% illustrated · N% data · N% text`. Thresholds live in `pipeline/lib/visuals.ts`.
+Swapping a scene's template keeps its narration, so the cached voice is reused (0 credits).
+
 ### Scene templates (see `src/schema.ts` for exact props and length limits)
 
 | type | use for | key props |
@@ -58,6 +74,13 @@ Structure that holds attention:
 | `outro` | ending + CTA | `title`, `cta` |
 | `map` | where things happen: countries, trade routes | `title`, `view` (`fit`/`world`), `highlights[{country,tone,label}]` (≤8), `routes[{from,to,label,tone}]` (≤5), `source` |
 | `linechart` | a real series over time (prices, rates) | `title`, `points[{label,value}]` (3–120), `prefix`, `suffix`, `decimals`, `annotations[{index,text}]` (≤2), `source` |
+| `globe` | satellites, orbits, "the whole planet", scale | `title`, `satellites{from,to,label,counter}` (counter is an on-screen number: cite it), `rings[{label}]` (≤3), `highlights[{country,tone}]`, `note`, `source` |
+| `launch` | rockets, launch cost, "getting to orbit" | `title`, `stat{value,prefix,suffix,decimals,label}`, `note`, `source` |
+| `diagram` | how a thing works, part by part | `illustration` (`satellite`, `datacenter`, `heat`, `sunlight`), `callouts[{part,text}]` (≤4; parts per drawing in `DIAGRAM_PARTS`), `title`, `source` |
+
+`hook`, `chapter` and `outro` take an optional `visual` backdrop (`globe`, `rocket`, `satellite`, `datacenter`, `heat`,
+`sunlight`). Illustrations are generic code-drawn objects (`src/illustrations/`): no real vehicles' liveries, logos or
+people. To add a drawing, add it to `src/illustrations/Diagrams.tsx` with its anchor points and to `DIAGRAM_PARTS`.
 
 Map notes: country names are checked by `check` (aliases like "USA", "UK", "UAE" work; typos get
 suggestions). The map centres itself on the story (US–Asia → Pacific), frames mainlands (France without
