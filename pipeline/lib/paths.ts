@@ -21,6 +21,7 @@ export const paths = (slug: string) => {
     /** Variant 0 is thumbnail.png (the default); others are thumbnail-2.png, thumbnail-3.png. */
     thumbnail: (i = 0) => path.join(ROOT, "out", slug, i === 0 ? "thumbnail.png" : `thumbnail-${i + 1}.png`),
     description: path.join(ROOT, "out", slug, "description.txt"),
+    subtitles: path.join(ROOT, "out", slug, "subtitles.srt"),
     upload: path.join(ROOT, "out", slug, "upload.json"),
     qcReport: path.join(ROOT, "out", slug, "qc-report.json"),
   };

@@ -5,7 +5,7 @@
  *   npm run ep -- check <slug>               schema + editorial lint (free)
  *   npm run ep -- voice <slug> [--mock] [--spend]   voice-over + timeline
  *   npm run ep -- stills <slug>              one review still per scene
- *   npm run ep -- render <slug>              render, master audio, thumbnail, description
+ *   npm run ep -- render <slug>              render, master audio, thumbnail, description, subtitles
  *   npm run ep -- qc <slug> [--allow-mock]   automated quality control on finished files
  *   npm run ep -- build <slug> [--mock] [--spend]   all of the above, stopping at the first error
  */
@@ -13,6 +13,7 @@ import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import type { Script, Timeline } from "../src/schema";
 import { buildDescription, buildUploadMeta } from "./lib/describe";
+import { buildSrt } from "./lib/srt";
 import { Issues, PipelineError } from "./lib/issues";
 import { lintEpisode } from "./lib/lint";
 import { loadEpisode } from "./lib/load";
@@ -89,6 +90,7 @@ async function render(slug: string) {
   await renderThumbnails(slug, script.thumbnail);
   const description = buildDescription(script, research, t);
   writeFileSync(p.description, description);
+  writeFileSync(p.subtitles, buildSrt(t));
   writeFileSync(p.upload, JSON.stringify(buildUploadMeta(script, description), null, 2));
   console.log(`render: done → ${p.outDir}`);
 }
