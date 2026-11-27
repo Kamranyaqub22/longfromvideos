@@ -4,13 +4,13 @@
  "fps": 30,
  "width": 1920,
  "height": 1080,
- "durationInFrames": 15205,
+ "durationInFrames": 15216,
  "mock": true,
- "scriptHash": "bf5d3ab82fe62b4b",
+ "scriptHash": "9a787c08c3cabb30",
  "scenes": [
   {
    "type": "hook",
-   "narration": "Nearly one in every five dollars Nvidia earned last fiscal year was billed to one small country. Singapore. But according to Nvidia's own annual report, less than two percent was actually shipped there.",
+   "narration": "In its 2025 fiscal year, nearly one in five dollars Nvidia earned was billed to one small country. Singapore. But according to Nvidia's own annual report, less than two percent was actually shipped there.",
    "facts": [
     "f1"
    ],
@@ -24,172 +24,177 @@
    },
    "audio": "",
    "startFrame": 0,
-   "durationInFrames": 381,
+   "durationInFrames": 392,
    "words": [
     {
-     "text": "Nearly",
+     "text": "In",
      "start": 0.15,
      "end": 0.46135531135531127
     },
     {
-     "text": "one",
+     "text": "its",
      "start": 0.5163003663003662,
      "end": 0.8276556776556776
     },
     {
-     "text": "in",
+     "text": "2025",
      "start": 0.8826007326007325,
      "end": 1.1939560439560437
     },
     {
-     "text": "every",
+     "text": "fiscal",
      "start": 1.2489010989010985,
      "end": 1.5602564102564098
     },
     {
-     "text": "five",
+     "text": "year,",
      "start": 1.6152014652014648,
      "end": 1.9265567765567762
     },
     {
-     "text": "dollars",
+     "text": "nearly",
      "start": 1.9815018315018311,
      "end": 2.2928571428571423
     },
     {
-     "text": "Nvidia",
+     "text": "one",
      "start": 2.347802197802197,
      "end": 2.659157509157508
     },
     {
-     "text": "earned",
+     "text": "in",
      "start": 2.7141025641025633,
      "end": 3.0254578754578745
     },
     {
-     "text": "last",
+     "text": "five",
      "start": 3.0804029304029297,
      "end": 3.391758241758241
     },
     {
-     "text": "fiscal",
+     "text": "dollars",
      "start": 3.446703296703296,
      "end": 3.758058608058607
     },
     {
-     "text": "year",
+     "text": "Nvidia",
      "start": 3.8130036630036623,
      "end": 4.124358974358974
     },
     {
-     "text": "was",
+     "text": "earned",
      "start": 4.179304029304029,
      "end": 4.49065934065934
     },
     {
-     "text": "billed",
+     "text": "was",
      "start": 4.5456043956043946,
      "end": 4.856959706959706
     },
     {
-     "text": "to",
+     "text": "billed",
      "start": 4.911904761904761,
      "end": 5.2232600732600725
     },
     {
-     "text": "one",
+     "text": "to",
      "start": 5.278205128205127,
      "end": 5.589560439560438
     },
     {
-     "text": "small",
+     "text": "one",
      "start": 5.644505494505494,
      "end": 5.955860805860805
     },
     {
-     "text": "country.",
+     "text": "small",
      "start": 6.01080586080586,
      "end": 6.322161172161171
     },
     {
-     "text": "Singapore.",
+     "text": "country.",
      "start": 6.377106227106226,
      "end": 6.688461538461537
     },
     {
-     "text": "But",
+     "text": "Singapore.",
      "start": 6.7434065934065925,
      "end": 7.054761904761904
     },
     {
-     "text": "according",
+     "text": "But",
      "start": 7.109706959706958,
      "end": 7.42106227106227
     },
     {
-     "text": "to",
+     "text": "according",
      "start": 7.476007326007325,
      "end": 7.787362637362636
     },
     {
-     "text": "Nvidia's",
+     "text": "to",
      "start": 7.842307692307691,
      "end": 8.153663003663002
     },
     {
-     "text": "own",
+     "text": "Nvidia's",
      "start": 8.208608058608057,
      "end": 8.519963369963369
     },
     {
-     "text": "annual",
+     "text": "own",
      "start": 8.574908424908424,
      "end": 8.886263736263736
     },
     {
-     "text": "report,",
+     "text": "annual",
      "start": 8.941208791208789,
      "end": 9.2525641025641
     },
     {
-     "text": "less",
+     "text": "report,",
      "start": 9.307509157509156,
      "end": 9.618864468864468
     },
     {
-     "text": "than",
+     "text": "less",
      "start": 9.673809523809522,
      "end": 9.985164835164834
     },
     {
-     "text": "two",
+     "text": "than",
      "start": 10.040109890109889,
      "end": 10.351465201465201
     },
     {
-     "text": "percent",
+     "text": "two",
      "start": 10.406410256410254,
      "end": 10.717765567765566
     },
     {
-     "text": "was",
+     "text": "percent",
      "start": 10.77271062271062,
      "end": 11.084065934065933
     },
     {
-     "text": "actually",
+     "text": "was",
      "start": 11.139010989010988,
      "end": 11.4503663003663
     },
     {
-     "text": "shipped",
+     "text": "actually",
      "start": 11.505311355311353,
      "end": 11.816666666666665
     },
     {
-     "text": "there.",
+     "text": "shipped",
      "start": 11.87161172161172,
      "end": 12.182967032967031
+    },
+    {
+     "text": "there.",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
     }
    ]
   },
@@ -230,7 +235,7 @@
     "source": "US Commerce Dept. rule"
    },
    "audio": "",
-   "startFrame": 381,
+   "startFrame": 392,
    "durationInFrames": 287,
    "words": [
     {
@@ -367,7 +372,7 @@
     "accent": "the chips go?"
    },
    "audio": "",
-   "startFrame": 668,
+   "startFrame": 679,
    "durationInFrames": 326,
    "words": [
     {
@@ -526,7 +531,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 994,
+   "startFrame": 1005,
    "durationInFrames": 232,
    "words": [
     {
@@ -636,7 +641,7 @@
     "title": "The invoice island"
    },
    "audio": "",
-   "startFrame": 1226,
+   "startFrame": 1237,
    "durationInFrames": 242,
    "words": [
     {
@@ -767,7 +772,7 @@
     "source": "Nvidia 10-K, by billing location"
    },
    "audio": "",
-   "startFrame": 1468,
+   "startFrame": 1479,
    "durationInFrames": 507,
    "words": [
     {
@@ -1004,7 +1009,7 @@
     "role": "annual report, fiscal 2025"
    },
    "audio": "",
-   "startFrame": 1975,
+   "startFrame": 1986,
    "durationInFrames": 265,
    "words": [
     {
@@ -1132,7 +1137,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 2240,
+   "startFrame": 2251,
    "durationInFrames": 331,
    "words": [
     {
@@ -1301,7 +1306,7 @@
     "routes": []
    },
    "audio": "",
-   "startFrame": 2571,
+   "startFrame": 2582,
    "durationInFrames": 353,
    "words": [
     {
@@ -1466,7 +1471,7 @@
     "title": "The leak"
    },
    "audio": "",
-   "startFrame": 2924,
+   "startFrame": 2935,
    "durationInFrames": 264,
    "words": [
     {
@@ -1606,7 +1611,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 3188,
+   "startFrame": 3199,
    "durationInFrames": 836,
    "words": [
     {
@@ -1994,7 +1999,7 @@
     "dek": "Officials said the servers went to Malaysia. Their final destination was not known."
    },
    "audio": "",
-   "startFrame": 4024,
+   "startFrame": 4035,
    "durationInFrames": 474,
    "words": [
     {
@@ -2221,7 +2226,7 @@
     "note": "As stated by prosecutors, March 2025"
    },
    "audio": "",
-   "startFrame": 4498,
+   "startFrame": 4509,
    "durationInFrames": 276,
    "words": [
     {
@@ -2357,7 +2362,7 @@
     "note": "Prosecutors' allegation · Supermicro was not charged"
    },
    "audio": "",
-   "startFrame": 4774,
+   "startFrame": 4785,
    "durationInFrames": 583,
    "words": [
     {
@@ -2632,7 +2637,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 5357,
+   "startFrame": 5368,
    "durationInFrames": 561,
    "words": [
     {
@@ -2920,7 +2925,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 5918,
+   "startFrame": 5929,
    "durationInFrames": 243,
    "words": [
     {
@@ -3040,7 +3045,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 6161,
+   "startFrame": 6172,
    "durationInFrames": 441,
    "words": [
     {
@@ -3247,7 +3252,7 @@
     "title": "The new rule"
    },
    "audio": "",
-   "startFrame": 6602,
+   "startFrame": 6613,
    "durationInFrames": 308,
    "words": [
     {
@@ -3409,7 +3414,7 @@
     "source": "US Commerce Dept. rule (Brazil also listed)"
    },
    "audio": "",
-   "startFrame": 6910,
+   "startFrame": 6921,
    "durationInFrames": 386,
    "words": [
     {
@@ -3594,7 +3599,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 7296,
+   "startFrame": 7307,
    "durationInFrames": 485,
    "words": [
     {
@@ -3825,7 +3830,7 @@
     "note": "12 million TPP · estimate by Simpson Thacher"
    },
    "audio": "",
-   "startFrame": 7781,
+   "startFrame": 7792,
    "durationInFrames": 539,
    "words": [
     {
@@ -4079,7 +4084,7 @@
     "accent": "above the line"
    },
    "audio": "",
-   "startFrame": 8320,
+   "startFrame": 8331,
    "durationInFrames": 183,
    "words": [
     {
@@ -4174,7 +4179,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 8503,
+   "startFrame": 8514,
    "durationInFrames": 572,
    "words": [
     {
@@ -4459,7 +4464,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 9075,
+   "startFrame": 9086,
    "durationInFrames": 419,
    "words": [
     {
@@ -4654,7 +4659,7 @@
     "title": "The fallout"
    },
    "audio": "",
-   "startFrame": 9494,
+   "startFrame": 9505,
    "durationInFrames": 242,
    "words": [
     {
@@ -4767,7 +4772,7 @@
     "dek": "Citing people familiar with the matter. Duration unclear. Nvidia did not comment."
    },
    "audio": "",
-   "startFrame": 9736,
+   "startFrame": 9747,
    "durationInFrames": 430,
    "words": [
     {
@@ -4972,7 +4977,7 @@
     "note": "Knight Frank, Data Centre Atlas 2026"
    },
    "audio": "",
-   "startFrame": 10166,
+   "startFrame": 10177,
    "durationInFrames": 496,
    "words": [
     {
@@ -5229,7 +5234,7 @@
     "source": "Knight Frank, colocation vacancy"
    },
    "audio": "",
-   "startFrame": 10662,
+   "startFrame": 10673,
    "durationInFrames": 254,
    "words": [
     {
@@ -5354,7 +5359,7 @@
     "note": "Knight Frank, Data Centre Atlas 2026 · includes planned projects"
    },
    "audio": "",
-   "startFrame": 10916,
+   "startFrame": 10927,
    "durationInFrames": 353,
    "words": [
     {
@@ -5521,7 +5526,7 @@
     "role": "Malaysia's trade minister, Nov 18"
    },
    "audio": "",
-   "startFrame": 11269,
+   "startFrame": 11280,
    "durationInFrames": 287,
    "words": [
     {
@@ -5662,7 +5667,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 11556,
+   "startFrame": 11567,
    "durationInFrames": 627,
    "words": [
     {
@@ -5954,7 +5959,7 @@
     "role": "Singapore's prime minister, Nov 17"
    },
    "audio": "",
-   "startFrame": 12183,
+   "startFrame": 12194,
    "durationInFrames": 671,
    "words": [
     {
@@ -6275,7 +6280,7 @@
     "source": "US Commerce Dept.; FT report"
    },
    "audio": "",
-   "startFrame": 12854,
+   "startFrame": 12865,
    "durationInFrames": 243,
    "words": [
     {
@@ -6390,7 +6395,7 @@
     "title": "What to watch"
    },
    "audio": "",
-   "startFrame": 13097,
+   "startFrame": 13108,
    "durationInFrames": 88,
    "words": [
     {
@@ -6438,7 +6443,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 13185,
+   "startFrame": 13196,
    "durationInFrames": 891,
    "words": [
     {
@@ -6854,7 +6859,7 @@
     "note": "Company-reported, year to Jan 2026"
    },
    "audio": "",
-   "startFrame": 14076,
+   "startFrame": 14087,
    "durationInFrames": 364,
    "words": [
     {
@@ -7033,7 +7038,7 @@
     "accent": "Now: licences"
    },
    "audio": "",
-   "startFrame": 14440,
+   "startFrame": 14451,
    "durationInFrames": 425,
    "words": [
     {
@@ -7233,7 +7238,7 @@
     "cta": "Subscribe for the business behind the headlines"
    },
    "audio": "",
-   "startFrame": 14865,
+   "startFrame": 14876,
    "durationInFrames": 340,
    "words": [
     {
