@@ -33,14 +33,67 @@ out/<slug>/video.mp4, thumbnail.png, description.txt, upload.json
 
 ## Writing an episode (`npm run ep -- new <slug>` scaffolds it)
 
-Research first (research.json), then the script. Target 8–15 minutes (~1,200–2,200 words).
+Research first (research.json), then the script. Target 8–15 minutes (~1,300–2,300 words at the
+house voice pace; `check` prints the estimate including scene pauses, and warns under 8 min).
 
-Structure that holds attention:
-- **Hook (≤15 s)**: the most surprising true fact + the question the video answers. No "welcome back".
-- **Chapter scenes** every 1.5–3 minutes; each chapter opens with a mini-hook / open question.
-- Change the visual every ~5–20 s: one scene ≈ 1–3 sentences. Lint warns above ~30 s.
+### Picking a topic
+
+Best fit: a story in this week's news that hides a *mechanism* most viewers haven't had explained
+(how money, goods or rules actually flow), backed by primary documents, with numbers that chart and
+places that map. Prefer policy/trade/markets over stories resting on allegations about a named person
+(rule 5). Lead with the most counter-intuitive number in a primary source (e.g. a 10-K footnote).
+Check the topic doesn't need a template we lack. Avoid stories about Anthropic (conflict of interest).
+
+### Research workflow
+
+- News aggregators and roundup sites are *leads only*: trace each claim to a filing, government page,
+  wire story, major outlet or law-firm alert, and cite those.
+- SEC filings: `curl -A "research contact@example.com" <edgar url>`, strip tags, grep for the line;
+  quote the exact sentence in the claim.
+- Keep each claim ≤400 chars (schema limit); split long ones. Put caveats in `notes`
+  (paywalled original, which outlet relayed it, conflicting figures and how the script handles them).
+- When outlets disagree on a date or figure, use the coarser value both support (month, not day).
+- Quotes on screen must be verbatim from a page you actually read, not from a search snippet.
+
+### Structure that holds attention (lint checks most of this; read every warning)
+
+- **Cold open, no preamble.** Scene 1 lands the surprising fact in its first sentence (≤20 words).
+  No "welcome back", "in this video", "let's dive in" (lint warns).
+- **Ask the question inside the intro.** The intro (everything before the first chapter card) must
+  contain the question the video answers, and should run ≤50 s. A second `hook` card with the
+  question ("Where did the chips go?") works well as a pattern break.
+- **Give a roadmap** right after the question (a `bullets` scene naming the parts): viewers stay for
+  the part they want.
+- **Chapters** every 1.5–3 min, each opening on a question ("So how did some still get there?").
+  Lint warns when a chapter card's narration has no question or open loop.
+- **Visual every ~5–15 s.** One scene ≈ 1–3 sentences. Lint warns at three of the same template in a
+  row and when one template exceeds ~25% of scenes. Bullets are the default trap: turn lists of
+  places into maps and lists of numbers into bar charts.
+- **Escalate**: billing → court cases → vivid detail (e.g. prosecutors' "hair dryer" allegation) → the
+  rule → who pays. Put a concrete, visual detail around the 40% mark when attention dips.
+- **Fairness beat** early: give the subject's own explanation (in their words) before the doubts.
+  It builds trust and keeps the video clear of rule 5.
+- **End**: what to watch (dated), a 10–15 s "short version" recap card, then a one-line outro.
+  No financial advice.
 - Data on screen (bignumber, barchart, drop) must use the exact figures from cited facts.
-- End with "what happens next / what to watch" and a one-line outro. No financial advice.
+
+### Voice: writing for the ear
+
+- House voice settings (set in script.json `voice`): `stability 0.4, similarity 0.8, style 0.2,
+  speed 1.05`. Measured: the narrator reads ~155 wpm at speed 1.0, so ~163 wpm at 1.05 (lively but
+  clear for numbers). Lower stability/higher style = more expressive but less consistent; change
+  them on a short paid test of 2–3 scenes before a full run.
+- Sentences ≤30 words (lint warns); most should be 8–15. Vary length; a three-word sentence after a
+  long one is how the voice "lands" a point ("Singapore." / "That proves nothing.").
+- Say numbers the way a person would ("about two and a half billion dollars"); exact on screen.
+- Attribution in the sentence itself ("prosecutors allege", "according to the Financial Times").
+
+### Sound design
+
+Sparse cues, synthesized by `npm run sfx` into `public/sfx/` (our own, no licensing): an impact
+under the hook's first line and each big number, a whoosh on each chapter card. Each sits ~10 dB under
+the narration (see `src/lib/sfx.ts`). There is no music bed yet: one would need a track we hold rights
+to (or generated with a licence that covers YouTube), mixed ~20 dB under the voice.
 
 ### Scene templates (see `src/schema.ts` for exact props and length limits)
 
@@ -76,6 +129,18 @@ should be "Intro"; YouTube needs 3+ chapters, each ≥10 s).
 
 Write narration for the ear: spell out awkward symbols ("percent", "billion"), short sentences, numbers
 rounded the way a person would say them (on screen can be exact).
+
+### Map tips (learned on ai-chip-loophole)
+
+- At `view: "world"`, label at most one country per region; neighbouring labels collide.
+- Multi-part countries anchor oddly (Malaysia's anchor sits in Borneo): start routes from a compact
+  country (Singapore) or name the countries in the `title` instead of labelling each one.
+
+## Episode log
+
+| slug | topic | status |
+|---|---|---|
+| `ai-chip-loophole` | US licence rule for AI chips to SE Asia + Brazil (Nov 2026) | script + mock build done; awaiting voice go-ahead (~7,800 chars) |
 
 ## Adding a new scene template
 

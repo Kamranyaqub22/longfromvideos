@@ -1,0 +1,719 @@
+{
+  "slug": "ai-chip-loophole",
+  "title": "Singapore Was Billed 18% of Nvidia's Sales. Now the US Is Closing the Door",
+  "summary": "Nvidia's own annual report says Singapore was billed for 18% of its fiscal 2025 revenue, while less than 2% was actually shipped there. On November 19, 2026 a new US rule began requiring licences for advanced AI chips going to Singapore, Malaysia, Thailand, Indonesia and Brazil, and for data centres anywhere that rent large amounts of computing power to Chinese companies. We explain how billing hubs work, the smuggling cases that worried Washington, what the new rule actually does, the reported pause in Nvidia server shipments, and what to watch before the February 17, 2027 licence deadline. This is an explainer, not financial advice.",
+  "tags": [
+    "Nvidia",
+    "export controls",
+    "AI chips",
+    "Singapore",
+    "Malaysia",
+    "Johor",
+    "data centers",
+    "China",
+    "semiconductors",
+    "chip war",
+    "Southeast Asia",
+    "business explained"
+  ],
+  "voice": {
+    "stability": 0.4,
+    "similarity": 0.8,
+    "style": 0.2,
+    "speed": 1.05
+  },
+  "thumbnail": [
+    {
+      "layout": "number",
+      "top": "Billed to Singapore",
+      "big": "18%",
+      "bottom": "Shipped there: under 2%",
+      "tone": "accent"
+    },
+    {
+      "layout": "statement",
+      "top": "The AI chip back door",
+      "big": "CLOSING",
+      "bottom": "Singapore · Malaysia · Brazil",
+      "tone": "down"
+    },
+    {
+      "layout": "number",
+      "top": "Nvidia sales billed to SG",
+      "big": "$23.7B",
+      "bottom": "Where did the chips go?",
+      "tone": "accent"
+    }
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "chapter": "Intro",
+      "facts": [
+        "f1"
+      ],
+      "narration": "Nearly one in every five dollars Nvidia earned last fiscal year was billed to one small country. Singapore. But according to Nvidia's own annual report, less than two percent was actually shipped there.",
+      "props": {
+        "lines": [
+          "Billed to Singapore: 18%",
+          "Shipped there: under 2%"
+        ],
+        "accent": "under 2%"
+      }
+    },
+    {
+      "type": "map",
+      "facts": [
+        "f9"
+      ],
+      "narration": "Now Washington has drawn a line around Singapore, three of its neighbours, and Brazil. Selling them top AI chips now takes a US licence.",
+      "props": {
+        "title": "New US licence rule, Nov 19",
+        "view": "world",
+        "highlights": [
+          {
+            "country": "Singapore",
+            "tone": "down",
+            "label": "Singapore"
+          },
+          {
+            "country": "Malaysia",
+            "tone": "down"
+          },
+          {
+            "country": "Thailand",
+            "tone": "down"
+          },
+          {
+            "country": "Indonesia",
+            "tone": "down"
+          },
+          {
+            "country": "Brazil",
+            "tone": "down",
+            "label": "Brazil"
+          }
+        ],
+        "source": "US Commerce Dept. rule"
+      }
+    },
+    {
+      "type": "hook",
+      "facts": [],
+      "narration": "So where were those chips really going? And why does America see this corner of Asia as a back door, right in the middle of the AI boom?",
+      "props": {
+        "lines": [
+          "Where did",
+          "the chips go?"
+        ],
+        "accent": "the chips go?"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [],
+      "narration": "We'll follow the invoices, the court cases, the new rule, and who pays for it. Start with the bills.",
+      "props": {
+        "title": "The story in four parts",
+        "items": [
+          "The invoice island",
+          "The leak",
+          "The new rule",
+          "The fallout"
+        ]
+      }
+    },
+    {
+      "type": "chapter",
+      "chapter": "The invoice island",
+      "facts": [],
+      "narration": "Part one. The invoice island. How does one small country end up on nearly a fifth of Nvidia's bills?",
+      "props": {
+        "number": 1,
+        "title": "The invoice island"
+      }
+    },
+    {
+      "type": "barchart",
+      "facts": [
+        "f2"
+      ],
+      "narration": "Watch how fast it grew. Nvidia reported billing about two point three billion dollars to customers in Singapore in fiscal 2023. A year later, six point eight billion. Then, twenty-three point seven billion, out of a total of about one hundred and thirty billion.",
+      "props": {
+        "title": "Nvidia revenue billed to Singapore",
+        "bars": [
+          {
+            "label": "FY2023",
+            "value": 2288,
+            "display": "$2.3B",
+            "tone": "neutral"
+          },
+          {
+            "label": "FY2024",
+            "value": 6831,
+            "display": "$6.8B",
+            "tone": "neutral"
+          },
+          {
+            "label": "FY2025",
+            "value": 23684,
+            "display": "$23.7B",
+            "tone": "accent"
+          }
+        ],
+        "source": "Nvidia 10-K, by billing location"
+      }
+    },
+    {
+      "type": "quote",
+      "facts": [
+        "f1"
+      ],
+      "narration": "Nvidia's explanation is simple. Its annual report says customers use Singapore to centralize invoicing, while its products are almost always shipped elsewhere.",
+      "props": {
+        "text": "Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere.",
+        "author": "Nvidia",
+        "role": "annual report, fiscal 2025"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [],
+      "narration": "And that's normal. Big companies run regional headquarters out of Singapore. The bill lands in one country. The hardware goes to another. On its own, that proves nothing.",
+      "props": {
+        "title": "Billed here, shipped there",
+        "items": [
+          "Bill: sent to Singapore",
+          "Hardware: shipped elsewhere",
+          "On its own: not wrongdoing"
+        ]
+      }
+    },
+    {
+      "type": "map",
+      "facts": [
+        "f3"
+      ],
+      "narration": "But it shows the problem regulators face. The paperwork says one place. The chips end up somewhere else. And there's one country where Washington really cares where they end up.",
+      "props": {
+        "title": "The destination Washington worries about",
+        "highlights": [
+          {
+            "country": "China",
+            "tone": "down",
+            "label": "China"
+          },
+          {
+            "country": "Singapore",
+            "tone": "neutral",
+            "label": "Singapore"
+          }
+        ]
+      }
+    },
+    {
+      "type": "chapter",
+      "chapter": "The leak",
+      "facts": [],
+      "narration": "Part two. The leak. America banned its best AI chips from China years ago. So how did some still get there?",
+      "props": {
+        "number": 2,
+        "title": "The leak"
+      }
+    },
+    {
+      "type": "timeline",
+      "facts": [
+        "f3",
+        "f4",
+        "f8"
+      ],
+      "narration": "The rules started in October 2022, when the US restricted sales of advanced AI chips to China. The goal was simple: keep the most powerful chips away from Chinese AI labs and supercomputers. But the rules kept changing. In January 2025 came a worldwide rulebook called the AI Diffusion Rule. In May, the new administration scrapped it before it took effect. And in July, Malaysia started requiring permits to ship high-end American AI chips.",
+      "props": {
+        "title": "Four years of chip rules",
+        "events": [
+          {
+            "date": "Oct 2022",
+            "text": "US curbs advanced AI chip sales to China"
+          },
+          {
+            "date": "Jan 2025",
+            "text": "AI Diffusion Rule sets worldwide limits"
+          },
+          {
+            "date": "May 2025",
+            "text": "Rule scrapped before it takes effect"
+          },
+          {
+            "date": "Jul 2025",
+            "text": "Malaysia requires permits for US AI chips"
+          }
+        ]
+      }
+    },
+    {
+      "type": "headline",
+      "facts": [
+        "f5"
+      ],
+      "narration": "Meanwhile, the cases started. In February 2025, Singapore charged three men with fraud over servers that, the government said, may have contained Nvidia chips. The servers were supplied by Dell and Supermicro to companies in Singapore, and then moved to Malaysia.",
+      "props": {
+        "source": "Reuters / Fortune",
+        "date": "Feb 2025",
+        "headline": "Singapore charges three with fraud in case involving servers that may contain Nvidia chips",
+        "dek": "Officials said the servers went to Malaysia. Their final destination was not known."
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f6",
+        "f5"
+      ],
+      "narration": "Prosecutors said the case involved transactions worth three hundred and ninety million dollars. Officials did not say where the servers finally ended up.",
+      "props": {
+        "value": 390,
+        "prefix": "$",
+        "suffix": "M",
+        "label": "Transactions in the Singapore case",
+        "note": "As stated by prosecutors, March 2025",
+        "tone": "accent"
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f7"
+      ],
+      "narration": "Then a much bigger one, in New York. In October, a former Supermicro contractor pleaded guilty to charges including conspiring to break export controls. Prosecutors allege about two and a half billion dollars of servers with Nvidia chips went to a company in Southeast Asia, and were then diverted to China.",
+      "props": {
+        "value": 2.5,
+        "prefix": "$",
+        "suffix": "B",
+        "decimals": 1,
+        "label": "Servers allegedly diverted to China",
+        "note": "Prosecutors' allegation · Supermicro was not charged",
+        "tone": "down"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [
+        "f20"
+      ],
+      "narration": "And prosecutors allege it was elaborate. Before an audit in 2025, they say, fake, non-working servers were staged in Supermicro boxes. Surveillance footage, they say, shows a hair dryer being used to move labels and serial-number stickers onto the fakes. The real servers, prosecutors allege, were already in China.",
+      "props": {
+        "title": "How an audit was allegedly fooled",
+        "items": [
+          "Fake servers staged in real boxes",
+          "Labels moved with a hair dryer",
+          "Real servers already in China"
+        ]
+      }
+    },
+    {
+      "type": "map",
+      "facts": [
+        "f7",
+        "f9"
+      ],
+      "narration": "That's the pattern Washington says it fears. Southeast Asia as a transit point. Chips arrive legally, then quietly move on.",
+      "props": {
+        "title": "The feared route",
+        "highlights": [
+          {
+            "country": "Malaysia",
+            "tone": "accent"
+          },
+          {
+            "country": "Singapore",
+            "tone": "accent"
+          },
+          {
+            "country": "Thailand",
+            "tone": "accent"
+          },
+          {
+            "country": "China",
+            "tone": "down"
+          }
+        ],
+        "routes": [
+          {
+            "from": "Singapore",
+            "to": "China",
+            "label": "Diversion risk",
+            "tone": "down"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [
+        "f11"
+      ],
+      "narration": "But there's a second, quieter route. You don't need to move a chip to use it. A company can rent computing power from a data centre in another country, over the internet. The chips never leave the building.",
+      "props": {
+        "title": "The second route: renting",
+        "items": [
+          "No smuggling needed",
+          "Rent the computing power remotely",
+          "The chips never leave the building"
+        ]
+      }
+    },
+    {
+      "type": "chapter",
+      "chapter": "The new rule",
+      "facts": [
+        "f9"
+      ],
+      "narration": "Part three. The new rule. Its official title is about remote access, and that tells you a lot. So what exactly changed on November nineteenth?",
+      "props": {
+        "number": 3,
+        "title": "The new rule"
+      }
+    },
+    {
+      "type": "map",
+      "facts": [
+        "f9"
+      ],
+      "narration": "First, a licence. Advanced AI chips going to Indonesia, Malaysia, Singapore, Thailand or Brazil now need one, reviewed case by case. The government's reason, in its own words: an unacceptable risk of diversion.",
+      "props": {
+        "title": "Licences: Malaysia, Singapore, Thailand, Indonesia",
+        "view": "fit",
+        "highlights": [
+          {
+            "country": "Malaysia",
+            "tone": "down"
+          },
+          {
+            "country": "Thailand",
+            "tone": "down"
+          },
+          {
+            "country": "Indonesia",
+            "tone": "down"
+          },
+          {
+            "country": "Singapore",
+            "tone": "down",
+            "label": "Singapore"
+          }
+        ],
+        "source": "US Commerce Dept. rule (Brazil also listed)"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [
+        "f10"
+      ],
+      "narration": "There's a big exception. If the buyer is an American-headquartered company, say a US cloud provider, sales can generally go ahead without a licence. The catch: the exporter has to report each sale to Washington by the start of the next month.",
+      "props": {
+        "title": "The exception",
+        "items": [
+          "Buyer headquartered in the US",
+          "No licence, generally",
+          "But: report to Washington monthly"
+        ]
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f11",
+        "f12"
+      ],
+      "narration": "Second, the renting route. Any data centre, anywhere, that gives Chinese-headquartered companies more than twelve million units of what the rule calls total processing performance now needs a licence. According to the law firm Simpson Thacher, that's only about seven hundred and fifty of Nvidia's H100 chips.",
+      "props": {
+        "value": 750,
+        "prefix": "~",
+        "label": "Nvidia H100 chips: about the new licence line",
+        "note": "12 million TPP · estimate by Simpson Thacher",
+        "tone": "accent"
+      }
+    },
+    {
+      "type": "hook",
+      "facts": [
+        "f12"
+      ],
+      "narration": "And the firm says many data centres in Southeast Asia will be above that line.",
+      "props": {
+        "lines": [
+          "Many data centres",
+          "are above the line"
+        ],
+        "accent": "above the line"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [
+        "f21"
+      ],
+      "narration": "Third, the burden shifts to the seller. Exporters are expected to see a data centre's know-your-customer checks. If a data centre won't say who its customers are, that alone counts as a red flag. Chip sellers now have to know not just who buys the hardware, but who rents it.",
+      "props": {
+        "title": "Change three: know the renter",
+        "items": [
+          "Seller must see the customer checks",
+          "Refusing to share: a red flag",
+          "Who rents matters, not just who buys"
+        ]
+      }
+    },
+    {
+      "type": "timeline",
+      "facts": [
+        "f9",
+        "f13",
+        "f14"
+      ],
+      "narration": "Data centres already serving those customers get ninety days to apply. The deadline is February seventeenth. Comments on the rule close in January. And, along the way, the rule formally buried the old AI Diffusion Rule.",
+      "props": {
+        "title": "The clock",
+        "events": [
+          {
+            "date": "Nov 16",
+            "text": "Rule released"
+          },
+          {
+            "date": "Nov 19",
+            "text": "Rule takes effect"
+          },
+          {
+            "date": "Jan 18, 2027",
+            "text": "Public comments close"
+          },
+          {
+            "date": "Feb 17, 2027",
+            "text": "Licence deadline, existing data centres"
+          }
+        ]
+      }
+    },
+    {
+      "type": "chapter",
+      "chapter": "The fallout",
+      "facts": [],
+      "narration": "Part four. The fallout. Southeast Asia has bet big on data centres. What happens when the servers stop arriving?",
+      "props": {
+        "number": 4,
+        "title": "The fallout"
+      }
+    },
+    {
+      "type": "headline",
+      "facts": [
+        "f15"
+      ],
+      "narration": "According to the Financial Times, Nvidia has told partners, including Dell and Supermicro, to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia. It isn't clear how long the pause will last. Nvidia did not comment.",
+      "props": {
+        "source": "Financial Times (report)",
+        "date": "Nov 26, 2026",
+        "headline": "Nvidia tells partners to stop shipping AI servers to four Southeast Asian countries",
+        "dek": "Citing people familiar with the matter. Duration unclear. Nvidia did not comment."
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f18"
+      ],
+      "narration": "The stakes are biggest just across the border from Singapore, in the Malaysian state of Johor. According to the property firm Knight Frank, Johor now has about eleven hundred megawatts of live data centre capacity. Third in Asia-Pacific, behind only Tokyo and Singapore.",
+      "props": {
+        "value": 1110,
+        "suffix": " MW",
+        "label": "Live data centre capacity in Johor",
+        "note": "Knight Frank, Data Centre Atlas 2026",
+        "tone": "accent"
+      }
+    },
+    {
+      "type": "barchart",
+      "facts": [
+        "f18"
+      ],
+      "narration": "And it's almost full. Knight Frank puts Johor's vacancy at under one percent. Singapore, about five. Jakarta and Bangkok, over twenty.",
+      "props": {
+        "title": "Data centre space still empty",
+        "bars": [
+          {
+            "label": "Johor",
+            "value": 0.7,
+            "display": "0.7%",
+            "tone": "accent"
+          },
+          {
+            "label": "Singapore",
+            "value": 4.9,
+            "display": "4.9%",
+            "tone": "neutral"
+          },
+          {
+            "label": "Jakarta",
+            "value": 20.5,
+            "display": "20.5%",
+            "tone": "neutral"
+          },
+          {
+            "label": "Bangkok",
+            "value": 23.3,
+            "display": "23.3%",
+            "tone": "neutral"
+          }
+        ],
+        "source": "Knight Frank, colocation vacancy"
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f22"
+      ],
+      "narration": "And Johor wants far more. Knight Frank counts about eight and a half thousand megawatts more in the pipeline, the biggest in Asia-Pacific. That's the build-out now facing new paperwork.",
+      "props": {
+        "value": 8542,
+        "suffix": " MW",
+        "label": "Johor data centre pipeline",
+        "note": "Knight Frank, Data Centre Atlas 2026 · includes planned projects",
+        "tone": "accent"
+      }
+    },
+    {
+      "type": "quote",
+      "facts": [
+        "f16"
+      ],
+      "narration": "Malaysia's answer was blunt. Trade minister Johari Abdul Ghani said: if you are not prepared to comply, then you should not operate in Malaysia.",
+      "props": {
+        "text": "If you are not prepared to comply, then you should not operate in Malaysia.",
+        "author": "Johari Abdul Ghani",
+        "role": "Malaysia's trade minister, Nov 18"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [
+        "f16",
+        "f23"
+      ],
+      "narration": "The government says it will notify all one hundred and seventeen approved data centre projects. But it's also asking Washington for clarity. The minister said: we have not received anything from the US, other than what we have read in the media. And he said he had yet to see documentation of tenants re-exporting chips.",
+      "props": {
+        "title": "Malaysia's next steps",
+        "items": [
+          "Notify all 117 approved projects",
+          "Seek clarity from Washington",
+          "No proof of re-exports seen, yet"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "facts": [
+        "f17"
+      ],
+      "narration": "In Singapore, Prime Minister Lawrence Wong promised clear and firm action against anyone using the country to get around the rules. He said: we want to uphold the rule of law, and we want to uphold Singapore's reputation as a trusted business hub. He expects some hit to trans-shipment. But, he said, I think we can manage that impact.",
+      "props": {
+        "text": "We want to uphold the rule of law, and we want to uphold Singapore's reputation as a trusted business hub.",
+        "author": "Lawrence Wong",
+        "role": "Singapore's prime minister, Nov 17"
+      }
+    },
+    {
+      "type": "map",
+      "facts": [
+        "f9",
+        "f15"
+      ],
+      "narration": "And Brazil? It's on the licence list too. But the reported shipping pause covers only the four Southeast Asian countries.",
+      "props": {
+        "title": "Brazil: on the list, not in the pause",
+        "highlights": [
+          {
+            "country": "Brazil",
+            "tone": "accent",
+            "label": "Licence needed"
+          }
+        ],
+        "source": "US Commerce Dept.; FT report"
+      }
+    },
+    {
+      "type": "chapter",
+      "chapter": "What to watch",
+      "facts": [],
+      "narration": "Part five. What happens next?",
+      "props": {
+        "number": 5,
+        "title": "What to watch"
+      }
+    },
+    {
+      "type": "bullets",
+      "facts": [
+        "f13",
+        "f11",
+        "f9"
+      ],
+      "narration": "Four things to watch. One: February seventeenth, the licence deadline for existing data centres. Two: how fast Washington actually approves licences, because case by case can mean slow. Three: the rule itself. It's an interim rule, and public comments close on January eighteenth, so the details could still shift. And four: whether demand simply moves. The renting rule applies to data centres anywhere, so the question is no longer just where the chips are. It's who is using them.",
+      "props": {
+        "title": "What to watch",
+        "items": [
+          "Feb 17: licence deadline",
+          "How fast licences come through",
+          "Jan 18: comments close, rule may shift",
+          "Does demand move elsewhere?"
+        ]
+      }
+    },
+    {
+      "type": "bignumber",
+      "facts": [
+        "f19"
+      ],
+      "narration": "Nvidia reported two hundred and sixteen billion dollars in revenue last fiscal year. Its next earnings reports will start to show how much of Southeast Asia's demand survives the new paperwork.",
+      "props": {
+        "value": 215.9,
+        "prefix": "$",
+        "suffix": "B",
+        "decimals": 1,
+        "label": "Nvidia revenue, fiscal 2026",
+        "note": "Company-reported, year to Jan 2026",
+        "tone": "neutral"
+      }
+    },
+    {
+      "type": "hook",
+      "facts": [
+        "f1",
+        "f7",
+        "f9",
+        "f21"
+      ],
+      "narration": "So, the short version. A bill in Singapore isn't proof of anything. But court cases showed chips could slip through the region. Now Washington wants licences, monthly reports, and to know exactly who is renting the chips.",
+      "props": {
+        "lines": [
+          "The short version",
+          "Bills: not proof",
+          "Cases: in court",
+          "Now: licences"
+        ],
+        "accent": "Now: licences"
+      }
+    },
+    {
+      "type": "outro",
+      "chapter": "Outro",
+      "facts": [],
+      "narration": "The chip war isn't only fought at borders anymore. It's fought on invoices, and inside data centres. Subscribe, and we'll follow it to the February deadline.",
+      "props": {
+        "title": "Billed here. Shipped there.",
+        "cta": "Subscribe for the business behind the headlines"
+      }
+    }
+  ]
+}

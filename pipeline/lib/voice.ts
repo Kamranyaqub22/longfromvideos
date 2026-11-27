@@ -48,9 +48,9 @@ export function alignmentToWords(a: Alignment): Word[] {
 }
 
 /** Evenly spaced placeholder timings at documentary pace. */
-export function mockWords(narration: string): Voiced {
+export function mockWords(narration: string, speed = 1): Voiced {
   const tokens = narration.trim().split(/\s+/);
-  const step = 1 / WORDS_PER_SECOND;
+  const step = 1 / (WORDS_PER_SECOND * speed);
   const words = tokens.map((t, i) => ({ text: t, start: 0.15 + i * step, end: 0.15 + i * step + step * 0.85 }));
   return { audio: null, duration: 0.3 + tokens.length * step, words };
 }
@@ -95,7 +95,7 @@ export function planVoice(slug: string, script: Script): VoicePlan {
 
 /** Generate (or load from cache) the voice-over for every scene. */
 export async function voiceEpisode(slug: string, script: Script, opts: { mock: boolean; spend: boolean }): Promise<Voiced[]> {
-  if (opts.mock) return script.scenes.map((s) => mockWords(s.narration));
+  if (opts.mock) return script.scenes.map((s) => mockWords(s.narration, script.voice.speed));
 
   const p = paths(slug);
   mkdirSync(p.audioDir, { recursive: true });

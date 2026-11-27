@@ -126,3 +126,83 @@ test("unknown map countries are errors, with suggestions", () => {
   m.props.routes = [];
   assert.match(msgs(lint(script, research), "error"), /unknown country "Germny"; did you mean "Germany"/);
 });
+
+// ---- retention heuristics
+
+test("fixture has no retention warnings", () => {
+  const { script, research } = fixture();
+  const warns = msgs(lint(script, research), "warn");
+  assert.doesNotMatch(warns, /hook|open loop|filler|in a row|ear|repetitive/);
+});
+
+test("filler openers in the first scenes warn", () => {
+  const { script, research } = fixture();
+  script.scenes[0].narration = "Welcome back to the channel. Today, something big happened. Why?";
+  assert.match(msgs(lint(script, research), "warn"), /filler/);
+});
+
+test("a long first sentence in the hook warns", () => {
+  const { script, research } = fixture();
+  script.scenes[0].narration = "This is a very long opening sentence that keeps going and going without ever landing the surprising fact that should be right up front for viewers? Yes.";
+  assert.match(msgs(lint(script, research), "warn"), /first sentence is \d+ words/);
+});
+
+test("an intro without a question warns", () => {
+  const { script, research } = fixture();
+  const firstChapter = script.scenes.findIndex((s, i) => i > 0 && s.type === "chapter");
+  for (const s of script.scenes.slice(0, firstChapter)) s.narration = s.narration.replace(/\?/g, ".");
+  assert.match(msgs(lint(script, research), "warn"), /never asks the question/);
+});
+
+test("chapters that open without a question warn", () => {
+  const { script, research } = fixture();
+  sceneOf(script, "chapter").narration = "Part two. The spending.";
+  assert.match(msgs(lint(script, research), "warn"), /chapter opens without a question/);
+});
+
+test("sentences too long for the ear warn", () => {
+  const { script, research } = fixture();
+  sceneOf(script, "bullets").narration = Array.from({ length: 35 }, () => "word").join(" ") + ".";
+  assert.match(msgs(lint(script, research), "warn"), /35-word sentence/);
+});
+
+test("three scenes of the same type in a row warn", () => {
+  const { script, research } = fixture();
+  const b = sceneOf(script, "bullets");
+  const i = script.scenes.indexOf(b);
+  script.scenes.splice(i, 0, clone(b), clone(b));
+  assert.match(msgs(lint(script, research), "warn"), /third bullets scene in a row/);
+});
+
+test("length estimate follows voice speed", async () => {
+  const { estimateSeconds } = await import("../pipeline/lib/lint");
+  const text = Array.from({ length: 26 }, () => "word").join(" ");
+  assert.ok(Math.abs(estimateSeconds(text) - 10) < 1e-9);
+  assert.ok(estimateSeconds(text, 1.2) < estimateSeconds(text));
+});
+
+test("sound effects are deterministic, stereo 48 kHz, and peak at -6 dBFS", async () => {
+  const { whoosh, impact } = await import("../pipeline/sfx");
+  for (const make of [whoosh, impact]) {
+    const a = make(), b = make();
+    assert.ok(a.equals(b), "same recipe must give identical bytes");
+    assert.equal(a.readUInt16LE(22), 2);
+    assert.equal(a.readUInt32LE(24), 48000);
+    let peak = 0;
+    for (let i = 44; i < a.length; i += 2) peak = Math.max(peak, Math.abs(a.readInt16LE(i)));
+    assert.ok(Math.abs(20 * Math.log10(peak / 32767) + 6) < 0.1);
+  }
+});
+
+test("sfx cues: hook impact, chapter whoosh, number impact, nothing else", async () => {
+  const { sfxFor } = await import("../src/lib/sfx");
+  const { script } = fixture();
+  const t = (await import("../pipeline/lib/timeline")).buildTimeline(script, script.scenes.map(() => ({ audio: null, duration: 3, words: [{ text: "x", start: 0, end: 1 }] })), true, "h");
+  const cues = t.scenes.map((s, i) => sfxFor(s, i)?.cue ?? null);
+  assert.equal(cues[0], "impact");
+  t.scenes.forEach((s, i) => {
+    if (i && s.type === "chapter") assert.equal(cues[i], "whoosh");
+    if (i && s.type === "bignumber") assert.equal(cues[i], "impact");
+    if (i && !["chapter", "bignumber"].includes(s.type)) assert.equal(cues[i], null);
+  });
+});

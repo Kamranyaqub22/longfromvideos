@@ -33,7 +33,7 @@
       "type": "hook",
       "chapter": "Intro",
       "facts": [],
-      "narration": "This is a test of the whole video pipeline. Every number you see is invented. Nothing here is real news.",
+      "narration": "This is a test of the whole video pipeline. Every number you see is invented. So does every scene still render?",
       "props": {
         "lines": [
           "Pipeline test",
@@ -144,7 +144,7 @@
       "type": "chapter",
       "chapter": "The spending",
       "facts": [],
-      "narration": "Part two. The spending.",
+      "narration": "Part two. The spending. Where did the money go?",
       "props": {
         "number": 2,
         "title": "The spending"

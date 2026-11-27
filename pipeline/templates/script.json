@@ -3,10 +3,17 @@
   "title": "TODO title (max 100 chars)",
   "summary": "TODO one-paragraph summary for the description",
   "tags": [],
-  "thumbnail": { "top": "TODO", "big": "TODO", "bottom": "TODO", "tone": "down" },
+  "voice": { "stability": 0.4, "similarity": 0.8, "style": 0.2, "speed": 1.05 },
+  "thumbnail": [
+    { "layout": "number", "top": "TODO", "big": "TODO", "bottom": "TODO", "tone": "accent" },
+    { "layout": "statement", "top": "TODO", "big": "TODO", "bottom": "TODO", "tone": "down" }
+  ],
   "scenes": [
-    { "type": "hook", "chapter": "Intro", "narration": "TODO hook narration", "facts": [], "props": { "lines": ["TODO"] } },
-    { "type": "chapter", "chapter": "TODO chapter", "narration": "TODO", "facts": [], "props": { "number": 1, "title": "TODO" } },
-    { "type": "outro", "chapter": "What's next", "narration": "TODO outro narration", "facts": [], "props": { "title": "TODO" } }
+    { "type": "hook", "chapter": "Intro", "narration": "TODO the most surprising true fact, first sentence short and punchy", "facts": [], "props": { "lines": ["TODO"] } },
+    { "type": "hook", "narration": "TODO the question this video answers?", "facts": [], "props": { "lines": ["TODO question?"] } },
+    { "type": "bullets", "narration": "TODO roadmap: what we'll cover", "facts": [], "props": { "title": "TODO", "items": ["TODO part one", "TODO part two"] } },
+    { "type": "chapter", "chapter": "TODO chapter", "narration": "Part one. TODO. TODO open question?", "facts": [], "props": { "number": 1, "title": "TODO" } },
+    { "type": "hook", "narration": "TODO the short version: recap in three lines", "facts": [], "props": { "lines": ["The short version", "TODO", "TODO"] } },
+    { "type": "outro", "chapter": "Outro", "narration": "TODO outro narration", "facts": [], "props": { "title": "TODO" } }
   ]
 }

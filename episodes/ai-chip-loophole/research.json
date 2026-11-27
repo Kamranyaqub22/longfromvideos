@@ -1,0 +1,403 @@
+{
+  "topic": "Why the US now requires licences for AI chips to Singapore, Malaysia, Thailand, Indonesia and Brazil, and the Southeast Asian 'back door' it is trying to close",
+  "researchedAt": "2026-11-27",
+  "facts": [
+    {
+      "id": "f1",
+      "claim": "In Nvidia's fiscal 2025 annual report (year ended Jan 26, 2025), Singapore represented 18% of total revenue based on customer billing location, but shipments to Singapore were less than 2% of fiscal 2025 revenue. Nvidia says customers use Singapore to centralize invoicing while its products are almost always shipped elsewhere.",
+      "sources": [
+        {
+          "outlet": "Nvidia Form 10-K (SEC filing)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "date": "2025-02-26"
+        }
+      ],
+      "status": "single-source",
+      "notes": "Primary source; read directly from the filing. Narration attributes it to Nvidia's annual report. Nvidia's explanation must be given alongside: billing location is not evidence of wrongdoing."
+    },
+    {
+      "id": "f2",
+      "claim": "Nvidia revenue billed to customers in Singapore was $2,288 million in fiscal 2023, $6,831 million in fiscal 2024 and $23,684 million (about $23.7 billion) in fiscal 2025, out of total revenue of $130,497 million in fiscal 2025.",
+      "sources": [
+        {
+          "outlet": "Nvidia Form 10-K (SEC filing)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "date": "2025-02-26"
+        }
+      ],
+      "status": "single-source",
+      "notes": "Geographic revenue table, 'Revenue based upon Customer Billing Location'. Nvidia's fiscal years end in late January (FY2025 ended Jan 26, 2025)."
+    },
+    {
+      "id": "f3",
+      "claim": "On October 7, 2022, the US Commerce Department's Bureau of Industry and Security announced export controls restricting China's ability to obtain advanced computing chips, develop supercomputers and manufacture advanced semiconductors.",
+      "sources": [
+        {
+          "outlet": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples",
+          "date": "2022-10-07"
+        },
+        {
+          "outlet": "Covington & Burling",
+          "url": "https://www.cov.com/en/news-and-insights/insights/2022/10/us-imposes-additional-export-controls-restrictions-on-advanced-computing-and-semiconductor-manufacturing-items"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f4",
+      "claim": "The Biden administration's AI Diffusion Rule, a worldwide framework for AI chip exports, was issued in January 2025 with a compliance date of May 15, 2025. In May 2025 the Trump administration's Commerce Department announced it would rescind it, and said it would not be enforced.",
+      "sources": [
+        {
+          "outlet": "Bureau of Industry and Security",
+          "url": "https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens",
+          "date": "2025-05-13"
+        },
+        {
+          "outlet": "Kirkland & Ellis",
+          "url": "https://www.kirkland.com/publications/kirkland-alert/2025/05/bis-rescission-of-the-biden-administration"
+        },
+        {
+          "outlet": "Akin Gump",
+          "url": "https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/bis-rescinds-ai-diffusion-rule-and-issues-new-guidance"
+        }
+      ],
+      "status": "verified",
+      "notes": "Sources differ on Jan 13 vs Jan 15, 2025 and May 12 vs May 13, 2025, so the script uses month only."
+    },
+    {
+      "id": "f5",
+      "claim": "In late February 2025 Singapore charged three men with fraud in a case involving servers that the government said may contain Nvidia chips. Minister K Shanmugam said the servers were supplied by Dell and Supermicro to Singapore-based companies and then sent to Malaysia, and that whether Malaysia was the final destination was not known.",
+      "sources": [
+        {
+          "outlet": "Fortune",
+          "url": "https://fortune.com/asia/2025/02/28/singapore-charges-fraud-nvidia-chip-smuggling/",
+          "date": "2025-02-28"
+        },
+        {
+          "outlet": "Reuters (via AOL)",
+          "url": "https://www.aol.com/news/servers-used-singapore-fraud-case-073455924.html"
+        },
+        {
+          "outlet": "TechCrunch",
+          "url": "https://techcrunch.com/2025/03/13/singapore-grants-bail-for-nvidia-chip-smugglers-in-alleged-390m-fraud",
+          "date": "2025-03-13"
+        }
+      ],
+      "status": "verified",
+      "notes": "Charges, not convictions. Officials did not link the case to any Chinese buyer. Do not name the accused."
+    },
+    {
+      "id": "f6",
+      "claim": "In March 2025 Singapore prosecutors said the server fraud case involved transactions worth $390 million.",
+      "sources": [
+        {
+          "outlet": "Reuters (via AOL)",
+          "url": "https://www.aol.com/news/singapore-prosecutors-us-server-fraud-040051970.html"
+        },
+        {
+          "outlet": "The Edge Malaysia",
+          "url": "https://theedgemalaysia.com/node/747840"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f7",
+      "claim": "In October 2026 a former Supermicro contractor pleaded guilty in Manhattan federal court to four counts including conspiring to violate US export controls. Prosecutors allege about $2.5 billion of servers with Nvidia chips were sent to a Southeast Asian company and then diverted to customers in China. Supermicro was not named as a defendant.",
+      "sources": [
+        {
+          "outlet": "The Next Web",
+          "url": "https://thenextweb.com/news/super-micro-case-fixer-pleads-guilty-to-sending-ai-servers-to-china"
+        },
+        {
+          "outlet": "DatacenterDynamics",
+          "url": "https://datacenterdynamics.com/en/news/supermicro-contractor-ting-wei-willy-sun-pleads-guilty-to-four-counts-associated-with-nvidia-chip-smuggling-charges"
+        },
+        {
+          "outlet": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-19/three-charged-by-us-with-plot-to-illegally-send-ai-tech-to-china",
+          "date": "2026-03-19"
+        }
+      ],
+      "status": "verified",
+      "notes": "$2.5B is the prosecutors' allegation in the indictment. Co-defendants have pleaded not guilty or not appeared; script names no individuals."
+    },
+    {
+      "id": "f8",
+      "claim": "On July 14, 2025 Malaysia's trade ministry made the export, transshipment and transit of high-performance US-origin AI chips subject to a trade permit, effective immediately, under the Strategic Trade Act 2010.",
+      "sources": [
+        {
+          "outlet": "MITI Malaysia",
+          "url": "https://www.miti.gov.my/miti/resources/Media%20Release/[FINAL]%5FMITI%5FPress%5FStmt%5FMalaysia%5FRegulates%5FTrade%5Fof%5FUS%5FAI%5FChips%5F2025-07-14.pdf",
+          "date": "2025-07-14"
+        },
+        {
+          "outlet": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2025-07-14/malaysia-to-require-permits-on-trade-of-high-end-us-ai-chips",
+          "date": "2025-07-14"
+        },
+        {
+          "outlet": "The Register",
+          "url": "https://www.theregister.com/2025/07/15/malaysia_ai_chip_export_restrictions/",
+          "date": "2025-07-15"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f9",
+      "claim": "A BIS interim final rule, released Nov 16, 2026 and in effect from Nov 19, 2026 (Federal Register publication), requires a licence to export advanced AI chips to or within Indonesia, Malaysia, Singapore, Thailand and Brazil, reviewed case by case. BIS said these countries present an 'unacceptable risk of diversion'.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        },
+        {
+          "outlet": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "date": "2026-11-17"
+        },
+        {
+          "outlet": "Latin Times",
+          "url": "https://www.latintimes.com/bis-ai-chip-export-controls-five-countries-601426"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f10",
+      "claim": "Under the November 2026 rule, exports to a US-headquartered consignee or end user in those five countries are generally excepted from the licence requirement, provided the exporter files a report with BIS by the first business day of the following month.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        },
+        {
+          "outlet": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "date": "2026-11-17"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f11",
+      "claim": "The rule requires a licence when advanced chips are destined for a data center, wherever located, that provides more than 12 million aggregate TPP (total processing performance) of compute to companies headquartered in China or other Country Group D:5 destinations, or Macau.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        },
+        {
+          "outlet": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "date": "2026-11-17"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f12",
+      "claim": "Law firm Simpson Thacher estimates the 12 million TPP threshold equals about 750 Nvidia H100 chips or 2,400 A100 chips, and says many data centers in Southeast Asia and elsewhere will exceed it.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        }
+      ],
+      "status": "single-source",
+      "notes": "The firm's own conversion, not a BIS figure. Attribute to Simpson Thacher."
+    },
+    {
+      "id": "f13",
+      "claim": "Existing data centers providing significant compute to China- or D:5-headquartered companies must obtain a licence within 90 days of the rule's effective date, i.e. by February 17, 2027. Public comments on the rule are due by January 18, 2027.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        },
+        {
+          "outlet": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "date": "2026-11-17"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f14",
+      "claim": "The November 2026 rule formally rescinds the never-enforced regulations implementing the Biden-era AI Diffusion Rule.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        },
+        {
+          "outlet": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "date": "2026-11-17"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f15",
+      "claim": "The Financial Times reported on November 26, 2026, citing people familiar with the matter, that Nvidia told manufacturing partners including Dell and Supermicro to stop shipping servers with its AI chips to Malaysia, Singapore, Thailand and Indonesia. It was unclear how long the halt would last. Nvidia did not comment. Brazil was not reported to be covered.",
+      "sources": [
+        {
+          "outlet": "Financial Times (as relayed by Reuters)",
+          "url": "https://www.tradingpedia.com/2026/11/27/nvidia-halts-se-asia-server-shipments-on-us-rule/",
+          "date": "2026-11-27"
+        },
+        {
+          "outlet": "Financial Times (as relayed by Cryptopolitan)",
+          "url": "https://www.cryptopolitan.com/nvidia-halts-server-shipments-southeast-asia/",
+          "date": "2026-11-27"
+        }
+      ],
+      "status": "single-source",
+      "notes": "Every account traces back to one FT report (original: https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370, paywalled, not read directly). Must be attributed to the FT. Accounts differ on 'declined to comment' vs 'did not respond', so narration says 'did not comment'."
+    },
+    {
+      "id": "f16",
+      "claim": "Malaysia's trade minister Johari Abdul Ghani said on November 18, 2026: 'If you are not prepared to comply, then you should not operate in Malaysia.' The government said it would notify all 117 approved data centre projects and was seeking clarification from Washington. He also said he had yet to see documentation of tenants re-exporting chips.",
+      "sources": [
+        {
+          "outlet": "The Star (Bernama)",
+          "url": "https://www.thestar.com.my/news/nation/2026/11/19/comply-with-us-chip-rules-or-quit-says-johari",
+          "date": "2026-11-19"
+        },
+        {
+          "outlet": "Malaysiakini",
+          "url": "https://www.malaysiakini.com/news/889381-malaysia-seeks-us-clarification-on-ai-chip-restrictions-probes-alleged-re-exports-says-johari",
+          "date": "2026-11-18"
+        }
+      ],
+      "status": "verified",
+      "notes": "Exact quote read from The Star (Bernama copy). Malaysiakini headline confirms the clarification request; its body was not read."
+    },
+    {
+      "id": "f17",
+      "claim": "Singapore PM Lawrence Wong told Singapore media on Nov 17, 2026 that Singapore would take 'clear and firm' action against businesses using it to circumvent the controls: 'We want to uphold the rule of law, and we want to uphold Singapore's reputation as a trusted business hub.' He expects some impact on trans-shipment: 'But I think we can manage that impact'.",
+      "sources": [
+        {
+          "outlet": "The Straits Times (via The Star/ANN)",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/18/singapore-can-facilitate-us-checks-on-ai-chip-use-wont-allow-circumvention-of-export-controls-pm-wong",
+          "date": "2026-11-18"
+        }
+      ],
+      "status": "single-source",
+      "notes": "One report (Straits Times). Narration attributes with 'said'."
+    },
+    {
+      "id": "f18",
+      "claim": "According to Knight Frank's Data Centre Atlas 2026, Johor in Malaysia has 1,110 MW of live data centre IT capacity, third in Asia-Pacific after Tokyo (1,473 MW) and Singapore (1,118 MW). Colocation vacancy is 0.7% in Johor, versus 4.9% in Singapore, 20.5% in Jakarta and 23.3% in Bangkok.",
+      "sources": [
+        {
+          "outlet": "New Straits Times",
+          "url": "https://www.nst.com.my/amp/business/economy/2026/08/1522642/johor-data-centre-boom-hits-capacity-wall",
+          "date": "2026-08-31"
+        },
+        {
+          "outlet": "The Edge Malaysia",
+          "url": "https://theedgemalaysia.com/node/812609",
+          "date": "2026-07-30"
+        },
+        {
+          "outlet": "EdgeProp",
+          "url": "https://www.edgeprop.my/content/1916967/johor-leads-asia-pacific-data-centre-pipeline-klang-valley-sees-1h2026-investment-rebound-says-knight-frank"
+        }
+      ],
+      "status": "verified",
+      "notes": "Figures are Knight Frank's; other consultancies measure differently (JLL counts fewer MW). Attribute to Knight Frank."
+    },
+    {
+      "id": "f19",
+      "claim": "Nvidia reported record fiscal 2026 revenue of $215.9 billion, up 65% (year ended January 25, 2026).",
+      "sources": [
+        {
+          "outlet": "Nvidia investor relations",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/default.aspx",
+          "date": "2026-02-25"
+        }
+      ],
+      "status": "single-source",
+      "notes": "Company-reported figure; narration says 'Nvidia reported'."
+    },
+    {
+      "id": "f20",
+      "claim": "The US indictment unsealed in March 2026 alleges that, ahead of an August 2025 audit, defendants staged hundreds of non-working 'dummy' servers in Supermicro boxes, and that surveillance footage shows a hair dryer being used to move labels and serial-number stickers onto them, while the real servers had already been shipped to China.",
+      "sources": [
+        {
+          "outlet": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/super-micro-employees-accused-of-smuggling-usd2-5-billion-worth-of-nvidia-hardware-to-china-perps-used-a-hairdryer-to-move-serial-numbers-between-real-hardware-and-thousands-of-dummy-servers"
+        },
+        {
+          "outlet": "The Register",
+          "url": "https://www.theregister.com/2026/03/20/supermicro_nvidia_gpu_charges/",
+          "date": "2026-03-20"
+        },
+        {
+          "outlet": "The Next Web",
+          "url": "https://thenextweb.com/news/supermicro-chip-smuggling-export-controls-china"
+        }
+      ],
+      "status": "verified",
+      "notes": "Allegations in the indictment. Reports differ on the number of dummy servers, so the script gives no count. Narration must say 'prosecutors allege'."
+    },
+    {
+      "id": "f21",
+      "claim": "The November 2026 rule expects exporters to be able to show a data centre's know-your-customer checks; a refusal or inability to provide that information is a red flag that presumptively gives the exporter 'knowledge' of a prohibited end use unless resolved.",
+      "sources": [
+        {
+          "outlet": "Simpson Thacher",
+          "url": "https://www.stblaw.com/bis-issues-rule-restrictingremote-access-to-advanced-ai-chips/",
+          "date": "2026-11-20"
+        },
+        {
+          "outlet": "Nixon Peabody",
+          "url": "https://www.nixonpeabody.com/insights/alerts/2026/11/16/bis-targets-remote-access-to-advanced-chips-through-overseas-data-centers",
+          "date": "2026-11-17"
+        }
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "f22",
+      "claim": "Knight Frank's Data Centre Atlas 2026 counts an incoming data centre development pipeline of 8,542 MW in Johor, the largest in Asia-Pacific.",
+      "sources": [
+        {
+          "outlet": "EdgeProp",
+          "url": "https://www.edgeprop.my/content/1916967/johor-leads-asia-pacific-data-centre-pipeline-klang-valley-sees-1h2026-investment-rebound-says-knight-frank"
+        },
+        {
+          "outlet": "The Edge Malaysia",
+          "url": "https://theedgemalaysia.com/node/812609",
+          "date": "2026-07-30"
+        }
+      ],
+      "status": "verified",
+      "notes": "Pipeline includes planned projects, not just construction. Other consultancies count differently."
+    },
+    {
+      "id": "f23",
+      "claim": "On Nov 18, 2026, Malaysia's trade minister Johari Abdul Ghani said of the US rule: 'We have not received anything from the US, other than what we have read in the media.'",
+      "sources": [
+        {
+          "outlet": "The Star (Bernama)",
+          "url": "https://www.thestar.com.my/business/business-news/2026/11/18/malaysia-seeks-us-clarification-on-ai-chip-restrictions-investigates-alleged-re-exports",
+          "date": "2026-11-18"
+        }
+      ],
+      "status": "single-source",
+      "notes": "Bernama report carried by The Star; narration attributes with 'said'."
+    }
+  ]
+}

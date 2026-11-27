@@ -4,15 +4,30 @@
  */
 import type { Research, Scene, Script } from "../../src/schema";
 import { Issues } from "./issues";
+import { TAIL } from "./timeline";
 import { resolveCountry, suggestCountries } from "../../src/lib/geo";
 
-export const WORDS_PER_SECOND = 2.5; // ~150 wpm documentary narration
+/** Measured on the default narrator at speed 1.0: ~155 wpm. Scales with the voice's `speed`. */
+export const WORDS_PER_SECOND = 2.6;
 
 export const countWords = (s: string) => s.trim().split(/\s+/).filter(Boolean).length;
-export const estimateSeconds = (s: string) => countWords(s) / WORDS_PER_SECOND;
+export const estimateSeconds = (s: string, speed = 1) => countWords(s) / (WORDS_PER_SECOND * speed);
+
+/** Sentences as a listener hears them (split on . ! ? followed by space or end). */
+export const sentences = (s: string) => s.split(/(?<=[.!?])\s+/).map((x) => x.trim()).filter(Boolean);
+
+// ---- retention heuristics (warnings: they flag, a human decides)
+/** Openers that make viewers click away in the first seconds. */
+const FILLER = /\b(welcome (back|to)|in (this|today'?s) video|hey (guys|everyone)|before we (begin|start|get started)|don'?t forget to (like|subscribe)|without further ado|let'?s dive in|let'?s get (into|started))\b/i;
+/** Words that open a question in the viewer's head even without a "?". */
+const OPEN_LOOP = /\?|\b(why|how|what|who|where|here'?s|but)\b/i;
+/** Longest sentence the ear follows comfortably. */
+export const MAX_SENTENCE_WORDS = 30;
+/** Intro (everything before the first chapter card) should get to the story fast. */
+export const MAX_INTRO_SECONDS = 50;
 
 const PLACEHOLDER = /\b(TODO|TBD|FIXME|XXX|lorem ipsum)\b|\?\?\?/i;
-const ATTRIBUTION = /\b(according to|reported|reports|reportedly|alleg\w*|claim\w*|said|says|told|estimate\w*|per )\b/i;
+const ATTRIBUTION = /\b(according to|in (its|their|his|her) (own )?words|reported|reports|reportedly|alleg\w*|claim\w*|said|says|told|estimate\w*|per )\b/i;
 const SENSATIONAL = /\b(shocking|insane|destroyed|you won'?t believe|gone wrong|exposed|meltdown)\b/i;
 const ANGLE = /[<>]/; // YouTube rejects < and > in titles and descriptions
 
@@ -34,6 +49,7 @@ const where = (i: number, s: Scene) => `scene ${i + 1} (${s.type})`;
 export function lintEpisode(slug: string, script: Script, research: Research, today = new Date()): Issues {
   const issues = new Issues();
   const facts = new Map(research.facts.map((f) => [f.id, f]));
+  const speed = script.voice.speed;
 
   // ---- identity
   if (script.slug !== slug) issues.error("script.json:slug", `slug "${script.slug}" does not match folder "${slug}"`);
@@ -113,17 +129,47 @@ export function lintEpisode(slug: string, script: Script, research: Research, to
         }
     }
 
-    const secs = estimateSeconds(s.narration);
+    const secs = estimateSeconds(s.narration, speed);
     if (s.type === "hook" && secs > 18) issues.warn(w, `hook runs ~${secs.toFixed(0)}s; keep it under ~15s`);
     else if (secs > 30) issues.warn(w, `one visual for ~${secs.toFixed(0)}s; split into more scenes to hold attention`);
+
+    for (const sent of sentences(s.narration)) {
+      const n = countWords(sent);
+      if (n > MAX_SENTENCE_WORDS) issues.warn(w, `${n}-word sentence is hard to follow by ear; split it: "${sent.slice(0, 50)}…"`);
+    }
+    if (FILLER.test(s.narration) && i < 3) issues.warn(w, `filler opener ("${s.narration.match(FILLER)![0]}") loses viewers in the first seconds; open on the story`);
+    if (i > 0 && s.type === script.scenes[i - 1].type && i > 1 && s.type === script.scenes[i - 2].type)
+      issues.warn(w, `third ${s.type} scene in a row; vary the visual to hold attention`);
+    if (s.type === "chapter" && !OPEN_LOOP.test(s.narration))
+      issues.warn(w, "chapter opens without a question or open loop; give viewers a reason to stay for this part");
   });
+
+  // ---- retention: the first seconds decide whether anyone watches the rest
+  const hook = script.scenes[0];
+  const first = sentences(hook.narration)[0] ?? "";
+  if (countWords(first) > 20) issues.warn("hook", `first sentence is ${countWords(first)} words; land the surprising fact in under ~20`);
+  if (FILLER.test(hook.narration)) issues.warn("hook", "hook starts with filler; open with the most surprising fact");
+  const firstChapter = script.scenes.findIndex((s, i) => i > 0 && s.type === "chapter");
+  const intro = script.scenes.slice(0, firstChapter < 0 ? script.scenes.length : firstChapter);
+  if (!intro.some((s) => s.narration.includes("?")))
+    issues.warn("hook", "the intro never asks the question the video answers; viewers need a reason to keep watching");
+  const introSecs = intro.reduce((n, s) => n + estimateSeconds(s.narration, speed), 0);
+  if (firstChapter > 0 && introSecs > MAX_INTRO_SECONDS) issues.warn("hook", `intro runs ~${introSecs.toFixed(0)}s before the first chapter; keep it under ~${MAX_INTRO_SECONDS}s`);
+  const counts = new Map<string, number>();
+  for (const s of script.scenes) counts.set(s.type, (counts.get(s.type) ?? 0) + 1);
+  for (const [type, n] of counts)
+    if (script.scenes.length >= 12 && n / script.scenes.length > 0.25 && !["chapter"].includes(type))
+      issues.warn("pacing", `${n} of ${script.scenes.length} scenes are ${type}; that much of one template starts to feel repetitive`);
+  const avg = script.scenes.reduce((n, s) => n + estimateSeconds(s.narration, speed), 0) / script.scenes.length;
+  if (avg > 15) issues.warn("pacing", `average scene is ~${avg.toFixed(0)}s; aim for 5–15s per visual`);
 
   for (const f of research.facts) if (!used.has(f.id)) issues.warn(`research ${f.id}`, "fact is never cited (fine, but check nothing was dropped)");
 
   // ---- whole-episode
   const chapters = script.scenes.filter((s) => s.chapter).length;
   if (chapters < 3) issues.warn("chapters", `only ${chapters} chapter(s); YouTube shows chapters only with 3+`);
-  const total = script.scenes.reduce((n, s) => n + estimateSeconds(s.narration), 0);
+  // Same breathing room the timeline adds after each scene, so this matches the rendered length.
+  const total = script.scenes.reduce((n, s) => n + estimateSeconds(s.narration, speed) + (TAIL[s.type as keyof typeof TAIL] ?? TAIL.default), 0);
   if (total < 8 * 60) issues.warn("length", `estimated ${(total / 60).toFixed(1)} min; 8+ min enables mid-roll ads`);
   if (total > 25 * 60) issues.warn("length", `estimated ${(total / 60).toFixed(1)} min; consider tightening`);
 

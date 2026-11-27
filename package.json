@@ -8,7 +8,8 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "verify": "npm run typecheck && npm test && tsx pipeline/cli.ts build pipeline-fixture --mock --allow-mock",
-    "verify:audio": "tsx pipeline/cli.ts build voice-smoke"
+    "verify:audio": "tsx pipeline/cli.ts build voice-smoke",
+    "sfx": "tsx pipeline/sfx.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.547",
