@@ -4,9 +4,9 @@
  "fps": 30,
  "width": 1920,
  "height": 1080,
- "durationInFrames": 3000,
+ "durationInFrames": 4338,
  "mock": true,
- "scriptHash": "6838ee0d260ee11f",
+ "scriptHash": "06ad1d7e4f1325ce",
  "scenes": [
   {
    "type": "hook",
@@ -19,7 +19,8 @@
      "Every scene",
      "Invented data"
     ],
-    "accent": "Every scene"
+    "accent": "Every scene",
+    "visual": "globe"
    },
    "audio": "",
    "startFrame": 0,
@@ -536,7 +537,8 @@
    "chapter": "The spending",
    "props": {
     "number": 2,
-    "title": "The spending"
+    "title": "The spending",
+    "visual": "rocket"
    },
    "audio": "",
    "startFrame": 1024,
@@ -1281,6 +1283,686 @@
    ]
   },
   {
+   "type": "globe",
+   "narration": "Here is the globe scene, with an invented satellite count climbing as the swarm grows around the turning Earth.",
+   "facts": [
+    "f6"
+   ],
+   "props": {
+    "title": "Example Corp test fleet",
+    "satellites": {
+     "from": 0,
+     "to": 2400,
+     "label": "Test satellites in orbit",
+     "counter": true
+    },
+    "rings": [
+     {
+      "label": "Shell A"
+     },
+     {
+      "label": "Shell B"
+     }
+    ],
+    "highlights": [
+     {
+      "country": "France",
+      "tone": "accent"
+     }
+    ],
+    "source": "Fixture Wire"
+   },
+   "audio": "",
+   "startFrame": 2539,
+   "durationInFrames": 251,
+   "words": [
+    {
+     "text": "Here",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "is",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "the",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "globe",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "scene,",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "with",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "an",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "invented",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "satellite",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "count",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "climbing",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "as",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "the",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "swarm",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "grows",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "around",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "the",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    },
+    {
+     "text": "turning",
+     "start": 6.950000000000001,
+     "end": 7.290000000000001
+    },
+    {
+     "text": "Earth.",
+     "start": 7.3500000000000005,
+     "end": 7.69
+    }
+   ]
+  },
+  {
+   "type": "launch",
+   "narration": "This is the launch scene. A generic rocket lifts off while an invented figure counts up on the left.",
+   "facts": [
+    "f2"
+   ],
+   "props": {
+    "stat": {
+     "value": 730,
+     "prefix": "$",
+     "suffix": "B",
+     "decimals": 0,
+     "label": "Invented spending figure"
+    },
+    "note": "Test data only",
+    "source": "Fixture Wire"
+   },
+   "audio": "",
+   "startFrame": 2790,
+   "durationInFrames": 251,
+   "words": [
+    {
+     "text": "This",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "is",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "the",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "launch",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "scene.",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "A",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "generic",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "rocket",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "lifts",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "off",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "while",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "an",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "invented",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "figure",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "counts",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "up",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "on",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    },
+    {
+     "text": "the",
+     "start": 6.950000000000001,
+     "end": 7.290000000000001
+    },
+    {
+     "text": "left.",
+     "start": 7.3500000000000005,
+     "end": 7.69
+    }
+   ]
+  },
+  {
+   "type": "diagram",
+   "narration": "The satellite diagram unfolds its solar wings, and each labelled part lights up in turn.",
+   "facts": [
+    "f6"
+   ],
+   "props": {
+    "title": "Test satellite",
+    "illustration": "satellite",
+    "callouts": [
+     {
+      "part": "solar",
+      "text": "Solar array"
+     },
+     {
+      "part": "compute",
+      "text": "Compute rack"
+     },
+     {
+      "part": "radiator",
+      "text": "Radiator"
+     },
+     {
+      "part": "antenna",
+      "text": "Antenna"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 3041,
+   "durationInFrames": 203,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "satellite",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "diagram",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "unfolds",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "its",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "solar",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "wings,",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "and",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "each",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "labelled",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "part",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "lights",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "up",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "in",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "turn.",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    }
+   ]
+  },
+  {
+   "type": "diagram",
+   "narration": "The data center diagram shows power flowing in, racks blinking, and fans pushing heat out of the roof.",
+   "facts": [
+    "f6"
+   ],
+   "props": {
+    "illustration": "datacenter",
+    "callouts": [
+     {
+      "part": "power",
+      "text": "Power lines"
+     },
+     {
+      "part": "building",
+      "text": "Server halls"
+     },
+     {
+      "part": "cooling",
+      "text": "Cooling fans"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 3244,
+   "durationInFrames": 239,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "data",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "center",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "diagram",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "shows",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "power",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "flowing",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "in,",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "racks",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "blinking,",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "and",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "fans",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "pushing",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "heat",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "out",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    },
+    {
+     "text": "of",
+     "start": 6.15,
+     "end": 6.49
+    },
+    {
+     "text": "the",
+     "start": 6.550000000000001,
+     "end": 6.890000000000001
+    },
+    {
+     "text": "roof.",
+     "start": 6.950000000000001,
+     "end": 7.290000000000001
+    }
+   ]
+  },
+  {
+   "type": "diagram",
+   "narration": "The heat diagram shows a hot chip radiating into space through growing radiator panels.",
+   "facts": [
+    "f6"
+   ],
+   "props": {
+    "illustration": "heat",
+    "callouts": [
+     {
+      "part": "chip",
+      "text": "Hot chip"
+     },
+     {
+      "part": "radiator",
+      "text": "Radiators"
+     },
+     {
+      "part": "space",
+      "text": "Cold space"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 3483,
+   "durationInFrames": 191,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "heat",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "diagram",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "shows",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "a",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "hot",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "chip",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "radiating",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "into",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "space",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "through",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "growing",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "radiator",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "panels.",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    }
+   ]
+  },
+  {
+   "type": "diagram",
+   "narration": "And the sunlight diagram shows a satellite circling along the line between day and night.",
+   "facts": [
+    "f6"
+   ],
+   "props": {
+    "illustration": "sunlight",
+    "callouts": [
+     {
+      "part": "sun",
+      "text": "The sun"
+     },
+     {
+      "part": "earth",
+      "text": "Earth, half in night"
+     },
+     {
+      "part": "orbit",
+      "text": "Dawn-dusk orbit"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 3674,
+   "durationInFrames": 203,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.49
+    },
+    {
+     "text": "the",
+     "start": 0.55,
+     "end": 0.8900000000000001
+    },
+    {
+     "text": "sunlight",
+     "start": 0.9500000000000001,
+     "end": 1.29
+    },
+    {
+     "text": "diagram",
+     "start": 1.35,
+     "end": 1.6900000000000002
+    },
+    {
+     "text": "shows",
+     "start": 1.75,
+     "end": 2.09
+    },
+    {
+     "text": "a",
+     "start": 2.15,
+     "end": 2.4899999999999998
+    },
+    {
+     "text": "satellite",
+     "start": 2.5500000000000003,
+     "end": 2.89
+    },
+    {
+     "text": "circling",
+     "start": 2.95,
+     "end": 3.29
+    },
+    {
+     "text": "along",
+     "start": 3.35,
+     "end": 3.69
+    },
+    {
+     "text": "the",
+     "start": 3.75,
+     "end": 4.09
+    },
+    {
+     "text": "line",
+     "start": 4.15,
+     "end": 4.49
+    },
+    {
+     "text": "between",
+     "start": 4.550000000000001,
+     "end": 4.890000000000001
+    },
+    {
+     "text": "day",
+     "start": 4.950000000000001,
+     "end": 5.290000000000001
+    },
+    {
+     "text": "and",
+     "start": 5.3500000000000005,
+     "end": 5.69
+    },
+    {
+     "text": "night.",
+     "start": 5.750000000000001,
+     "end": 6.090000000000001
+    }
+   ]
+  },
+  {
    "type": "bullets",
    "narration": "Bullet scenes list what to watch next. First, the earnings. Second, the guidance. Third, the reaction.",
    "facts": [],
@@ -1294,7 +1976,7 @@
     ]
    },
    "audio": "",
-   "startFrame": 2539,
+   "startFrame": 3877,
    "durationInFrames": 215,
    "words": [
     {
@@ -1385,10 +2067,11 @@
    "facts": [],
    "props": {
     "title": "End of test",
-    "cta": "Subscribe for the stories behind the headlines"
+    "cta": "Subscribe for the stories behind the headlines",
+    "visual": "satellite"
    },
    "audio": "",
-   "startFrame": 2754,
+   "startFrame": 4092,
    "durationInFrames": 246,
    "words": [
     {
