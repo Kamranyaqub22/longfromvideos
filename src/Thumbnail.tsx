@@ -1,13 +1,94 @@
 import { AbsoluteFill } from "remotion";
-import type { ThumbnailProps } from "./schema";
+import { THUMB_SCENE_FRAMES, type Illustration, type ThumbnailProps } from "./schema";
 import { Background } from "./components/Background";
+import { SceneDurationProvider } from "./components/SceneContext";
+import { DIAGRAM_ART, ART_H, ART_W } from "./illustrations/Diagrams";
+import { Globe } from "./illustrations/Globe";
+import { RocketArt } from "./illustrations/Rocket";
+import { Stars } from "./illustrations/common";
 import { C, display, toneColor } from "./theme";
 
 /** 1280x720 thumbnail. Two layouts so variants can be A/B tested on YouTube. */
 export const Thumbnail: React.FC<ThumbnailProps> = (p) => (
   <AbsoluteFill>
     <Background />
-    {p.layout === "statement" ? <Statement {...p} /> : <BigNumber {...p} />}
+    {p.visual ? <Visual {...p} visual={p.visual} /> : p.layout === "statement" ? <Statement {...p} /> : <BigNumber {...p} />}
+  </AbsoluteFill>
+);
+
+/** The drawing; the pipeline renders this composition at the frame in THUMB_FRAMES for each drawing. */
+const ThumbArt: React.FC<{ visual: Illustration }> = ({ visual }) => {
+  let art: React.ReactNode;
+  if (visual === "globe") {
+    art = (
+      <svg viewBox="0 0 1280 720" width="100%" height="100%">
+        <defs>
+          <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+            <stop offset="55%" stopColor={C.accent} stopOpacity={0.35} />
+            <stop offset="100%" stopColor={C.accent} stopOpacity={0} />
+          </radialGradient>
+        </defs>
+        <Stars w={1280} h={720} n={120} />
+        <circle cx={890} cy={380} r={470} fill="url(#halo)" />
+        <Globe cx={890} cy={380} r={300} dots={1800} dotR={3.2} />
+      </svg>
+    );
+  } else if (visual === "rocket") {
+    art = (
+      <svg viewBox="0 0 1920 1080" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+        <g transform="translate(1400 380) scale(1.7) translate(-1400 -560)">
+          <RocketArt x={1400} />
+        </g>
+      </svg>
+    );
+  } else {
+    const { Art } = DIAGRAM_ART[visual];
+    const k = 1.05;
+    art = (
+      <svg viewBox="0 0 1280 720" width="100%" height="100%">
+        <Stars w={1280} h={720} n={120} />
+        <g transform={`translate(${1280 - ART_W * k + 60} ${(720 - ART_H * k) / 2}) scale(${k})`}>
+          <Art highlight={visual === "satellite" ? "radiator" : undefined} />
+        </g>
+      </svg>
+    );
+  }
+  return (
+    <SceneDurationProvider value={THUMB_SCENE_FRAMES}>
+      <AbsoluteFill>{art}</AbsoluteFill>
+    </SceneDurationProvider>
+  );
+};
+
+/** Big picture on the right, 2–3 huge words on the left over a dark fade. */
+const Visual: React.FC<ThumbnailProps & { visual: Illustration }> = ({ top, big, bottom, tone, visual }) => (
+  <AbsoluteFill>
+    <ThumbArt visual={visual} />
+    <AbsoluteFill style={{ background: `linear-gradient(90deg, ${C.bg} 0%, ${C.bg}e6 30%, ${C.bg}00 62%)` }} />
+    <AbsoluteFill style={{ justifyContent: "center", padding: "0 50px", gap: 6 }}>
+      <div style={{ fontFamily: display, fontSize: top.length > 16 ? 84 : 104, color: C.text, textTransform: "uppercase", lineHeight: 0.95, maxWidth: 680, textShadow: "0 8px 30px rgba(0,0,0,0.8)" }}>
+        {top}
+      </div>
+      <div
+        style={{
+          fontFamily: display,
+          fontSize: big.length > 8 ? 150 : 190,
+          color: toneColor(tone),
+          lineHeight: 1,
+          WebkitTextStroke: `4px ${C.bg}`,
+          paintOrder: "stroke fill",
+          textShadow: "0 10px 40px rgba(0,0,0,0.85)",
+          maxWidth: 760,
+        }}
+      >
+        {big}
+      </div>
+      {bottom ? (
+        <div style={{ alignSelf: "flex-start", fontFamily: display, fontSize: 58, color: C.bg, background: C.accent, padding: "2px 20px", textTransform: "uppercase", lineHeight: 1.15 }}>
+          {bottom}
+        </div>
+      ) : null}
+    </AbsoluteFill>
   </AbsoluteFill>
 );
 

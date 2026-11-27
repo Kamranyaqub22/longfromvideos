@@ -11,14 +11,16 @@
       "top": "Example Corp",
       "big": "−18.5%",
       "bottom": "test fixture",
-      "tone": "down"
+      "tone": "down",
+      "visual": "globe"
     },
     {
       "layout": "statement",
       "top": "Is the spending too much?",
       "big": "$730B",
       "bottom": "test fixture",
-      "tone": "down"
+      "tone": "down",
+      "visual": "rocket"
     },
     {
       "layout": "statement",

@@ -31,7 +31,9 @@ export const Globe: React.FC<{
   rings?: { label: string }[];
   highlights?: { country: string; tone: Tone }[];
   spin?: number;
-}> = ({ cx, cy, r, dots = 0, rings = [], highlights = [], spin = 0.12 }) => {
+  /** Satellite dot radius; bigger for thumbnails. */
+  dotR?: number;
+}> = ({ cx, cy, r, dots = 0, rings = [], highlights = [], spin = 0.12, dotR }) => {
   const frame = useCurrentFrame();
   const sats = useMemo<Sat[]>(() => {
     const g = rng(42);
@@ -62,7 +64,7 @@ export const Globe: React.FC<{
     const p = project(x, y, z);
     const behind = p.depth < 0 && p.sx * p.sx + p.sy * p.sy < 1;
     if (behind) continue;
-    satEls.push(<circle key={i} cx={cx + p.sx * r} cy={cy + p.sy * r} r={dots > 600 ? 2 : 3} fill={C.accent} opacity={p.depth < 0 ? 0.35 : 0.95} />);
+    satEls.push(<circle key={i} cx={cx + p.sx * r} cy={cy + p.sy * r} r={dotR ?? (dots > 600 ? 2 : 3)} fill={C.accent} opacity={p.depth < 0 ? 0.35 : 0.95} />);
   }
 
   // Orbit shells: the half behind the Earth is drawn first (hidden by the globe), the front half on top.

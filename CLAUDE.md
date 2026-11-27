@@ -93,6 +93,9 @@ Line charts: every point must come from a cited source; never interpolate or smo
 badge + arrow). Variants render to `thumbnail.png`, `thumbnail-2.png`, `thumbnail-3.png` for YouTube's
 "Test & compare". Make variants genuinely different angles (number vs. question vs. consequence).
 Every number on a thumbnail must exist in research.json (lint warns).
+Give every variant a `visual` (`globe`, `rocket`, `satellite`, `datacenter`, `heat`, `sunlight`): one big bright drawing
+on the right, 2–3 huge words on the left. Text-only thumbnails don't stand out in the feed. Each drawing is rendered at
+its most dramatic frame (`THUMB_FRAMES` in `src/schema.ts`).
 
 Every scene: `narration`, `facts` (fact ids), optional `chapter` (starts a YouTube chapter; first scene
 should be "Intro"; YouTube needs 3+ chapters, each ≥10 s).
@@ -120,7 +123,7 @@ and media components come from `@remotion/media`.
 ## Verifying changes
 
 - `npm run typecheck` and `npm test`: fast, run after any change.
-- `npm run verify`: typecheck + tests + full mock build of the fixture through QC (~3 min).
+- `npm run verify`: typecheck + tests + full mock build of the fixture through QC (~6 min).
 - `npm run ep -- build voice-smoke`: real-audio path from cached audio (no credits).
 
 ## Environment notes

@@ -245,8 +245,15 @@ export const ThumbnailProps = z.object({
   big: str(12),
   bottom: str(36).optional(),
   tone: Tone.default("down"),
+  /** A big code-drawn picture behind the text (strongly recommended: text-only thumbnails don't stand out). */
+  visual: Illustration.optional(),
 });
 export type ThumbnailProps = z.infer<typeof ThumbnailProps>;
+
+/** Thumbnail drawings are rendered from a nominal 10-second scene, at the frame where each looks most dramatic. */
+export const THUMB_SCENE_FRAMES = 300;
+export const THUMB_FRAMES: Record<Illustration, number> = { globe: 0, rocket: 150, satellite: 160, datacenter: 160, heat: 200, sunlight: 120 };
+export const thumbnailFrame = (t: ThumbnailProps) => (t.visual ? THUMB_FRAMES[t.visual] : 0);
 
 export const Voice = z.object({
   voiceId: z.string().default("dPah2VEoifKnZT37774q"), // "Knox Dark – Serious, Deep, Steady"

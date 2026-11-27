@@ -27,22 +27,24 @@
       "layout": "number",
       "top": "FCC just approved",
       "big": "1,000,000",
-      "bottom": "AI data centers in orbit",
-      "tone": "accent"
+      "bottom": "AI satellites",
+      "tone": "accent",
+      "visual": "globe"
     },
     {
       "layout": "statement",
-      "top": "Data centers in space?",
+      "top": "Data centers",
+      "big": "IN SPACE?",
+      "bottom": "Does the maths work?",
+      "tone": "neutral",
+      "visual": "satellite"
+    },
+    {
+      "layout": "statement",
+      "top": "The number that decides it",
       "big": "$200/kg",
-      "bottom": "the number that decides it",
-      "tone": "neutral"
-    },
-    {
-      "layout": "statement",
-      "top": "Satellites working today",
-      "big": "16,700",
-      "bottom": "SpaceX wants 1,000,000 more",
-      "tone": "up"
+      "tone": "accent",
+      "visual": "rocket"
     }
   ],
   "scenes": [

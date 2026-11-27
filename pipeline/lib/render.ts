@@ -2,7 +2,7 @@ import { mkdirSync, rmSync } from "node:fs";
 import path from "node:path";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
-import type { ThumbnailProps, Timeline } from "../../src/schema";
+import { thumbnailFrame, type ThumbnailProps, type Timeline } from "../../src/schema";
 import { ROOT, browserExecutable, paths } from "./paths";
 import { run } from "./proc";
 
@@ -76,6 +76,6 @@ export async function renderThumbnails(slug: string, variants: ThumbnailProps[])
   const serveUrl = await getBundle();
   for (const [i, props] of variants.entries()) {
     const composition = await selectComposition({ serveUrl, id: "Thumbnail", inputProps: props, ...common() });
-    await renderStill({ serveUrl, composition, inputProps: props, output: p.thumbnail(i), imageFormat: "png", ...common() });
+    await renderStill({ serveUrl, composition, inputProps: props, frame: thumbnailFrame(props), output: p.thumbnail(i), imageFormat: "png", ...common() });
   }
 }
