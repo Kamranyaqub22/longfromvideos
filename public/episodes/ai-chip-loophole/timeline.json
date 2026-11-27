@@ -1,0 +1,7372 @@
+{
+ "slug": "ai-chip-loophole",
+ "title": "Singapore Was Billed 18% of Nvidia's Sales. Now the US Is Closing the Door",
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 15205,
+ "mock": true,
+ "scriptHash": "55ac7e3b1ba49e52",
+ "scenes": [
+  {
+   "type": "hook",
+   "narration": "Nearly one in every five dollars Nvidia earned last fiscal year was billed to one small country. Singapore. But according to Nvidia's own annual report, less than two percent was actually shipped there.",
+   "facts": [
+    "f1"
+   ],
+   "chapter": "Intro",
+   "props": {
+    "lines": [
+     "Billed to Singapore: 18%",
+     "Shipped there: under 2%"
+    ],
+    "accent": "under 2%"
+   },
+   "audio": "",
+   "startFrame": 0,
+   "durationInFrames": 381,
+   "words": [
+    {
+     "text": "Nearly",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "one",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "in",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "every",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "five",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "dollars",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "Nvidia",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "earned",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "last",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "fiscal",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "year",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "was",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "billed",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "to",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "one",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "small",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "country.",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "Singapore.",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "But",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "according",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "to",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "Nvidia's",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "own",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "annual",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "report,",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "less",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "than",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "two",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "percent",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "was",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "actually",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "shipped",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "there.",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "narration": "Now Washington has drawn a line around Singapore, three of its neighbours, and Brazil. Selling them top AI chips now takes a US licence.",
+   "facts": [
+    "f9"
+   ],
+   "props": {
+    "title": "New US licence rule, Nov 19",
+    "view": "world",
+    "highlights": [
+     {
+      "country": "Singapore",
+      "tone": "down",
+      "label": "Singapore"
+     },
+     {
+      "country": "Malaysia",
+      "tone": "down"
+     },
+     {
+      "country": "Thailand",
+      "tone": "down"
+     },
+     {
+      "country": "Indonesia",
+      "tone": "down"
+     },
+     {
+      "country": "Brazil",
+      "tone": "down",
+      "label": "Brazil"
+     }
+    ],
+    "routes": [],
+    "source": "US Commerce Dept. rule"
+   },
+   "audio": "",
+   "startFrame": 381,
+   "durationInFrames": 287,
+   "words": [
+    {
+     "text": "Now",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "Washington",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "has",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "drawn",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "a",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "line",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "around",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Singapore,",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "three",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "of",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "its",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "neighbours,",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "and",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "Brazil.",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "Selling",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "them",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "top",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "AI",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "chips",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "now",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "takes",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "a",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "US",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "licence.",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "narration": "So where were those chips really going? And why does America see this corner of Asia as a back door, right in the middle of the AI boom?",
+   "facts": [],
+   "props": {
+    "lines": [
+     "Where did",
+     "the chips go?"
+    ],
+    "accent": "the chips go?"
+   },
+   "audio": "",
+   "startFrame": 668,
+   "durationInFrames": 326,
+   "words": [
+    {
+     "text": "So",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "where",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "were",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "those",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "chips",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "really",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "going?",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "And",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "why",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "does",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "America",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "see",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "this",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "corner",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "of",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "Asia",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "as",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "a",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "back",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "door,",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "right",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "in",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "the",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "middle",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "of",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "the",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "AI",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "boom?",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "We'll follow the invoices, the court cases, the new rule, and who pays for it. Start with the bills.",
+   "facts": [],
+   "props": {
+    "title": "The story in four parts",
+    "items": [
+     "The invoice island",
+     "The leak",
+     "The new rule",
+     "The fallout"
+    ]
+   },
+   "audio": "",
+   "startFrame": 994,
+   "durationInFrames": 232,
+   "words": [
+    {
+     "text": "We'll",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "follow",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "the",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "invoices,",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "the",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "court",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "cases,",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "the",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "new",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "rule,",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "and",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "who",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "pays",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "for",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "it.",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "Start",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "with",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "the",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "bills.",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part one. The invoice island. How does one small country end up on nearly a fifth of Nvidia's bills?",
+   "facts": [],
+   "chapter": "The invoice island",
+   "props": {
+    "number": 1,
+    "title": "The invoice island"
+   },
+   "audio": "",
+   "startFrame": 1226,
+   "durationInFrames": 242,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "one.",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "The",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "invoice",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "island.",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "How",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "does",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "one",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "small",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "country",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "end",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "up",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "on",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "nearly",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "a",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "fifth",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "of",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "Nvidia's",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "bills?",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    }
+   ]
+  },
+  {
+   "type": "barchart",
+   "narration": "Watch how fast it grew. Nvidia reported billing about two point three billion dollars to customers in Singapore in fiscal 2023. A year later, six point eight billion. Then, twenty-three point seven billion, out of a total of about one hundred and thirty billion.",
+   "facts": [
+    "f2"
+   ],
+   "props": {
+    "title": "Nvidia revenue billed to Singapore",
+    "bars": [
+     {
+      "label": "FY2023",
+      "value": 2288,
+      "display": "$2.3B",
+      "tone": "neutral"
+     },
+     {
+      "label": "FY2024",
+      "value": 6831,
+      "display": "$6.8B",
+      "tone": "neutral"
+     },
+     {
+      "label": "FY2025",
+      "value": 23684,
+      "display": "$23.7B",
+      "tone": "accent"
+     }
+    ],
+    "source": "Nvidia 10-K, by billing location"
+   },
+   "audio": "",
+   "startFrame": 1468,
+   "durationInFrames": 507,
+   "words": [
+    {
+     "text": "Watch",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "how",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "fast",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "it",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "grew.",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Nvidia",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "reported",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "billing",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "about",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "two",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "point",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "three",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "billion",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "dollars",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "to",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "customers",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "in",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "Singapore",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "in",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "fiscal",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "2023.",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "A",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "year",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "later,",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "six",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "point",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "eight",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "billion.",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "Then,",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "twenty-three",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "point",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "seven",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "billion,",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "out",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "of",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "a",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "total",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "of",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "about",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "one",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "hundred",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "and",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "thirty",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "billion.",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "Nvidia's explanation is simple. Its annual report says customers use Singapore to centralize invoicing, while its products are almost always shipped elsewhere.",
+   "facts": [
+    "f1"
+   ],
+   "props": {
+    "text": "Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere.",
+    "author": "Nvidia",
+    "role": "annual report, fiscal 2025"
+   },
+   "audio": "",
+   "startFrame": 1975,
+   "durationInFrames": 265,
+   "words": [
+    {
+     "text": "Nvidia's",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "explanation",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "is",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "simple.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Its",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "annual",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "report",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "says",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "customers",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "use",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "Singapore",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "to",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "centralize",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "invoicing,",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "while",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "its",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "products",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "are",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "almost",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "always",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "shipped",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "elsewhere.",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "And that's normal. Big companies run regional headquarters out of Singapore. The bill lands in one country. The hardware goes to another. On its own, that proves nothing.",
+   "facts": [],
+   "props": {
+    "title": "Billed here, shipped there",
+    "items": [
+     "Bill: sent to Singapore",
+     "Hardware: shipped elsewhere",
+     "On its own: not wrongdoing"
+    ]
+   },
+   "audio": "",
+   "startFrame": 2240,
+   "durationInFrames": 331,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "that's",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "normal.",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "Big",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "companies",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "run",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "regional",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "headquarters",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "out",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "of",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "Singapore.",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "The",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "bill",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "lands",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "in",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "one",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "country.",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "The",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "hardware",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "goes",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "to",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "another.",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "On",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "its",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "own,",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "that",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "proves",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "nothing.",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "narration": "But it shows the problem regulators face. The paperwork says one place. The chips end up somewhere else. And there's one country where Washington really cares where they end up.",
+   "facts": [
+    "f3"
+   ],
+   "props": {
+    "title": "The destination Washington worries about",
+    "view": "fit",
+    "highlights": [
+     {
+      "country": "China",
+      "tone": "down",
+      "label": "China"
+     },
+     {
+      "country": "Singapore",
+      "tone": "neutral",
+      "label": "Singapore"
+     }
+    ],
+    "routes": []
+   },
+   "audio": "",
+   "startFrame": 2571,
+   "durationInFrames": 353,
+   "words": [
+    {
+     "text": "But",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "it",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "shows",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "the",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "problem",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "regulators",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "face.",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "The",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "paperwork",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "says",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "one",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "place.",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "The",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "chips",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "end",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "up",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "somewhere",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "else.",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "And",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "there's",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "one",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "country",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "where",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "Washington",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "really",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "cares",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "where",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "they",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "end",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "up.",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part two. The leak. America banned its best AI chips from China years ago. So how did some still get there?",
+   "facts": [],
+   "chapter": "The leak",
+   "props": {
+    "number": 2,
+    "title": "The leak"
+   },
+   "audio": "",
+   "startFrame": 2924,
+   "durationInFrames": 264,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "two.",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "The",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "leak.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "America",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "banned",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "its",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "best",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "AI",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "chips",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "from",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "China",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "years",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "ago.",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "So",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "how",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "did",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "some",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "still",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "get",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "there?",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "narration": "The rules started in October 2022, when the US restricted sales of advanced AI chips to China. The goal was simple: keep the most powerful chips away from Chinese AI labs and supercomputers. But the rules kept changing. In January 2025 came a worldwide rulebook called the AI Diffusion Rule. In May, the new administration scrapped it before it took effect. And in July, Malaysia started requiring permits to ship high-end American AI chips.",
+   "facts": [
+    "f3",
+    "f4",
+    "f8"
+   ],
+   "props": {
+    "title": "Four years of chip rules",
+    "events": [
+     {
+      "date": "Oct 2022",
+      "text": "US curbs advanced AI chip sales to China"
+     },
+     {
+      "date": "Jan 2025",
+      "text": "AI Diffusion Rule sets worldwide limits"
+     },
+     {
+      "date": "May 2025",
+      "text": "Rule scrapped before it takes effect"
+     },
+     {
+      "date": "Jul 2025",
+      "text": "Malaysia requires permits for US AI chips"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 3188,
+   "durationInFrames": 836,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "rules",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "started",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "in",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "October",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "2022,",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "when",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "the",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "US",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "restricted",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "sales",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "of",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "advanced",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "AI",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "chips",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "to",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "China.",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "The",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "goal",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "was",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "simple:",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "keep",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "the",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "most",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "powerful",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "chips",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "away",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "from",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "Chinese",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "AI",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "labs",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "and",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "supercomputers.",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "But",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "the",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "rules",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "kept",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "changing.",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "In",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "January",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "2025",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "came",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "a",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "worldwide",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "rulebook",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "called",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "the",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "AI",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "Diffusion",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    },
+    {
+     "text": "Rule.",
+     "start": 18.098717948717944,
+     "end": 18.410073260073254
+    },
+    {
+     "text": "In",
+     "start": 18.46501831501831,
+     "end": 18.77637362637362
+    },
+    {
+     "text": "May,",
+     "start": 18.831318681318677,
+     "end": 19.142673992673988
+    },
+    {
+     "text": "the",
+     "start": 19.197619047619042,
+     "end": 19.508974358974353
+    },
+    {
+     "text": "new",
+     "start": 19.563919413919407,
+     "end": 19.875274725274718
+    },
+    {
+     "text": "administration",
+     "start": 19.930219780219776,
+     "end": 20.241575091575086
+    },
+    {
+     "text": "scrapped",
+     "start": 20.29652014652014,
+     "end": 20.60787545787545
+    },
+    {
+     "text": "it",
+     "start": 20.662820512820506,
+     "end": 20.974175824175816
+    },
+    {
+     "text": "before",
+     "start": 21.029120879120875,
+     "end": 21.340476190476185
+    },
+    {
+     "text": "it",
+     "start": 21.39542124542124,
+     "end": 21.70677655677655
+    },
+    {
+     "text": "took",
+     "start": 21.761721611721605,
+     "end": 22.073076923076915
+    },
+    {
+     "text": "effect.",
+     "start": 22.128021978021973,
+     "end": 22.439377289377283
+    },
+    {
+     "text": "And",
+     "start": 22.494322344322338,
+     "end": 22.80567765567765
+    },
+    {
+     "text": "in",
+     "start": 22.860622710622703,
+     "end": 23.171978021978013
+    },
+    {
+     "text": "July,",
+     "start": 23.22692307692307,
+     "end": 23.538278388278382
+    },
+    {
+     "text": "Malaysia",
+     "start": 23.593223443223437,
+     "end": 23.904578754578747
+    },
+    {
+     "text": "started",
+     "start": 23.9595238095238,
+     "end": 24.270879120879112
+    },
+    {
+     "text": "requiring",
+     "start": 24.32582417582417,
+     "end": 24.63717948717948
+    },
+    {
+     "text": "permits",
+     "start": 24.692124542124535,
+     "end": 25.003479853479845
+    },
+    {
+     "text": "to",
+     "start": 25.0584249084249,
+     "end": 25.36978021978021
+    },
+    {
+     "text": "ship",
+     "start": 25.42472527472527,
+     "end": 25.73608058608058
+    },
+    {
+     "text": "high-end",
+     "start": 25.791025641025634,
+     "end": 26.102380952380944
+    },
+    {
+     "text": "American",
+     "start": 26.157326007326,
+     "end": 26.46868131868131
+    },
+    {
+     "text": "AI",
+     "start": 26.523626373626367,
+     "end": 26.834981684981678
+    },
+    {
+     "text": "chips.",
+     "start": 26.889926739926732,
+     "end": 27.201282051282043
+    }
+   ]
+  },
+  {
+   "type": "headline",
+   "narration": "Meanwhile, the cases started. In February 2025, Singapore charged three men with fraud over servers that, the government said, may have contained Nvidia chips. The servers were supplied by Dell and Supermicro to companies in Singapore, and then moved to Malaysia.",
+   "facts": [
+    "f5"
+   ],
+   "props": {
+    "source": "Reuters / Fortune",
+    "date": "Feb 2025",
+    "headline": "Singapore charges three with fraud in case involving servers that may contain Nvidia chips",
+    "dek": "Officials said the servers went to Malaysia. Their final destination was not known."
+   },
+   "audio": "",
+   "startFrame": 4024,
+   "durationInFrames": 474,
+   "words": [
+    {
+     "text": "Meanwhile,",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "the",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "cases",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "started.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "In",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "February",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "2025,",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Singapore",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "charged",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "three",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "men",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "with",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "fraud",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "over",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "servers",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "that,",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "the",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "government",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "said,",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "may",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "have",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "contained",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "Nvidia",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "chips.",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "The",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "servers",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "were",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "supplied",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "by",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "Dell",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "and",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "Supermicro",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "to",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "companies",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "in",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "Singapore,",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "and",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "then",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "moved",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "to",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "Malaysia.",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "Prosecutors said the case involved transactions worth three hundred and ninety million dollars. Officials did not say where the servers finally ended up.",
+   "facts": [
+    "f6",
+    "f5"
+   ],
+   "props": {
+    "value": 390,
+    "prefix": "$",
+    "suffix": "M",
+    "decimals": 0,
+    "label": "Transactions in the Singapore case",
+    "tone": "accent",
+    "note": "As stated by prosecutors, March 2025"
+   },
+   "audio": "",
+   "startFrame": 4498,
+   "durationInFrames": 276,
+   "words": [
+    {
+     "text": "Prosecutors",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "said",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "the",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "case",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "involved",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "transactions",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "worth",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "three",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "hundred",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "and",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "ninety",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "million",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "dollars.",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "Officials",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "did",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "not",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "say",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "where",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "the",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "servers",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "finally",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "ended",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "up.",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "Then a much bigger one, in New York. In October, a former Supermicro contractor pleaded guilty to charges including conspiring to break export controls. Prosecutors allege about two and a half billion dollars of servers with Nvidia chips went to a company in Southeast Asia, and were then diverted to China.",
+   "facts": [
+    "f7"
+   ],
+   "props": {
+    "value": 2.5,
+    "prefix": "$",
+    "suffix": "B",
+    "decimals": 1,
+    "label": "Servers allegedly diverted to China",
+    "tone": "down",
+    "note": "Prosecutors' allegation · Supermicro was not charged"
+   },
+   "audio": "",
+   "startFrame": 4774,
+   "durationInFrames": 583,
+   "words": [
+    {
+     "text": "Then",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "a",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "much",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "bigger",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "one,",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "in",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "New",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "York.",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "In",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "October,",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "a",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "former",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "Supermicro",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "contractor",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "pleaded",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "guilty",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "to",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "charges",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "including",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "conspiring",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "to",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "break",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "export",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "controls.",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "Prosecutors",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "allege",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "about",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "two",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "and",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "a",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "half",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "billion",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "dollars",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "of",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "servers",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "with",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "Nvidia",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "chips",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "went",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "to",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "a",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "company",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "in",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "Southeast",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "Asia,",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "and",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "were",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "then",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "diverted",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    },
+    {
+     "text": "to",
+     "start": 18.098717948717944,
+     "end": 18.410073260073254
+    },
+    {
+     "text": "China.",
+     "start": 18.46501831501831,
+     "end": 18.77637362637362
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "And prosecutors allege it was elaborate. Before an audit in 2025, they say, fake, non-working servers were staged in Supermicro boxes. Surveillance footage, they say, shows a hair dryer being used to move labels and serial-number stickers onto the fakes. The real servers, prosecutors allege, were already in China.",
+   "facts": [
+    "f20"
+   ],
+   "props": {
+    "title": "How an audit was allegedly fooled",
+    "items": [
+     "Fake servers staged in real boxes",
+     "Labels moved with a hair dryer",
+     "Real servers already in China"
+    ]
+   },
+   "audio": "",
+   "startFrame": 5357,
+   "durationInFrames": 561,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "prosecutors",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "allege",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "it",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "was",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "elaborate.",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "Before",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "an",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "audit",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "in",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "2025,",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "they",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "say,",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "fake,",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "non-working",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "servers",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "were",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "staged",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "in",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "Supermicro",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "boxes.",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "Surveillance",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "footage,",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "they",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "say,",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "shows",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "a",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "hair",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "dryer",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "being",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "used",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "to",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "move",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "labels",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "and",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "serial-number",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "stickers",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "onto",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "the",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "fakes.",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "The",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "real",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "servers,",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "prosecutors",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "allege,",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "were",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "already",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "in",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "China.",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "narration": "That's the pattern Washington says it fears. Southeast Asia as a transit point. Chips arrive legally, then quietly move on.",
+   "facts": [
+    "f7",
+    "f9"
+   ],
+   "props": {
+    "title": "The feared route",
+    "view": "fit",
+    "highlights": [
+     {
+      "country": "Malaysia",
+      "tone": "accent"
+     },
+     {
+      "country": "Singapore",
+      "tone": "accent"
+     },
+     {
+      "country": "Thailand",
+      "tone": "accent"
+     },
+     {
+      "country": "China",
+      "tone": "down"
+     }
+    ],
+    "routes": [
+     {
+      "from": "Singapore",
+      "to": "China",
+      "label": "Diversion risk",
+      "tone": "down"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 5918,
+   "durationInFrames": 243,
+   "words": [
+    {
+     "text": "That's",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "the",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "pattern",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "Washington",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "says",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "it",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "fears.",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Southeast",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "Asia",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "as",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "a",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "transit",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "point.",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "Chips",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "arrive",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "legally,",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "then",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "quietly",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "move",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "on.",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "But there's a second, quieter route. You don't need to move a chip to use it. A company can rent computing power from a data centre in another country, over the internet. The chips never leave the building.",
+   "facts": [
+    "f11"
+   ],
+   "props": {
+    "title": "The second route: renting",
+    "items": [
+     "No smuggling needed",
+     "Rent the computing power remotely",
+     "The chips never leave the building"
+    ]
+   },
+   "audio": "",
+   "startFrame": 6161,
+   "durationInFrames": 441,
+   "words": [
+    {
+     "text": "But",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "there's",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "a",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "second,",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "quieter",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "route.",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "You",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "don't",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "need",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "to",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "move",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "a",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "chip",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "to",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "use",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "it.",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "A",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "company",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "can",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "rent",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "computing",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "power",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "from",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "a",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "data",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "centre",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "in",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "another",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "country,",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "over",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "the",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "internet.",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "The",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "chips",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "never",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "leave",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "the",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "building.",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part three. The new rule. Its official title is about remote access, and that tells you a lot. So what exactly changed on November nineteenth?",
+   "facts": [
+    "f9"
+   ],
+   "chapter": "The new rule",
+   "props": {
+    "number": 3,
+    "title": "The new rule"
+   },
+   "audio": "",
+   "startFrame": 6602,
+   "durationInFrames": 308,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "three.",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "The",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "new",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "rule.",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Its",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "official",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "title",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "is",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "about",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "remote",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "access,",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "and",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "that",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "tells",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "you",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "a",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "lot.",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "So",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "what",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "exactly",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "changed",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "on",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "November",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "nineteenth?",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "narration": "First, a licence. Advanced AI chips going to Indonesia, Malaysia, Singapore, Thailand or Brazil now need one, reviewed case by case. The government's reason, in its own words: an unacceptable risk of diversion.",
+   "facts": [
+    "f9"
+   ],
+   "props": {
+    "title": "Licences: Malaysia, Singapore, Thailand, Indonesia",
+    "view": "fit",
+    "highlights": [
+     {
+      "country": "Malaysia",
+      "tone": "down"
+     },
+     {
+      "country": "Thailand",
+      "tone": "down"
+     },
+     {
+      "country": "Indonesia",
+      "tone": "down"
+     },
+     {
+      "country": "Singapore",
+      "tone": "down",
+      "label": "Singapore"
+     }
+    ],
+    "routes": [],
+    "source": "US Commerce Dept. rule (Brazil also listed)"
+   },
+   "audio": "",
+   "startFrame": 6910,
+   "durationInFrames": 386,
+   "words": [
+    {
+     "text": "First,",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "a",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "licence.",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "Advanced",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "AI",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "chips",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "going",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "to",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "Indonesia,",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "Malaysia,",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "Singapore,",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "Thailand",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "or",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "Brazil",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "now",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "need",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "one,",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "reviewed",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "case",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "by",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "case.",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "The",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "government's",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "reason,",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "in",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "its",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "own",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "words:",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "an",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "unacceptable",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "risk",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "of",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "diversion.",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "There's a big exception. If the buyer is an American-headquartered company, say a US cloud provider, sales can generally go ahead without a licence. The catch: the exporter has to report each sale to Washington by the start of the next month.",
+   "facts": [
+    "f10"
+   ],
+   "props": {
+    "title": "The exception",
+    "items": [
+     "Buyer headquartered in the US",
+     "No licence, generally",
+     "But: report to Washington monthly"
+    ]
+   },
+   "audio": "",
+   "startFrame": 7296,
+   "durationInFrames": 485,
+   "words": [
+    {
+     "text": "There's",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "a",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "big",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "exception.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "If",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "the",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "buyer",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "is",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "an",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "American-headquartered",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "company,",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "say",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "a",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "US",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "cloud",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "provider,",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "sales",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "can",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "generally",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "go",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "ahead",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "without",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "a",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "licence.",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "The",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "catch:",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "the",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "exporter",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "has",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "to",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "report",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "each",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "sale",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "to",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "Washington",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "by",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "the",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "start",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "of",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "the",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "next",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "month.",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "Second, the renting route. Any data centre, anywhere, that gives Chinese-headquartered companies more than twelve million units of what the rule calls total processing performance now needs a licence. According to the law firm Simpson Thacher, that's only about seven hundred and fifty of Nvidia's H100 chips.",
+   "facts": [
+    "f11",
+    "f12"
+   ],
+   "props": {
+    "value": 750,
+    "prefix": "~",
+    "decimals": 0,
+    "label": "Nvidia H100 chips: about the new licence line",
+    "tone": "accent",
+    "note": "12 million TPP · estimate by Simpson Thacher"
+   },
+   "audio": "",
+   "startFrame": 7781,
+   "durationInFrames": 539,
+   "words": [
+    {
+     "text": "Second,",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "the",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "renting",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "route.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Any",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "data",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "centre,",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "anywhere,",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "that",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "gives",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "Chinese-headquartered",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "companies",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "more",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "than",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "twelve",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "million",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "units",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "of",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "what",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "the",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "rule",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "calls",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "total",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "processing",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "performance",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "now",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "needs",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "a",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "licence.",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "According",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "to",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "the",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "law",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "firm",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "Simpson",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "Thacher,",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "that's",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "only",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "about",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "seven",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "hundred",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "and",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "fifty",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "of",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "Nvidia's",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "H100",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "chips.",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "narration": "And the firm says many data centres in Southeast Asia will be above that line.",
+   "facts": [
+    "f12"
+   ],
+   "props": {
+    "lines": [
+     "Many data centres",
+     "are above the line"
+    ],
+    "accent": "above the line"
+   },
+   "audio": "",
+   "startFrame": 8320,
+   "durationInFrames": 183,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "the",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "firm",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "says",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "many",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "data",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "centres",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "in",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "Southeast",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "Asia",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "will",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "be",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "above",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "that",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "line.",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Third, the burden shifts to the seller. Exporters are expected to see a data centre's know-your-customer checks. If a data centre won't say who its customers are, that alone counts as a red flag. Chip sellers now have to know not just who buys the hardware, but who rents it.",
+   "facts": [
+    "f21"
+   ],
+   "props": {
+    "title": "Change three: know the renter",
+    "items": [
+     "Seller must see the customer checks",
+     "Refusing to share: a red flag",
+     "Who rents matters, not just who buys"
+    ]
+   },
+   "audio": "",
+   "startFrame": 8503,
+   "durationInFrames": 572,
+   "words": [
+    {
+     "text": "Third,",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "the",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "burden",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "shifts",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "to",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "the",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "seller.",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Exporters",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "are",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "expected",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "to",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "see",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "a",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "data",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "centre's",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "know-your-customer",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "checks.",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "If",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "a",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "data",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "centre",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "won't",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "say",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "who",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "its",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "customers",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "are,",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "that",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "alone",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "counts",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "as",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "a",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "red",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "flag.",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "Chip",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "sellers",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "now",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "have",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "to",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "know",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "not",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "just",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "who",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "buys",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "the",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "hardware,",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "but",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "who",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "rents",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    },
+    {
+     "text": "it.",
+     "start": 18.098717948717944,
+     "end": 18.410073260073254
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "narration": "Data centres already serving those customers get ninety days to apply. The deadline is February seventeenth. Comments on the rule close in January. And, along the way, the rule formally buried the old AI Diffusion Rule.",
+   "facts": [
+    "f9",
+    "f13",
+    "f14"
+   ],
+   "props": {
+    "title": "The clock",
+    "events": [
+     {
+      "date": "Nov 16",
+      "text": "Rule released"
+     },
+     {
+      "date": "Nov 19",
+      "text": "Rule takes effect"
+     },
+     {
+      "date": "Jan 18, 2027",
+      "text": "Public comments close"
+     },
+     {
+      "date": "Feb 17, 2027",
+      "text": "Licence deadline, existing data centres"
+     }
+    ]
+   },
+   "audio": "",
+   "startFrame": 9075,
+   "durationInFrames": 419,
+   "words": [
+    {
+     "text": "Data",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "centres",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "already",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "serving",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "those",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "customers",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "get",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "ninety",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "days",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "to",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "apply.",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "The",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "deadline",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "is",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "February",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "seventeenth.",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "Comments",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "on",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "the",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "rule",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "close",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "in",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "January.",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "And,",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "along",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "the",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "way,",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "the",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "rule",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "formally",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "buried",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "the",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "old",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "AI",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "Diffusion",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "Rule.",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part four. The fallout. Southeast Asia has bet big on data centres. What happens when the servers stop arriving?",
+   "facts": [],
+   "chapter": "The fallout",
+   "props": {
+    "number": 4,
+    "title": "The fallout"
+   },
+   "audio": "",
+   "startFrame": 9494,
+   "durationInFrames": 242,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "four.",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "The",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "fallout.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Southeast",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Asia",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "has",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "bet",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "big",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "on",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "data",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "centres.",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "What",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "happens",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "when",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "the",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "servers",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "stop",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "arriving?",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    }
+   ]
+  },
+  {
+   "type": "headline",
+   "narration": "According to the Financial Times, Nvidia has told partners, including Dell and Supermicro, to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia. It isn't clear how long the pause will last. Nvidia did not comment.",
+   "facts": [
+    "f15"
+   ],
+   "props": {
+    "source": "Financial Times (report)",
+    "date": "Nov 26, 2026",
+    "headline": "Nvidia tells partners to stop shipping AI servers to four Southeast Asian countries",
+    "dek": "Citing people familiar with the matter. Duration unclear. Nvidia did not comment."
+   },
+   "audio": "",
+   "startFrame": 9736,
+   "durationInFrames": 430,
+   "words": [
+    {
+     "text": "According",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "to",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "the",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "Financial",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Times,",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Nvidia",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "has",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "told",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "partners,",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "including",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "Dell",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "and",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "Supermicro,",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "to",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "stop",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "shipping",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "AI",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "servers",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "to",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "Malaysia,",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "Singapore,",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "Thailand",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "and",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "Indonesia.",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "It",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "isn't",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "clear",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "how",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "long",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "the",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "pause",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "will",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "last.",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "Nvidia",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "did",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "not",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "comment.",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "The stakes are biggest just across the border from Singapore, in the Malaysian state of Johor. According to the property firm Knight Frank, Johor now has about eleven hundred megawatts of live data centre capacity. Third in Asia-Pacific, behind only Tokyo and Singapore.",
+   "facts": [
+    "f18"
+   ],
+   "props": {
+    "value": 1110,
+    "suffix": " MW",
+    "decimals": 0,
+    "label": "Live data centre capacity in Johor",
+    "tone": "accent",
+    "note": "Knight Frank, Data Centre Atlas 2026"
+   },
+   "audio": "",
+   "startFrame": 10166,
+   "durationInFrames": 496,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "stakes",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "are",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "biggest",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "just",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "across",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "the",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "border",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "from",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "Singapore,",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "in",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "the",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "Malaysian",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "state",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "of",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "Johor.",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "According",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "to",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "the",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "property",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "firm",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "Knight",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "Frank,",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "Johor",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "now",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "has",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "about",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "eleven",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "hundred",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "megawatts",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "of",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "live",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "data",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "centre",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "capacity.",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "Third",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "in",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "Asia-Pacific,",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "behind",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "only",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "Tokyo",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "and",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "Singapore.",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    }
+   ]
+  },
+  {
+   "type": "barchart",
+   "narration": "And it's almost full. Knight Frank puts Johor's vacancy at under one percent. Singapore, about five. Jakarta and Bangkok, over twenty.",
+   "facts": [
+    "f18"
+   ],
+   "props": {
+    "title": "Data centre space still empty",
+    "bars": [
+     {
+      "label": "Johor",
+      "value": 0.7,
+      "display": "0.7%",
+      "tone": "accent"
+     },
+     {
+      "label": "Singapore",
+      "value": 4.9,
+      "display": "4.9%",
+      "tone": "neutral"
+     },
+     {
+      "label": "Jakarta",
+      "value": 20.5,
+      "display": "20.5%",
+      "tone": "neutral"
+     },
+     {
+      "label": "Bangkok",
+      "value": 23.3,
+      "display": "23.3%",
+      "tone": "neutral"
+     }
+    ],
+    "source": "Knight Frank, colocation vacancy"
+   },
+   "audio": "",
+   "startFrame": 10662,
+   "durationInFrames": 254,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "it's",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "almost",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "full.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Knight",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Frank",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "puts",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Johor's",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "vacancy",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "at",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "under",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "one",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "percent.",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "Singapore,",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "about",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "five.",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "Jakarta",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "and",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "Bangkok,",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "over",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "twenty.",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "And Johor wants far more. Knight Frank counts about eight and a half thousand megawatts more in the pipeline, the biggest in Asia-Pacific. That's the build-out now facing new paperwork.",
+   "facts": [
+    "f22"
+   ],
+   "props": {
+    "value": 8542,
+    "suffix": " MW",
+    "decimals": 0,
+    "label": "Johor data centre pipeline",
+    "tone": "accent",
+    "note": "Knight Frank, Data Centre Atlas 2026 · includes planned projects"
+   },
+   "audio": "",
+   "startFrame": 10916,
+   "durationInFrames": 353,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "Johor",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "wants",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "far",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "more.",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Knight",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "Frank",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "counts",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "about",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "eight",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "and",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "a",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "half",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "thousand",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "megawatts",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "more",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "in",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "the",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "pipeline,",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "the",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "biggest",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "in",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "Asia-Pacific.",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "That's",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "the",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "build-out",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "now",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "facing",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "new",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "paperwork.",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "Malaysia's answer was blunt. Trade minister Johari Abdul Ghani said: if you are not prepared to comply, then you should not operate in Malaysia.",
+   "facts": [
+    "f16"
+   ],
+   "props": {
+    "text": "If you are not prepared to comply, then you should not operate in Malaysia.",
+    "author": "Johari Abdul Ghani",
+    "role": "Malaysia's trade minister, Nov 18"
+   },
+   "audio": "",
+   "startFrame": 11269,
+   "durationInFrames": 287,
+   "words": [
+    {
+     "text": "Malaysia's",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "answer",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "was",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "blunt.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Trade",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "minister",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "Johari",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Abdul",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "Ghani",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "said:",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "if",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "you",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "are",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "not",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "prepared",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "to",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "comply,",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "then",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "you",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "should",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "not",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "operate",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "in",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "Malaysia.",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "The government says it will notify all one hundred and seventeen approved data centre projects. But it's also asking Washington for clarity. The minister said: we have not received anything from the US, other than what we have read in the media. And he said he had yet to see documentation of tenants re-exporting chips.",
+   "facts": [
+    "f16",
+    "f23"
+   ],
+   "props": {
+    "title": "Malaysia's next steps",
+    "items": [
+     "Notify all 117 approved projects",
+     "Seek clarity from Washington",
+     "No proof of re-exports seen, yet"
+    ]
+   },
+   "audio": "",
+   "startFrame": 11556,
+   "durationInFrames": 627,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "government",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "says",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "it",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "will",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "notify",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "all",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "one",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "hundred",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "and",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "seventeen",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "approved",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "data",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "centre",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "projects.",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "But",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "it's",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "also",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "asking",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "Washington",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "for",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "clarity.",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "The",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "minister",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "said:",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "we",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "have",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "not",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "received",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "anything",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "from",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "the",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "US,",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "other",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "than",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "what",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "we",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "have",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "read",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "in",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "the",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "media.",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "And",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "he",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "said",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "he",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "had",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "yet",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "to",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    },
+    {
+     "text": "see",
+     "start": 18.098717948717944,
+     "end": 18.410073260073254
+    },
+    {
+     "text": "documentation",
+     "start": 18.46501831501831,
+     "end": 18.77637362637362
+    },
+    {
+     "text": "of",
+     "start": 18.831318681318677,
+     "end": 19.142673992673988
+    },
+    {
+     "text": "tenants",
+     "start": 19.197619047619042,
+     "end": 19.508974358974353
+    },
+    {
+     "text": "re-exporting",
+     "start": 19.563919413919407,
+     "end": 19.875274725274718
+    },
+    {
+     "text": "chips.",
+     "start": 19.930219780219776,
+     "end": 20.241575091575086
+    }
+   ]
+  },
+  {
+   "type": "quote",
+   "narration": "In Singapore, Prime Minister Lawrence Wong promised clear and firm action against anyone using the country to get around the rules. He said: we want to uphold the rule of law, and we want to uphold Singapore's reputation as a trusted business hub. He expects some hit to trans-shipment. But, he said, I think we can manage that impact.",
+   "facts": [
+    "f17"
+   ],
+   "props": {
+    "text": "We want to uphold the rule of law, and we want to uphold Singapore's reputation as a trusted business hub.",
+    "author": "Lawrence Wong",
+    "role": "Singapore's prime minister, Nov 17"
+   },
+   "audio": "",
+   "startFrame": 12183,
+   "durationInFrames": 671,
+   "words": [
+    {
+     "text": "In",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "Singapore,",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "Prime",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "Minister",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "Lawrence",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "Wong",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "promised",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "clear",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "and",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "firm",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "action",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "against",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "anyone",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "using",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "the",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "country",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "to",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "get",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "around",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "the",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "rules.",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "He",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "said:",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "we",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "want",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "to",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "uphold",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "the",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "rule",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "of",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "law,",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "and",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "we",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "want",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "to",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "uphold",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "Singapore's",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "reputation",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "as",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "a",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "trusted",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "business",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "hub.",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "He",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "expects",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "some",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "hit",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "to",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "trans-shipment.",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    },
+    {
+     "text": "But,",
+     "start": 18.098717948717944,
+     "end": 18.410073260073254
+    },
+    {
+     "text": "he",
+     "start": 18.46501831501831,
+     "end": 18.77637362637362
+    },
+    {
+     "text": "said,",
+     "start": 18.831318681318677,
+     "end": 19.142673992673988
+    },
+    {
+     "text": "I",
+     "start": 19.197619047619042,
+     "end": 19.508974358974353
+    },
+    {
+     "text": "think",
+     "start": 19.563919413919407,
+     "end": 19.875274725274718
+    },
+    {
+     "text": "we",
+     "start": 19.930219780219776,
+     "end": 20.241575091575086
+    },
+    {
+     "text": "can",
+     "start": 20.29652014652014,
+     "end": 20.60787545787545
+    },
+    {
+     "text": "manage",
+     "start": 20.662820512820506,
+     "end": 20.974175824175816
+    },
+    {
+     "text": "that",
+     "start": 21.029120879120875,
+     "end": 21.340476190476185
+    },
+    {
+     "text": "impact.",
+     "start": 21.39542124542124,
+     "end": 21.70677655677655
+    }
+   ]
+  },
+  {
+   "type": "map",
+   "narration": "And Brazil? It's on the licence list too. But the reported shipping pause covers only the four Southeast Asian countries.",
+   "facts": [
+    "f9",
+    "f15"
+   ],
+   "props": {
+    "title": "Brazil: on the list, not in the pause",
+    "view": "fit",
+    "highlights": [
+     {
+      "country": "Brazil",
+      "tone": "accent",
+      "label": "Licence needed"
+     }
+    ],
+    "routes": [],
+    "source": "US Commerce Dept.; FT report"
+   },
+   "audio": "",
+   "startFrame": 12854,
+   "durationInFrames": 243,
+   "words": [
+    {
+     "text": "And",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "Brazil?",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "It's",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "on",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "the",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "licence",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "list",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "too.",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "But",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "the",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "reported",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "shipping",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "pause",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "covers",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "only",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "the",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "four",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "Southeast",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "Asian",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "countries.",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    }
+   ]
+  },
+  {
+   "type": "chapter",
+   "narration": "Part five. What happens next?",
+   "facts": [],
+   "chapter": "What to watch",
+   "props": {
+    "number": 5,
+    "title": "What to watch"
+   },
+   "audio": "",
+   "startFrame": 13097,
+   "durationInFrames": 88,
+   "words": [
+    {
+     "text": "Part",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "five.",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "What",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "happens",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "next?",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "narration": "Four things to watch. One: February seventeenth, the licence deadline for existing data centres. Two: how fast Washington actually approves licences, because case by case can mean slow. Three: the rule itself. It's an interim rule, and public comments close on January eighteenth, so the details could still shift. And four: whether demand simply moves. The renting rule applies to data centres anywhere, so the question is no longer just where the chips are. It's who is using them.",
+   "facts": [
+    "f13",
+    "f11",
+    "f9"
+   ],
+   "props": {
+    "title": "What to watch",
+    "items": [
+     "Feb 17: licence deadline",
+     "How fast licences come through",
+     "Jan 18: comments close, rule may shift",
+     "Does demand move elsewhere?"
+    ]
+   },
+   "audio": "",
+   "startFrame": 13185,
+   "durationInFrames": 891,
+   "words": [
+    {
+     "text": "Four",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "things",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "to",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "watch.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "One:",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "February",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "seventeenth,",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "the",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "licence",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "deadline",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "for",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "existing",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "data",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "centres.",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "Two:",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "how",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "fast",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "Washington",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "actually",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "approves",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "licences,",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "because",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "case",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "by",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "case",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "can",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "mean",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "slow.",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "Three:",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "the",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "rule",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "itself.",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "It's",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "an",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "interim",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "rule,",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "and",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    },
+    {
+     "text": "public",
+     "start": 13.70311355311355,
+     "end": 14.014468864468862
+    },
+    {
+     "text": "comments",
+     "start": 14.069413919413917,
+     "end": 14.380769230769229
+    },
+    {
+     "text": "close",
+     "start": 14.435714285714283,
+     "end": 14.747069597069595
+    },
+    {
+     "text": "on",
+     "start": 14.80201465201465,
+     "end": 15.113369963369962
+    },
+    {
+     "text": "January",
+     "start": 15.168315018315015,
+     "end": 15.479670329670327
+    },
+    {
+     "text": "eighteenth,",
+     "start": 15.534615384615382,
+     "end": 15.845970695970694
+    },
+    {
+     "text": "so",
+     "start": 15.900915750915749,
+     "end": 16.21227106227106
+    },
+    {
+     "text": "the",
+     "start": 16.267216117216112,
+     "end": 16.578571428571422
+    },
+    {
+     "text": "details",
+     "start": 16.633516483516477,
+     "end": 16.944871794871787
+    },
+    {
+     "text": "could",
+     "start": 16.999816849816845,
+     "end": 17.311172161172156
+    },
+    {
+     "text": "still",
+     "start": 17.36611721611721,
+     "end": 17.67747252747252
+    },
+    {
+     "text": "shift.",
+     "start": 17.732417582417575,
+     "end": 18.043772893772886
+    },
+    {
+     "text": "And",
+     "start": 18.098717948717944,
+     "end": 18.410073260073254
+    },
+    {
+     "text": "four:",
+     "start": 18.46501831501831,
+     "end": 18.77637362637362
+    },
+    {
+     "text": "whether",
+     "start": 18.831318681318677,
+     "end": 19.142673992673988
+    },
+    {
+     "text": "demand",
+     "start": 19.197619047619042,
+     "end": 19.508974358974353
+    },
+    {
+     "text": "simply",
+     "start": 19.563919413919407,
+     "end": 19.875274725274718
+    },
+    {
+     "text": "moves.",
+     "start": 19.930219780219776,
+     "end": 20.241575091575086
+    },
+    {
+     "text": "The",
+     "start": 20.29652014652014,
+     "end": 20.60787545787545
+    },
+    {
+     "text": "renting",
+     "start": 20.662820512820506,
+     "end": 20.974175824175816
+    },
+    {
+     "text": "rule",
+     "start": 21.029120879120875,
+     "end": 21.340476190476185
+    },
+    {
+     "text": "applies",
+     "start": 21.39542124542124,
+     "end": 21.70677655677655
+    },
+    {
+     "text": "to",
+     "start": 21.761721611721605,
+     "end": 22.073076923076915
+    },
+    {
+     "text": "data",
+     "start": 22.128021978021973,
+     "end": 22.439377289377283
+    },
+    {
+     "text": "centres",
+     "start": 22.494322344322338,
+     "end": 22.80567765567765
+    },
+    {
+     "text": "anywhere,",
+     "start": 22.860622710622703,
+     "end": 23.171978021978013
+    },
+    {
+     "text": "so",
+     "start": 23.22692307692307,
+     "end": 23.538278388278382
+    },
+    {
+     "text": "the",
+     "start": 23.593223443223437,
+     "end": 23.904578754578747
+    },
+    {
+     "text": "question",
+     "start": 23.9595238095238,
+     "end": 24.270879120879112
+    },
+    {
+     "text": "is",
+     "start": 24.32582417582417,
+     "end": 24.63717948717948
+    },
+    {
+     "text": "no",
+     "start": 24.692124542124535,
+     "end": 25.003479853479845
+    },
+    {
+     "text": "longer",
+     "start": 25.0584249084249,
+     "end": 25.36978021978021
+    },
+    {
+     "text": "just",
+     "start": 25.42472527472527,
+     "end": 25.73608058608058
+    },
+    {
+     "text": "where",
+     "start": 25.791025641025634,
+     "end": 26.102380952380944
+    },
+    {
+     "text": "the",
+     "start": 26.157326007326,
+     "end": 26.46868131868131
+    },
+    {
+     "text": "chips",
+     "start": 26.523626373626367,
+     "end": 26.834981684981678
+    },
+    {
+     "text": "are.",
+     "start": 26.889926739926732,
+     "end": 27.201282051282043
+    },
+    {
+     "text": "It's",
+     "start": 27.256227106227097,
+     "end": 27.567582417582408
+    },
+    {
+     "text": "who",
+     "start": 27.622527472527466,
+     "end": 27.933882783882776
+    },
+    {
+     "text": "is",
+     "start": 27.98882783882783,
+     "end": 28.30018315018314
+    },
+    {
+     "text": "using",
+     "start": 28.355128205128196,
+     "end": 28.666483516483506
+    },
+    {
+     "text": "them.",
+     "start": 28.721428571428564,
+     "end": 29.032783882783875
+    }
+   ]
+  },
+  {
+   "type": "bignumber",
+   "narration": "Nvidia reported two hundred and sixteen billion dollars in revenue last fiscal year. Its next earnings reports will start to show how much of Southeast Asia's demand survives the new paperwork.",
+   "facts": [
+    "f19"
+   ],
+   "props": {
+    "value": 215.9,
+    "prefix": "$",
+    "suffix": "B",
+    "decimals": 1,
+    "label": "Nvidia revenue, fiscal 2026",
+    "tone": "neutral",
+    "note": "Company-reported, year to Jan 2026"
+   },
+   "audio": "",
+   "startFrame": 14076,
+   "durationInFrames": 364,
+   "words": [
+    {
+     "text": "Nvidia",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "reported",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "two",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "hundred",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "and",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "sixteen",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "billion",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "dollars",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "in",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "revenue",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "last",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "fiscal",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "year.",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "Its",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "next",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "earnings",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "reports",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "will",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "start",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "to",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "show",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "how",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "much",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "of",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "Southeast",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "Asia's",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "demand",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "survives",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "the",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "new",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "paperwork.",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "narration": "So, the short version. A bill in Singapore isn't proof of anything. But court cases showed chips could slip through the region. Now Washington wants licences, monthly reports, and to know exactly who is renting the chips.",
+   "facts": [
+    "f1",
+    "f7",
+    "f9",
+    "f21"
+   ],
+   "props": {
+    "lines": [
+     "The short version",
+     "Bills: not proof",
+     "Cases: in court",
+     "Now: licences"
+    ],
+    "accent": "Now: licences"
+   },
+   "audio": "",
+   "startFrame": 14440,
+   "durationInFrames": 425,
+   "words": [
+    {
+     "text": "So,",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "the",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "short",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "version.",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "A",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "bill",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "in",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "Singapore",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "isn't",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "proof",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "of",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "anything.",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "But",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "court",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "cases",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "showed",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "chips",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "could",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "slip",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "through",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "the",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "region.",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "Now",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "Washington",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "wants",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "licences,",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    },
+    {
+     "text": "monthly",
+     "start": 9.673809523809522,
+     "end": 9.985164835164834
+    },
+    {
+     "text": "reports,",
+     "start": 10.040109890109889,
+     "end": 10.351465201465201
+    },
+    {
+     "text": "and",
+     "start": 10.406410256410254,
+     "end": 10.717765567765566
+    },
+    {
+     "text": "to",
+     "start": 10.77271062271062,
+     "end": 11.084065934065933
+    },
+    {
+     "text": "know",
+     "start": 11.139010989010988,
+     "end": 11.4503663003663
+    },
+    {
+     "text": "exactly",
+     "start": 11.505311355311353,
+     "end": 11.816666666666665
+    },
+    {
+     "text": "who",
+     "start": 11.87161172161172,
+     "end": 12.182967032967031
+    },
+    {
+     "text": "is",
+     "start": 12.237912087912086,
+     "end": 12.549267399267398
+    },
+    {
+     "text": "renting",
+     "start": 12.604212454212451,
+     "end": 12.915567765567763
+    },
+    {
+     "text": "the",
+     "start": 12.970512820512818,
+     "end": 13.28186813186813
+    },
+    {
+     "text": "chips.",
+     "start": 13.336813186813185,
+     "end": 13.648168498168497
+    }
+   ]
+  },
+  {
+   "type": "outro",
+   "narration": "The chip war isn't only fought at borders anymore. It's fought on invoices, and inside data centres. Subscribe, and we'll follow it to the February deadline.",
+   "facts": [],
+   "chapter": "Outro",
+   "props": {
+    "title": "Billed here. Shipped there.",
+    "cta": "Subscribe for the business behind the headlines"
+   },
+   "audio": "",
+   "startFrame": 14865,
+   "durationInFrames": 340,
+   "words": [
+    {
+     "text": "The",
+     "start": 0.15,
+     "end": 0.46135531135531127
+    },
+    {
+     "text": "chip",
+     "start": 0.5163003663003662,
+     "end": 0.8276556776556776
+    },
+    {
+     "text": "war",
+     "start": 0.8826007326007325,
+     "end": 1.1939560439560437
+    },
+    {
+     "text": "isn't",
+     "start": 1.2489010989010985,
+     "end": 1.5602564102564098
+    },
+    {
+     "text": "only",
+     "start": 1.6152014652014648,
+     "end": 1.9265567765567762
+    },
+    {
+     "text": "fought",
+     "start": 1.9815018315018311,
+     "end": 2.2928571428571423
+    },
+    {
+     "text": "at",
+     "start": 2.347802197802197,
+     "end": 2.659157509157508
+    },
+    {
+     "text": "borders",
+     "start": 2.7141025641025633,
+     "end": 3.0254578754578745
+    },
+    {
+     "text": "anymore.",
+     "start": 3.0804029304029297,
+     "end": 3.391758241758241
+    },
+    {
+     "text": "It's",
+     "start": 3.446703296703296,
+     "end": 3.758058608058607
+    },
+    {
+     "text": "fought",
+     "start": 3.8130036630036623,
+     "end": 4.124358974358974
+    },
+    {
+     "text": "on",
+     "start": 4.179304029304029,
+     "end": 4.49065934065934
+    },
+    {
+     "text": "invoices,",
+     "start": 4.5456043956043946,
+     "end": 4.856959706959706
+    },
+    {
+     "text": "and",
+     "start": 4.911904761904761,
+     "end": 5.2232600732600725
+    },
+    {
+     "text": "inside",
+     "start": 5.278205128205127,
+     "end": 5.589560439560438
+    },
+    {
+     "text": "data",
+     "start": 5.644505494505494,
+     "end": 5.955860805860805
+    },
+    {
+     "text": "centres.",
+     "start": 6.01080586080586,
+     "end": 6.322161172161171
+    },
+    {
+     "text": "Subscribe,",
+     "start": 6.377106227106226,
+     "end": 6.688461538461537
+    },
+    {
+     "text": "and",
+     "start": 6.7434065934065925,
+     "end": 7.054761904761904
+    },
+    {
+     "text": "we'll",
+     "start": 7.109706959706958,
+     "end": 7.42106227106227
+    },
+    {
+     "text": "follow",
+     "start": 7.476007326007325,
+     "end": 7.787362637362636
+    },
+    {
+     "text": "it",
+     "start": 7.842307692307691,
+     "end": 8.153663003663002
+    },
+    {
+     "text": "to",
+     "start": 8.208608058608057,
+     "end": 8.519963369963369
+    },
+    {
+     "text": "the",
+     "start": 8.574908424908424,
+     "end": 8.886263736263736
+    },
+    {
+     "text": "February",
+     "start": 8.941208791208789,
+     "end": 9.2525641025641
+    },
+    {
+     "text": "deadline.",
+     "start": 9.307509157509156,
+     "end": 9.618864468864468
+    }
+   ]
+  }
+ ]
+}
